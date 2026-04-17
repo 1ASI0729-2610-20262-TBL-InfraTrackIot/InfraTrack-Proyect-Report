@@ -57,18 +57,7 @@
 Enlace al repositorio de GitHub:
 
 # Student Outcome
-
-<table>
-         <tr>
-                <td>Criterio específico</td>
-                <td>Acciones realizadas</td>
-                <td>Conclusiones</td>
-        </tr>
-        <tr>
-                <td>Comunica oralmente con efectividad a diferentes rangos de audiencia.</td>
-                <td>TB1 
     
-
 # Tabla de contenidos
 
 ## [Registro de Versiones del Informe](#registro-de-versiones-del-informe-1)
