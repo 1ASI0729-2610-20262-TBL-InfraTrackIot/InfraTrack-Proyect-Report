@@ -1,5 +1,3 @@
-# Informe-Proyecto
-Aplicacion para controlar el proceso de maquinaria pesada para construcción civil
 <p align="center">
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
