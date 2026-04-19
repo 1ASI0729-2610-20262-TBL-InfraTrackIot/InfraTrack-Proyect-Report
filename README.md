@@ -187,7 +187,7 @@ Para obtener informacion correspondiente con respecto a las necesidades que requ
 - ¿Qué características valoraría más en una plataforma de monitoreo (ej. alertas, reportes, integración, facilidad de uso)?
 - ¿Cómo evalúa el retorno de inversión (ROI) al implementar nuevas tecnologías en su negocio?
   
-#### Segmento Objetivo 2: Administradores logisticos
+#### Segmento Objetivo 2: Administradores logísticos
 - ¿Cómo gestiona actualmente el seguimiento de rutas y ubicación de vehículos?
 - ¿Qué dificultades enfrenta al coordinar las operaciones logísticas en tiempo real?
 - ¿Con qué frecuencia se presentan desviaciones de ruta o uso no autorizado de vehículos?
