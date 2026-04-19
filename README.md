@@ -173,8 +173,32 @@ Enlace al repositorio de GitHub:
 ### 2.1.2. Estrategias y tácticas frente a competidores
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
-#### Segmento Objetivo 1: 
-#### Segmento Objetivo 2: 
+Para obtener informacion correspondiente con respecto a las necesidades que requieren cada segemento objetivo hemos realizado preguntas especificas para ellos
+
+#### Segmento Objetivo 1: Dueñs de empresas ferreteras
+- ¿Cuáles son actualmente los principales costos operativos que impactan la rentabilidad de su empresa?
+- ¿Qué nivel de visibilidad tiene sobre el uso y estado de sus activos (vehículos, maquinaria, inventario)?
+- ¿Qué herramientas o sistemas utiliza actualmente para monitorear sus operaciones logísticas?
+- ¿Ha identificado pérdidas asociadas a ineficiencias, robos o mal uso de recursos? ¿Con qué frecuencia ocurren?
+- ¿Qué tan importante es para usted contar con datos en tiempo real para la toma de decisiones?
+- ¿Qué indicadores clave (KPIs) considera más relevantes para evaluar el desempeño de su empresa?
+- ¿Cuáles son los principales desafíos que enfrenta en la gestión de su flota o activos?
+- ¿Estaría dispuesto a invertir en una solución tecnológica que optimice costos y mejore la trazabilidad? ¿Bajo qué condiciones?
+- ¿Qué características valoraría más en una plataforma de monitoreo (ej. alertas, reportes, integración, facilidad de uso)?
+- ¿Cómo evalúa el retorno de inversión (ROI) al implementar nuevas tecnologías en su negocio?
+- 
+#### Segmento Objetivo 2: Administradores logisticos
+- ¿Cómo gestiona actualmente el seguimiento de rutas y ubicación de vehículos?
+- ¿Qué dificultades enfrenta al coordinar las operaciones logísticas en tiempo real?
+- ¿Con qué frecuencia se presentan desviaciones de ruta o uso no autorizado de vehículos?
+- ¿Qué tipo de información le gustaría recibir automáticamente para mejorar su gestión diaria?
+- ¿Qué herramientas digitales utiliza actualmente y qué limitaciones presentan?
+- ¿Cómo controla el consumo de combustible y detecta posibles irregularidades?
+- ¿Cuánto tiempo dedica a la generación de reportes y análisis de datos operativos?
+- ¿Qué tan útil sería para usted recibir alertas automáticas ante incidencias (retrasos, desvíos, fallas)?
+- ¿Qué funcionalidades considera indispensables en una plataforma de monitoreo logístico?
+- ¿Qué tan fácil o difícil le resulta adoptar nuevas tecnologías en su trabajo diario?
+
 ### 2.2.2. Registro de entrevistas
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
