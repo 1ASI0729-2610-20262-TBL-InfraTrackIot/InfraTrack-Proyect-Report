@@ -186,7 +186,7 @@ Para obtener informacion correspondiente con respecto a las necesidades que requ
 - ¿Estaría dispuesto a invertir en una solución tecnológica que optimice costos y mejore la trazabilidad? ¿Bajo qué condiciones?
 - ¿Qué características valoraría más en una plataforma de monitoreo (ej. alertas, reportes, integración, facilidad de uso)?
 - ¿Cómo evalúa el retorno de inversión (ROI) al implementar nuevas tecnologías en su negocio?
-- 
+  
 #### Segmento Objetivo 2: Administradores logisticos
 - ¿Cómo gestiona actualmente el seguimiento de rutas y ubicación de vehículos?
 - ¿Qué dificultades enfrenta al coordinar las operaciones logísticas en tiempo real?
