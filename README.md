@@ -173,7 +173,7 @@ Enlace al repositorio de GitHub:
 ### 2.1.2. Estrategias y tácticas frente a competidores
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
-Para obtener informacion correspondiente con respecto a las necesidades que requieren cada segemento objetivo hemos realizado preguntas especificas para ellos
+Para obtener informacion correspondiente con respecto a las necesidades que requieren cada segemento objetivo hemos realizado preguntas especificas para ellos.
 
 #### Segmento Objetivo 1: Dueñs de empresas ferreteras
 - ¿Cuáles son actualmente los principales costos operativos que impactan la rentabilidad de su empresa?
