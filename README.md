@@ -175,7 +175,7 @@ Enlace al repositorio de GitHub:
 ### 2.2.1. Diseño de entrevistas
 Para obtener informacion correspondiente con respecto a las necesidades que requieren cada segemento objetivo hemos realizado preguntas especificas para ellos.
 
-#### Segmento Objetivo 1: Dueñs de empresas ferreteras
+#### Segmento Objetivo 1: Dueños de empresas ferreteras
 - ¿Cuáles son actualmente los principales costos operativos que impactan la rentabilidad de su empresa?
 - ¿Qué nivel de visibilidad tiene sobre el uso y estado de sus activos (vehículos, maquinaria, inventario)?
 - ¿Qué herramientas o sistemas utiliza actualmente para monitorear sus operaciones logísticas?
