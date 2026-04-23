@@ -162,6 +162,125 @@ Enlace al repositorio de GitHub:
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores
 ### 2.1.1. Análisis competitivo
+<table>
+  <!-- Fila 1 (encabezado) -->
+  <tr>
+     <td colspan="6" align="center">
+      Competitive Analysis Landscape 
+    </td>
+  </tr>
+
+  <!-- Fila 2 -->
+  <tr>
+    <td>¿Por qué llevar a cabo este análisis? </td>
+    <td colspan = "5" align="center">Este análisis nos permite identificar fortalezas, debilidades y oportunidades estratégicas de InfraTrack frente a soluciones existentes de monitoreo de flotas y maquinaria pesada, con el fin de definir una ventaja competitiva sostenible basada en tecnología open source, bajo costo operativo y especialización en control de combustible.</td>
+  </tr>
+ <tr>
+   <td></td>
+      <td></td>
+    <td>InfraTrack</td>
+    <td>Samsara</td>
+    <td>Geotab</td>
+    <td>Tenna</td>
+  </tr>
+  <!-- Fila 3 -->
+  <tr>
+    <td rowspan="2">Perfil</td>
+      <td>Overview</td>
+    <td>Plataforma open source IoT para monitoreo de maquinaria pesada, combustible y GPS con dashboard centralizado.</td>
+    <td>Saas Empresarial de monitoreo de flotas basadas en IoT y analytics.</td>
+    <td>Sistema telemático global para gestión de vehículos y análisis operacional.</td>
+    <td>Plataforma especializada en tracking y gestión de equipos de construcción.</td>
+  </tr>
+
+  <!-- Fila 4 (continúa rowspan) -->
+  <tr>
+    <td>Ventaja competitiva ¿Qué valor ofrece a los clientes</td>
+    <td>Bajo costo, open source, personalizable y orientado a detección de robo de combustible.</td>
+    <td>Alta escalabilidad y analítica avanzada basada en datos masivos.</td>
+    <td>Ecosistema consolidado e integración con múltiples fabricantes.</td>
+      <td>Especialización directa en maquinaria pesada.</td>
+  </tr>
+
+  <!-- Fila 5 combinada horizontal -->
+  <tr>
+      <td rowspan="2">Perfil de Marketing</td>
+      <td>Mercado objetivo</td>
+      <td>Empresas ferreteras y pymes con maquinaria pesada.</td>
+      <td>Grandes empresas logísticas y transporte.</td>
+      <td>Corporaciones con grandes flotas vehiculares.</td>
+      <td>Empresas de construcción y minería</td>
+
+  </tr>
+
+  <!-- Fila 6 -->
+  <tr>
+    <td>Estrategias de marketing</td>
+    <td>Adopción open source, bajo costo e implementación flexible</td>
+    <td>Modelo SaaS corporativo con ventas B2B.</td>
+    <td>Alianzas estratégicas y partners certificados</td>
+    <td>Marketing sectorial especializado.</td>
+    
+  </tr>
+
+  <!-- Fila 7 -->
+  <tr>
+      <td rowspan="3">Perfil de Producto
+<br>(vertical)</td>
+    <td>Productos & Servicios</td>
+    <td>Sensores IoT, monitoreo GPS, alertas de combustible, dashboard web.</td>
+    <td>Tracking vehicular, cámaras, seguridad y analítica AI</td>
+    <td>Gestión de flotas, mantenimiento predictivo y telemetría.</td>
+    <td>Seguimiento de activos, mantenimiento y localización de maquinaria.</td>
+  </tr>
+
+  <!-- Fila 8 -->
+  <tr>
+    <td>Precios & Costos</td>
+    <td>Bajo costo.</td>
+    <td>Alto costo por suscripción mensual.</td>
+    <td>Costos medios-altos + hardware certificado.</td>
+    <td>Costos medios con licencias propietarias</td>
+  </tr>
+  <tr>
+    <td>Canales de distribución (Web y/o Móvil) </td>
+    <td>Plataforma web open source + despliegue propio. </td>
+    <td>Web + apps móviles oficiales.</td>
+    <td>Web + apps móviles </td>
+     <td>Web + app móvil empresarial. </td>
+  </tr>
+  <tr>
+    <td rowspan="4">Análisis SWOT
+    <td>Fortalezas</td>
+    <td>Open source, económico, adaptable, enfoque en robo de combustible.</td>
+    <td>Escalabilidad global y analítica avanzada.</td>
+    <td>Alta confiabilidad y experiencia en el mercado.</td>
+      <td>Especialización en maquinaria pesada</td>
+  </tr>
+  <tr>
+    <td>Debilidades</td>
+    <td>Menor madurez tecnológica y ecosistema reducido.</td>
+    <td>Alto costo y dependencia del proveedor.</td>
+    <td>Complejidad de implementación.</d>
+    <td>Menor flexibilidad tecnológica.</d>
+  </tr>
+  <tr>
+    <td>Oportunidades</td>
+    <td>Digitalización de pymes industriales y mercados emergentes.</td>
+    <td>Expansión hacia IoT industrial.</td>
+    <td>Integración con smart cities y AI.</td>
+    <td>Crecimiento del sector construcción</td>
+  </tr>
+   <tr>
+    <td>Amenazas</td>
+    <td>Entrada de grandes empresas al segmento low-cost.</td>
+    <td>Competidores open source emergentes.</td>
+    <td>Nuevas startups IoT flexibles.</td>
+    <td>Plataformas SaaS más completas.</td>
+  </tr>
+ 
+</table>
+
 ### 2.1.2. Estrategias y tácticas frente a competidores
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
