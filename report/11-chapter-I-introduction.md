@@ -183,21 +183,35 @@ Finalmente, proyectamos que la optimización de rutas reducirá significativamen
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-Hipótesis 1: Reducción de costos por combustible Creemos que al proporcionar un dashboard con datos precisos sobre el nivel de combustible capturados mediante sensores IoT, los Dueños de Empresas Ferreteras podrán identificar y eliminar extracciones no autorizadas ("ordeño").
-Sabremos que tenemos éxito cuando: Observemos una reducción del 10% al 15% en el gasto mensual de combustible en las unidades monitoreadas frente a su histórico manual.
-
-
-Hipótesis 2: Optimización del mantenimiento preventivo Creemos que, al implementar alertas automáticas basadas en las horas reales de motor registradas por la plataforma, los Administradores Logísticos podrán programar mantenimientos preventivos de forma exacta.
-Sabremos que tenemos éxito cuando: El número de reparaciones correctivas de emergencia y los tiempos de inactividad técnica de la maquinaria disminuyan en un 20% en el primer trimestre de uso.
-
-Hipótesis 3: Digitalización y eliminación de errores manuales Creemos que al automatizar la recolección de datos de ubicación (GPS) y uso mediante nodos sensores, reduciremos la carga administrativa y los errores en las bitácoras físicas de los operadores.
-Sabremos que tenemos éxito cuando: La discrepancia de datos entre los reportes de campo y la información registrada en el sistema sea inferior al 2%.
-
-Hipótesis 4: Control de eficiencia operativa (Ralentí) Creemos que al informar sobre los tiempos de ralentí excesivo (motor encendido sin desplazamiento), los administradores podrán optimizar el uso de las máquinas y reducir el desperdicio energético.
-Sabremos que tenemos éxito cuando: El tiempo de ralentí no justificado por unidad disminuya en promedio un 25% tras la primera fase de implementación.
-
-Hipótesis 5: Escalabilidad y confianza en la toma de decisiones Creemos que ofrecer un sistema centralizado de código abierto para gestionar múltiples unidades permitirá a las medianas empresas tomar decisiones de expansión basadas en datos reales.
-Sabremos que tenemos éxito cuando: Los gestores utilicen los reportes históricos de la plataforma para justificar la adquisición de nuevas unidades o la renovación de la flota existente ante la gerencia.
+<div style="margin-left: 1em;">
+  <ul>
+    <li>
+      <b>Hipótesis 1: Reducción de costos por combustible</b><br>
+      <span>Creemos que al proporcionar un dashboard con datos precisos sobre el nivel de combustible capturados mediante sensores IoT, los Dueños de Empresas Ferreteras podrán identificar y eliminar extracciones no autorizadas ("ordeño").</span><br>
+      <span style="color:#c00000;"><b>Sabremos que tenemos éxito cuando:</b></span> Observemos una reducción del 10% al 15% en el gasto mensual de combustible en las unidades monitoreadas frente a su histórico manual.
+    </li>
+    <li>
+      <b>Hipótesis 2: Optimización del mantenimiento preventivo</b><br>
+      <span>Creemos que, al implementar alertas automáticas basadas en las horas reales de motor registradas por la plataforma, los Administradores Logísticos podrán programar mantenimientos preventivos de forma exacta.</span><br>
+      <span style="color:#c00000;"><b>Sabremos que tenemos éxito cuando:</b></span> El número de reparaciones correctivas de emergencia y los tiempos de inactividad técnica de la maquinaria disminuyan en un 20% en el primer trimestre de uso.
+    </li>
+    <li>
+      <b>Hipótesis 3: Digitalización y eliminación de errores manuales</b><br>
+      <span>Creemos que al automatizar la recolección de datos de ubicación (GPS) y uso mediante nodos sensores, reduciremos la carga administrativa y los errores en las bitácoras físicas de los operadores.</span><br>
+      <span style="color:#c00000;"><b>Sabremos que tenemos éxito cuando:</b></span> La discrepancia de datos entre los reportes de campo y la información registrada en el sistema sea inferior al 2%.
+    </li>
+    <li>
+      <b>Hipótesis 4: Control de eficiencia operativa (Ralentí)</b><br>
+      <span>Creemos que al informar sobre los tiempos de ralentí excesivo (motor encendido sin desplazamiento), los administradores podrán optimizar el uso de las máquinas y reducir el desperdicio energético.</span><br>
+      <span style="color:#c00000;"><b>Sabremos que tenemos éxito cuando:</b></span> El tiempo de ralentí no justificado por unidad disminuya en promedio un 25% tras la primera fase de implementación.
+    </li>
+    <li>
+      <b>Hipótesis 5: Escalabilidad y confianza en la toma de decisiones</b><br>
+      <span>Creemos que ofrecer un sistema centralizado de código abierto para gestionar múltiples unidades permitirá a las medianas empresas tomar decisiones de expansión basadas en datos reales.</span><br>
+      <span style="color:#c00000;"><b>Sabremos que tenemos éxito cuando:</b></span> Los gestores utilicen los reportes históricos de la plataforma para justificar la adquisición de nuevas unidades o la renovación de la flota existente ante la gerencia.
+    </li>
+  </ul>
+</div>
 
 #### 1.2.2.4. Lean UX Canvas
 
@@ -205,22 +219,38 @@ Sabremos que tenemos éxito cuando: Los gestores utilicen los reportes históric
 
 ## 1.3. Segmentos objetivo
 
-#1.3.1. Segmento Dueños de Empresas Ferreterías y Constructoras
+### 1.3.1. Segmento 1: Dueños de Empresas Ferreterías y Constructoras
+
+**Descripción:**
 Este segmento está compuesto por inversionistas y propietarios de medianas empresas (MYPE) dedicadas a la comercialización de materiales y ejecución de obras civiles. Su principal interés radica en la rentabilidad del negocio y el control exhaustivo de sus activos de capital.
-Perfil Demográfico:
-Edad: 35 a 60 años.
-Ubicación: Zonas comerciales e industriales a nivel nacional.
-Nivel Socioeconómico: B y C.
-Ocupación: Empresarios, gerentes generales y socios fundadores.
-Comportamiento Estratégico: Priorizan la reducción de costos operativos y la protección de su patrimonio contra pérdidas por robos o mermas de combustible. Buscan herramientas que ofrezcan un retorno de inversión (ROI) claro y medible.
-Sustento Estadístico: En el sector construcción, el combustible representa hasta el 40 % de los costos operativos totales. El mal manejo de flota y el robo de combustible ("ordeño") pueden generar unaSegmento 2 pérdida directa de entre el 10 % y 15 % del presupuesto total de un proyecto.
-1.3.2. Segmento 2: Administradores Logísticos y Gestores de Flota
+
+**Perfil Demográfico:**
+- **Edad:** 35 a 60 años
+- **Ubicación:** Zonas comerciales e industriales a nivel nacional
+- **Nivel Socioeconómico:** B y C
+- **Ocupación:** Empresarios, gerentes generales y socios fundadores
+
+**Comportamiento Estratégico:**
+Priorizan la reducción de costos operativos y la protección de su patrimonio contra pérdidas por robos o mermas de combustible. Buscan herramientas que ofrezcan un retorno de inversión (ROI) claro y medible.
+
+**Sustento Estadístico:**
+En el sector construcción, el combustible representa hasta el 40 % de los costos operativos totales. El mal manejo de flota y el robo de combustible ("ordeño") pueden generar una pérdida directa de entre el 10 % y 15 % del presupuesto total de un proyecto.
+
+---
+
+### 1.3.2. Segmento 2: Administradores Logísticos y Gestores de Flota
+
+**Descripción:**
 Este segmento incluye a los profesionales responsables de la operatividad diaria de la maquinaria. Son el nexo entre el campo y la gerencia, encargándose de que los recursos se utilicen de manera eficiente.
-Perfil Demográfico:
-Edad: 25 a 45 años.
-Ubicación: Principalmente en bases logísticas y sedes de proyectos de infraestructura.
-Nivel Socioeconómico: B y C.
-Ocupación: Ingenieros industriales, bachilleres en logística o técnicos en administración de flotas.
-Comportamiento Operativo: Son usuarios intensivos de herramientas de gestión y hojas de cálculo. Enfrentan la presión de cumplir cronogramas y sufren por la falta de veracidad en los reportes manuales entregados por los operarios.
-Sustento Estadístico:
+
+**Perfil Demográfico:**
+- **Edad:** 25 a 45 años
+- **Ubicación:** Principalmente en bases logísticas y sedes de proyectos de infraestructura
+- **Nivel Socioeconómico:** B y C
+- **Ocupación:** Ingenieros industriales, bachilleres en logística o técnicos en administración de flotas
+
+**Comportamiento Operativo:**
+Son usuarios intensivos de herramientas de gestión y hojas de cálculo. Enfrentan la presión de cumplir cronogramas y sufren por la falta de veracidad en los reportes manuales entregados por los operarios.
+
+**Sustento Estadístico:**
 Aproximadamente el 70 % de las MYPE del sector construcción en el Perú aún dependen de bitácoras de papel para el registro de uso de sus unidades. La implementación de sistemas de monitoreo digital puede reducir los tiempos de inactividad técnica en un 15 % mediante el uso de alertas basadas en telemetría real.
