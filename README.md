@@ -282,6 +282,25 @@ Enlace al repositorio de GitHub:
 </table>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
+
+A partir del análisis competitivo realizado, se identificó que el mercado de monitoreo de maquinaria pesada está dominado por soluciones propietarias orientadas a grandes corporaciones, caracterizadas por altos costos de licenciamiento, dependencia tecnológica del proveedor y baja flexibilidad de personalización.
+En este contexto, InfraTrack define un conjunto de estrategias y tácticas orientadas a explotar oportunidades del mercado, mitigar amenazas competitivas y capitalizar su principal diferenciador: una plataforma open source especializada en monitoreo técnico de maquinaria pesada.
+
+**Diferenciación basada en Open Source.**<br>
+ InfraTrack emplea una estrategia de diferenciación tecnológica al ofrecer una plataforma de código abierto que elimina costos de licenciamiento y reduce la dependencia hacia proveedores externos. Esta estrategia permite a las empresas adaptar el sistema a sus necesidades operativas específicas, representando una alternativa flexible frente a soluciones cerradas ofrecidas por los competidores.<br>
+**Enfoque en un nicho específico.**<br>
+ En lugar de competir directamente con plataformas generalistas de gestión de flotas, InfraTrack centra su propuesta en el monitoreo técnico de maquinaria pesada y el control de combustible. Esta especialización permite atender problemas concretos como la detección de posibles robos o pérdidas operativas, generando mayor valor para empresas que requieren soluciones adaptadas a su realidad industrial.<br>
+**Liderazgo en costos de adopción.**<br>
+ InfraTrack aprovecha la oportunidad existente en pequeñas y medianas empresas que no pueden acceder a plataformas enterprise debido a sus altos costos. Mediante el uso de hardware IoT accesible y software libre, la startup reduce significativamente la inversión inicial requerida para iniciar procesos de digitalización operativa.<br>
+**Construcción de comunidad open source.**<br>
+ Como táctica complementaria, InfraTrack fomenta la participación de desarrolladores y colaboradores externos mediante repositorios abiertos y documentación accesible. Esto promueve la innovación continua, mejora la calidad del sistema y reduce costos de desarrollo a largo plazo.
+**Implementación progresiva y rápida.**<br>
+ InfraTrack busca disminuir las barreras de entrada mediante procesos de instalación simples y dashboards preconfigurados. Esta táctica facilita la adopción por parte de organizaciones con baja madurez tecnológica, permitiendo obtener beneficios operativos desde etapas tempranas.<br>
+**Especialización en detección de anomalías operativas.**<br>
+ La plataforma prioriza funcionalidades críticas como alertas en tiempo real ante variaciones bruscas de combustible y monitoreo constante de ubicación. Esta táctica responde directamente a necesidades detectadas en el sector industrial, diferenciando a InfraTrack de soluciones más generales.<br>
+**Alianzas estratégicas locales.**<br>
+ Finalmente, InfraTrack plantea establecer colaboraciones con proveedores de hardware IoT, técnicos de mantenimiento y empresas del sector industrial. Estas alianzas permiten ampliar el alcance del sistema sin requerir grandes inversiones comerciales, fortaleciendo su posicionamiento competitivo.
+
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
 Para obtener informacion correspondiente con respecto a las necesidades que requieren cada segemento objetivo hemos realizado preguntas especificas para ellos.
