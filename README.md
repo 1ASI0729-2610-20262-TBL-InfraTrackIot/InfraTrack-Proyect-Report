@@ -1,56 +1,48 @@
-<p align="center">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
-    <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
-    <strong>Ingeniería de Software - 2026-10</strong><br>
-    <strong>Desarrollo de Aplicaciones Open Source - 1ASI0729</strong><br>
-    <strong>NRC: 7237</strong><br>
-    <strong>Profesor: Angel Augusto Velasquez Nuñez</strong><br>
-    <br><strong>"Informe del Trabajo Final"</strong><br>
-    <br>
-    <strong>Startup: </strong><br>
-    <strong>Nombre del Producto: </strong><br>
-</p>
+<div align="center">
+<img src="assets/upc_logo.png" alt="UPC Logo" width="300"/>
 
-<div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
-    <h3>Team Members:</h3>
-    <table style="margin: auto; border-collapse: collapse;">
-        <tr>
-            <th style="text-align: center; padding: 8px;">Member</th>
-            <th style="text-align: center; padding: 8px;">Code</th>
-        </tr>
-        <tr>
-            <td style="padding: 8px;"></td>
-            <td style="padding: 8px;"></td>
-        </tr>
-        <tr>
-            <td style="padding: 8px;"></td>
-            <td style="padding: 8px;"></td>
-        </tr>
-        <tr>
-            <td style="padding: 8px;"></td>
-            <td style="padding: 8px;"></td>
-        </tr>
-        <tr>
-            <td style="padding: 8px;"></td>
-            <td style="padding: 8px;"></td>
-        </tr>
-        <tr>
-            <td style="padding: 8px;"></td>
-            <td style="padding: 8px;"></td>
-        </tr>
-                <tr>
-            <td style="padding: 8px;"></td>
-            <td style="padding: 8px;"></td>
-        </tr>
-    </table>
+# UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
+
+### Carrera: Ingeniería de Software
+
+### Periodo: 2026-10
+
+### Nombre del curso: Desarrollo de Aplicaciones Open Source (1ASI0729)
+
+### NRC: 20262
+
+### Nombre del profesor: Angel Augusto Velasquez Nuñez
+
+## Informe de Trabajo Final
+
+## Nombre del startup: InfraTrack
+
+## Nombre del producto: Digital Machine
+
+### Relación de integrantes:
+
+<div style="text-align: center;">
+
+| Apellidos y Nombres | Código de Alumno |
+|:-------------------:|:----------------:|
+| Mallqui Vilca, Dhilsen Armil |    U202319440    |
+
+
 </div>
 
-<p align="center">
-    <strong>Abril, 2026</strong>
-</p>
-<br>
+### Abril, 2026
 
-# Registro de versiones del Informe
+---
+
+</div>
+
+# Registro de Versiones del Informe
+
+| Versión | Fecha | Autor        | Descripción de modificación |
+|---------|-------|--------------|-----------------------------|
+| 1.0 | 04/04/2026 | Mallqui Dhilsen | Creación del reporte en formato Markdown. |
+
+---
 
 # Project Report Collaboration Insights
 
