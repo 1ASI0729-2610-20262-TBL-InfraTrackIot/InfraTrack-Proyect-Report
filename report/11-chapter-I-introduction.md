@@ -149,12 +149,12 @@ Para la elaboración de esta descripción se utiliza la técnica de The 5 ‘W�
 - La implementación de sistemas de monitoreo inteligente permite un retorno de inversión (ROI) rápido, ya que el ahorro de solo un 5 % en el consumo de combustible suele cubrir el costo de implementación tecnológica en menos de seis meses.
 
 <div style="text-align:center; margin: 24px 0;">
-  <img src="../assets/grafico_1.png" alt="Gráfico 1: Estructura de costos operativos en el área de Logística" style="width:100%; max-width:800px; display: block; margin: 0 auto;"/>
+  <img src="../assets/grafico_1.png" alt="Gráfico 1: Estructura de costos operativos en el área de Logística" style="width:100%; max-width:600px; display: block; margin: 0 auto;"/>
   <div style="margin-top:8px; font-weight:bold;">Gráfico 1: Estructura de costos operativos en el área de Logística</div>
 </div>
 
 <div style="text-align:center; margin: 24px 0;">
-  <img src="../assets/grafico_2.png" alt="Gráfico 2: Variación porcentual del precio del combustible en el mercado local." style="width:100%; max-width:800px; display: block; margin: 0 auto;"/>
+  <img src="../assets/grafico_2.png" alt="Gráfico 2: Variación porcentual del precio del combustible en el mercado local." style="width:100%; max-width:600px; display: block; margin: 0 auto;"/>
   <div style="margin-top:8px; font-weight:bold;">Gráfico 2: Variación porcentual del precio del combustible en el mercado local.</div>
 </div>
 
