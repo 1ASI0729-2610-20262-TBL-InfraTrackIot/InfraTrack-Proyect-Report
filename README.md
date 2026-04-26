@@ -19,13 +19,27 @@
 
 ## Nombre del producto: Digital Machine
 
+
 ### Relación de integrantes:
 
 <div style="text-align: center;">
 
-| Apellidos y Nombres | Código de Alumno |
-|:-------------------:|:----------------:|
-| Mallqui Vilca, Dhilsen Armil |    U202319440    |
+<div align="center">
+	<table style="margin:auto; text-align:center;">
+		<tr>
+			<th style="text-align:center;">Apellidos y Nombres</th>
+			<th style="text-align:center;">Código de Alumno</th>
+		</tr>
+		<tr>
+			<td>Mallqui Vilca, Dhilsen Armil</td>
+			<td>U202319440</td>
+		</tr>
+		<tr>
+			<td>Mansilla Rivero, Carlos Marcelo</td>
+			<td>U20214510</td>
+		</tr>
+	</table>
+</div>
 
 
 </div>
