@@ -101,11 +101,51 @@ PESOS:
 
 ### 4.1.2. Web Style Guidelines
 
----
+
+<ul style="list-style-type: disc; margin-left: 1.5em; font-size:1.08em; color:#fff;">
+	<li style="margin-bottom:18px;"><b>Paleta de colores:</b> Asignamos al <b>Azul Navy</b> como el color de autoridad y estructura de la web, mientras que el <b>Amarillo</b> (<span style='color:#F4C20D;'>#F4C20D</span>) se utiliza estratégicamente en elementos de interacción y alertas para guiar la atención del usuario hacia las acciones clave y datos de telemetría, evitando la saturación visual. El <b>Blanco</b> (<span style='color:#fff;'>#FFFFFF</span>) se emplea como fondo para resaltar.</li>
+	<li style="margin-bottom:18px;"><b>Diseño Responsivo:</b> La plataforma está diseñada bajo un enfoque <b>Mobile-First</b>, garantizando que los administradores logísticos puedan monitorear su flota desde smartphones en campo o desde monitores de alta resolución en oficina, manteniendo una experiencia consistente y escalable.</li>
+	<li style="margin-bottom:18px;"><b>Navegación Intuitiva:</b> Se implementa una estructura de navegación clara basada en una barra superior y accesos directos laterales. Se prioriza la simplicidad para que el acceso a datos críticos, como el nivel de combustible o la ubicación GPS, no requiera más de dos clics.</li>
+	<li style="margin-bottom:18px;"><b>Carga Rápida:</b> Optimización del rendimiento mediante el uso de protocolos ligeros para la recepción de datos IoT. Las imágenes de la maquinaria están optimizadas en formato WebP y se aplica <i>lazy loading</i> para asegurar que el dashboard de monitoreo sea fluido incluso en zonas con baja conectividad (provincias).</li>
+	<li style="margin-bottom:18px;"><b>Diseño de Tarjetas (Cards):</b> Se utilizan diseños de tarjetas con bordes redondeados y sombras sutiles para organizar la información de cada unidad de maquinaria. Cada tarjeta agrupa de forma visualmente atractiva el ID de la unidad, su estado actual y sus indicadores de rendimiento.</li>
+	<li style="margin-bottom:18px;"><b>Botones de la web:</b> Los botones son rectangulares con esquinas redondeadas. El botón principal utiliza el color <span style='color:#F4C20D;'>Amarillo</span> con texto <span style='color:#0A1118;'>Azul Navy</span> para maximizar el contraste y fomentar la interacción, mientras que los botones secundarios utilizan bordes lineales.</li>
+	<li style="margin-bottom:18px;"><b>Cajas de Texto y Buscadores:</b> Las cajas de texto permiten realizar búsquedas rápidas por placa o ID de unidad. Cuentan con un diseño limpio y bordes definidos que las hacen fácilmente reconocibles en el panel administrativo, facilitando la gestión de inventarios móviles.</li>
+</ul>
+
 
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
+
+
+<div style="color:#fff; font-size:1.08em;">
+	<p style="margin-bottom:20px;">
+		InfraTrack utiliza un <b>Sistema de Organización Jerárquico</b> diseñado para optimizar la supervisión de activos pesados y eliminar la opacidad operativa. La estructura se organiza de la siguiente manera:
+	</p>
+	<ul style="list-style-type:none; padding-left:0;">
+		<li style="margin-bottom:22px;">
+			<span style="font-weight:bold; font-size:1.07em; color:#F4C20D;">Panel de Control (Inicio):</span>
+			<span style="color:#fff;"> Actúa como el núcleo del sistema, ofreciendo una vista centralizada con indicadores de alto nivel sobre el estado de la flota y acceso inmediato a las alertas críticas de combustible.</span>
+		</li>
+		<li style="margin-bottom:22px;">
+			<span style="font-weight:bold; font-size:1.07em; color:#F4C20D;">Gestión de Activos:</span>
+			<span style="color:#fff;"> Módulo operativo para el registro de maquinaria. Permite adjuntar evidencia fotográfica de las unidades, vincular los nodos IoT mediante su ID único y redactar las especificaciones técnicas iniciales de cada activo.</span>
+		</li>
+		<li style="margin-bottom:22px;">
+			<span style="font-weight:bold; font-size:1.07em; color:#F4C20D;">Telemetría y Seguimiento:</span>
+			<span style="color:#fff;"> Sección de monitoreo en tiempo real. Aquí se visualiza el detalle operativo (ubicación GPS, variaciones de combustible y horas motor), permitiendo un rastreo histórico y comparativo del rendimiento.</span>
+		</li>
+		<li style="margin-bottom:22px;">
+			<span style="font-weight:bold; font-size:1.07em; color:#F4C20D;">Optimización y Rendimiento:</span>
+			<span style="color:#fff;"> Área analítica para la gestión de perfiles de operadores y visualización de rankings de eficiencia energética. Su objetivo es identificar y reducir los tiempos de ralentí excesivo y optimizar el uso de recursos.</span>
+		</li>
+		<li style="margin-bottom:10px;">
+			<span style="font-weight:bold; font-size:1.07em; color:#F4C20D;">Configuración y Soporte:</span>
+			<span style="color:#fff;"> Espacio administrativo para la gestión de la cuenta, configuración de notificaciones críticas (alertas de robo) y acceso a la documentación técnica del hardware open source.</span>
+		</li>
+	</ul>
+</div>
+
 
 ### 4.2.2. Labeling Systems
 
