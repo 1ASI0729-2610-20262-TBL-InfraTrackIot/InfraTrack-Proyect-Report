@@ -22,13 +22,6 @@
 
 ### 2.3.1. User Personas
 
-Segmento 1: Dueños de Empresas Ferreteras y Constructoras
-<img src="../assets/User-Persona Roberto Mendoza.png" width="600"/>
-
-Segmento 2: Administradores Logísticos y Gestores de Flota
-<img src="../assets/User-Persona Carlos Vizcarra.png" width="600"/>
-
-
 ### 2.3.2. User Task Matrix
 
 ### 2.3.3. User Journey Mapping

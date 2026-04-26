@@ -24,19 +24,19 @@
 
 <div style="text-align: center;">
 
-<div align="center">
-	<table style="margin:auto; text-align:center;">
+<div style="display: flex; justify-content: center; width: 100%;">
+	<table style="margin:auto; text-align:center; border-collapse:collapse;">
 		<tr>
-			<th style="text-align:center;">Apellidos y Nombres</th>
-			<th style="text-align:center;">Código de Alumno</th>
+			<th style="text-align:center; padding:8px;">Apellidos y Nombres</th>
+			<th style="text-align:center; padding:8px;">Código de Alumno</th>
 		</tr>
 		<tr>
-			<td>Mallqui Vilca, Dhilsen Armil</td>
-			<td>U202319440</td>
+			<td style="text-align:center; padding:8px;">Mallqui Vilca, Dhilsen Armil</td>
+			<td style="text-align:center; padding:8px;">U202319440</td>
 		</tr>
 		<tr>
-			<td>Mansilla Rivero, Carlos Marcelo</td>
-			<td>U20214510</td>
+			<td style="text-align:center; padding:8px;">Mansilla Rivero, Carlos Marcelo</td>
+			<td style="text-align:center; padding:8px;">U20214510</td>
 		</tr>
 	</table>
 </div>
@@ -60,213 +60,26 @@
 
 # Project Report Collaboration Insights
 
-Enlace al repositorio de GitHub:
+| Enlace del repositorio del informe del proyecto                                    |
+|------------------------------------------------------------------------------------|
+| https://github.com/1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Proyect-Report.git |
 
-# Student Outcome
-    
-# Tabla de contenidos
+A continuación, se brindará un mayor detalle sobre las actividades realizadas en cada entrega, la participación de cada miembro de la startup y las evidencias correspondientes.
 
-## [Registro de Versiones del Informe](#registro-de-versiones-del-informe-1)
-## [Project Report Collaboration Insights](#project-report-collaboration-insights-1)
+## Desarrollo del reporte
+#### TB1:
 
-## [Contenido](#contenido-1)
-## [Tabla de contenidos](#tabla-de-contenidos-1)
-## [Student Outcome](#student-outcome-1)
+---
 
-## [Capítulo I: Introducción](#capítulo-i-introducción-1)
-- [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-- [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [1.2.2 Lean UX Process](#122-lean-ux-process)
-        - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-        - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-        - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-        - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-- [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+# Contenido
 
-## [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis-1)
-- [2.1. Competidores](#21-competidores)
-    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-- [2.2. Entrevistas](#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-- [2.3. Needfinding](#23-needfinding)
-    - [2.3.1. User Personas](#231-user-personas)
-    - [2.3.2. User Task Matrix](#232-user-task-matrix)
-    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-- [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
-- [2.5. Ubiquitous Language](#25-ubiquitous-language)
-
-## [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification-1)
-- [3.1. User Stories](#31-user-stories)
-- [3.2. Impact Mapping](#32-impact-mapping)
-- [3.3. Product Backlog](#33-product-backlog)
-
-## [Capítulo IV: Product Design](#capítulo-iv-product-design-1)
-- [4.1. Style Guidelines](#41-style-guidelines)
-    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
-- [4.2. Information Architecture](#42-information-architecture)
-    - [4.2.1. Organization Systems](#421-organization-systems)
-    - [4.2.2. Labeling Systems](#422-labeling-systems)
-    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-    - [4.2.4. Searching Systems](#424-searching-systems)
-    - [4.2.5. Navigation Systems](#425-navigation-systems)
-- [4.3. Landing Page UI Design](#43-landing-page-ui-design)
-    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
-    - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
-- [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
-    - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
-    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-    - [4.4.2. Web Applications Mock-ups](#443-web-applications-mock-ups)
-    - [4.4.3. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
-- [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
-- [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-    - [4.6.1. Design-Level EventStorming](#461-design-level-eventstorming)
-    - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
-    - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
-    - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
-- [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
-    - [4.7.1. Class Diagrams](#471-class-diagrams)
-    - [4.7.2. Class Dictionary](#472-class-dictionary)
-- [4.8. Database Design](#48-database-design)
-    - [4.8.1. Database Diagram](#481-database-diagram)
-
-## [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment-1)
-- [5.1. Software Configuration Management](#51-software-configuration-management)
-    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
-    - [5.1.2. Source Code Management](#512-source-code-management)
-    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
-    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-- [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
-    - [5.2.1. Sprint 1](#521-sprint-1)
-        - [5.2.1.1. Sprint Planning n](#5211-sprint-planning-n)
-        - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-        - [5.2.1.3. Sprint Backlog n](#5213-sprint-backlog-n)
-        - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-        - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-        - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-        - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-        - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-
-## [Conclusiones](#conclusiones-1)
-
-## [Bibliografía](#bibliografía-1)
-
-## [Anexos](#anexos-1)
-
-# Capítulo I: Introducción
-## 1.1. Startup Profile
-### 1.1.1. Descripción de la Startup
-### 1.1.2. Perfiles de integrantes del equipo
-## 1.2. Solution Profile
-### 1.2.1 Antecedentes y problemática
-### 1.2.2 Lean UX Process
-#### 1.2.2.1. Lean UX Problem Statements
-#### 1.2.2.2. Lean UX Assumptions.
-#### 1.2.2.3. Lean UX Hypothesis Statements
-#### 1.2.2.4. Lean UX Canvas
-## 1.3. Segmentos objetivo
-
-# Capítulo II: Requirements Elicitation & Analysis
-## 2.1. Competidores
-### 2.1.1. Análisis competitivo
-### 2.1.2. Estrategias y tácticas frente a competidores
-## 2.2. Entrevistas
-### 2.2.1. Diseño de entrevistas
-Para obtener informacion correspondiente con respecto a las necesidades que requieren cada segemento objetivo hemos realizado preguntas especificas para ellos.
-
-#### Segmento Objetivo 1: Dueños de empresas ferreteras
-- ¿Cuáles son actualmente los principales costos operativos que impactan la rentabilidad de su empresa?
-- ¿Qué nivel de visibilidad tiene sobre el uso y estado de sus activos (vehículos, maquinaria, inventario)?
-- ¿Qué herramientas o sistemas utiliza actualmente para monitorear sus operaciones logísticas?
-- ¿Ha identificado pérdidas asociadas a ineficiencias, robos o mal uso de recursos? ¿Con qué frecuencia ocurren?
-- ¿Qué tan importante es para usted contar con datos en tiempo real para la toma de decisiones?
-- ¿Qué indicadores clave (KPIs) considera más relevantes para evaluar el desempeño de su empresa?
-- ¿Cuáles son los principales desafíos que enfrenta en la gestión de su flota o activos?
-- ¿Estaría dispuesto a invertir en una solución tecnológica que optimice costos y mejore la trazabilidad? ¿Bajo qué condiciones?
-- ¿Qué características valoraría más en una plataforma de monitoreo (ej. alertas, reportes, integración, facilidad de uso)?
-- ¿Cómo evalúa el retorno de inversión (ROI) al implementar nuevas tecnologías en su negocio?
-  
-#### Segmento Objetivo 2: Administradores logísticos
-- ¿Cómo gestiona actualmente el seguimiento de rutas y ubicación de vehículos?
-- ¿Qué dificultades enfrenta al coordinar las operaciones logísticas en tiempo real?
-- ¿Con qué frecuencia se presentan desviaciones de ruta o uso no autorizado de vehículos?
-- ¿Qué tipo de información le gustaría recibir automáticamente para mejorar su gestión diaria?
-- ¿Qué herramientas digitales utiliza actualmente y qué limitaciones presentan?
-- ¿Cómo controla el consumo de combustible y detecta posibles irregularidades?
-- ¿Cuánto tiempo dedica a la generación de reportes y análisis de datos operativos?
-- ¿Qué tan útil sería para usted recibir alertas automáticas ante incidencias (retrasos, desvíos, fallas)?
-- ¿Qué funcionalidades considera indispensables en una plataforma de monitoreo logístico?
-- ¿Qué tan fácil o difícil le resulta adoptar nuevas tecnologías en su trabajo diario?
-
-### 2.2.2. Registro de entrevistas
-## 2.3. Needfinding
-### 2.3.1. User Personas
-### 2.3.2. User Task Matrix
-### 2.3.3. User Journey Mapping
-## 2.4. Big Picture EventStorming
-## 2.5. Ubiquitous Language
-
-# Capítulo III: Requirements Specification
-## 3.1. User Stories
-## 3.2. Impact Mapping
-## 3.3. Product Backlog
-
-# Capítulo IV: Product Design
-## 4.1. Style Guidelines
-### 4.1.1. General Style Guidelines
-### 4.1.2. Web Style Guidelines
-## 4.2. Information Architecture
-### 4.2.1. Organization Systems
-### 4.2.2. Labeling Systems
-### 4.2.3. SEO Tags and Meta Tags
-### 4.2.4. Searching Systems
-### 4.2.5. Navigation Systems
-## 4.3. Landing Page UI Design
-### 4.3.1. Landing Page Wireframe
-### 4.3.2. Landing Page Mock-up
-## 4.4. Web Applications UX/UI Design
-### 4.4.1. Web Applications Wireframes
-### 4.4.2. Web Applications Wireflow Diagrams
-### 4.4.2. Web Applications Mock-ups
-### 4.4.3. Web Applications User Flow Diagrams
-## 4.5. Web Applications Prototyping
-## 4.6. Domain-Driven Software Architecture
-### 4.6.1. Design-Level EventStorming
-### 4.6.2. Software Architecture Context Diagram
-### 4.6.3. Software Architecture Container Diagrams
-### 4.6.4. Software Architecture Components Diagrams
-## 4.7. Software Object-Oriented Design
-### 4.7.1. Class Diagrams
-### 4.7.2. Class Dictionary
-## 4.8. Database Design
-### 4.8.1. Database Diagram
-
-# Capítulo V: Product Implementation, Validation & Deployment
-## 5.1. Software Configuration Management
-### 5.1.1. Software Development Environment Configuration
-### 5.1.2. Source Code Management
-### 5.1.3. Source Code Style Guide & Conventions
-### 5.1.4. Software Deployment Configuration
-## 5.2. Landing Page, Services & Applications Implementation
-### 5.2.1. Sprint 1
-#### 5.2.1.1. Sprint Planning 1
-#### 5.2.1.2. Aspect Leaders and Collaborators
-#### 5.2.1.3. Sprint Backlog 1
-#### 5.2.1.4. Development Evidence for Sprint Review
-#### 5.2.1.5. Execution Evidence for Sprint Review
-#### 5.2.1.6. Services Documentation Evidence for Sprint Review
-#### 5.2.1.7. Software Deployment Evidence for Sprint Review
-#### 5.2.1.8. Team Collaboration Insights during Sprint
-
-# Conclusiones
-
-# Bibliografía
-
-# Anexos
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+- [Student Outcome](report/01-student-outcome.md)
+- [Capítulo I: Introducción](report/11-chapter-I-introduction.md)
+- [Capítulo II: Requirements Elicitation & Analysis](report/21-chapter-II-requirements.md)
+- [Capítulo III: Requirements Specification](report/31-chapter-III-specifications.md)
+- [Capítulo IV: Product Design](report/41-chapter-IV-design.md)
+- [Capítulo V: Product Implementation, Validation & Deployment](report/51-chapter-V-implementation.md)
+- [Bibliografía](report/99-bibliography.md)
+- [Anexos](report/99-bibliography.md#anexos)
