@@ -227,13 +227,63 @@ PESOS:
 
 ### 4.2.4. Searching Systems
 
+
+
+<div style="color:#fff; font-size:1.09em;">
+	<div style="margin-bottom:22px;">
+		<span style="font-weight:bold; font-size:1.13em; letter-spacing:0.5px;">Sistema de Búsqueda Inteligente</span>
+		<p style="color:#BFC9D1; font-size:1.01em; margin-top:8px; margin-bottom:0;">
+			Optimizado para la localización rápida y precisa de activos de alto valor en entornos industriales y de construcción.
+		</p>
+	</div>
+	<ul style="list-style-type:square; padding-left:1.2em; margin-bottom:0;">
+		<li style="margin-bottom:18px;">
+			<span style="font-weight:600; font-size:1.06em; color:#fff;">Búsqueda por Barra (Identificadores)</span><br/>
+			<span style="color:#BFC9D1; font-weight:400;">Localización inmediata por número de placa, ID del nodo sensor o nombre personalizado de la máquina. La barra de búsqueda cuenta con autocompletado inteligente y sugerencias en tiempo real.</span>
+		</li>
+		<li style="margin-bottom:18px;">
+			<span style="font-weight:600; font-size:1.06em; color:#fff;">Filtrado de Búsqueda</span>
+			<ul style="list-style-type:disc; color:#BFC9D1; margin-left:1.2em; margin-top:6px;">
+				<li style="margin-bottom:8px;"><b style="color:#fff;">Por Estado:</b> Segmentación por máquinas encendidas, en ralentí o apagadas.</li>
+				<li style="margin-bottom:8px;"><b style="color:#fff;">Por Nivel de Alerta:</b> Priorización de unidades con alertas de combustible activas.</li>
+				<li style="margin-bottom:2px;"><b style="color:#fff;">Por Ubicación:</b> Filtrado por proyecto, obra o zona geográfica.</li>
+			</ul>
+		</li>
+		<li style="margin-bottom:0;">
+			<span style="font-weight:600; font-size:1.06em; color:#fff;">Resultados Instantáneos</span><br/>
+			<span style="color:#BFC9D1; font-weight:400;">Visualización dinámica de resultados, con indicadores visuales de estado y alertas, permitiendo tomar decisiones rápidas desde cualquier dispositivo.</span>
+		</li>
+	</ul>
+</div>
+
+
 ### 4.2.5. Navigation Systems
 
----
+
+<div style="color:#fff; font-size:1.09em;">
+	<span style="font-weight:bold; font-size:1.13em; letter-spacing:0.5px;">Sistemas de Navegación</span>
+	<ul style="list-style-type:square; padding-left:1.2em; margin-top:14px;">
+		<li style="margin-bottom:18px;">
+			<span style="font-weight:600; color:#fff;">Navegación Persistente</span><br/>
+			<span style="color:#BFC9D1; font-weight:400;">Sidebar lateral siempre visible que permite al usuario moverse entre los módulos de Gestión, Telemetría y Reportes sin perder el contexto de la operación.</span>
+		</li>
+		<li style="margin-bottom:18px;">
+			<span style="font-weight:600; color:#fff;">Navegación Local (Breadcrumbs)</span><br/>
+			<span style="color:#BFC9D1; font-weight:400;">Ruta jerárquica visual en la parte superior que indica exactamente dónde se encuentra el usuario dentro de la plataforma, facilitando el retorno a secciones previas.</span>
+		</li>
+		<li style="margin-bottom:0;">
+			<span style="font-weight:600; color:#fff;">Navegación de Emergencia</span><br/>
+			<span style="color:#BFC9D1; font-weight:400;">Botón de acceso directo fijo en toda la interfaz, que redirige de inmediato al panel de alertas críticas para una respuesta rápida ante incidentes o sospechas de robo de combustible.</span>
+		</li>
+	</ul>
+</div>
+
 
 ## 4.3. Landing Page UI Design
 
 ### 4.3.1. Landing Page Wireframe
+
+
 
 ### 4.3.2. Landing Page Mock-up
 
