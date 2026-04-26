@@ -149,7 +149,81 @@ PESOS:
 
 ### 4.2.2. Labeling Systems
 
+
+
+<div style="color:#fff; font-size:1.08em;">
+	<p style="margin-bottom:22px;">
+		Se han definido etiquetas descriptivas y estandarizadas para que el administrador logístico gestione la información con precisión:
+	</p>
+	<div style="margin-bottom:24px;">
+		<span style="font-weight:bold; color:#fff; font-size:1.09em; letter-spacing:0.5px;">Etiquetas de la Navbar (Navegación Principal)</span>
+		<ul style="list-style-type:none; padding-left:0; margin-top:14px;">
+			<li style="margin-bottom:16px;">
+				<span style="color:#F4C20D; font-weight:bold; font-size:1.05em;">Dashboard</span>
+				<span style="color:#BFC9D1; font-weight:400;">&nbsp;— Métricas generales y mapa de calor de activos.</span>
+			</li>
+			<li style="margin-bottom:16px;">
+				<span style="color:#F4C20D; font-weight:bold; font-size:1.05em;">Unidades</span>
+				<span style="color:#BFC9D1; font-weight:400;">&nbsp;— Listado de maquinaria pesada registrada.</span>
+			</li>
+			<li style="margin-bottom:16px;">
+				<span style="color:#F4C20D; font-weight:bold; font-size:1.05em;">Combustible</span>
+				<span style="color:#BFC9D1; font-weight:400;">&nbsp;— Telemetría de consumo y detección de anomalías.</span>
+			</li>
+			<li style="margin-bottom:16px;">
+				<span style="color:#F4C20D; font-weight:bold; font-size:1.05em;">Alertas</span>
+				<span style="color:#BFC9D1; font-weight:400;">&nbsp;— Historial de eventos críticos y variaciones bruscas.</span>
+			</li>
+			<li style="margin-bottom:16px;">
+				<span style="color:#F4C20D; font-weight:bold; font-size:1.05em;">Mantenimiento</span>
+				<span style="color:#BFC9D1; font-weight:400;">&nbsp;— Cronograma preventivo basado en uso real.</span>
+			</li>
+			<li style="margin-bottom:6px;">
+				<span style="color:#F4C20D; font-weight:bold; font-size:1.05em;">Reportes</span>
+				<span style="color:#BFC9D1; font-weight:400;">&nbsp;— Exportación de datos para análisis de rentabilidad (ROI).</span>
+			</li>
+		</ul>
+	</div>
+	<div style="margin-bottom:8px;">
+		<span style="font-weight:bold; color:#fff; font-size:1.09em; letter-spacing:0.5px;">Etiquetas del Cuerpo de la Web</span>
+		<ul style="list-style-type:none; padding-left:0; margin-top:14px;">
+			<li style="margin-bottom:16px;">
+				<span style="color:#F4C20D; font-weight:bold; font-size:1.05em;">Estado del Nodo</span>
+				<span style="color:#BFC9D1; font-weight:400;">&nbsp;— Indicador de conectividad (Online / Offline).</span>
+			</li>
+			<li style="margin-bottom:6px;">
+				<span style="color:#F4C20D; font-weight:bold; font-size:1.05em;">Nivel de Telemetría</span>
+				<span style="color:#BFC9D1; font-weight:400;">&nbsp;— Datos puntuales (litros exactos, coordenadas, etc).</span>
+			</li>
+		</ul>
+	</div>
+</div>
+
 ### 4.2.3. SEO Tags and Meta Tags
+
+
+<div style="color:#fff; font-size:1.08em;">
+	<p style="margin-bottom:22px;">
+		<b>Estrategia de posicionamiento</b> para conectar con empresas del sector construcción y ferretero en el Perú:
+	</p>
+	<div style="margin-bottom:20px;">
+		<span style="font-weight:bold; color:#fff; font-size:1.09em; letter-spacing:0.5px;">Landing Page</span>
+		<ul style="list-style-type:none; padding-left:0; margin-top:12px;">
+			<li style="margin-bottom:12px;"><span style="color:#BFC9D1; font-weight:500;">Meta Tag de Título:</span> <span style="color:#BFC9D1; font-weight:400;">InfraTrack | Monitoreo IoT de Maquinaria y Combustible.</span></li>
+			<li style="margin-bottom:12px;"><span style="color:#BFC9D1; font-weight:500;">Meta Tag de Descripción:</span> <span style="color:#BFC9D1; font-weight:400;">Solución Open Source para el control de flotas, prevención de robos de combustible y gestión de activos industriales en el Perú.</span></li>
+			<li style="margin-bottom:12px;"><span style="color:#BFC9D1; font-weight:500;">Meta Tag de Palabras Clave:</span> <span style="color:#BFC9D1; font-weight:400;">monitoreo de maquinaria pesada, control de combustible IoT, telemetría para construcción, GPS para maquinaria, ahorro logística Perú.</span></li>
+			<li style="margin-bottom:6px;"><span style="color:#BFC9D1; font-weight:500;">Meta Tag de Autor:</span> <span style="color:#BFC9D1; font-weight:400;">NovaTech Team.</span></li>
+		</ul>
+	</div>
+	<div style="margin-bottom:8px;">
+		<span style="font-weight:bold; color:#fff; font-size:1.09em; letter-spacing:0.5px;">Aplicación Web (Panel Admin)</span>
+		<ul style="list-style-type:none; padding-left:0; margin-top:12px;">
+			<li style="margin-bottom:12px;"><span style="color:#BFC9D1; font-weight:500;">Meta Tag de Título:</span> <span style="color:#BFC9D1; font-weight:400;">InfraTrack - Dashboard Administrativo.</span></li>
+			<li style="margin-bottom:6px;"><span style="color:#BFC9D1; font-weight:500;">Meta Tag de Descripción:</span> <span style="color:#BFC9D1; font-weight:400;">Panel de gestión técnica y monitoreo de sensores IoT InfraTrack.</span></li>
+		</ul>
+	</div>
+</div>
+
 
 ### 4.2.4. Searching Systems
 
