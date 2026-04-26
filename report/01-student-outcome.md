@@ -33,4 +33,3 @@ colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen obj
 		</td>
 	</tr>
 </table>
-|
