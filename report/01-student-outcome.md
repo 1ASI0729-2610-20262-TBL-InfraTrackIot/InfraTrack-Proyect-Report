@@ -7,8 +7,6 @@ Criterio: La capacidad de funcionar efectivamente en un
 equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de
 colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos
 
-| Criterio específico | Acciones realizadas | Conclusiones |
-|---------------------|--------------------:|:-------------|
 <table style="width:100%; border-collapse:collapse; font-family:Arial, sans-serif;">
 	<tr>
 		<th style="background:#c00; color:#fff; border:2px solid #fff; padding:8px; width:22%; text-align:center;">Criterio Específico</th>
