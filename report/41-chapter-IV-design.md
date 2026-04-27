@@ -283,27 +283,134 @@ PESOS:
 
 ### 4.3.1. Landing Page Wireframe
 
+<img src="../assets/wireframe-1.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+
+<img src="../assets/wireframe-2.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+
+<img src="../assets/wireframe-3.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+
+<img src="../assets/wireframe-4.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+
+<img src="../assets/wireframe-5.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+
+<img src="../assets/wireframe-6.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+
+<img src="../assets/wireframe-7.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+
+<img src="../assets/wireframe-8.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+
+<img src="../assets/wireframe-9.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+
+<img src="../assets/wireframe-10.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+
+<img src="../assets/wireframe-11.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+
+## 4.3.2. Landing Page Mock-up. 
+
+<img src="../assets/mockup-1.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+
+<img src="../assets/mockup-2.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+
+<img src="../assets/mockup-3.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+
+<img src="../assets/mockup-4.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+
+<img src="../assets/mockup-5.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+
+<img src="../assets/mockup-6.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+
+<img src="../assets/mockup-7.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+
+<img src="../assets/mockup-8.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+
+<img src="../assets/mockup-9.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+
+<img src="../assets/mockup-10.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+
+<img src="../assets/mockup-11.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
 
 
-### 4.3.2. Landing Page Mock-up
 
----
+<div style="margin-top:32px; margin-bottom:18px;"></div>
+<div style="text-align:center; margin-bottom:24px;">
+	<span style="font-size:1.09em; color:#fff; font-weight:bold; letter-spacing:0.5px;">Enlace al prototipo en Figma:</span><br/>
+	<a href="https://www.figma.com/design/BotZJL25wLBfNOVFPKguDE/LADING-PAGE?node-id=0-1&t=V62Ec3rn4RhZTmaX-1" target="_blank" style="color:#F4C20D; font-size:1.04em; text-decoration:underline; word-break:break-all;">https://www.figma.com/design/C1wMU7c5zuShqhF4a7vjXj/Wireframes?node-id=0-1&amp;t=HSQjBlKDCZfnB67Q-1</a>
+</div>
 
 ## 4.4. Web Applications UX/UI Design
 
 ### 4.4.1. Web Applications Wireframes
 
+<img src="../assets/web-wireframe-1.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+
+<img src="../assets/web-wireframe-2.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+
+<img src="../assets/web-wireframe-3.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+
+<img src="../assets/web-wireframe-4.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+
+<img src="../assets/web-wireframe-5.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+
+<img src="../assets/web-wireframe-6.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+
+<img src="../assets/web-wireframe-7.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+
+<img src="../assets/web-wireframe-8.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+
 ### 4.4.2. Web Applications Wireflow Diagrams
 
-### 4.4.3. Web Applications Mock-ups
 
-### 4.4.4. Web Applications User Flow Diagrams
+**User Goal: Como usuario nuevo, quiero poder registrarme.**
+<div style="margin-bottom:18px;"></div>
+<img src="../assets/wireflow-1.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+<div style="margin-bottom:32px;"></div>
+
+**User Goal: Como usuario registrado, quiero poder iniciar sesión.**
+<div style="margin-bottom:18px;"></div>
+<img src="../assets/wireflow-2.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+<div style="margin-bottom:32px;"></div>
+
+**User Goal: Como usuario registrado, quiero poder ver el manejo de mi flota.**
+<div style="margin-bottom:18px;"></div>
+<img src="../assets/wireflow-3.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+<div style="margin-bottom:32px;"></div>
+
+**User Goal: Como usuario registrado, quiero poder ver el centro de alertas de mi flota.**
+<div style="margin-bottom:18px;"></div>
+<img src="../assets/wireflow-4.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+<div style="margin-bottom:32px;"></div>
+
+### 4.4.2. Web Applications Mock-ups
+
+<div style="margin-bottom:18px;"></div>
+<img src="../assets/web-mockups-1.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+<div style="margin-bottom:32px;"></div>
+
+<div style="margin-bottom:18px;"></div>
+<img src="../assets/web-mockups-2.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+<div style="margin-bottom:32px;"></div>
+
+<div style="margin-bottom:18px;"></div>
+<img src="../assets/web-mockups-3.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+<div style="margin-bottom:32px;"></div>
+
+<div style="margin-bottom:18px;"></div>
+<img src="../assets/web-mockups-4.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+<div style="margin-bottom:32px;"></div>
+
+<div style="margin-bottom:18px;"></div>
+<img src="../assets/web-mockups-5.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+<div style="margin-bottom:32px;"></div>
+
+<div style="margin-bottom:18px;"></div>
+<img src="../assets/web-mockups-6.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+<div style="margin-bottom:32px;"></div>
+
+### 4.4.3. Web Applications User Flow Diagrams
 
 ---
 
 ## 4.5. Web Applications Prototyping
-
----
 
 ## 4.6. Domain-Driven Software Architecture
 
@@ -311,18 +418,36 @@ PESOS:
 
 ### 4.6.2. Software Architecture Context Diagram
 
+<div style="margin-bottom:18px;"></div>
+<img src="../assets/diagrama-contexto.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+<div style="margin-bottom:32px;"></div>
+
 ### 4.6.3. Software Architecture Container Diagrams
+
+<div style="margin-bottom:18px;"></div>
+<img src="../assets/diagrama-contenedores.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+<div style="margin-bottom:32px;"></div>
 
 ### 4.6.4. Software Architecture Components Diagrams
 
----
+<div style="margin-bottom:18px;"></div>
+<img src="../assets/diagrama-componente.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+<div style="margin-bottom:32px;"></div>
 
 ## 4.7. Software Object-Oriented Design
 
 ### 4.7.1. Class Diagrams
 
----
+<div style="margin-bottom:18px;"></div>
+<img src="../assets/diagrama-clases.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+<div style="margin-bottom:32px;"></div>
 
 ## 4.8. Database Design
 
+El diseño de la base de datos de InfraTrack utiliza un modelo relacional gestionado en Microsoft SQL Server. Se ha priorizado la integridad referencial y la optimización de tipos de datos para manejar grandes volúmenes de telemetría provenientes de los nodos IoT.
+
 ### 4.8.1. Database Diagrams
+
+<div style="margin-bottom:18px;"></div>
+<img src="../assets/base-datos-diagrama.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+<div style="margin-bottom:32px;"></div>
