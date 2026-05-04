@@ -143,10 +143,59 @@ En este contexto, InfraTrack define un conjunto de estrategias y tácticas orien
   
   Finalmente, InfraTrack plantea establecer colaboraciones con proveedores de hardware IoT, técnicos de mantenimiento y empresas del sector industrial. Estas alianzas permiten ampliar el alcance del sistema sin requerir grandes inversiones comerciales, fortaleciendo su posicionamiento competitivo.
 
-
 ## 2.2. Entrevistas
 
 ### 2.2.1. Diseño de entrevistas
+
+Para obtener información correspondiente con respecto a las necesidades que requieren cada segmento objetivo hemos realizado preguntas específicas para ellos.
+
+---
+
+#### **Segmento Objetivo 1: Dueños de empresas ferreteras**
+
+- ¿Cuáles son actualmente los principales costos operativos que impactan la rentabilidad de su empresa?
+
+- ¿Qué nivel de visibilidad tiene sobre el uso y estado de sus activos (vehículos, maquinaria, inventario)?
+
+- ¿Qué herramientas o sistemas utiliza actualmente para monitorear sus operaciones logísticas?
+
+- ¿Ha identificado pérdidas asociadas a ineficiencias, robos o mal uso de recursos? ¿Con qué frecuencia ocurren?
+
+- ¿Qué tan importante es para usted contar con datos en tiempo real para la toma de decisiones?
+
+- ¿Qué indicadores clave (KPIs) considera más relevantes para evaluar el desempeño de su empresa?
+
+- ¿Cuáles son los principales desafíos que enfrenta en la gestión de su flota o activos?
+
+- ¿Estaría dispuesto a invertir en una solución tecnológica que optimice costos y mejore la trazabilidad? ¿Bajo qué condiciones?
+
+- ¿Qué características valoraría más en una plataforma de monitoreo (ej. alertas, reportes, integración, facilidad de uso)?
+
+- ¿Cómo evalúa el retorno de inversión (ROI) al implementar nuevas tecnologías en su negocio?
+
+---
+
+#### **Segmento Objetivo 2: Administradores logísticos**
+
+- ¿Cómo gestiona actualmente el seguimiento de rutas y ubicación de vehículos?
+
+- ¿Qué dificultades enfrenta al coordinar las operaciones logísticas en tiempo real?
+
+- ¿Con qué frecuencia se presentan desviaciones de ruta o uso no autorizado de vehículos?
+
+- ¿Qué tipo de información le gustaría recibir automáticamente para mejorar su gestión diaria?
+
+- ¿Qué herramientas digitales utiliza actualmente y qué limitaciones presentan?
+
+- ¿Cómo controla el consumo de combustible y detecta posibles irregularidades?
+
+- ¿Cuánto tiempo dedica a la generación de reportes y análisis de datos operativos?
+
+- ¿Qué tan útil sería para usted recibir alertas automáticas ante incidencias (retrasos, desvíos, fallas)?
+
+- ¿Qué funcionalidades considera indispensables en una plataforma de monitoreo logístico?
+
+- ¿Qué tan fácil o difícil le resulta adoptar nuevas tecnologías en su trabajo diario?
 
 ### 2.2.2. Registro de entrevistas
 
