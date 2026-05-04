@@ -235,7 +235,46 @@ El entrevistado resaltó la necesidad de implementar una solución tecnológica 
 
 ### 2.3.2. User Task Matrix
 
+<table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; margin-top: 8px;">
+	<thead>
+		<tr style="background-color: #c7d3de; color: #1f2933;">
+			<th style="border: 1px solid #222; padding: 10px; text-align: center;">Tarea del Usuario</th>
+			<th style="border: 1px solid #222; padding: 10px; text-align: center;">Roberto (Dueño)</th>
+			<th style="border: 1px solid #222; padding: 10px; text-align: center;">Carlos (Admin)</th>
+			<th style="border: 1px solid #222; padding: 10px; text-align: center;">Frecuencia</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr style="background-color: #efefef; color: #222;">
+			<td style="border: 1px solid #222; padding: 10px; text-align: center;">Monitorear ubicación GPS en tiempo real</td>
+			<td style="border: 1px solid #222; padding: 10px; text-align: center;">Media</td>
+			<td style="border: 1px solid #222; padding: 10px; text-align: center;">Crítica</td>
+			<td style="border: 1px solid #222; padding: 10px; text-align: center;">Diaria</td>
+		</tr>
+		<tr style="background-color: #efefef; color: #222;">
+			<td style="border: 1px solid #222; padding: 10px; text-align: center;">Visualizar reportes de consumo de diésel</td>
+			<td style="border: 1px solid #222; padding: 10px; text-align: center;">Crítica</td>
+			<td style="border: 1px solid #222; padding: 10px; text-align: center;">Alta</td>
+			<td style="border: 1px solid #222; padding: 10px; text-align: center;">Semanal</td>
+		</tr>
+		<tr style="background-color: #efefef; color: #222;">
+			<td style="border: 1px solid #222; padding: 10px; text-align: center;">Recibir alertas de "ordeño" de combustible</td>
+			<td style="border: 1px solid #222; padding: 10px; text-align: center;">Crítica</td>
+			<td style="border: 1px solid #222; padding: 10px; text-align: center;">Crítica</td>
+			<td style="border: 1px solid #222; padding: 10px; text-align: center;">Instantánea</td>
+		</tr>
+		<tr style="background-color: #efefef; color: #222;">
+			<td style="border: 1px solid #222; padding: 10px; text-align: center;">Programar mantenimientos preventivos</td>
+			<td style="border: 1px solid #222; padding: 10px; text-align: center;">Baja</td>
+			<td style="border: 1px solid #222; padding: 10px; text-align: center;">Crítica</td>
+			<td style="border: 1px solid #222; padding: 10px; text-align: center;">Mensual</td>
+		</tr>
+	</tbody>
+</table>
+
 ### 2.3.3. User Journey Mapping
+
+
 
 ### 2.3.4. Empathy Mapping
 
@@ -244,3 +283,20 @@ El entrevistado resaltó la necesidad de implementar una solución tecnológica 
 ## 2.4. Big Picture EventStorming
 
 ## 2.5. Ubiquitous Language
+
+En esta sección se definen los términos clave que utilizaremos para describir participantes, componentes y procesos de la aplicación web/móvil de InfraTrack.
+
+- **Administrador logístico:** usuario operativo responsable de monitorear unidades, gestionar alertas, analizar datos y tomar decisiones en tiempo real.
+- **Dueño de empresa:** usuario estratégico enfocado en indicadores de rentabilidad (ROI), eficiencia operativa y control de activos.
+- **Asset (Activo):** vehículo o maquinaria pesada registrada en el sistema.
+- **Node IoT:** dispositivo físico instalado en la unidad que captura y transmite datos.
+- **Node ID:** identificador único del dispositivo IoT vinculado a una unidad.
+- **Data Telemetry:** conjunto de datos recolectados en tiempo real (combustible, GPS, horas de motor).
+- **Event:** registro generado cuando ocurre una condición relevante (alerta, cambio de estado o anomalía).
+- **Alert:** notificación emitida ante una condición crítica definida por el sistema o por el usuario.
+- **Dashboard (Panel de control):** vista central con KPIs, estado general de la flota y alertas críticas.
+- **Navbar:** barra superior con acceso a los módulos principales.
+- **Sidebar:** menú lateral persistente de navegación.
+- **GPS Tracking (Rastreo GPS):** tecnología que permite ubicar y seguir la posición geográfica de las unidades en tiempo real mediante coordenadas GPS.
+- **API Integration:** proceso por el cual InfraTrack expone datos mediante una API para integrarse con sistemas externos, como ERP, plataformas de mantenimiento o herramientas de gestión de proyectos.
+- **Maintenance History:** registro detallado de reparaciones, revisiones y mantenimientos realizados a cada unidad; permite evaluar su vida útil y planificar mantenimientos futuros.
