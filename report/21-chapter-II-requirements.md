@@ -233,6 +233,24 @@ El entrevistado resaltó la necesidad de implementar una solución tecnológica 
 
 ### 2.3.1. User Personas
 
+<div style="max-width: 90%; margin: 0 auto 8px auto; text-align: right; font-weight: bold;">
+	Segmento 1: Dueños de Empresas Ferreteras y Constructoras
+</div>
+
+<div style="text-align:center; margin: 24px 0;">
+  <img src="../assets/ux_person1.png" alt="Lean UX Canvas" style="max-width: 90%; display: block; margin: 0 auto;"/>
+  <div style="margin-top:8px; font-weight:bold;"></div>
+</div>
+
+<div style="max-width: 90%; margin: 0 auto 8px auto; text-align: right; font-weight: bold;">
+	Segmento 2: Administradores Logísticos y Gestores de Flota
+</div>
+
+<div style="text-align:center; margin: 24px 0;">
+  <img src="../assets/ux_person2.png" alt="Lean UX Canvas" style="max-width: 90%; display: block; margin: 0 auto;"/>
+  <div style="margin-top:8px; font-weight:bold;"></div>
+</div>
+
 ### 2.3.2. User Task Matrix
 
 <table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; margin-top: 8px;">
