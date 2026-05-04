@@ -59,14 +59,63 @@
 ## 3.2. Impact Mapping
 **Beto Mendoza (Dueño)** 
 
-![Imagen de Impact Mapping 1](../../assets/US1.png)
+![Imagen de Impact Mapping 1](../assets/US1.png)
 
 **Carlos Vizcarra (Gestor de Flota)** 
 
-![Imagen de Impact Mapping 2](../../assets/US2.png)
+![Imagen de Impact Mapping 2](../assets/US2.png)
 
 ## 3.3. Product Backlog
 
-| # Orden | User Story Id | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
-|---------|--------------|--------|-------------|----------------------------------|
-| | | | | |
+| \# Orden | User Story ID | Título | Descripción | Prioridad  | Story Points |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 1 | HU-37 | Recepción de datos IoT  | Implementación del backend para capturar tramas de sensores.  | Muy Alta  | 8 |
+| 2 | HU-31 | Login | Acceso seguro para administradores y dueños.  | Muy Alta | 3 |
+| 3 | HU-01  | Ver nivel de combustible  | Monitoreo en tiempo real  | Alta  | 5  |
+| 4 | HU-06 | Visualizar ubicación GPS  | Renderizado de la posición en tiempo real sobre el mapa.  | Alta | 5 |
+| 5 | HU-02  | Detectar robo de combustible  | Alertas ante caídas bruscas  | Alta  | 8  |
+| 6 | HU-18 | Notificaciones en tiempo real  | Sistema de alertas push/web ante eventos críticos.  | Alta | 5 |
+| 7 | HU-23 | Registrar maquinaria | CRUD base para poder asignar sensores a unidades físicas.  | Alta | 3 |
+| 8 | HU-27 | Vincular Nodo a Maquinaria | Asociación lógica entre el ID del hardware y el activo.  | Alta | 3 |
+| 9 | HU-40 | Validación de datos | Limpieza de ruido y datos incoherentes de los sensores. | Alta | 5 |
+| 10 | HU-14 | Dashboard general  | Vista principal con KPIs consolidados para toma de decisiones.  | Alta | 8 |
+| 11 | HU-10 | Registrar horas de motor  | Cálculo automático basado en el estado del motor (encendido).  | Media | 3 |
+| 12 | HU-11 | Alertas de mantenimiento  | Notificación cuando se cumplen las horas de uso definidas.  | Media | 5 |
+| 13 | HU-08 | Geocercas de Seguridad  | Definición de polígonos en el mapa para control perimetral.  | Media | 8 |
+| 14 | HU-32 | Roles de usuario | Diferenciación entre Admin, Dueño y Operador.  | Media | 5 |
+| 15 | HU-13 | Detectar ralentí excesivo  | Algoritmo para detectar motor encendido sin movimiento.  | Media | 5 |
+| 16 | HU-19 | Configurar umbrales  | Interfaz para que el usuario defina sus propios límites de alerta.  | Media  | 3 |
+| 17 | HU-39  | Consulta de datos API  | Exposición de endpoints para integraciones externas.  | Media  | 5 |
+| 18 | HU-26  | Estado de conexión del Nodo  | Monitorización de latidos (heartbeat) del hardware.  | Media  | 3 |
+| 19 | HU-03 | Historial de consumo  | Consulta de datos históricos en tablas y gráficas simples.  | Media  | 5 |
+| 20 | HU-07  | Historial de rutas  | Trazado de recorridos pasados en el mapa.  | Media  | 5  |
+| 21 | HU-48 | Dashboard de Hardware  | Visualización del estado de batería y señal de los nodos.  | Media  | 5 |
+| 22 | HU-16  | Comparativa de Flota  | Gráfica de barras/líneas comparando eficiencia de unidades.  | Media | 5 |
+| 23 | HU-33 | Log de Auditoría  | Registro de "quién hizo qué" para trazabilidad de errores.  | Baja | 5 |
+| 24 | HU-21 | Notificación por email  | Envío de alertas críticas a la bandeja de entrada.  | Baja | 3 |
+| 25 | HU-04  | Reportes de consumo  | Generación de reportes específicos por rango de fechas.  | Baja  | 5 |
+| 26 | HU-05 | Exportar (Excel/PDF)  | Función técnica para descarga de documentos.  | Baja  | 3 |
+| 27 | HU-09  | Última ubicación conocida  | Lógica para mostrar el último punto antes del "offline".  | Baja  | 3 |
+| 28 | HU-12 | Historial mantenimiento  | Registro manual de servicios realizados a la máquina.  | Baja  | 2 |
+| 29 | HU-15  | Filtrar información  | Filtros avanzados por fecha, tipo y estado en tablas.  | Baja  | 3 |
+| 30 | HU-17  | Dashboard Sostenibilidad  | Cálculo de huella de carbono basado en consumo.  | Baja  | 5 |
+| 31 | HU-20  | Historial de alertas  | Log consultable de todas las notificaciones enviadas.  | Baja  | 3 |
+| 32 | HU-24 | Editar unidad  | Actualización de datos técnicos de la maquinaria.  | Baja  | 2 |
+| 33 | HU-25  | Eliminar unidad  | Borrado lógico de activos del sistema.  | Baja  | 2 |
+| 34 | HU-28  | Actualización masiva  | Edición por lotes para ahorrar tiempo al administrador.  | Baja  | 5 |
+| 35 | HU-29  | Perfil de Operador  | Asignación de conductores a unidades específicas.  | Baja  | 2 |
+| 36 | HU-30 | Registro de usuario  | Formulario de auto-registro (opcional según modelo).  | Baja  | 2 |
+| 37 | HU-34 | Recuperar Contraseña  | Flujo de seguridad para reseteo de credenciales.  | Baja  | 2 |
+| 38 | HU-45 | Verificación de correo  | Validación de identidad mediante código/link.  | Baja  | 3 |
+| 39 | HU-44 | Cierre de sesión auto  | Seguridad por inactividad de sesión.  | Baja  | 2 |
+| 40 | HU-22 | Horario laboral  | Configuración de alertas por uso fuera de jornada.  | Baja  | 3 |
+| 41 | HU-41 | Prioridad de alertas  | Categorización visual de la gravedad de eventos.  | Baja  | 2 |
+| 42 | HU-42 | Tipo de combustible  | Atributo técnico para mejorar precisión de costos.  | Baja  | 2 |
+| 43 | HU-43 | Galería de fotos  | Almacenamiento de imágenes del estado de la unidad.  | Baja  | 5 |
+| 44 | HU-46 | Calibración de sensores  | Ajuste fino de parámetros de hardware vía remota.  | Baja  | 8 |
+| 45 | HU-47 | Modo Offline  | Almacenamiento local (PWA/Cache) para zonas sin señal.  | Baja  | 8 |
+| 46 | HU-49 | Modo Oscuro / Claro  | Personalización estética de la interfaz.  | Baja  | 2 |
+| 47 | HU-50 | Selección de idioma  | Traducción de la plataforma (i18n).  | Baja  | 5 |
+| 48 | HU-35 | Propuesta de valor  | Contenido informativo en la Landing Page.  | Baja  | 2 |
+| 49 | HU-36 | Formulario contacto  | Captación de prospectos interesados.  | Baja  | 2 |
+| 50 | HU-38 | Acceso a la app  | Enlace directo desde la Landing a la plataforma.  | Baja  | 2 |
