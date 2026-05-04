@@ -201,7 +201,33 @@ Para obtener información correspondiente con respecto a las necesidades que req
 
 ### 2.2.3. Análisis de entrevistas
 
----
+#### Análisis del Segmento 1
+
+**Segmento 1 - Entrevista 1**
+
+A partir de la entrevista realizada a Rogelio Guerra, propietario de una ferretería en el distrito de Surco que también ofrece alquiler de maquinaria, se identificó que los principales costos operativos que afectan la rentabilidad del negocio están asociados a la reposición de inventario, el mantenimiento y reparación de maquinaria, los gastos de transporte y combustible, y la gestión del personal.
+
+El entrevistado evidenció un nivel limitado de visibilidad sobre el uso, la ubicación y el estado de sus activos. Actualmente, el control de inventario, alquileres y operaciones logísticas se realiza principalmente con herramientas manuales, como hojas de cálculo, registros físicos y coordinación por aplicaciones de mensajería instantánea.
+
+También señaló pérdidas ocasionales relacionadas con retrasos en entregas, mal uso de equipos, daños en maquinaria y diferencias de inventario, lo que confirma la existencia de ineficiencias operativas. Destacó que contar con información en tiempo real es clave para mejorar la toma de decisiones, considerando como indicadores principales el volumen de ventas, la rotación de productos, el nivel de utilización de maquinaria, los costos de mantenimiento y los tiempos de entrega.
+
+Entre los desafíos más relevantes mencionó el control del alquiler de equipos, la trazabilidad de activos y la programación adecuada de mantenimientos preventivos. Finalmente, manifestó disposición para adoptar soluciones tecnológicas que optimicen costos y mejoren la gestión operativa, siempre que sean accesibles, fáciles de implementar y demuestren un retorno de inversión claro.
+
+#### Análisis del Segmento 2
+
+**Segmento 2 - Entrevista 1**
+
+El entrevistado, responsable de la gestión operativa de vehículos y maquinaria, indicó que actualmente las operaciones logísticas se administran mediante herramientas no integradas, principalmente sistemas GPS básicos, hojas de cálculo y comunicación directa con conductores por llamadas o aplicaciones de mensajería.
+
+Esta situación limita la visibilidad en tiempo real y dificulta la detección oportuna de retrasos, desvíos de ruta y posibles usos no autorizados de los vehículos. Asimismo, el control del consumo de combustible y el monitoreo del desempeño operativo se realizan de forma reactiva, con reportes manuales que demandan varias horas diarias para su consolidación y análisis.
+
+El entrevistado resaltó la necesidad de implementar una solución tecnológica centralizada que automatice el monitoreo, genere alertas ante incidencias y facilite la elaboración de reportes. También señaló que la adopción de nuevas tecnologías es viable siempre que sean intuitivas, reduzcan la carga operativa y aporten valor directo a la toma de decisiones logísticas.
+
+#### Detalle breve por participante
+
+- **Participante S1 (Dueño de ferretería):** utiliza smartphone **Samsung Galaxy A14** para coordinación operativa y una laptop **Lenovo IdeaPad** para hojas de cálculo y control de inventario.
+- **Participante S2 (Administrador logístico):** utiliza rastreador GPS **Teltonika FMB920** en unidades de transporte y smartphone **Xiaomi Redmi Note 12** para seguimiento y alertas.
+
 
 ## 2.3. Needfinding
 
