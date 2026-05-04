@@ -89,6 +89,15 @@ A continuación, nuestra misión, visión y valores:
       <img src="../assets/David.jpeg" alt="Foto David" style="width:90px; border-radius:8px;"/>
     </td>
   </tr>
+  <tr>
+    <td style="border:2px solid #fff; text-align:center; vertical-align:top;">U20201B441</td>
+    <td style="border:2px solid #fff; text-align:justify; vertical-align:top;">
+      <b>Aldair Joaquin Ramos Aguirre</b><br>Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), con conocimientos en programación en Python, Java y C++. Interesado en aplicar mis conocimientos académicos en este proyecto,, contribuyendo al desarrollo de soluciones tecnológicas y fortaleciendo mis habilidades profesionales.
+    </td>
+    <td style="border:2px solid #fff; text-align:center; vertical-align:top;">
+      <img src="../assets/Aldair.jpeg" alt="Foto David" style="width:90px; border-radius:8px;"/>
+    </td>
+  </tr>
 </table>
 
 ## 1.2. Solution Profile
