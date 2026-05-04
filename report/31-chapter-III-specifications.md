@@ -57,6 +57,13 @@
 
 
 ## 3.2. Impact Mapping
+**Beto Mendoza (Dueño)** 
+
+![Imagen de Impact Mapping 1](../../assets/US1.png)
+
+**Carlos Vizcarra (Gestor de Flota)** 
+
+![Imagen de Impact Mapping 2](../../assets/US2.png)
 
 ## 3.3. Product Backlog
 
