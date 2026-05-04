@@ -4,6 +4,109 @@
 
 ### 2.1.1. Análisis competitivo
 
+<table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+	<thead>
+		<tr style="background-color: #2c3e50; color: white;">
+			<th colspan="6" style="padding: 16px; font-size: 16px; font-weight: bold; text-align: left; border: 1px solid #34495e;">Competitive Analysis Landscape</th>
+		</tr>
+		<tr style="background-color: #ecf0f1;">
+			<th style="padding: 12px; text-align: left; border: 1px solid #bdc3c7; font-weight: bold; color: #2c3e50;">¿Por qué llevar a cabo este análisis?</th>
+			<td colspan="5" style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; line-height: 1.5;">Este análisis nos permite identificar fortalezas, debilidades y oportunidades estratégicas de InfraTrack frente a soluciones existentes de monitoreo de flotas y maquinaria pesada, con el fin de definir una ventaja competitiva sostenible basada en tecnología open source, bajo costo operativo y especialización en control de combustible.</td>
+		</tr>
+		<tr style="background-color: #34495e;">
+			<th style="padding: 12px; border: 1px solid #2c3e50; color: white;"></th>
+			<th style="padding: 12px; border: 1px solid #2c3e50; color: white;"></th>
+			<th style="padding: 12px; border: 1px solid #2c3e50; color: white; font-weight: bold; text-align: center;">InfraTrack</th>
+			<th style="padding: 12px; border: 1px solid #2c3e50; color: white; font-weight: bold; text-align: center;">Samsara</th>
+			<th style="padding: 12px; border: 1px solid #2c3e50; color: white; font-weight: bold; text-align: center;">Geotab</th>
+			<th style="padding: 12px; border: 1px solid #2c3e50; color: white; font-weight: bold; text-align: center;">Tenna</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr style="background-color: #fff;">
+			<th rowspan="2" style="padding: 12px; border: 1px solid #bdc3c7; background-color: #e8f4f8; font-weight: bold; color: #2c3e50; vertical-align: top;">Perfil</th>
+			<th style="padding: 12px; border: 1px solid #bdc3c7; background-color: #f8f9fa; font-weight: bold; color: #2c3e50; text-align: left; font-size: 13px;">Overview</th>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Plataforma open source IoT para monitoreo de maquinaria pesada, combustible y GPS con dashboard centralizado.</td>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">SaaS empresarial de monitoreo de flotas basadas en IoT y analytics.</td>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Sistema telemático global para gestión de vehículos y análisis operacional.</td>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Plataforma especializada en tracking y gestión de equipos de construcción.</td>
+		</tr>
+		<tr style="background-color: #fff;">
+			<th style="padding: 12px; border: 1px solid #bdc3c7; background-color: #f8f9fa; font-weight: bold; color: #2c3e50; text-align: left; font-size: 13px;">Ventaja competitiva</th>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Bajo costo, open source, personalizable y orientado a detección de robo de combustible.</td>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Alta escalabilidad y analítica avanzada basada en datos masivos.</td>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Ecosistema consolidado e integración con múltiples fabricantes.</td>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Especialización directa en maquinaria pesada.</td>
+		</tr>
+		<tr style="background-color: #fff;">
+			<th rowspan="2" style="padding: 12px; border: 1px solid #bdc3c7; background-color: #e8f8f0; font-weight: bold; color: #2c3e50; vertical-align: top;">Perfil de Marketing</th>
+			<th style="padding: 12px; border: 1px solid #bdc3c7; background-color: #f8f9fa; font-weight: bold; color: #2c3e50; text-align: left; font-size: 13px;">Mercado objetivo</th>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Empresas ferreteras y pymes con maquinaria pesada.</td>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Grandes empresas logísticas y transporte.</td>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Corporaciones con grandes flotas vehiculares.</td>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Empresas de construcción y minería.</td>
+		</tr>
+		<tr style="background-color: #fff;">
+			<th style="padding: 12px; border: 1px solid #bdc3c7; background-color: #f8f9fa; font-weight: bold; color: #2c3e50; text-align: left; font-size: 13px;">Estrategias</th>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Adopción open source, bajo costo e implementación flexible.</td>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Modelo SaaS corporativo con ventas B2B.</td>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Alianzas estratégicas y partners certificados.</td>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Marketing sectorial especializado.</td>
+		</tr>
+		<tr style="background-color: #fff;">
+			<th rowspan="3" style="padding: 12px; border: 1px solid #bdc3c7; background-color: #f0e8f8; font-weight: bold; color: #2c3e50; vertical-align: top;">Perfil de Producto</th>
+			<th style="padding: 12px; border: 1px solid #bdc3c7; background-color: #f8f9fa; font-weight: bold; color: #2c3e50; text-align: left; font-size: 13px;">Productos & Servicios</th>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Sensores IoT, monitoreo GPS, alertas de combustible, dashboard web.</td>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Tracking vehicular, cámaras, seguridad y analítica AI.</td>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Gestión de flotas, mantenimiento predictivo y telemetría.</td>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Seguimiento de activos, mantenimiento y localización de maquinaria.</td>
+		</tr>
+		<tr style="background-color: #fff;">
+			<th style="padding: 12px; border: 1px solid #bdc3c7; background-color: #f8f9fa; font-weight: bold; color: #2c3e50; text-align: left; font-size: 13px;">Precios & Costos</th>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Bajo costo.</td>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Alto costo por suscripción mensual.</td>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Costos medios-altos + hardware certificado.</td>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Costos medios con licencias propietarias.</td>
+		</tr>
+		<tr style="background-color: #fff;">
+			<th style="padding: 12px; border: 1px solid #bdc3c7; background-color: #f8f9fa; font-weight: bold; color: #2c3e50; text-align: left; font-size: 13px;">Canales de distribución</th>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Plataforma web open source + despliegue propio.</td>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Web + apps móviles propietarias.</td>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Web + apps móviles oficiales.</td>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Web + app móvil empresarial.</td>
+		</tr>
+		<tr style="background-color: #fff;">
+			<th rowspan="4" style="padding: 12px; border: 1px solid #bdc3c7; background-color: #f8e8e8; font-weight: bold; color: #2c3e50; vertical-align: top;">Análisis SWOT</th>
+			<th style="padding: 12px; border: 1px solid #bdc3c7; background-color: #f8f9fa; font-weight: bold; color: #27ae60; text-align: left; font-size: 13px;">Fortalezas</th>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Open source, económico, adaptable, enfoque en robo de combustible.</td>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Escalabilidad global y analítica avanzada.</td>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Alta confiabilidad y experiencia en el mercado.</td>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Especialización en maquinaria pesada.</td>
+		</tr>
+		<tr style="background-color: #fff;">
+			<th style="padding: 12px; border: 1px solid #bdc3c7; background-color: #f8f9fa; font-weight: bold; color: #e74c3c; text-align: left; font-size: 13px;">Debilidades</th>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Menor madurez tecnológica y ecosistema reducido.</td>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Alto costo y dependencia del proveedor.</td>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Complejidad de implementación.</td>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Menor flexibilidad tecnológica.</td>
+		</tr>
+		<tr style="background-color: #fff;">
+			<th style="padding: 12px; border: 1px solid #bdc3c7; background-color: #f8f9fa; font-weight: bold; color: #f39c12; text-align: left; font-size: 13px;">Oportunidades</th>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Digitalización de pymes industriales y mercados emergentes.</td>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Expansión hacia IoT industrial.</td>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Integración con smart cities y AI.</td>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Crecimiento del sector construcción.</td>
+		</tr>
+		<tr style="background-color: #fff;">
+			<th style="padding: 12px; border: 1px solid #bdc3c7; background-color: #f8f9fa; font-weight: bold; color: #c0392b; text-align: left; font-size: 13px;">Amenazas</th>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Entrada de grandes empresas al segmento low-cost.</td>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Competidores open source emergentes.</td>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Nuevas startups IoT flexibles.</td>
+			<td style="padding: 12px; border: 1px solid #bdc3c7; color: #2c3e50; font-size: 13px;">Plataformas SaaS más completas.</td>
+		</tr>
+	</tbody>
+</table>
+
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
 ---
