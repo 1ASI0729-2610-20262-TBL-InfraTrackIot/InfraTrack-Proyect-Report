@@ -35,8 +35,16 @@
 			<td style="text-align:center; padding:8px;">U202319440</td>
 		</tr>
 		<tr>
-			<td style="text-align:center; padding:8px;">Mansilla Rivero, Carlos Marcelo</td>
-			<td style="text-align:center; padding:8px;">U20214510</td>
+			<td style="text-align:center; padding:8px;">Morales Yapuchura, Jefferson Bayron</td>
+			<td style="text-align:center; padding:8px;">U202316049</td>
+		</tr>
+		<tr>
+			<td style="text-align:center; padding:8px;">Calixto Iriarte, David Alejandro</td>
+			<td style="text-align:center; padding:8px;">U20201B441</td>
+		</tr>
+		<tr>
+			<td style="text-align:center; padding:8px;">Ramos Aguirre, Aldair Joaquin</td>
+			<td style="text-align:center; padding:8px;">U20201F051</td>
 		</tr>
 	</table>
 </div>
