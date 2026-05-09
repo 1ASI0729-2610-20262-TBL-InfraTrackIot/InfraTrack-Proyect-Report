@@ -348,7 +348,13 @@ El entrevistado resaltó la necesidad de implementar una solución tecnológica 
 
 ### 2.3.4. Empathy Mapping
 
----
+#### Segmento 1(Roberto Mendoza):
+
+<img src="../assets/Empathymap1.png" alt="Seg1" style="max-width: 90%; display: block; margin: 0 auto;"/>
+
+#### Segmento 2(Carlos Vizcarra):
+
+<img src="../assets/Empathymap2.png" alt="Seg1" style="max-width: 90%; display: block; margin: 0 auto;"/>
 
 ## 2.4. Big Picture EventStorming
 
