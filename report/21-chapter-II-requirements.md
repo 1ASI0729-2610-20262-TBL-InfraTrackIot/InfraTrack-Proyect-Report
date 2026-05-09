@@ -200,6 +200,8 @@ Para obtener información correspondiente con respecto a las necesidades que req
 ### 2.2.2. Registro de entrevistas
 # Entrevista 1
 
+<img src="../assets/entrevista1.png" alt="Entrevista nro 1" style="max-width: 90%; display: block; margin: 0 auto;"/>
+
 ## Datos del entrevistado
 - **Nombre completo:** Rogelio Guerra  
 - **Edad:** 53 años  
@@ -285,6 +287,8 @@ Se trata de un perfil:
 ---
 
 # Entrevista 2
+
+<img src="../assets/entrevista2.png" alt="Entrevista nro 2" style="max-width: 90%; display: block; margin: 0 auto;"/>
 
 ## Datos del entrevistado
 - **Nombre completo:** Carolina Valos  
