@@ -340,7 +340,11 @@ El entrevistado resaltó la necesidad de implementar una solución tecnológica 
 
 ### 2.3.3. User Journey Mapping
 
+# Segmento 1:
+<img src="../assets/UJM_Seemento1.png" alt="Seg1" style="max-width: 90%; display: block; margin: 0 auto;"/>
 
+# Segmento 2:
+<img src="../assets/UJM_Segmento2.png" alt="Seg2" style="max-width: 90%; display: block; margin: 0 auto;"/>
 
 ### 2.3.4. Empathy Mapping
 
