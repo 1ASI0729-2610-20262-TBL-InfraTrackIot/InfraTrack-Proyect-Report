@@ -350,7 +350,7 @@ El entrevistado resaltó la necesidad de implementar una solución tecnológica 
 
 #### Segmento 1(Roberto Mendoza):
 
-<img src="../assets/Empathymap1.png" alt="Seg1" style="max-width: 90%; display: block; margin: 0 auto;"/>
+<img src="../assets/Empathymap1.png" alt="Seg1" style="max-width: 50%; display: block; margin: 0 auto;"/>
 
 #### Segmento 2(Carlos Vizcarra):
 
