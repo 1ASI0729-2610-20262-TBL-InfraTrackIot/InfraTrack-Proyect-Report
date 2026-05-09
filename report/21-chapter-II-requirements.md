@@ -213,76 +213,15 @@ Para obtener información correspondiente con respecto a las necesidades que req
 - **Timing de inicio:** 0:00  
 
 ## Resumen
-Rogelio Guerra es un empresario del rubro de ferretería y alquiler de maquinaria para obras, perteneciente a un nivel socioeconómico medio. Utiliza un dispositivo iPhone como herramienta principal de comunicación, lo que evidencia familiaridad con tecnología moderna, aunque su negocio aún no se encuentra completamente digitalizado.
+Rogelio Guerra es un empresario del rubro de ferretería y alquiler de maquinaria para obras, quien se identifica dentro de un nivel socioeconómico medio. Utiliza un dispositivo iPhone como herramienta principal de comunicación, lo que evidencia familiaridad con tecnología moderna, aunque su negocio aún no está completamente digitalizado.
+En cuanto a la operación de su empresa, identifica como principales costos la compra y reposición de productos, el mantenimiento y reparación de maquinaria, el consumo de combustible, los sueldos del personal y el alquiler del local. Estos factores impactan directamente en la rentabilidad del negocio, mostrando una estructura de costos tradicional y dependiente de activos físicos.
+Actualmente, su nivel de visibilidad sobre los activos (maquinaria, inventario y vehículos) es bajo, ya que la gestión se realiza de forma manual. Esto genera dependencia en la confianza hacia operarios y clientes, lo cual incrementa el riesgo operativo. Para el monitoreo, utiliza herramientas básicas como un sistema TOS para ventas, además de WhatsApp y llamadas telefónicas para la comunicación y seguimiento logístico, reflejando un ecosistema tecnológico fragmentado.
+El entrevistado reconoce la existencia de pérdidas ocasionadas por ineficiencias, mal uso de recursos, fallas técnicas o comportamientos inadecuados del personal. Aunque no ocurren constantemente, sí representan un problema relevante. En este contexto, destaca la importancia crítica de contar con datos en tiempo real para mejorar la toma de decisiones, optimizar la programación y garantizar el cumplimiento con los clientes.
+Entre los indicadores clave que utiliza, resalta las ventas diarias, ya que le permiten gestionar mejor la rotación de productos y mantener márgenes adecuados. También considera relevante el control del uso de maquinaria debido a los costos asociados a su mantenimiento.
+Respecto a los desafíos, menciona la falta de conocimiento sobre la ubicación exacta de los activos, el limitado control sobre inventarios, la dificultad para programar mantenimientos y la dependencia de reportes externos para detectar fallas. Asimismo, señala problemas en la coordinación manual de entregas y recojos, lo que genera ineficiencias.
+Rogelio muestra una actitud abierta hacia la adopción de tecnología, siempre que esta sea amigable, confiable y orientada a soluciones concretas. Valora especialmente funcionalidades como geolocalización (GPS), monitoreo del uso de maquinaria, gestión de mantenimiento y reportes simples de ingresos y operaciones. Percibe que una solución tecnológica podría reducir costos, optimizar el tiempo, evitar robos, mejorar la utilización de activos y elevar la calidad del servicio al cliente.
+En términos de comportamiento, se trata de un perfil práctico, orientado a resultados y con alta dependencia en la experiencia operativa. Sus decisiones están influenciadas por la necesidad de control, eficiencia y rentabilidad. Prefiere herramientas simples, accesibles y que no generen complejidad adicional en su trabajo diario.
 
-Dentro de la operación de su empresa, identifica como principales costos:
-- Compra y reposición de productos
-- Mantenimiento y reparación de maquinaria
-- Consumo de combustible
-- Sueldos del personal
-- Alquiler del local
-
-Estos factores impactan directamente en la rentabilidad del negocio, mostrando una estructura de costos tradicional y dependiente de activos físicos.
-
-Actualmente, el nivel de visibilidad sobre sus activos (maquinaria, inventario y vehículos) es bajo debido a que la gestión se realiza de forma manual. Esto genera una alta dependencia de la confianza hacia operarios y clientes, aumentando el riesgo operativo.
-
-Para el monitoreo y control utiliza herramientas básicas como:
-- Sistema TOS para ventas
-- WhatsApp
-- Llamadas telefónicas
-
-Esto refleja un ecosistema tecnológico fragmentado.
-
-El entrevistado reconoce la existencia de pérdidas ocasionadas por:
-- Ineficiencias operativas
-- Mal uso de recursos
-- Fallas técnicas
-- Comportamientos inadecuados del personal
-
-Aunque estas situaciones no ocurren constantemente, representan un problema relevante para el negocio.
-
-Rogelio considera fundamental contar con datos en tiempo real para:
-- Mejorar la toma de decisiones
-- Optimizar la programación
-- Garantizar el cumplimiento con los clientes
-
-### Indicadores clave utilizados
-- Ventas diarias
-- Control del uso de maquinaria
-- Costos de mantenimiento
-
-### Principales desafíos
-- Falta de conocimiento sobre la ubicación exacta de los activos
-- Escaso control de inventarios
-- Dificultad para programar mantenimientos
-- Dependencia de reportes externos para detectar fallas
-- Coordinación manual de entregas y recojos
-
-### Necesidades tecnológicas valoradas
-- Geolocalización (GPS)
-- Monitoreo del uso de maquinaria
-- Gestión de mantenimiento
-- Reportes simples de ingresos y operaciones
-
-Rogelio muestra apertura hacia la adopción de tecnología siempre que sea:
-- Amigable
-- Confiable
-- Fácil de usar
-- Orientada a resolver problemas concretos
-
-Percibe que una solución tecnológica podría:
-- Reducir costos
-- Optimizar tiempos
-- Evitar robos
-- Mejorar el uso de activos
-- Incrementar la calidad del servicio al cliente
-
-### Perfil conductual
-Se trata de un perfil:
-- Práctico
-- Orientado a resultados
-- Basado en experiencia operativa
-- Enfocado en control, eficiencia y rentabilidad
 
 ---
 
@@ -301,56 +240,12 @@ Se trata de un perfil:
 - **Timing de inicio:** 0:00  
 
 ## Resumen
-Carolina Valos trabaja en la administración de flotas de maquinaria pesada y pertenece a un nivel socioeconómico medio (clase C). Utiliza un smartphone Honor X8, reflejando un uso funcional de la tecnología en su entorno laboral.
-
-Actualmente, la gestión de operaciones logísticas se realiza mediante herramientas no integradas:
-- GPS en algunos vehículos
-- Excel para reportes
-- WhatsApp para comunicación con conductores
-
-Esta fragmentación genera poca centralización de la información, dificultando la toma de decisiones oportunas y obligando a validar datos manualmente.
-
-### Problemas identificados
-- Falta de visibilidad en tiempo real
-- Desviaciones de ruta
-- Retrasos
-- Usos no autorizados de vehículos
-- Detección tardía de incidencias mediante reportes históricos
-
-Además, el control de combustible depende de comprobantes entregados por conductores, lo que limita la detección temprana de irregularidades.
-
-Carolina dedica aproximadamente entre 2 y 3 horas diarias a recopilar y analizar información operativa, evidenciando:
-- Alta carga operativa
-- Procesos poco eficientes
-
-Considera muy importante contar con:
-- Alertas automáticas
-- Monitoreo en tiempo real
-- Automatización de reportes
-
-### Funcionalidades más valoradas
-- Monitoreo en tiempo real
-- Historial de rutas
-- Alertas automáticas
-- Control de combustible
-- Mantenimiento preventivo
-- Reportes automatizados
-
-Todo ello dentro de una plataforma:
-- Simple
-- Intuitiva
-- Accesible desde dispositivos móviles
-
-### Perfil conductual
-Carolina presenta un perfil:
-- Analítico
-- Operativo
-- Orientado a eficiencia
-- Enfocado en control y mejora continua
-
-También demuestra alta apertura hacia nuevas tecnologías, siempre que:
-- Sean fáciles de usar
-- Simplifiquen realmente su trabajo
+Carolina Valos trabaja en la administración de flotas de maquinaria pesada y pertenece a un nivel socioeconómico medio (clase C). Utiliza un smartphone Honor X8, lo que refleja un uso funcional de la tecnología en su día a día laboral.
+Actualmente, la gestión de operaciones logísticas se realiza mediante herramientas no integradas: GPS en algunos vehículos, Excel para reportes y WhatsApp para la comunicación con conductores. Esta fragmentación genera una baja centralización de la información, lo que dificulta la toma de decisiones oportunas y obliga a validar datos manualmente.
+Uno de los principales problemas que enfrenta es la falta de visibilidad en tiempo real. Las desviaciones de ruta, retrasos y usos no autorizados ocurren varias veces al mes, y muchas veces se detectan de forma tardía mediante reportes históricos. Asimismo, el control de combustible se basa en comprobantes entregados por conductores, lo que limita la detección temprana de irregularidades.
+Carolina dedica entre 2 a 3 horas diarias a la recopilación y análisis de información operativa, evidenciando una carga operativa alta y procesos poco eficientes. En este contexto, considera muy valioso contar con alertas automáticas que permitan reaccionar rápidamente ante incidencias y prevenir impactos en el servicio al cliente.
+Entre las funcionalidades más importantes que valora en una solución tecnológica destacan: monitoreo en tiempo real, historial de rutas, alertas automáticas, control de combustible, mantenimiento preventivo y reportes automatizados, todo dentro de una plataforma simple e intuitiva accesible desde el celular.
+En términos de comportamiento, muestra una alta apertura hacia nuevas tecnologías, siempre que sean fáciles de usar y realmente simplifiquen su trabajo. Su perfil es analítico y operativo, enfocado en eficiencia, control y mejora continua de los procesos logísticos.
 
 ### 2.2.3. Análisis de entrevistas
 
