@@ -425,8 +425,8 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
       <td style="border: 1px solid black; padding: 12px;"></td>
     </tr>
    <tr>
-      <td style="border: 1px solid black; padding: 12px;">HU-19</td>
-      <td style="border: 1px solid black; padding: 12px;">Configurar umbrales</td>
+      <td style="border: 1px solid black; padding: 12px;">HU-12</td>
+      <td style="border: 1px solid black; padding: 12px;">Historial de mantenimiento</td>
       <td style="border: 1px solid black; padding: 12px;"></td>
       <td style="border: 1px solid black; padding: 12px;"></td>
       <td style="border: 1px solid black; padding: 12px;"></td>
@@ -437,6 +437,16 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
    <tr>
       <td style="border: 1px solid black; padding: 12px;">HU-29</td>
       <td style="border: 1px solid black; padding: 12px;">Perfil de Operador</td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+    </tr>
+   <tr>
+      <td style="border: 1px solid black; padding: 12px;">HU-22</td>
+      <td style="border: 1px solid black; padding: 12px;">Configurar horario de operación</td>
       <td style="border: 1px solid black; padding: 12px;"></td>
       <td style="border: 1px solid black; padding: 12px;"></td>
       <td style="border: 1px solid black; padding: 12px;"></td>
