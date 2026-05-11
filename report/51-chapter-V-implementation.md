@@ -327,9 +327,9 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
 | :--- | :--- |
 | Sprint Planning Background | |
 | Date | 2025-05-02 |
-| Time | 10:00 AM |
+| Time | 10:10 AM |
 | Location | Universidad Peruana de Ciencias Aplicadas(Campus San Isidro), Reunión física |
-| Prepared By | Jefferson Morales |
+| Prepared By | David Calixto |
 | Attendees (to planning meeting) | Jefferson Morales / Carlos Mansilla / Dhilsen Malqui / David Calixto / Aldair Ramos |
 | Sprint Goal & User Stories | |
 | Sprint 2 Goal | Nuestro enfoque está en optimizar aspectos del proyecto referente a la experiencia de usuario y validar el interés real de los potenciales clientes mediante mejoras en la landing page y la incorporación de mecanismos de interacción. Creemos que esto permitirá aumentar el nivel de participación y obtener retroalimentación más precisa sobre nuestra propuesta de valor. Esto se confirmará cuando observemos un incremento en métricas como tiempo de permanencia, cantidad de clics en llamados a la acción, registros, formularios completados o comentarios positivos de usuarios.|
