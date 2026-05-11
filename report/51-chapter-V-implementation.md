@@ -5,6 +5,13 @@
 ### 5.1.1. Software Development Environment Configuration
 
 ### 5.1.2. Source Code Management
+Todo el desarrollo se centralizó en un repositorio de GitHub para facilitar la gestión y organización de los cambios. La estructura se definió así:
+#### Organización
+- **Repositorio en Github**: https://github.com/1ASI0729-2610-20262-TBL-InfraTrackIot
+- **Landing Page**: https://infratrack-iot-inky.vercel.app/
+#### Ramas principales
+- **Rama main**: <br>Contiene la versión estable del proyecto, lista para ser puesta en producción.</br>
+- **Rama develop**: <br>Contiene la documentación general del proyecto.</br>
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
