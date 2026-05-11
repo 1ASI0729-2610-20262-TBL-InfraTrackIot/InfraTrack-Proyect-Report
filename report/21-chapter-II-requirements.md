@@ -357,6 +357,8 @@ El entrevistado resaltó la necesidad de implementar una solución tecnológica 
 <img src="../assets/Empathymap2.png" alt="Seg1" style="max-width: 90%; display: block; margin: 0 auto;"/>
 
 ## 2.4. Big Picture EventStorming
+<img src="../assets/Event storming.png" alt="BigPicture EventStorming" style="max-width: 90%; display: block; margin: 0 auto;"/>
+
 
 ## 2.5. Ubiquitous Language
 
