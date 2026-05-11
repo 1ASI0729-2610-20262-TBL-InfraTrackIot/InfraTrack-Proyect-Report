@@ -83,55 +83,63 @@
 
 ## 3.3. Product Backlog
 
-| # Orden | User Story ID | Título | Descripción | Prioridad | Story Points |
-| :---: | :--- | :--- | :--- | :--- | :---: |
-| 1 | HU-01 | Ver nivel de combustible | Monitoreo en tiempo real. | Alta | 5 |
-| 2 | HU-02 | Detectar robo de combustible | Alertas ante caídas bruscas. | Alta | 8 |
-| 3 | HU-03 | Historial de consumo | Consulta de datos históricos en tablas y gráficas simples. | Media | 5 |
-| 4 | HU-04 | Reportes de consumo | Generación de reportes específicos por rango de fechas. | Baja | 5 |
-| 5 | HU-05 | Exportar (Excel/PDF) | Función técnica para descarga de documentos. | Baja | 3 |
-| 6 | HU-06 | Visualizar ubicación GPS | Renderizado de la posición en tiempo real sobre el mapa. | Alta | 5 |
-| 7 | HU-07 | Historial de rutas | Trazado de recorridos pasados en el mapa. | Media | 5 |
-| 8 | HU-08 | Geocercas de Seguridad | Definición de polígonos en el mapa para control perimetral. | Media | 8 |
-| 9 | HU-09 | Última ubicación conocida | Lógica para mostrar el último punto antes del "offline". | Baja | 3 |
-| 10 | HU-10 | Registrar horas de motor | Cálculo automático basado en el estado del motor (encendido). | Media | 3 |
-| 11 | HU-11 | Alertas de mantenimiento | Notificación cuando se cumplen las horas de uso definidas. | Media | 5 |
-| 12 | HU-12 | Historial mantenimiento | Registro manual de servicios realizados a la máquina. | Baja | 2 |
-| 13 | HU-13 | Detectar ralentí excesivo | Algoritmo para detectar motor encendido sin movimiento. | Media | 5 |
-| 14 | HU-14 | Dashboard general | Vista principal con KPIs consolidados para toma de decisiones. | Alta | 8 |
-| 15 | HU-15 | Filtrar información | Filtros avanzados por fecha, tipo y estado en tablas. | Baja | 3 |
-| 16 | HU-16 | Comparativa de Flota | Gráfica de barras/líneas comparando eficiencia de unidades. | Media | 5 |
-| 17 | HU-17 | Dashboard Sostenibilidad | Cálculo de huella de carbono basado en consumo. | Baja | 5 |
-| 18 | HU-18 | Notificaciones en tiempo real | Sistema de alertas push/web ante eventos críticos. | Alta | 5 |
-| 19 | HU-19 | Configurar umbrales | Interfaz para que el usuario defina sus propios límites de alerta. | Media | 3 |
-| 20 | HU-20 | Historial de alertas | Log consultable de todas las notificaciones enviadas. | Baja | 3 |
-| 21 | HU-21 | Notificación por email | Envío de alertas críticas a la bandeja de entrada. | Baja | 3 |
-| 22 | HU-22 | Horario laboral | Configuración de alertas por uso de maquinaria fuera de jornada. | Baja | 3 |
-| 23 | HU-23 | Registrar maquinaria | CRUD base para poder asignar sensores a unidades físicas. | Alta | 3 |
-| 24 | HU-24 | Editar unidad | Actualización de datos técnicos de la maquinaria. | Baja | 2 |
-| 25 | HU-25 | Eliminar unidad | Borrado lógico de activos del sistema. | Baja | 2 |
-| 26 | HU-26 | Estado de conexión del Nodo | Monitorización de latidos (heartbeat) del hardware. | Media | 3 |
-| 27 | HU-27 | Vincular Nodo a Maquinaria | Asociación lógica entre el ID del hardware y el activo. | Alta | 3 |
-| 28 | HU-28 | Actualización masiva | Edición por lotes para ahorrar tiempo al administrador. | Baja | 5 |
-| 29 | HU-29 | Perfil de Operador | Asignación de conductores a unidades específicas. | Baja | 2 |
-| 30 | HU-30 | Registro de usuario | Formulario de auto-registro para nuevos clientes. | Baja | 2 |
-| 31 | HU-31 | Login | Acceso seguro para administradores y dueños de flota. | Baja | 3 |
-| 32 | HU-32 | Roles de usuario | Diferenciación entre Admin, Dueño y Operador. | Media | 5 |
-| 33 | HU-33 | Log de Auditoría | Registro de "quién hizo qué" para trazabilidad de errores. | Baja | 5 |
-| 34 | HU-34 | Recuperar Contraseña | Flujo de seguridad para reseteo de credenciales olvidadas. | Baja | 2 |
-| 35 | HU-35 | Propuesta de valor | Contenido informativo sobre los beneficios en la Landing Page. | Baja | 2 |
-| 36 | HU-36 | Formulario contacto | Captación de prospectos interesados desde el sitio público. | Baja | 2 |
-| 37 | HU-37 | Recepción de datos IoT | Implementación del backend para capturar tramas de sensores. | Muy Alta | 8 |
-| 38 | HU-38 | Acceso a la app | Enlace directo y fluido desde la Landing a la plataforma web. | Baja | 2 |
-| 39 | HU-39 | Consulta de datos API | Exposición de endpoints para integraciones externas. | Media | 5 |
-| 40 | HU-40 | Validación de datos | Limpieza de ruido y datos incoherentes de los sensores. | Alta | 5 |
-| 41 | HU-41 | Prioridad de alertas | Categorización visual por colores según la gravedad del evento. | Baja | 2 |
-| 42 | HU-42 | Tipo de combustible | Atributo técnico para mejorar la precisión del cálculo de costos. | Baja | 2 |
-| 43 | HU-43 | Galería de fotos | Almacenamiento de imágenes sobre el estado físico del activo. | Baja | 5 |
-| 44 | HU-44 | Cierre de sesión auto | Seguridad por inactividad de sesión en equipos compartidos. | Baja | 2 |
-| 45 | HU-45 | Verificación de correo | Validación de identidad mediante código o enlace de activación. | Baja | 3 |
-| 46 | HU-46 | Calibración de sensores | Ajuste fino de parámetros de hardware de forma remota. | Baja | 8 |
-| 47 | HU-47 | Modo Offline | Almacenamiento local (caché) para consultas en zonas sin señal. | Baja | 8 |
-| 48 | HU-48 | Dashboard de Hardware | Visualización del estado de batería y señal de los nodos. | Media | 5 |
-| 49 | HU-49 | Modo Oscuro / Claro | Personalización estética de la interfaz según el entorno. | Baja | 2 |
-| 50 | HU-50 | Selección de idioma | Traducción de la plataforma para personal extranjero (i18n). | Baja | 5 |
+### 3.3. Product Backlog.
+
+Se utilizó la escala Fibonacci para la estimación de los Story Points. En total se tuvieron 203 Story Points.
+
+### 3.3. Product Backlog.
+
+Se utilizó la escala Fibonacci para la estimación de los Story Points. En total se tuvieron 203 Story Points.
+
+| #Orden | Epic / Story ID | Título | Descripción | Story Points (1/2/3/5/8) |
+| :---: | :---: | :--- | :--- | :---: |
+| 1 | HU-01 | Ver nivel de combustible | Como administrador logístico, quiero visualizar el nivel de combustible en tiempo real para monitorear el consumo de cada unidad. | 5 |
+| 2 | HU-02 | Detectar robo de combustible | Como administrador logístico, quiero recibir alertas ante caídas bruscas de combustible para detectar posibles robos. | 8 |
+| 3 | HU-03 | Historial de consumo | Como administrador logístico, quiero consultar el historial de consumo para analizar patrones de uso. | 5 |
+| 4 | HU-04 | Reportes de consumo | Como dueño de una empresa, quiero generar reportes de consumo para evaluar los gastos operativos. | 5 |
+| 5 | HU-05 | Exportar (Excel/PDF) | Como administrador logístico, quiero exportar las tablas de datos para presentarlas en reuniones de gerencia. | 3 |
+| 6 | HU-06 | Visualizar ubicación GPS | Como administrador logístico, quiero visualizar la ubicación de las unidades en tiempo real para supervisar rutas. | 5 |
+| 7 | HU-07 | Historial de rutas | Como administrador logístico, quiero consultar el historial de rutas para auditorías operativas. | 5 |
+| 8 | HU-08 | Geocercas de Seguridad | Como administrador logístico, quiero definir zonas permitidas para las unidades para evitar usos no autorizados. | 8 |
+| 9 | HU-09 | Última ubicación conocida | Como administrador logístico, quiero ver el último punto registrado para labores de recuperación. | 3 |
+| 10 | HU-10 | Registrar horas de motor | Como sistema, quiero registrar automáticamente las horas de uso para controlar el mantenimiento. | 3 |
+| 11 | HU-11 | Alertas de mantenimiento | Como administrador logístico, quiero recibir alertas de mantenimiento preventivo para evitar fallas. | 5 |
+| 12 | HU-12 | Historial mantenimiento | Como administrador logístico, quiero registrar los servicios realizados para llevar control histórico. | 2 |
+| 13 | HU-13 | Detectar ralentí excesivo | Como administrador logístico, quiero identificar máquinas encendidas sin movimiento para reducir el desperdicio de combustible. | 5 |
+| 14 | HU-14 | Dashboard general | Como dueño de una empresa, quiero visualizar indicadores clave para tomar decisiones estratégicas. | 8 |
+| 15 | HU-15 | Filtrar información | Como administrador logístico, quiero aplicar filtros para analizar información específica. | 3 |
+| 16 | HU-16 | Comparativa de Flota | Como dueño de una empresa, quiero comparar el consumo entre unidades para identificar ineficiencias. | 5 |
+| 17 | HU-17 | Dashboard Sostenibilidad | Como dueño de una empresa, quiero ver la estimación de emisiones para cumplir estándares ambientales. | 5 |
+| 18 | HU-18 | Notificaciones en tiempo real | Como administrador logístico, quiero recibir notificaciones en tiempo real para reaccionar ante eventos críticos. | 5 |
+| 19 | HU-19 | Configurar umbrales | Como administrador logístico, quiero configurar umbrales personalizados para adaptar las alertas. | 3 |
+| 20 | HU-20 | Historial de alertas | Como administrador logístico, quiero revisar alertas pasadas para su análisis. | 3 |
+| 21 | HU-21 | Notificación por email | Como administrador logístico, quiero recibir alertas por email para estar enterado fuera de la plataforma. | 3 |
+| 22 | HU-22 | Horario laboral | Como administrador logístico, quiero definir el horario laboral para detectar usos fuera de jornada. | 3 |
+| 23 | HU-23 | Registrar maquinaria | Como administrador logístico, quiero registrar nuevas unidades para gestionarlas en el sistema. | 3 |
+| 24 | HU-24 | Editar unidad | Como administrador logístico, quiero modificar información para mantener datos actualizados. | 2 |
+| 25 | HU-25 | Eliminar unidad | Como administrador logístico, quiero eliminar unidades para depurar el sistema. | 2 |
+| 26 | HU-26 | Estado de conexión del Nodo | Como administrador logístico, quiero saber si un nodo está en línea para asegurar la recepción de datos. | 3 |
+| 27 | HU-27 | Vincular Nodo a Maquinaria | Como administrador logístico, quiero asociar un ID de hardware a una unidad para iniciar el monitoreo. | 3 |
+| 28 | HU-28 | Actualización masiva | Como administrador logístico, quiero editar varios estados a la vez para optimizar los tiempos de gestión. | 5 |
+| 29 | HU-29 | Perfil de Operador | Como administrador logístico, quiero registrar quién conduce cada unidad para asignar responsabilidades. | 2 |
+| 30 | HU-30 | Registro de usuario | Como usuario, quiero registrarme en la plataforma para acceder a las funcionalidades. | 2 |
+| 31 | HU-31 | Login | Como usuario, quiero iniciar sesión para acceder a mis funcionalidades. | 3 |
+| 32 | HU-32 | Roles de usuario | Como sistema, quiero asignar roles para controlar accesos. | 5 |
+| 33 | HU-33 | Log de Auditoría | Como administrador, quiero ver un registro de cambios para mantener la integridad de la información. | 5 |
+| 34 | HU-34 | Recuperar Contraseña | Como usuario, quiero restablecer mi contraseña para recuperar acceso en caso de olvido. | 2 |
+| 35 | HU-35 | Propuesta de valor | Como visitante, quiero conocer la propuesta del sistema para entender sus beneficios. | 2 |
+| 36 | HU-36 | Formulario contacto | Como visitante, quiero enviar mis datos para obtener información. | 2 |
+| 37 | HU-37 | Recepción de datos IoT | Como desarrollador, quiero recibir datos de sensores para almacenarlos en el sistema. | 8 |
+| 38 | HU-38 | Acceso a la app | Como visitante, quiero acceder a la plataforma para comenzar a usar el sistema. | 2 |
+| 39 | HU-39 | Consulta de datos API | Como desarrollador, quiero exponer datos para integraciones externas. | 5 |
+| 40 | HU-40 | Validación de datos | Como sistema, quiero validar la coherencia de los datos para evitar errores en los reportes. | 5 |
+| 41 | HU-41 | Prioridad de alertas | Como administrador logístico, quiero clasificar alertas por severidad para atender primero las críticas. | 2 |
+| 42 | HU-42 | Tipo de combustible | Como administrador logístico, quiero especificar el tipo de combustible para calcular costos precisos. | 2 |
+| 43 | HU-43 | Galería de fotos | Como administrador logístico, quiero subir fotos de la maquinaria para tener un registro visual de su estado. | 5 |
+| 44 | HU-44 | Cierre de sesión auto | Como sistema, quiero cerrar la sesión por inactividad para proteger la información en equipos compartidos. | 2 |
+| 45 | HU-45 | Verificación de correo | Como sistema, quiero validar el email del nuevo usuario para evitar registros de cuentas falsas. | 3 |
+| 46 | HU-46 | Calibración de sensores | Como técnico, quiero ajustar los parámetros desde la web para corregir desviaciones en la lectura del sensor. | 8 |
+| 47 | HU-47 | Modo Offline | Como administrador logístico, quiero ver los últimos datos cargados sin internet para consultas rápidas en zonas sin señal. | 8 |
+| 48 | HU-48 | Dashboard de Hardware | Como desarrollador, quiero monitorear el voltaje de los nodos IoT para prevenir apagones de los sensores. | 5 |
+| 49 | HU-49 | Modo Oscuro / Claro | Como usuario, quiero cambiar el tema visual para mejorar la visibilidad según la iluminación del entorno. | 2 |
+| 50 | HU-50 | Selección de idioma | Como usuario, quiero cambiar el idioma de la interfaz para facilitar el uso a personal extranjero. | 5 |
