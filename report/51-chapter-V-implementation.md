@@ -168,7 +168,13 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
 | Sprint 1 Velocity | 7 |
 | Sum of Story Points | 45 |
 #### 5.2.1.2. Aspect Leaders and Collaborators
-
+| Team Member (Last Name, First Name) | GitHub Username | UI/UX Design (L/C) | Frontend Development (L/C) | Quality Control (L/C) | Documentation (L/C) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Jefferson Morales | Fenfito | L | C | C | C |
+| Carlos Mansilla | c3sv | C | C | C | L |
+| Dhilsen Malqui | Dhilsen18 | C | L | C | C |
+| David Calixto | DavidCalixto99 | C | C | C | C |
+| Aldair Ramos | AldairRamos13 | C | C | L | C |
 #### 5.2.1.3. Sprint Backlog 1
 
 #### 5.2.1.4. Development Evidence for Sprint Review
