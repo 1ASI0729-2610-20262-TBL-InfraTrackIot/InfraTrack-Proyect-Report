@@ -177,6 +177,137 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
 | Aldair Ramos | AldairRamos13 | C | C | L | C |
 #### 5.2.1.3. Sprint Backlog 1
 
+**Objetivo:** Crear y poner en producción una landing page operativa que satisfaga todas las historias de usuario definidas, sirviendo como el primer punto de contacto con los clientes y como vitrina para presentar el producto.
+
+**Alcance:**
+
+* Implementar barra de navegación responsive
+* Crear componentes de llamada a la acción (CTA)
+* Desarrollar sección de beneficios del servicio
+* Construir tarjetas interactivas de servicios
+* Implementar funcionalidad de preguntas frecuentes (FAQ)
+* Colocar los nuevos puntos a la documentación del trabajo
+
+**Duración:** 20 de Abril - 01 de Mayo 2025
+
+**Capacidad de equipo:** 120 horas totales - 5 integrantes
+
+**Requisitos técnicos:** Google Docs, GitHub, HTML, CSS, JS
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="1" style="text-align:left; border: 1px solid black; padding: 8px;">Sprint #</th>
+      <th colspan="7" style="text-align:left; border: 1px solid black; padding: 8px;">Sprint 1</th>
+    </tr>
+    <tr>
+      <th colspan="2" style="text-align:left; border: 1px solid black; padding: 8px;">User Story</th>
+      <th colspan="6" style="text-align:left; border: 1px solid black; padding: 8px;">Work-Item / Task</th>
+    </tr>
+    <tr>
+      <th style="border: 1px solid black; padding: 8px;">Id</th>
+      <th style="border: 1px solid black; padding: 8px;">Title</th>
+      <th style="border: 1px solid black; padding: 8px;">Id</th>
+      <th style="border: 1px solid black; padding: 8px;">Title</th>
+      <th style="border: 1px solid black; padding: 8px;">Description</th>
+      <th style="border: 1px solid black; padding: 8px;">Estimation (Hours)</th>
+      <th style="border: 1px solid black; padding: 8px;">Assigned To</th>
+      <th style="border: 1px solid black; padding: 8px;">Status (To-do / In-Process / To-Review / Done)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 12px;">HU-35</td>
+      <td style="border: 1px solid black; padding: 12px;">Propuesta de valor</td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 12px;">HU-36</td>
+      <td style="border: 1px solid black; padding: 12px;">Formulario contacto</td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 12px;">HU-37</td>
+      <td style="border: 1px solid black; padding: 12px;">Recepción de datos IoT</td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+    </tr>
+   <tr>
+      <td style="border: 1px solid black; padding: 12px;">HU-38</td>
+      <td style="border: 1px solid black; padding: 12px;">Acceso a la app</td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 12px;">HU-39</td>
+      <td style="border: 1px solid black; padding: 12px;">Consulta de datos API</td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 12px;">HU-40</td>
+      <td style="border: 1px solid black; padding: 12px;">Validación de datos</td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+    </tr>
+   <tr>
+      <td style="border: 1px solid black; padding: 12px;">HU-46</td>
+      <td style="border: 1px solid black; padding: 12px;">Calibración de sensores</td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 12px;">HU-47</td>
+      <td style="border: 1px solid black; padding: 12px;">Modo Offline</td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+    </tr>
+   <tr>
+      <td style="border: 1px solid black; padding: 12px;">HU-48</td>
+      <td style="border: 1px solid black; padding: 12px;">Dashboard de Hardware</td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+    </tr>
+  </tbody>
+</table>
 #### 5.2.1.4. Development Evidence for Sprint Review
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
