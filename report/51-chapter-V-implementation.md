@@ -385,8 +385,58 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
   </thead>
   <tbody>
     <tr>
-      <td style="border: 1px solid black; padding: 12px;">----</td>
-      <td style="border: 1px solid black; padding: 12px;">--------------</td>
+      <td style="border: 1px solid black; padding: 12px;">HU-23</td>
+      <td style="border: 1px solid black; padding: 12px;">Registrar maquinaria</td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+    </tr>
+   <tr>
+      <td style="border: 1px solid black; padding: 12px;">HU-11</td>
+      <td style="border: 1px solid black; padding: 12px;">Generar alertas de mantenimiento</td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 12px;">HU-19</td>
+      <td style="border: 1px solid black; padding: 12px;">Configurar umbrales</td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+    </tr>
+   <tr>
+      <td style="border: 1px solid black; padding: 12px;">HU-26</td>
+      <td style="border: 1px solid black; padding: 12px;">Estado de conexión del Nodo</td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+    </tr>
+   <tr>
+      <td style="border: 1px solid black; padding: 12px;">HU-19</td>
+      <td style="border: 1px solid black; padding: 12px;">Configurar umbrales</td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+    </tr>
+   <tr>
+      <td style="border: 1px solid black; padding: 12px;">HU-29</td>
+      <td style="border: 1px solid black; padding: 12px;">Perfil de Operador</td>
       <td style="border: 1px solid black; padding: 12px;"></td>
       <td style="border: 1px solid black; padding: 12px;"></td>
       <td style="border: 1px solid black; padding: 12px;"></td>
