@@ -155,7 +155,18 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
 ### 5.2.1. Sprint 1
 
 #### 5.2.1.1. Sprint Planning 1
-
+| Sprint # | Sprint 1 |
+| :--- | :--- |
+| Sprint Planning Background | |
+| Date | 2025-04-20 |
+| Time | 10:30 AM |
+| Location | Universidad Peruana de Ciencias Aplicadas(Campus San Isidro), Reunión física |
+| Prepared By | Jefferson Morales |
+| Attendees (to planning meeting) | Jefferson Morales / Carlos Mansilla / Dhilsen Malqui / David Calixto / Aldair Ramos |
+| Sprint Goal & User Stories | |
+| Sprint 1 Goal | Nuestro enfoque está en desarrollar y desplegar una landing page funcional que presente eficazmente nuestro producto. Creemos que esto genera una primera interacción positiva y clara con potenciales clientes, facilitando su comprensión y conexión inicial con la propuesta de valor. Esto se confirmará cuando recibamos las primeras visitas y observemos señales básicas de interés, como clics en elementos clave, navegación dentro de la página y comentarios iniciales de usuarios o colegas. |
+| Sprint 1 Velocity | 7 |
+| Sum of Story Points | 45 |
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
 #### 5.2.1.3. Sprint Backlog 1
