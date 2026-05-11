@@ -158,7 +158,7 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
 | Sprint # | Sprint 1 |
 | :--- | :--- |
 | Sprint Planning Background | |
-| Date | 2025-04-20 |
+| Date | 2026-04-20 |
 | Time | 10:30 AM |
 | Location | Universidad Peruana de Ciencias Aplicadas(Campus San Isidro), Reunión física |
 | Prepared By | Jefferson Morales |
@@ -188,7 +188,7 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
 * Implementar funcionalidad de preguntas frecuentes (FAQ)
 * Colocar los nuevos puntos a la documentación del trabajo
 
-**Duración:** 20 de Abril - 01 de Mayo 2025
+**Duración:** 20 de Abril - 01 de Mayo 2026
 
 **Capacidad de equipo:** 120 horas totales - 5 integrantes
 
@@ -320,6 +320,93 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
 
 ---
 
+### 5.2.2. Sprint 2
+
+#### 5.2.2.1. Sprint Planning 2
+| Sprint # | Sprint 2 |
+| :--- | :--- |
+| Sprint Planning Background | |
+| Date | 2025-05-02 |
+| Time | 10:00 AM |
+| Location | Universidad Peruana de Ciencias Aplicadas(Campus San Isidro), Reunión física |
+| Prepared By | Jefferson Morales |
+| Attendees (to planning meeting) | Jefferson Morales / Carlos Mansilla / Dhilsen Malqui / David Calixto / Aldair Ramos |
+| Sprint Goal & User Stories | |
+| Sprint 2 Goal | Nuestro enfoque está en optimizar aspectos del proyecto referente a la experiencia de usuario y validar el interés real de los potenciales clientes mediante mejoras en la landing page y la incorporación de mecanismos de interacción. Creemos que esto permitirá aumentar el nivel de participación y obtener retroalimentación más precisa sobre nuestra propuesta de valor. Esto se confirmará cuando observemos un incremento en métricas como tiempo de permanencia, cantidad de clics en llamados a la acción, registros, formularios completados o comentarios positivos de usuarios.|
+| Sprint 2 Velocity | 7 |
+| Sum of Story Points | 0 |
+#### 5.2.2.2. Aspect Leaders and Collaborators
+| Team Member (Last Name, First Name) | GitHub Username | UI/UX Design (L/C) | Landing Page Development (L/C) | Quality Control (L/C) | Documentation (L/C) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Jefferson Morales | Fenfito | L | C | C | C |
+| Carlos Mansilla | c3sv | C | C | C | L |
+| Dhilsen Malqui | Dhilsen18 | C | L | C | C |
+| David Calixto | DavidCalixto99 | C | C | C | C |
+| Aldair Ramos | AldairRamos13 | C | C | L | C |
+#### 5.2.2.3. Sprint Backlog 2
+
+**Objetivo:** Mejorar la interacción y validación de la landing page mediante nuevas funcionalidades y optimizaciones visuales, permitiendo recopilar retroalimentación y medir el interés de los usuarios a través de registros, clics y navegación dentro de la plataforma..
+
+**Alcance:**
+
+* ...
+* ...
+* ...
+* ...
+* ...
+* ...
+
+**Duración:** 2 de Mayo - 12 de Mayo 2026
+
+**Capacidad de equipo:** 140 horas totales - 5 integrantes
+
+**Requisitos técnicos:** Google Docs, GitHub, HTML, CSS, JS
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="1" style="text-align:left; border: 1px solid black; padding: 8px;">Sprint #</th>
+      <th colspan="7" style="text-align:left; border: 1px solid black; padding: 8px;">Sprint 2</th>
+    </tr>
+    <tr>
+      <th colspan="2" style="text-align:left; border: 1px solid black; padding: 8px;">User Story</th>
+      <th colspan="6" style="text-align:left; border: 1px solid black; padding: 8px;">Work-Item / Task</th>
+    </tr>
+    <tr>
+      <th style="border: 1px solid black; padding: 8px;">Id</th>
+      <th style="border: 1px solid black; padding: 8px;">Title</th>
+      <th style="border: 1px solid black; padding: 8px;">Id</th>
+      <th style="border: 1px solid black; padding: 8px;">Title</th>
+      <th style="border: 1px solid black; padding: 8px;">Description</th>
+      <th style="border: 1px solid black; padding: 8px;">Estimation (Hours)</th>
+      <th style="border: 1px solid black; padding: 8px;">Assigned To</th>
+      <th style="border: 1px solid black; padding: 8px;">Status (To-do / In-Process / To-Review / Done)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 12px;">----</td>
+      <td style="border: 1px solid black; padding: 12px;">--------------</td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;"></td>
+    </tr>
+  </tbody>
+</table>
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+---
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas
