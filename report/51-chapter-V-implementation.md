@@ -219,9 +219,9 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
     <tr>
       <td style="border: 1px solid black; padding: 12px;">HU-35</td>
       <td style="border: 1px solid black; padding: 12px;">Propuesta de valor</td>
-      <td style="border: 1px solid black; padding: 12px;"></td>
-      <td style="border: 1px solid black; padding: 12px;"></td>
-      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;">EP-08</td>
+      <td style="border: 1px solid black; padding: 12px;">Diseñar sección informativa del producto en la landing page.</td>
+      <td style="border: 1px solid black; padding: 12px;">Crear una sección visual e informativa dentro de la landing page que explique los beneficios, funcionalidades y propuesta de valor del sistema.</td>
       <td style="border: 1px solid black; padding: 12px;"></td>
       <td style="border: 1px solid black; padding: 12px;"></td>
       <td style="border: 1px solid black; padding: 12px;"></td>
@@ -229,9 +229,9 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
     <tr>
       <td style="border: 1px solid black; padding: 12px;">HU-36</td>
       <td style="border: 1px solid black; padding: 12px;">Formulario contacto</td>
-      <td style="border: 1px solid black; padding: 12px;"></td>
-      <td style="border: 1px solid black; padding: 12px;"></td>
-      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;">EP-08</td>
+      <td style="border: 1px solid black; padding: 12px;">Implementar formulario de contacto</td>
+      <td style="border: 1px solid black; padding: 12px;">Desarrollar un formulario interactivo que permita a los visitantes enviar consultas, solicitudes de información o solicitudes de demostración.</td>
       <td style="border: 1px solid black; padding: 12px;"></td>
       <td style="border: 1px solid black; padding: 12px;"></td>
       <td style="border: 1px solid black; padding: 12px;"></td>
@@ -239,9 +239,9 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
     <tr>
       <td style="border: 1px solid black; padding: 12px;">HU-37</td>
       <td style="border: 1px solid black; padding: 12px;">Recepción de datos IoT</td>
-      <td style="border: 1px solid black; padding: 12px;"></td>
-      <td style="border: 1px solid black; padding: 12px;"></td>
-      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;">EP-08</td>
+      <td style="border: 1px solid black; padding: 12px;">Implementar recepción de telemetría</td>
+      <td style="border: 1px solid black; padding: 12px;">Crear endpoints y lógica backend para recibir, procesar y almacenar correctamente la información enviada por los sensores IoT.</td>
       <td style="border: 1px solid black; padding: 12px;"></td>
       <td style="border: 1px solid black; padding: 12px;"></td>
       <td style="border: 1px solid black; padding: 12px;"></td>
@@ -249,9 +249,9 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
    <tr>
       <td style="border: 1px solid black; padding: 12px;">HU-38</td>
       <td style="border: 1px solid black; padding: 12px;">Acceso a la app</td>
-      <td style="border: 1px solid black; padding: 12px;"></td>
-      <td style="border: 1px solid black; padding: 12px;"></td>
-      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;">EP-08</td>
+      <td style="border: 1px solid black; padding: 12px;">Crear acceso directo a la plataforma</td>
+      <td style="border: 1px solid black; padding: 12px;">Implementar botones y accesos rápidos que permitan redirigir a los usuarios desde la landing page hacia la aplicación principal.</td>
       <td style="border: 1px solid black; padding: 12px;"></td>
       <td style="border: 1px solid black; padding: 12px;"></td>
       <td style="border: 1px solid black; padding: 12px;"></td>
@@ -259,9 +259,9 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
     <tr>
       <td style="border: 1px solid black; padding: 12px;">HU-39</td>
       <td style="border: 1px solid black; padding: 12px;">Consulta de datos API</td>
-      <td style="border: 1px solid black; padding: 12px;"></td>
-      <td style="border: 1px solid black; padding: 12px;"></td>
-      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;">EP-08</td>
+      <td style="border: 1px solid black; padding: 12px;">Implementar API de consulta</td>
+      <td style="border: 1px solid black; padding: 12px;">Desarrollar una API REST que permita consultar información del sistema y facilitar integraciones externas con otras plataformas.</td>
       <td style="border: 1px solid black; padding: 12px;"></td>
       <td style="border: 1px solid black; padding: 12px;"></td>
       <td style="border: 1px solid black; padding: 12px;"></td>
@@ -269,9 +269,9 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
     <tr>
       <td style="border: 1px solid black; padding: 12px;">HU-40</td>
       <td style="border: 1px solid black; padding: 12px;">Validación de datos</td>
-      <td style="border: 1px solid black; padding: 12px;"></td>
-      <td style="border: 1px solid black; padding: 12px;"></td>
-      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;">EP-08</td>
+      <td style="border: 1px solid black; padding: 12px;">Validar datos recibidos de sensores</td>
+      <td style="border: 1px solid black; padding: 12px;">Implementar validaciones automáticas para detectar datos inválidos, inconsistentes o fuera de rango enviados por sensores IoT.</td>
       <td style="border: 1px solid black; padding: 12px;"></td>
       <td style="border: 1px solid black; padding: 12px;"></td>
       <td style="border: 1px solid black; padding: 12px;"></td>
@@ -279,9 +279,9 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
    <tr>
       <td style="border: 1px solid black; padding: 12px;">HU-46</td>
       <td style="border: 1px solid black; padding: 12px;">Calibración de sensores</td>
-      <td style="border: 1px solid black; padding: 12px;"></td>
-      <td style="border: 1px solid black; padding: 12px;"></td>
-      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;">EP-08</td>
+      <td style="border: 1px solid black; padding: 12px;">Ajustar parámetros de sensores IoT</td>
+      <td style="border: 1px solid black; padding: 12px;">Implementar herramientas que permitan modificar parámetros y factores de corrección de sensores desde la plataforma web.</td>
       <td style="border: 1px solid black; padding: 12px;"></td>
       <td style="border: 1px solid black; padding: 12px;"></td>
       <td style="border: 1px solid black; padding: 12px;"></td>
@@ -289,9 +289,9 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
     <tr>
       <td style="border: 1px solid black; padding: 12px;">HU-47</td>
       <td style="border: 1px solid black; padding: 12px;">Modo Offline</td>
-      <td style="border: 1px solid black; padding: 12px;"></td>
-      <td style="border: 1px solid black; padding: 12px;"></td>
-      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;">EP-08</td>
+      <td style="border: 1px solid black; padding: 12px;">Implementar funcionamiento sin conexión</td>
+      <td style="border: 1px solid black; padding: 12px;">Desarrollar almacenamiento en caché para permitir la visualización de los últimos datos registrados aun cuando no exista conexión a internet.</td>
       <td style="border: 1px solid black; padding: 12px;"></td>
       <td style="border: 1px solid black; padding: 12px;"></td>
       <td style="border: 1px solid black; padding: 12px;"></td>
@@ -299,9 +299,9 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
    <tr>
       <td style="border: 1px solid black; padding: 12px;">HU-48</td>
       <td style="border: 1px solid black; padding: 12px;">Dashboard de Hardware</td>
-      <td style="border: 1px solid black; padding: 12px;"></td>
-      <td style="border: 1px solid black; padding: 12px;"></td>
-      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;">EP-08</td>
+      <td style="border: 1px solid black; padding: 12px;">Diseñar panel de monitoreo técnico</td>
+      <td style="border: 1px solid black; padding: 12px;">Crear un dashboard especializado para visualizar el estado técnico, batería y telemetría de los nodos IoT conectados.</td>
       <td style="border: 1px solid black; padding: 12px;"></td>
       <td style="border: 1px solid black; padding: 12px;"></td>
       <td style="border: 1px solid black; padding: 12px;"></td>
