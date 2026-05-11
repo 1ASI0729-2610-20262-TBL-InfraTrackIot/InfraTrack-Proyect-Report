@@ -2,6 +2,22 @@
 
 ## 3.1. User Stories
 
+### Epics
+
+| Epic / Story ID | Título de la Épica | Descripción |
+| :--- | :--- | :--- |
+| **EP-01** | Gestión de Combustible | Agrupa las funcionalidades enfocadas en el monitoreo en tiempo real del nivel de diésel, la detección automática de caídas bruscas (robos u "ordeño") y la generación de reportes e historiales de consumo para optimizar los gastos operativos. |
+| **EP-02** | Rastreo Satelital y Geocercas | Contiene las historias relacionadas con la geolocalización de la maquinaria, el trazado de rutas históricas y la creación de perímetros virtuales (geocercas) para asegurar que los activos no salgan de las zonas de operación autorizadas. |
+| **EP-03** | Control de Uso y Mantenimiento | Enfocada en la telemetría del motor para registrar las horas reales de trabajo, detectar tiempos de ralentí ineficientes y automatizar las alertas de mantenimiento preventivo, evitando así fallas críticas en la maquinaria. |
+| **EP-04** | Business Intelligence y Analytics | Abarca la consolidación de los datos operativos en tableros de control (dashboards) gerenciales. Permite a los dueños de empresas visualizar KPIs, comparar el rendimiento entre unidades y evaluar la huella de carbono de la flota. |
+| **EP-05** | Notificaciones y Alertas Críticas | Centraliza el motor de reglas y avisos del sistema. Permite configurar umbrales personalizados, horarios laborales, niveles de severidad y el envío de notificaciones en tiempo real (vía web o correo electrónico) ante eventos anómalos. |
+| **EP-06** | Administración de Activos | Gestiona el inventario digital de la empresa. Incluye el registro (CRUD) de la maquinaria, la vinculación lógica con el hardware (Nodos loT), y la asignación de operadores, fotos y tipos de combustible a cada unidad. |
+| **EP-07** | Seguridad y Control de Acceso | Reúne los requerimientos para proteger la plataforma y sus datos. Incluye la autenticación de usuarios (login/registro), gestión de roles, recuperación de contraseñas, cierres por inactividad y logs de auditoría para trazabilidad de acciones. |
+| **EP-08** | Landing Page e Infraestructura loT | Comprende dos frentes: la página de aterrizaje (Landing Page) para exponer la propuesta de valor y captar leads, y la infraestructura técnica del backend necesaria para recibir, procesar y validar las tramas de datos de los sensores físicos. |
+| **EP-09** | Personalización y UX | Historias orientadas a la accesibilidad y mejora de la experiencia de usuario (User Experience), permitiendo adaptar la interfaz del sistema mediante la selección del idioma y la configuración del modo oscuro/claro. |
+
+### User Stories
+
 | Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 |-----------------|--------|-------------|------------------------|--------------------------|
 | HU-01 | Ver nivel de combustible | Como administrador logístico, quiero visualizar el nivel de combustible en tiempo real para monitorear el consumo de cada unidad. | Dado que el usuario accede al dashboard, cuando selecciona una unidad, entonces el sistema muestra el nivel actual de combustible. | EP-01 |
