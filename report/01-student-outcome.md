@@ -39,8 +39,7 @@ colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen obj
         <td style="border:2px solid #fff; vertical-align:top; color:#fff; text-align:center; padding:10px;">
             Se concluye que su liderazgo en la fase de investigación y en el primer Sprint fue determinante para alinear el desarrollo con las necesidades del usuario, asegurando una base sólida para la evolución del software.
         </td>
-    </tr>
-<tr>
+        <tr>
     <td style="border:2px solid #fff; vertical-align:top; color:#fff; text-align:center; padding:10px;">
         David: Responsable del desarrollo parcial del Capítulo V correspondiente al Sprint 2, participando en la planificación y organización de actividades del Sprint, así como en la elaboración de evidencias de avance. Además, contribuyó en la realización de entrevistas para el levantamiento de información y apoyó en el desarrollo parcial de la Landing Page y de la aplicación web del proyecto.
     </td>
@@ -48,4 +47,6 @@ colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen obj
         Se concluye que su participación en el Sprint 2 y en las actividades de investigación permitió fortalecer la organización y seguimiento del proyecto, aportando al cumplimiento de los requerimientos y al avance continuo del desarrollo de la aplicación web.
     </td>
 </tr>
+    </tr>
+
 </table>
