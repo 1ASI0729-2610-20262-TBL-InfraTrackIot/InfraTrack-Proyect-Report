@@ -423,7 +423,7 @@ Report:
 
 Landing Page:
 
-<img src="../assets/landing-commits.png" alt="Landing Page commits" style="max-width: 90%; display: block; margin: 0 auto;"/>
+<img src="../assets/landing-commits.png" alt="Landing Page commits"/>
 
 
 Frontend:
