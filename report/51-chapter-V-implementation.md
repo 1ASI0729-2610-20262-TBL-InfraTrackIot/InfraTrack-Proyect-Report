@@ -413,6 +413,34 @@ Para el srpint 2 se desarrollo el Landing Page y Frontend tomando en cuenta aspe
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
+Control Panel:
+
+<img src="../assets/control-panel.png" alt="Control Panel EN">
+<img src="../assets/control-panel-es.png" alt="Control Panel ES">
+
+Asset Management:
+<img src="../assets/asset-management.png" alt="Asset Management">
+<img src="../assets/asset-management-add.png" alt="Asset Management add machinery">
+
+Telemetry & Tracking:
+<img src="../assets/tekenetry.png" alt="Telemetry and tracking">
+
+Reports & Analitycs:
+<img src="../assets/reports-analitycs.png" alt="Reports and Analitycs">
+
+Optimization & Performance:
+<img src="../assets/optimization.png" alt="Optimization and Performance">
+
+Configurations & Support:
+<img src="../assets/configuration.png" alt="Configurations and Support">
+
+Account:
+<img src="../assets/account.png" alt="Account">
+
+
+
+
+
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
