@@ -263,6 +263,15 @@ En términos de comportamiento, muestra una alta apertura hacia nuevas tecnolog�
 
 ## Resumen
 
+Sebastian explicó que actualmente realiza el seguimiento de rutas y ubicación de vehículos mediante sistemas GPS instalados en las unidades, complementando la información con reportes enviados por los operadores a través de WhatsApp y llamadas telefónicas. Además, utiliza hojas de Excel para consolidar datos relacionados con recorridos, tiempos de operación y paradas.
+Mencionó que una de las principales dificultades en la coordinación logística es la falta de información inmediata y totalmente confiable, debido a que algunos operadores olvidan reportar incidencias y en ocasiones ocurren fallas en el sistema GPS. Esto afecta la capacidad de reaccionar rápidamente ante retrasos o cambios de ruta.
+Respecto al control de operaciones, indicó que las desviaciones de ruta y el uso no autorizado de vehículos no ocurren diariamente, pero sí varias veces al mes. Estas situaciones incluyen rutas alternativas no informadas, paradas no autorizadas y uso fuera del horario permitido, lo que genera mayores costos operativos y desgaste de los equipos.
+El entrevistado señaló que le sería de gran utilidad recibir alertas automáticas relacionadas con desvíos de ruta, exceso de velocidad, ralentí prolongado, consumo inusual de combustible, mantenimientos próximos y retrasos frente al cronograma establecido.
+También comentó que actualmente utiliza herramientas como Excel, Google Sheets, sistemas GPS básicos y WhatsApp, pero considera que la información se encuentra dispersa en diferentes plataformas, obligándolo a realizar consolidaciones manuales que consumen tiempo y pueden generar errores.
+En cuanto al control de combustible, explicó que compara los vales de abastecimiento con el kilometraje, las horas de operación y el rendimiento histórico de cada unidad para detectar posibles irregularidades o usos no autorizados.
+Asimismo, indicó que dedica entre 2 y 4 horas diarias a la generación de reportes y análisis de datos operativos, principalmente por la necesidad de consolidar información manualmente y verificar su consistencia.
+Finalmente, destacó que las alertas automáticas serían muy beneficiosas para actuar rápidamente ante incidencias y optimizar recursos. Considera indispensables funcionalidades como monitoreo GPS en tiempo real, historial de rutas, alertas configurables, control de combustible, programación de mantenimientos, dashboards con KPIs y reportes automáticos. También afirmó que la adopción de nuevas tecnologías resulta sencilla siempre que las herramientas sean intuitivas, útiles y cuenten con capacitación y soporte técnico.
+
 
 ### 2.2.3. Análisis de entrevistas
 
