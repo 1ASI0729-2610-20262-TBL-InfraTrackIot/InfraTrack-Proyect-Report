@@ -407,7 +407,21 @@ PESOS:
 <div style="margin-bottom:32px;"></div>
 
 ### 4.4.3. Web Applications User Flow Diagrams
-
+<div style="margin-bottom:18px;"></div>
+<img src="../assets/Wireflows1.png"  style="max-width: 90%; display: inline-block;"/>
+<div style="margin-bottom:32px;"></div>
+<div style="margin-bottom:18px;"></div>
+<img src="../assets/Wireflow2.png"  style="max-width: 90%; display: inline-block;"/>
+<div style="margin-bottom:32px;"></div>
+<div style="margin-bottom:18px;"></div>
+<img src="../assets/Wireflow3.png"  style="max-width: 90%; display: inline-block;"/>
+<div style="margin-bottom:32px;"></div>
+<div style="margin-bottom:18px;"></div>
+<img src="../assets/Wireflow4.png"  style="max-width: 90%; display: inline-block;"/>
+<div style="margin-bottom:32px;"></div>
+<div style="margin-bottom:18px;"></div>
+<img src="../assets/Wireflows5.png"  style="max-width: 90%; display: inline-block;"/>
+<div style="margin-bottom:32px;"></div>
 ---
 
 ## 4.5. Web Applications Prototyping
