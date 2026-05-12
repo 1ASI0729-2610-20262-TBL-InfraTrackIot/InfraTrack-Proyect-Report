@@ -268,7 +268,8 @@ Se evidencia el avance del Primer Sprint por medio del siguiente link: https://i
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 Link del Landing Page: https://infratrack-iot-inky.vercel.app/
 #### 5.2.1.8. Team Collaboration Insights during Sprint
-<img src="assets/Team-Collaboration-Insights-during-Sprint-picture.png" alt="Team Collaboration Insights">
+<img src="../assets/Team-Collaboration-Insights-during-Sprint-picture.png" alt="Team Collaboration Insights">
+
 ---
 
 ### 5.2.2. Sprint 2
