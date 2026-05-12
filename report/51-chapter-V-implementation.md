@@ -409,6 +409,7 @@ Link del Landing Page: https://infratrack-iot-inky.vercel.app/
 </table>
 
 #### 5.2.2.4. Development Evidence for Sprint Review
+Para el srpint 2 se desarrollo el Landing Page y Frontend tomando en cuenta aspectos requeridos en este alcance del proyecto. Se detallan los commits realizados en el repositorio, evidenciando las funcionalidades implementadas y estilos establecidos previamente con mejoras para esta entrega.
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
