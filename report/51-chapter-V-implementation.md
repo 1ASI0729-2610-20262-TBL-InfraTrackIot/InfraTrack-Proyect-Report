@@ -418,12 +418,18 @@ Link del Landing Page: https://infratrack-iot-inky.vercel.app/
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 Report:
-<img src="../assets/Team-Collaboration-Insights-during-Sprint-picture.png" alt="Team Collaboration Insights">
+
+<img src="../assets/Team-Collaboration-Insights-during-Sprint-picture.png" alt="Team Collaboration Insights Report">
 
 Landing Page:
 
+<img src="../assets/landing-commits.png" alt="Team Collaboration Insights Landing Page">
+
 
 Frontend:
+
+<img src="../assets/frontend-commits.png" alt="Team Collaboration Insights Frontend">
+
 
 
 ---
