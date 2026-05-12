@@ -216,57 +216,237 @@ Se identifica la ausencia de una solución digital de código abierto (Open Sour
 
 **Business Outcomes (Resultados de Negocio)**
 
-Nuestra propuesta parte de la premisa de que la ineficiencia logística en el sector ferretero no se debe a una mala gestión del personal, sino a la falta de una infraestructura de datos automatizada que elimine la subjetividad de los registros manuales. Asumimos que, mediante la implementación de nodos IoT con sensores de flujo e inyección, es posible centralizar métricas de rendimiento con total integridad.
+Nuestra propuesta parte de la premisa de que la ineficiencia logística en el sector ferretero y de construcción no se debe únicamente a una mala gestión del personal, sino principalmente a la ausencia de una infraestructura tecnológica capaz de capturar y procesar datos operativos en tiempo real. InfraTrack busca transformar la gestión de activos críticos mediante el uso de sensores IoT, monitoreo GPS y automatización de procesos logísticos.
 
-Los resultados clave para validar el éxito comercial de InfraTrack son:
-- <b>Optimización Energética:</b> Reducir entre un 10% y 15% el gasto mensual de combustible.
-- <b>Trazabilidad de Activos:</b> Disminuir la brecha entre el combustible facturado y el consumo real registrado a un margen de error menor al 2%.
+Los principales indicadores de impacto esperados son los siguientes:
+
+- <b>Optimización Energética:</b> Reducir entre un 10 % y 15 % el gasto mensual de combustible mediante la detección temprana de consumos irregulares y tiempos de ralentí excesivo.
+- <b>Reducción de Pérdidas Operativas:</b> Disminuir las pérdidas asociadas al robo de combustible y uso indebido de maquinaria pesada.
+- <b>Trazabilidad de Activos:</b> Reducir la diferencia entre el combustible facturado y el consumo real registrado por el sistema a un margen de error menor al 2 %.
 - <b>Continuidad Operativa:</b> Incrementar la disponibilidad mecánica de la flota mediante un modelo de mantenimiento preventivo basado en horas reales de motor.
+- <b>Incremento de la Rentabilidad:</b> Mejorar la eficiencia operativa y el retorno de inversión (ROI) de las empresas mediante decisiones basadas en datos reales y automatizados.
+- <b>Digitalización Logística:</b> Reducir la dependencia de procesos manuales y bitácoras físicas en la administración de flotas y maquinaria.
+
+---
+
+**Customer Behavior Outcomes (Resultados de Comportamiento del Usuario)**
+
+Esperamos que los administradores logísticos y dueños de empresas adopten nuevos comportamientos operativos dentro de la plataforma InfraTrack, permitiendo optimizar la toma de decisiones y mejorar el control de activos críticos.
+
+Los principales comportamientos esperados son:
+
+- <b>Monitorear</b> diariamente el estado operativo y ubicación de las unidades desde el dashboard centralizado.
+- <b>Revisar</b> alertas automáticas relacionadas con variaciones bruscas de combustible o desvíos de ruta.
+- <b>Programar</b> mantenimientos preventivos utilizando métricas reales de horas de motor.
+- <b>Analizar</b> reportes históricos para optimizar rutas y rendimiento de maquinaria.
+- <b>Reducir</b> el uso de bitácoras manuales migrando hacia registros digitales automatizados.
+- <b>Supervisar</b> múltiples activos simultáneamente desde una sola interfaz web.
+- <b>Detectar</b> patrones de ralentí excesivo para disminuir el desperdicio energético.
+- <b>Tomar</b> decisiones logísticas basadas en telemetría en tiempo real.
+- <b>Consultar</b> información de consumo y ubicación antes de asignar tareas o despachos.
+- <b>Utilizar</b> reportes técnicos para justificar futuras inversiones o ampliaciones de flota.
+
+---
 
 **User Outcomes (Resultados para el Usuario)**
 
-El usuario principal, el administrador logístico, encontrará en InfraTrack un ecosistema de control que se integra naturalmente en su flujo de trabajo diario, especialmente durante la planificación de despachos y la supervisión remota de obras.
+El usuario principal, el administrador logístico, encontrará en InfraTrack un ecosistema digital de monitoreo que se integra naturalmente en su flujo de trabajo diario, especialmente durante la planificación de despachos, supervisión remota de obras y control de maquinaria pesada.
 
-El valor fundamental que recibirá el usuario es la tranquilidad operativa, lograda a través de un dashboard que centraliza ubicación, alertas de pánico ante descensos bruscos de combustible y estados de mantenimiento en una sola interfaz.
+El valor fundamental que recibirá el usuario será la tranquilidad operativa y la capacidad de tomar decisiones inmediatas basadas en datos reales, eliminando la dependencia de reportes manuales susceptibles a errores o manipulaciones.
 
-En cuanto a la interacción, el producto debe comportarse de manera proactiva: no esperamos que el usuario busque la información, sino que el sistema emita notificaciones críticas en tiempo real. La interfaz será profesional y minimalista, priorizando la legibilidad de datos técnicos complejos mediante tipografías claras y un diseño visual jerárquico que facilite la toma de decisiones inmediata.
+La plataforma proporcionará:
+
+- Visualización centralizada de ubicación GPS y estado operativo de las unidades.
+- Alertas automáticas ante descensos anómalos de combustible.
+- Indicadores de mantenimiento preventivo basados en horas reales de uso.
+- Reportes históricos y métricas comparativas para análisis estratégico.
+- Supervisión simultánea de múltiples activos críticos desde cualquier ubicación.
+
+La interacción del sistema estará diseñada bajo un enfoque proactivo: el usuario no tendrá que buscar información manualmente, sino que el sistema emitirá notificaciones críticas en tiempo real para facilitar la respuesta inmediata ante incidentes operativos.
+
+La interfaz priorizará:
+
+- Legibilidad de datos técnicos complejos.
+- Jerarquía visual clara.
+- Diseño minimalista y profesional.
+- Navegación intuitiva orientada a la toma rápida de decisiones.
+
+---
 
 **Impactos y Riesgos de Diseño**
 
-Reconocemos que existe un riesgo de adopción por parte del personal operativo, quienes podrían mostrar resistencia al monitoreo tecnológico. Sin embargo, el impacto estratégico de la solución compensa este riesgo, ya que posiciona a la empresa como un actor tecnológicamente avanzado, apto para licitaciones que exigen estándares de control IoT y sostenibilidad ambiental.
+Reconocemos que existe un riesgo inicial de resistencia tecnológica por parte del personal operativo, especialmente en entornos acostumbrados al uso de registros manuales y supervisión tradicional.
 
-Finalmente, proyectamos que la optimización de rutas reducirá significativamente la huella de carbono de la flota, alineando la rentabilidad del negocio con la responsabilidad ecológica.
+Sin embargo, consideramos que el impacto estratégico de InfraTrack supera ampliamente estos riesgos, debido a que la plataforma permitirá:
+
+- Incrementar la competitividad tecnológica de las empresas.
+- Facilitar el cumplimiento de estándares modernos de control logístico.
+- Mejorar la transparencia operativa en proyectos de infraestructura.
+- Reducir pérdidas económicas asociadas a ineficiencias y malas prácticas.
+- Optimizar la sostenibilidad energética mediante reducción de consumo innecesario de combustible.
+
+Adicionalmente, proyectamos que la optimización de rutas, reducción del ralentí y mantenimiento preventivo contribuirán a disminuir la huella de carbono de la flota, alineando la rentabilidad empresarial con objetivos de sostenibilidad ambiental y eficiencia energética.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
 <div style="margin-left: 1em;">
+
   <ul>
+
     <li>
-      <b>Hipótesis 1: Reducción de costos por combustible</b><br>
-      <span>Creemos que al proporcionar un dashboard con datos precisos sobre el nivel de combustible capturados mediante sensores IoT, los Dueños de Empresas Ferreteras podrán identificar y eliminar extracciones no autorizadas ("ordeño").</span><br>
-      <span style="color:#c00000;"><b>Sabremos que tenemos éxito cuando:</b></span> Observemos una reducción del 10% al 15% en el gasto mensual de combustible en las unidades monitoreadas frente a su histórico manual.
+      <b>Hipótesis 1: Optimización del consumo de combustible</b><br><br>
+
+      <span>
+      <b>We believe</b> we will achieve a reduction of between 10 % and 15 % in monthly fuel expenses and improve operational efficiency
+      </span><br>
+
+      <span>
+      <b>If</b> Logistics Administrators and Fleet Managers
+      </span><br>
+
+      <span>
+      <b>Attain</b> real-time visibility of fuel consumption, fuel level anomalies and idle time metrics
+      </span><br>
+
+      <span>
+      <b>With</b> an IoT monitoring dashboard integrated with fuel sensors and automated operational alerts.
+      </span>
     </li>
+
+    <br>
+
     <li>
-      <b>Hipótesis 2: Optimización del mantenimiento preventivo</b><br>
-      <span>Creemos que, al implementar alertas automáticas basadas en las horas reales de motor registradas por la plataforma, los Administradores Logísticos podrán programar mantenimientos preventivos de forma exacta.</span><br>
-      <span style="color:#c00000;"><b>Sabremos que tenemos éxito cuando:</b></span> El número de reparaciones correctivas de emergencia y los tiempos de inactividad técnica de la maquinaria disminuyan en un 20% en el primer trimestre de uso.
+      <b>Hipótesis 2: Mejora del mantenimiento preventivo</b><br><br>
+
+      <span>
+      <b>We believe</b> we will increase fleet availability and reduce technical downtime by 20 %
+      </span><br>
+
+      <span>
+      <b>If</b> Logistics Administrators
+      </span><br>
+
+      <span>
+      <b>Attain</b> the ability to schedule maintenance based on real engine-hour data instead of manual estimations
+      </span><br>
+
+      <span>
+      <b>With</b> automated preventive maintenance alerts generated by the InfraTrack platform.
+      </span>
     </li>
+
+    <br>
+
     <li>
-      <b>Hipótesis 3: Digitalización y eliminación de errores manuales</b><br>
-      <span>Creemos que al automatizar la recolección de datos de ubicación (GPS) y uso mediante nodos sensores, reduciremos la carga administrativa y los errores en las bitácoras físicas de los operadores.</span><br>
-      <span style="color:#c00000;"><b>Sabremos que tenemos éxito cuando:</b></span> La discrepancia de datos entre los reportes de campo y la información registrada en el sistema sea inferior al 2%.
+      <b>Hipótesis 3: Digitalización del control logístico</b><br><br>
+
+      <span>
+      <b>We believe</b> we will reduce operational errors and improve asset traceability accuracy to a margin below 2 %
+      </span><br>
+
+      <span>
+      <b>If</b> Fleet Managers and Logistics Supervisors
+      </span><br>
+
+      <span>
+      <b>Attain</b> centralized access to operational data and automated digital records
+      </span><br>
+
+      <span>
+      <b>With</b> a web platform connected to IoT nodes and GPS tracking modules.
+      </span>
     </li>
+
+    <br>
+
     <li>
-      <b>Hipótesis 4: Control de eficiencia operativa (Ralentí)</b><br>
-      <span>Creemos que al informar sobre los tiempos de ralentí excesivo (motor encendido sin desplazamiento), los administradores podrán optimizar el uso de las máquinas y reducir el desperdicio energético.</span><br>
-      <span style="color:#c00000;"><b>Sabremos que tenemos éxito cuando:</b></span> El tiempo de ralentí no justificado por unidad disminuya en promedio un 25% tras la primera fase de implementación.
+      <b>Hipótesis 4: Reducción del ralentí excesivo</b><br><br>
+
+      <span>
+      <b>We believe</b> we will improve energy efficiency and reduce unnecessary fuel consumption
+      </span><br>
+
+      <span>
+      <b>If</b> Logistics Administrators
+      </span><br>
+
+      <span>
+      <b>Attain</b> visibility into excessive idle-time patterns and operational inefficiencies
+      </span><br>
+
+      <span>
+      <b>With</b> real-time telemetry reports and automated idle-time analytics.
+      </span>
     </li>
+
+    <br>
+
     <li>
-      <b>Hipótesis 5: Escalabilidad y confianza en la toma de decisiones</b><br>
-      <span>Creemos que ofrecer un sistema centralizado de código abierto para gestionar múltiples unidades permitirá a las medianas empresas tomar decisiones de expansión basadas en datos reales.</span><br>
-      <span style="color:#c00000;"><b>Sabremos que tenemos éxito cuando:</b></span> Los gestores utilicen los reportes históricos de la plataforma para justificar la adquisición de nuevas unidades o la renovación de la flota existente ante la gerencia.
+      <b>Hipótesis 5: Toma de decisiones basada en datos</b><br><br>
+
+      <span>
+      <b>We believe</b> we will improve strategic planning and increase the return on investment (ROI) of fleet operations
+      </span><br>
+
+      <span>
+      <b>If</b> Owners of Hardware Stores and Construction Companies
+      </span><br>
+
+      <span>
+      <b>Attain</b> reliable historical reports and real-time operational insights
+      </span><br>
+
+      <span>
+      <b>With</b> a centralized open-source monitoring and analytics platform.
+      </span>
     </li>
+
+    <br>
+
+    <li>
+      <b>Hipótesis 6: Supervisión remota de activos críticos</b><br><br>
+
+      <span>
+      <b>We believe</b> we will reduce response time to operational incidents and improve remote supervision efficiency
+      </span><br>
+
+      <span>
+      <b>If</b> Logistics Supervisors and Fleet Operators
+      </span><br>
+
+      <span>
+      <b>Attain</b> continuous monitoring of GPS location and operational status of machinery
+      </span><br>
+
+      <span>
+      <b>With</b> a centralized dashboard with live GPS tracking and automated notifications.
+      </span>
+    </li>
+
+    <br>
+
+    <li>
+      <b>Hipótesis 7: Adopción tecnológica y modernización operativa</b><br><br>
+
+      <span>
+      <b>We believe</b> we will accelerate the digital transformation of small and medium-sized construction businesses
+      </span><br>
+
+      <span>
+      <b>If</b> Company Owners and Administrative Personnel
+      </span><br>
+
+      <span>
+      <b>Attain</b> an accessible and easy-to-use monitoring ecosystem with low implementation costs
+      </span><br>
+
+      <span>
+      <b>With</b> an open-source IoT platform focused on operational transparency and automation.
+      </span>
+    </li>
+
   </ul>
+
 </div>
 
 #### 1.2.2.4. Lean UX Canvas
