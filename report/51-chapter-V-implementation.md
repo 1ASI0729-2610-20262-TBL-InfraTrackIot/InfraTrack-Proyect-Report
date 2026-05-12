@@ -423,7 +423,7 @@ Asset Management:
 <img src="../assets/asset-management-add.png" alt="Asset Management add machinery">
 
 Telemetry & Tracking:
-<img src="../assets/telenetry.png" alt="Telemetry and tracking">
+<img src="../assets/telemetry.png" alt="Telemetry and tracking">
 
 Reports & Analitycs:
 <img src="../assets/reports-analitycs.png" alt="Reports and Analitycs">
