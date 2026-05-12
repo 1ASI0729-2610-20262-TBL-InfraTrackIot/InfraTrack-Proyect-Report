@@ -423,7 +423,7 @@ Report:
 
 Landing Page:
 
-<img src="../assets/landing-commits.png" alt="Team Collaboration Insights Landing Page">
+<img src="../assets/landing-commits.png" alt="Landing Page commits" style="max-width: 90%; display: block; margin: 0 auto;"/>
 
 
 Frontend:
