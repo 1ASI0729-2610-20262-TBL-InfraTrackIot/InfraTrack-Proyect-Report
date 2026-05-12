@@ -391,7 +391,7 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
       <td style="border: 1px solid black; padding: 12px;">EP-06</td>
       <td style="border: 1px solid black; padding: 12px;">Implementar registro de maquinaria</td>
       <td style="border: 1px solid black; padding: 12px;">Crear un formulario completo para registrar nuevas unidades dentro del sistema, incluyendo datos técnicos, tipo de combustible, operador y estado operativo.</td>
-      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;">4h</td>
       <td style="border: 1px solid black; padding: 12px;"></td>
       <td style="border: 1px solid black; padding: 12px;"></td>
     </tr>
@@ -401,7 +401,7 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
       <td style="border: 1px solid black; padding: 12px;">EP-03</td>
       <td style="border: 1px solid black; padding: 12px;">Implementar alertas preventivas</td>
       <td style="border: 1px solid black; padding: 12px;">Crear un sistema de alertas preventivas basado en las horas acumuladas de uso para informar cuándo una maquinaria requiere mantenimiento.</td>
-      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;">5h</td>
       <td style="border: 1px solid black; padding: 12px;"></td>
       <td style="border: 1px solid black; padding: 12px;"></td>
     </tr>
@@ -411,7 +411,7 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
       <td style="border: 1px solid black; padding: 12px;">EP-05</td>
       <td style="border: 1px solid black; padding: 12px;">Diseñar configuración de alertas</td>
       <td style="border: 1px solid black; padding: 12px;">Implementar una sección de configuración donde los administradores puedan personalizar umbrales y límites para las alertas del sistema.</td>
-      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;">3h</td>
       <td style="border: 1px solid black; padding: 12px;"></td>
       <td style="border: 1px solid black; padding: 12px;"></td>
     </tr>
@@ -421,7 +421,7 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
       <td style="border: 1px solid black; padding: 12px;">EP-06</td>
       <td style="border: 1px solid black; padding: 12px;">Visualizar estado de conexión IoT</td>
       <td style="border: 1px solid black; padding: 12px;">Implementar indicadores visuales que permitan monitorear si los nodos IoT se encuentran conectados, desconectados o presentando fallas de transmisión.</td>
-      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;">3h</td>
       <td style="border: 1px solid black; padding: 12px;"></td>
       <td style="border: 1px solid black; padding: 12px;"></td>
     </tr>
@@ -431,7 +431,7 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
       <td style="border: 1px solid black; padding: 12px;">EP-03</td>
       <td style="border: 1px solid black; padding: 12px;">Diseñar historial de mantenimiento</td>
       <td style="border: 1px solid black; padding: 12px;">Implementar un módulo que permita almacenar y consultar el historial completo de mantenimientos realizados a cada unidad registrada.</td>
-      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;">2h</td>
       <td style="border: 1px solid black; padding: 12px;"></td>
       <td style="border: 1px solid black; padding: 12px;"></td>
     </tr>
@@ -441,7 +441,7 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
       <td style="border: 1px solid black; padding: 12px;">EP-06</td>
       <td style="border: 1px solid black; padding: 12px;">Diseñar asignación de operadores</td>
       <td style="border: 1px solid black; padding: 12px;">Crear un módulo que permita asociar operadores específicos a las unidades registradas para llevar control y trazabilidad de responsabilidades.</td>
-      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;">4h</td>
       <td style="border: 1px solid black; padding: 12px;"></td>
       <td style="border: 1px solid black; padding: 12px;"></td>
     </tr>
@@ -451,7 +451,7 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
       <td style="border: 1px solid black; padding: 12px;">EP-05</td>
       <td style="border: 1px solid black; padding: 12px;">Diseñar configuración de horarios operativos</td>
       <td style="border: 1px solid black; padding: 12px;">Implementar una sección de configuración donde el administrador pueda definir horarios permitidos de operación para cada maquinaria y generar alertas cuando exista actividad fuera del rango establecido.</td>
-      <td style="border: 1px solid black; padding: 12px;"></td>
+      <td style="border: 1px solid black; padding: 12px;">4h</td>
       <td style="border: 1px solid black; padding: 12px;"></td>
       <td style="border: 1px solid black; padding: 12px;"></td>
     </tr>
