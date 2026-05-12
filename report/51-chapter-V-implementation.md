@@ -4,8 +4,6 @@
 
 ### 5.1.1. Software Development Environment Configuration
 
-### 5.1.1. Software Development Environment Configuration
-
 En esta sección se describen todas las herramientas, plataformas y tecnologías utilizadas por el equipo durante el desarrollo del proyecto InfraTrack. Cada integrante configuró su entorno local siguiendo estas especificaciones para garantizar consistencia en el desarrollo colaborativo.
  
 | Herramienta | Propósito | URL / Versión |
