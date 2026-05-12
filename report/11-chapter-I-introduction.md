@@ -157,6 +157,16 @@ Para la elaboración de esta descripción se utiliza la técnica de The 5 ‘W�
 - A nivel nacional, la ineficiencia logística le resta al Perú entre el 2 % y 3 % de su PBI potencial (Consejo Nacional de Competitividad, 2021).
 - La implementación de sistemas de monitoreo inteligente permite un retorno de inversión (ROI) rápido, ya que el ahorro de solo un 5 % en el consumo de combustible suele cubrir el costo de implementación tecnológica en menos de seis meses.
 
+<div style="text-align:center; margin: 24px 0;">
+  <div style="margin-top:8px; font-weight:bold;">Gráfico 1: Estructura de costos operativos en el área de Logística</div>
+  <img src="../assets/grafico_1.png" alt="Gráfico 1: Estructura de costos operativos en el área de Logística" style="width:100%; max-width:600px; display: block; margin: 0 auto;"/>
+</div>
+
+<div style="text-align:center; margin: 24px 0;">
+  <div style="margin-top:8px; font-weight:bold;">Gráfico 2: Variación porcentual del precio del combustible en el mercado local.</div>
+  <img src="../assets/grafico_2.png" alt="Gráfico 2: Variación porcentual del precio del combustible en el mercado local." style="width:100%; max-width:600px; display: block; margin: 0 auto;"/>
+</div>
+
 ### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
