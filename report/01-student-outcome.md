@@ -46,7 +46,6 @@ colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen obj
     <td style="border:2px solid #fff; vertical-align:top; color:#fff; text-align:center; padding:10px;">
         Se concluye que su participación en el Sprint 2 y en las actividades de investigación permitió fortalecer la organización y seguimiento del proyecto, aportando al cumplimiento de los requerimientos y al avance continuo del desarrollo de la aplicación web.
     </td>
-</tr>
     </tr>
 
 </table>
