@@ -430,6 +430,22 @@ PESOS:
 
 ### 4.6.1. Design-Level EventStorming
 
+<div style="margin-bottom:18px;"></div>
+<img src="../assets/telemetria.png"  style="max-width: 90%; display: inline-block;"/>
+<div style="margin-bottom:32px;"></div>
+<div style="margin-bottom:18px;"></div>
+<img src="../assets/Paneldecontrol.png"  style="max-width: 90%; display: inline-block;"/>
+<div style="margin-bottom:32px;"></div>
+<div style="margin-bottom:18px;"></div>
+<img src="../assets/Optimizacionyrendimiento.png"  style="max-width: 90%; display: inline-block;"/>
+<div style="margin-bottom:32px;"></div>
+<div style="margin-bottom:18px;"></div>
+<img src="../assets/gestiondeactivos.png"  style="max-width: 90%; display: inline-block;"/>
+<div style="margin-bottom:32px;"></div>
+<div style="margin-bottom:18px;"></div>
+<img src="../assets/Configuracionysoporte.png"  style="max-width: 90%; display: inline-block;"/>
+<div style="margin-bottom:32px;"></div>
+
 ### 4.6.2. Software Architecture Context Diagram
 
 <div style="margin-bottom:18px;"></div>
