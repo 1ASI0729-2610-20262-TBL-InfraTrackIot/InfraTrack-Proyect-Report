@@ -297,6 +297,14 @@ Esta situación limita la visibilidad en tiempo real y dificulta la detección o
 
 El entrevistado resaltó la necesidad de implementar una solución tecnológica centralizada que automatice el monitoreo, genere alertas ante incidencias y facilite la elaboración de reportes. También señaló que la adopción de nuevas tecnologías es viable siempre que sean intuitivas, reduzcan la carga operativa y aporten valor directo a la toma de decisiones logísticas.
 
+**Segmento 2 - Entrevista 2**
+
+La entrevista de Sebastian evidencia que la gestión logística actual depende de varias herramientas separadas, como GPS, Excel, Google Sheets y WhatsApp, lo que genera procesos manuales y pérdida de tiempo en la consolidación de información. Aunque existe monitoreo de vehículos, la información no siempre es inmediata ni totalmente confiable debido a fallas del GPS y reportes tardíos de los operadores.
+
+También se identificó que ocurren desviaciones de ruta y usos no autorizados de vehículos varias veces al mes, generando mayores costos de combustible y desgaste de las unidades. Además, el entrevistado dedica entre 2 y 4 horas diarias a elaborar reportes y verificar datos operativos.
+
+La entrevista muestra la necesidad de una plataforma centralizada que permita monitoreo en tiempo real, alertas automáticas, control de combustible, programación de mantenimientos y generación automática de reportes. Asimismo, el entrevistado mostró disposición para adoptar nuevas tecnologías siempre que sean intuitivas, útiles y cuenten con soporte y capacitación adecuada.
+
 #### Detalle breve por participante
 
 - **Participante S1 (Dueño de ferretería):** utiliza smartphone **Samsung Galaxy A14** para coordinación operativa y una laptop **Lenovo IdeaPad** para hojas de cálculo y control de inventario.
