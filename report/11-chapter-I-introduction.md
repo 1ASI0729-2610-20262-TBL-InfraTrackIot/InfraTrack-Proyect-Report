@@ -246,7 +246,10 @@ Los principales comportamientos esperados son:
 - <b>Consultar</b> información de consumo y ubicación antes de asignar tareas o despachos.
 - <b>Utilizar</b> reportes técnicos para justificar futuras inversiones o ampliaciones de flota.
 
----
+<div style="text-align:center; margin: 24px 0;">
+  <img src="../assets/ux-canvas.jpeg" alt="Lean UX Canvas" style="max-width: 90%; display: block; margin: 0 auto;"/>
+  <div style="margin-top:8px; font-weight:bold;"></div>
+</div>
 
 **User Outcomes (Resultados para el Usuario)**
 
