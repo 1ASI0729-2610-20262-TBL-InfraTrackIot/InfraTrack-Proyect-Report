@@ -335,7 +335,7 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
 | Sprint Goal & User Stories | |
 | Sprint 2 Goal | Nuestro enfoque está en optimizar aspectos del proyecto referente a la experiencia de usuario y validar el interés real de los potenciales clientes mediante mejoras en la landing page y la incorporación de mecanismos de interacción. Creemos que esto permitirá aumentar el nivel de participación y obtener retroalimentación más precisa sobre nuestra propuesta de valor. Esto se confirmará cuando observemos un incremento en métricas como tiempo de permanencia, cantidad de clics en llamados a la acción, registros, formularios completados o comentarios positivos de usuarios.|
 | Sprint 2 Velocity | 7 |
-| Sum of Story Points | 0 |
+| Sum of Story Points | 38 |
 #### 5.2.2.2. Aspect Leaders and Collaborators
 | Team Member (Last Name, First Name) | GitHub Username | UI/UX Design (L/C) | Landing Page Development (L/C) | Quality Control (L/C) | Documentation (L/C) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -350,12 +350,13 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
 
 **Alcance:**
 
-* ...
-* ...
-* ...
-* ...
-* ...
-* ...
+* Implementar el módulo de registro de maquinaria con almacenamiento de información técnica, tipo de combustible y asignación de operadores.
+* Desarrollar alertas preventivas de mantenimiento basadas en horas acumuladas de uso de las unidades.
+* Implementar configuración personalizada de umbrales para alertas del sistema.
+* Desarrollar indicadores visuales para monitorear el estado de conexión de los nodos IoT.
+* Crear un historial de mantenimiento para registrar y consultar servicios realizados a cada maquinaria.
+* Implementar la asignación de operadores responsables a las unidades registradas.
+* Desarrollar la configuración de horarios operativos permitidos y generación de alertas por uso fuera de horario.
 
 **Duración:** 2 de Mayo - 12 de Mayo 2026
 
