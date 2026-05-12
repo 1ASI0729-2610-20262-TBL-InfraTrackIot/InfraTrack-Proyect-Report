@@ -247,6 +247,23 @@ Carolina dedica entre 2 a 3 horas diarias a la recopilación y análisis de info
 Entre las funcionalidades más importantes que valora en una solución tecnológica destacan: monitoreo en tiempo real, historial de rutas, alertas automáticas, control de combustible, mantenimiento preventivo y reportes automatizados, todo dentro de una plataforma simple e intuitiva accesible desde el celular.
 En términos de comportamiento, muestra una alta apertura hacia nuevas tecnologías, siempre que sean fáciles de usar y realmente simplifiquen su trabajo. Su perfil es analítico y operativo, enfocado en eficiencia, control y mejora continua de los procesos logísticos.
 
+# Entrevista 3
+
+<img src="../assets/entrevista3.png" alt="Entrevista nro 3" style="max-width: 90%; display: block; margin: 0 auto;"/>
+
+## Datos del entrevistado
+- **Nombre completo:** Sebastian Henriquez  
+- **Edad:** 35 años  
+- **Distrito de residencia:** Barranco - Perú  
+
+## Datos del video
+- **Link:**  
+- **Duración:** 6:34  
+- **Timing de inicio:** 0:00  
+
+## Resumen
+
+
 ### 2.2.3. Análisis de entrevistas
 
 #### Análisis del Segmento 1
