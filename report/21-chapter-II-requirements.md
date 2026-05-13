@@ -16,10 +16,10 @@
 		<tr style="background-color: #34495e;">
 			<th style="padding: 12px; border: 1px solid #2c3e50; color: white;"></th>
 			<th style="padding: 12px; border: 1px solid #2c3e50; color: white;"></th>
-			<th style="padding: 12px; border: 1px solid #2c3e50; color: white; font-weight: bold; text-align: center;">InfraTrack</th>
-			<th style="padding: 12px; border: 1px solid #2c3e50; color: white; font-weight: bold; text-align: center;">Samsara</th>
-			<th style="padding: 12px; border: 1px solid #2c3e50; color: white; font-weight: bold; text-align: center;">Geotab</th>
-			<th style="padding: 12px; border: 1px solid #2c3e50; color: white; font-weight: bold; text-align: center;">Tenna</th>
+			<th style="padding: 12px; border: 1px solid #2c3e50; color: white; font-weight: bold; text-align: center;"><img src="../assets/logo_infratrack.png" alt="Entrevista nro 2" style="max-width: 1%; display: block; margin: 0 auto;"/>InfraTrack</th>
+			<th style="padding: 12px; border: 1px solid #2c3e50; color: white; font-weight: bold; text-align: center;"><img src="../assets/images.png" alt="Entrevista nro 2" style="max-width: 50%; display: block; margin: 0 auto;"/>Samsara</th>
+			<th style="padding: 12px; border: 1px solid #2c3e50; color: white; font-weight: bold; text-align: center;"><img src="../assets/geotab.jpg" alt="Entrevista nro 2" style="max-width: 50%; display: block; margin: 0 auto;"/>Geotab</th>
+			<th style="padding: 12px; border: 1px solid #2c3e50; color: white; font-weight: bold; text-align: center;"><img src="../assets/tenna.png" alt="Entrevista nro 2" style="max-width: 50%; display: block; margin: 0 auto;"/>Tenna</th>
 		</tr>
 	</thead>
 	<tbody>
