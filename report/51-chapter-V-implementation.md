@@ -260,11 +260,11 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
 #### 5.2.1.4. Development Evidence for Sprint Review
 Dado que el alcance del primer sprint se limitó al desarrollo inicial de la landing page, en esta etapa no se contempló la ejecución de pruebas para servicios o interacciones.
 #### 5.2.1.5. Execution Evidence for Sprint Review
-Se evidencia el avance del Primer Sprint por medio del siguiente link: https://infratrack-iot-inky.vercel.app/
+Se evidencia el avance del Primer Sprint por medio del siguiente link: https://infra-track-landing-page.vercel.app/
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
-Link del Landing Page: https://infratrack-iot-inky.vercel.app/
+Link del Landing Page: https://infra-track-landing-page.vercel.app/
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 <img src="../assets/Team-Collaboration-Insights-during-Sprint-picture.png" alt="Team Collaboration Insights">
 
