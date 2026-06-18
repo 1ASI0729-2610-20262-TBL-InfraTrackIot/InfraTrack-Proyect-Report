@@ -209,7 +209,7 @@ A continuación, nuestra misión, visión y valores:
       <b>Dhilsen Armil Mallqui Vilca</b><br>Estudiante de Ingeniería de Software en la UPC. Me apasiona el desarrollo de soluciones digitales de alto impacto que optimizan la eficiencia operativa mediante tecnologías emergentes. En InfraTrack, aplico mis conocimientos en ingeniería para automatizar el control de activos y el monitoreo IoT, transformando la gestión logística en el sector industrial con un enfoque en la rentabilidad y la innovación tecnológica.
     </td>
     <td style="border:2px solid #fff; text-align:center; vertical-align:top;">
-      <img src="../assets/Dhilsen.jpeg" alt="Foto Dhilsen" style="width:90px; border-radius:8px;"/>
+      <img src="Assets/Dhilsen.jpeg" alt="Foto Dhilsen" style="width:90px; border-radius:8px;"/>
     </td>
   </tr>
   <tr>
