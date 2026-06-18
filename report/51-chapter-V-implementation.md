@@ -538,6 +538,58 @@ Frontend:
 | Dhilsen Malqui | Dhilsen18 | C | L | C | C |
 | Aldair Ramos | AldairRamos13 | C | C | L | C |
 #### 5.2.3.3. Sprint Backlog 3. 
+
+
+**Objetivo:**  
+Implementar los principales servicios backend del sistema mediante APIs REST, permitiendo gestionar autenticación, usuarios, roles, operadores, maquinaria, nodos IoT, mantenimiento, telemetría, alertas, obras de trabajo, personal y asignación de transporte.
+
+**Alcance:**
+
+- Implementar el registro e inicio de sesión de usuarios.
+- Desarrollar la consulta de usuarios y roles del sistema.
+- Implementar la creación y listado de operadores.
+- Desarrollar el registro, consulta y actualización de maquinaria.
+- Implementar el registro de nodos IoT.
+- Crear registros de mantenimiento asociados a maquinaria y nodos IoT.
+- Implementar la consulta de datos de telemetría.
+- Desarrollar el listado, creación y confirmación de alertas.
+- Implementar el módulo de Worksites para la gestión de obras de trabajo.
+- Registrar miembros del personal.
+- Asignar transportes a obras de trabajo.
+
+**Duración:** 1 de Junio - 14 de Junio 2026
+
+**Capacidad de equipo:** 84 horas totales - 3 integrantes
+
+**Requisitos técnicos:** GitHub, Spring Boot, Java, MySQL, JPA, OpenAPI/Swagger, JWT
+
+| Sprint # | Sprint 3 |
+|---|---|
+| **User Story** | **Work-Item / Task** |
+
+| Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status |
+|---|---|---|---|---|---:|---|---|
+| HU-01 | Registrarse en la plataforma | EP-01 | Implementar Sign Up | Crear endpoint para registrar nuevos usuarios en el sistema mediante `/api/v1/authentication/sign-up`. | 4h | Dhilsen Mallqui | Done |
+| HU-02 | Iniciar sesión | EP-02 | Implementar Sign In | Crear endpoint para iniciar sesión y devolver JWT mediante `/api/v1/authentication/sign-in`. | 4h | Dhilsen Mallqui | Done |
+| HU-03 | Consultar usuarios | EP-03 | Listar usuarios | Implementar endpoint para obtener los usuarios registrados mediante `/api/v1/users`. | 3h | Dhilsen Mallqui | Done |
+| HU-04 | Consultar roles | EP-04 | Listar roles | Implementar endpoint para consultar los roles disponibles mediante `/api/v1/roles`. | 3h | Dhilsen Mallqui | Done |
+| HU-05 | Registrar operadores | EP-05 | Crear operador | Implementar endpoint para registrar operadores mediante `/api/v1/operators`. | 4h | Dhilsen Mallqui | Done |
+| HU-06 | Consultar operadores | EP-06 | Listar operadores | Implementar endpoint para consultar operadores mediante `/api/v1/operators`. | 3h | Aldair Ramos | Done |
+| HU-07 | Registrar maquinaria | EP-07 | Crear maquinaria | Implementar endpoint para registrar maquinaria mediante `/api/v1/machinery`. | 5h | Aldair Ramos | Done |
+| HU-08 | Consultar maquinaria | EP-08 | Listar maquinaria | Implementar endpoint para obtener la maquinaria registrada mediante `/api/v1/machinery`. | 3h | Aldair Ramos | Done |
+| HU-09 | Actualizar maquinaria | EP-09 | Actualizar maquinaria | Implementar endpoint para actualizar datos de maquinaria mediante `/api/v1/machinery/{id}`. | 4h | Aldair Ramos | Done |
+| HU-10 | Registrar nodo IoT | EP-10 | Registrar IoT Node | Implementar endpoint para registrar nodos IoT mediante `/api/v1/iot-nodes`. | 4h | Aldair Ramos | Done |
+| HU-11 | Registrar mantenimiento | EP-11 | Crear maintenance record | Implementar funcionalidad para registrar mantenimientos relacionados a maquinaria y nodos IoT. | 5h | Jefferson Farfán | Done |
+| HU-12 | Consultar telemetría | EP-12 | Listar telemetry data | Implementar servicio para consultar datos de telemetría generados por los nodos IoT. | 3h | Jefferson Farfán | Done |
+| HU-13 | Consultar alertas | EP-13 | Listar alertas | Implementar endpoint para listar alertas del sistema. | 3h | Jefferson Farfán | Done |
+| HU-14 | Crear alertas | EP-14 | Crear alerta | Implementar endpoint para registrar nuevas alertas del sistema. | 4h | Jefferson Farfán | Done |
+| HU-15 | Confirmar alertas | EP-15 | Acknowledge alert | Implementar funcionalidad para confirmar o atender una alerta registrada. | 3h | Jefferson Farfán | Done |
+| HU-16 | Gestionar obras de trabajo | EP-16 | Implementar Worksites | Desarrollar el módulo de Worksites para gestionar obras de trabajo dentro del sistema. | 6h | Dhilsen Mallqui | Done |
+| HU-17 | Registrar personal | EP-17 | Crear staff member | Implementar endpoint para registrar miembros del personal mediante `/api/v1/staff-members`. | 5h | Aldair Ramos | Done |
+| HU-18 | Asignar transporte a obra | EP-18 | Assign transport to worksite | Implementar endpoint para asignar transporte a una obra mediante `/api/v1/worksites/{worksiteId}/transports/{transportId}`. | 5h | Aldair Ramos | Done |
+
+
+
 #### 5.2.3.4. Development Evidence for Sprint Review.
 #### 5.2.3.5. Execution Evidence for Sprint Review.
 
