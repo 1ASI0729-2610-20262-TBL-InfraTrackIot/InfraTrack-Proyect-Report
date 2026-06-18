@@ -645,14 +645,70 @@ Asimismo, los endpoints REST fueron documentados mediante OpenAPI/Swagger y vers
 
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint.
-
+<img src="../assets/backendcommits.jpeg"/>
+<img src="../assets/frontendcommits.jpeg"/>
+<img src="../assets/landingcommits.jpeg"/>
 
 ---
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas
 
+
+Para validar el valor generado por InfraTrack y conocer la experiencia de uso de los usuarios, se diseñaron entrevistas orientadas a recopilar retroalimentación sobre las funcionalidades implementadas, la facilidad de uso de la plataforma y el impacto percibido en las operaciones de la empresa.
+
+---
+
+#### Segmento Objetivo 1: Dueños de empresas ferreteras
+
+* Después de utilizar InfraTrack, ¿qué beneficios ha observado en la gestión de sus operaciones?
+
+* ¿Qué tan útil le resulta la información mostrada en los paneles de monitoreo para la toma de decisiones?
+
+* ¿Considera que la plataforma le brinda una mejor visibilidad sobre sus activos y recursos? ¿Por qué?
+
+* ¿Qué funcionalidades utiliza con mayor frecuencia dentro del sistema?
+
+* ¿Las alertas generadas por la plataforma le ayudan a reaccionar más rápidamente ante incidencias?
+
+* ¿Qué tan fácil le resultó comprender y utilizar las funcionalidades principales de InfraTrack?
+
+* ¿Considera que la información registrada en la plataforma es suficiente para supervisar sus operaciones?
+
+* ¿Ha identificado alguna mejora en el control de maquinaria, vehículos o personal desde que comenzó a utilizar la plataforma?
+
+* ¿Qué funcionalidades adicionales le gustaría incorporar en futuras versiones del sistema?
+
+* En una escala del 1 al 5, ¿qué tan satisfecho se encuentra con InfraTrack y por qué?
+
+---
+
+#### Segmento Objetivo 2: Administradores logísticos
+
+* ¿Qué tan útil le resulta la gestión de maquinaria y operadores implementada en InfraTrack?
+
+* ¿La información de telemetría y monitoreo disponible en la plataforma le permite realizar un mejor seguimiento de las operaciones?
+
+* ¿Qué tan efectivas considera las alertas generadas por el sistema para identificar incidencias?
+
+* ¿Qué funcionalidades utiliza con mayor frecuencia durante su jornada laboral?
+
+* ¿La plataforma le ha ayudado a reducir el tiempo dedicado al seguimiento y control de activos?
+
+* ¿Qué tan intuitiva considera la interfaz de usuario de InfraTrack?
+
+* ¿Ha encontrado dificultades al registrar información o consultar datos dentro del sistema?
+
+* ¿La gestión de obras de trabajo, personal y asignación de transporte cubre sus necesidades operativas actuales?
+
+* ¿Qué mejoras considera prioritarias para aumentar el valor de la plataforma?
+
+* En una escala del 1 al 5, ¿qué tan satisfecho se encuentra con la experiencia de uso de InfraTrack?
+
+
 ### 5.3.2. Registro de Entrevistas
+
+
 
 ### 5.3.3. Evaluaciones según heurísticas
 
