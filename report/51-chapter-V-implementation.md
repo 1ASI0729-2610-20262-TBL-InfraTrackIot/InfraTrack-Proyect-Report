@@ -591,6 +591,38 @@ Implementar los principales servicios backend del sistema mediante APIs REST, pe
 
 
 #### 5.2.3.4. Development Evidence for Sprint Review.
+
+Esta sección documenta los commits y releases asociados a los avances más relevantes desarrollados durante el Sprint 3. El alcance se centró principalmente en la implementación de los servicios backend del sistema InfraTrack, siguiendo la estrategia GitFlow mediante ramas feature integradas posteriormente en develop y liberadas mediante versiones incrementales. Los commits provienen de los repositorios oficiales de la organización en GitHub.
+
+#### Repositorio Backend — InfraTrack-Backend
+
+| Repository                                               | Branch                               | Release / Commit | Commit Message                                                     | Commited On |
+| -------------------------------------------------------- | ------------------------------------ | ---------------- | ------------------------------------------------------------------ | ----------- |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/sign-up                      | v0.2.0           | feat: POST /api/v1/authentication/sign-up                          | 2026-06     |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/sign-in                      | v0.3.0           | feat: POST /api/v1/authentication/sign-in                          | 2026-06     |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/list-users                   | v0.4.0           | feat: GET /api/v1/users                                            | 2026-06     |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/list-roles                   | v0.5.0           | feat: GET /api/v1/roles                                            | 2026-06     |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/create-operator              | v0.6.0           | feat: POST /api/v1/operators                                       | 2026-06     |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/list-operators               | v0.7.0           | feat: GET /api/v1/operators                                        | 2026-06     |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/create-machinery             | v0.8.0           | feat: POST /api/v1/machinery                                       | 2026-06     |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/list-machinery               | v0.9.0           | feat: GET /api/v1/machinery                                        | 2026-06     |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/update-machinery             | v0.10.0          | feat: PUT /api/v1/machinery/{id}                                   | 2026-06     |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/register-iot-node            | v0.11.0          | feat: POST /api/v1/iot-nodes                                       | 2026-06     |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/create-maintenance-record    | v0.12.0          | feat: Create maintenance record                                    | 2026-06     |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/list-telemetry-data          | v0.13.0          | feat: List telemetry data                                          | 2026-06     |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/list-alerts                  | v0.14.0          | feat: List alerts                                                  | 2026-06     |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/create-alert                 | v0.15.0          | feat: Create alert                                                 | 2026-06     |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/acknowledge-alert            | v0.16.0          | feat: Acknowledge alert                                            | 2026-06     |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/worksites                    | v0.17.0          | feat: Worksites module                                             | 2026-06     |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/create-staff-members         | v0.18.0          | feat: POST /api/v1/staff-members                                   | 2026-06     |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/assign-transport-to-worksite | v0.19.0          | feat: POST /api/v1/worksites/{worksiteId}/transports/{transportId} | 2026-06     |
+
+Los releases desarrollados durante el Sprint 3 evidencian la implementación progresiva de los principales módulos backend del sistema. Se completaron funcionalidades relacionadas con autenticación y autorización, gestión de usuarios y roles, operadores, maquinaria, nodos IoT, mantenimiento, telemetría, alertas, obras de trabajo y personal.
+
+Asimismo, los endpoints REST fueron documentados mediante OpenAPI/Swagger y versionados siguiendo prácticas de integración continua basadas en GitFlow. La liberación incremental de las versiones v0.1.0 a v0.19.0 permitió validar cada funcionalidad de forma independiente y garantizar la integración de los distintos bounded contexts del sistema.
+
+
+
 #### 5.2.3.5. Execution Evidence for Sprint Review.
 
 ---
