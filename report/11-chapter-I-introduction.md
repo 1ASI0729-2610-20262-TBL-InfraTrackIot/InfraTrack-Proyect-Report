@@ -72,24 +72,6 @@ A continuación, nuestra misión, visión y valores:
     </td>
   </tr>
   <tr>
-    <td style="border:2px solid #fff; text-align:center; vertical-align:top;">U202414510</td>
-    <td style="border:2px solid #fff; text-align:justify; vertical-align:top;">
-      <b>Carlos Marcelo Mansilla Rivero</b><br>Estudiante de la carrera de Ingeniería de Software con conocimientos previos en programación utilizando lenguajes como C++, HTML, CSS, JavaScript y Python. Me apasiona el desarrollo de software, no solo en la parte de codificación, sino también en el análisis y diseño de soluciones.
-    </td>
-    <td style="border:2px solid #fff; text-align:center; vertical-align:top;">
-      <img src="../assets/Carlos.jpeg" alt="Foto Carlos" style="width:90px; border-radius:8px;"/>
-    </td>
-  </tr>
-  <tr>
-    <td style="border:2px solid #fff; text-align:center; vertical-align:top;">U20201B441</td>
-    <td style="border:2px solid #fff; text-align:justify; vertical-align:top;">
-      <b>David Alejandro Calixto Iriarte</b><br>Estudiante de la carrera de Ingeniería de Software de la UPC, cuento con experiencia en lenguaje C++, SQL y Python. Siento pasión por aprender nuevos conocimientos que me ayudaran a crecer como profesional a futuro cuando pueda desarrollar plenamente mis actividades laborales.
-    </td>
-    <td style="border:2px solid #fff; text-align:center; vertical-align:top;">
-      <img src="../assets/David.jpeg" alt="Foto David" style="width:90px; border-radius:8px;"/>
-    </td>
-  </tr>
-  <tr>
     <td style="border:2px solid #fff; text-align:center; vertical-align:top;">U20201B441</td>
     <td style="border:2px solid #fff; text-align:justify; vertical-align:top;">
       <b>Aldair Joaquin Ramos Aguirre</b><br>Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), con conocimientos en programación en Python, Java y C++. Interesado en aplicar mis conocimientos académicos en este proyecto,, contribuyendo al desarrollo de soluciones tecnológicas y fortaleciendo mis habilidades profesionales.
