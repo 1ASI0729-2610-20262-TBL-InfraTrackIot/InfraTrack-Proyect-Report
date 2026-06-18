@@ -34,10 +34,6 @@
 			<td style="text-align:center; padding:8px;">Mallqui Vilca, Dhilsen Armil</td>
 			<td style="text-align:center; padding:8px;">U202319440</td>
 		</tr>
-		<tr>
-			<td style="text-align:center; padding:8px;">Mansilla Rivero, Carlos Marcelo</td>
-			<td style="text-align:center; padding:8px;">U20214510</td>
-		</tr>
 	</table>
 </div>
 
