@@ -260,11 +260,11 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
 #### 5.2.1.4. Development Evidence for Sprint Review
 Dado que el alcance del primer sprint se limitó al desarrollo inicial de la landing page, en esta etapa no se contempló la ejecución de pruebas para servicios o interacciones.
 #### 5.2.1.5. Execution Evidence for Sprint Review
-Se evidencia el avance del Primer Sprint por medio del siguiente link: https://infratrack-iot-inky.vercel.app/
+Se evidencia el avance del Primer Sprint por medio del siguiente link: https://infra-track-landing-page.vercel.app/
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
-Link del Landing Page: https://infratrack-iot-inky.vercel.app/
+Link del Landing Page: https://infra-track-landing-page.vercel.app/
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 <img src="../assets/Team-Collaboration-Insights-during-Sprint-picture.png" alt="Team Collaboration Insights">
 
@@ -515,14 +515,287 @@ Frontend:
 
 <img src="../assets/frontend-commits.png" alt="Team Collaboration Insights Frontend">
 
+#### 5.2.3 Sprint 3
+#### 5.2.3.1. Sprint Planning 3.
+| Sprint # | Sprint 3 |
+|-----------|----------|
+| **Sprint Planning Background** | |
+| Date | 2026-06-17 |
+| Time | 12:00 PM |
+| Location | Universidad Peruana de Ciencias Aplicadas (UPC) – Campus San Isidro |
+| Prepared By | Aldair Ramos |
+| Attendees (to planning meeting) | Aldair Ramos / Dhilsen Mallqui / Jefferson Farfán |
+| Sprint 3  Review Summary | Durante el Sprint 2 se establecieron las bases técnicas del proyecto, incluyendo la arquitectura inicial, configuración del entorno de desarrollo, integración de herramientas colaborativas y definición de los principales módulos del sistema. Además, se identificaron los requerimientos prioritarios para la implementación del backend durante el siguiente Sprint. |
+| Sprint 3 Retrospective Summary | El equipo logró una adecuada coordinación y distribución de tareas. Como oportunidades de mejora se identificó la necesidad de realizar revisiones de código más frecuentes, documentar mejor los avances y mejorar la sincronización de cambios para reducir conflictos durante la integración. |
+| **Sprint Goal & User Stories**  |
+| Sprint 3 Goal | Implementar los principales servicios backend del sistema mediante APIs REST, incluyendo autenticación, gestión de usuarios, operadores, maquinaria, nodos IoT, alertas, mantenimiento, personal y obras de trabajo, garantizando su correcto funcionamiento y disponibilidad mediante documentación OpenAPI. |
+| Sprint 3 Velocity | 28 Story Points |
+| Sum of Story Points | 28 Story Points |
+#### 5.2.3.2. Aspects Leaders and Collaborators.
+| Team Member (Last Name, First Name) | GitHub Username | UI/UX Design (L/C) | Landing Page Development (L/C) | Quality Control (L/C) | Documentation (L/C) |
+|-------------------------------------|----------------|-------------------|-------------------------------|----------------------|--------------------|
+| Jefferson Morales | Fenfito | L | C | C | C |
+| Dhilsen Malqui | Dhilsen18 | C | L | C | C |
+| Aldair Ramos | AldairRamos13 | C | C | L | C |
+#### 5.2.3.3. Sprint Backlog 3. 
 
+
+**Objetivo:**  
+Implementar los principales servicios backend del sistema mediante APIs REST, permitiendo gestionar autenticación, usuarios, roles, operadores, maquinaria, nodos IoT, mantenimiento, telemetría, alertas, obras de trabajo, personal y asignación de transporte.
+
+**Alcance:**
+
+- Implementar el registro e inicio de sesión de usuarios.
+- Desarrollar la consulta de usuarios y roles del sistema.
+- Implementar la creación y listado de operadores.
+- Desarrollar el registro, consulta y actualización de maquinaria.
+- Implementar el registro de nodos IoT.
+- Crear registros de mantenimiento asociados a maquinaria y nodos IoT.
+- Implementar la consulta de datos de telemetría.
+- Desarrollar el listado, creación y confirmación de alertas.
+- Implementar el módulo de Worksites para la gestión de obras de trabajo.
+- Registrar miembros del personal.
+- Asignar transportes a obras de trabajo.
+
+**Duración:** 1 de Junio - 14 de Junio 2026
+
+**Capacidad de equipo:** 84 horas totales - 3 integrantes
+
+**Requisitos técnicos:** GitHub, Spring Boot, Java, MySQL, JPA, OpenAPI/Swagger, JWT
+
+| Sprint # | Sprint 3 |
+|---|---|
+| **User Story** | **Work-Item / Task** |
+
+| Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status |
+|---|---|---|---|---|---:|---|---|
+| HU-01 | Registrarse en la plataforma | EP-01 | Implementar Sign Up | Crear endpoint para registrar nuevos usuarios en el sistema mediante `/api/v1/authentication/sign-up`. | 4h | Dhilsen Mallqui | Done |
+| HU-02 | Iniciar sesión | EP-02 | Implementar Sign In | Crear endpoint para iniciar sesión y devolver JWT mediante `/api/v1/authentication/sign-in`. | 4h | Dhilsen Mallqui | Done |
+| HU-03 | Consultar usuarios | EP-03 | Listar usuarios | Implementar endpoint para obtener los usuarios registrados mediante `/api/v1/users`. | 3h | Dhilsen Mallqui | Done |
+| HU-04 | Consultar roles | EP-04 | Listar roles | Implementar endpoint para consultar los roles disponibles mediante `/api/v1/roles`. | 3h | Dhilsen Mallqui | Done |
+| HU-05 | Registrar operadores | EP-05 | Crear operador | Implementar endpoint para registrar operadores mediante `/api/v1/operators`. | 4h | Dhilsen Mallqui | Done |
+| HU-06 | Consultar operadores | EP-06 | Listar operadores | Implementar endpoint para consultar operadores mediante `/api/v1/operators`. | 3h | Aldair Ramos | Done |
+| HU-07 | Registrar maquinaria | EP-07 | Crear maquinaria | Implementar endpoint para registrar maquinaria mediante `/api/v1/machinery`. | 5h | Aldair Ramos | Done |
+| HU-08 | Consultar maquinaria | EP-08 | Listar maquinaria | Implementar endpoint para obtener la maquinaria registrada mediante `/api/v1/machinery`. | 3h | Aldair Ramos | Done |
+| HU-09 | Actualizar maquinaria | EP-09 | Actualizar maquinaria | Implementar endpoint para actualizar datos de maquinaria mediante `/api/v1/machinery/{id}`. | 4h | Aldair Ramos | Done |
+| HU-10 | Registrar nodo IoT | EP-10 | Registrar IoT Node | Implementar endpoint para registrar nodos IoT mediante `/api/v1/iot-nodes`. | 4h | Aldair Ramos | Done |
+| HU-11 | Registrar mantenimiento | EP-11 | Crear maintenance record | Implementar funcionalidad para registrar mantenimientos relacionados a maquinaria y nodos IoT. | 5h | Jefferson Farfán | Done |
+| HU-12 | Consultar telemetría | EP-12 | Listar telemetry data | Implementar servicio para consultar datos de telemetría generados por los nodos IoT. | 3h | Jefferson Farfán | Done |
+| HU-13 | Consultar alertas | EP-13 | Listar alertas | Implementar endpoint para listar alertas del sistema. | 3h | Jefferson Farfán | Done |
+| HU-14 | Crear alertas | EP-14 | Crear alerta | Implementar endpoint para registrar nuevas alertas del sistema. | 4h | Jefferson Farfán | Done |
+| HU-15 | Confirmar alertas | EP-15 | Acknowledge alert | Implementar funcionalidad para confirmar o atender una alerta registrada. | 3h | Jefferson Farfán | Done |
+| HU-16 | Gestionar obras de trabajo | EP-16 | Implementar Worksites | Desarrollar el módulo de Worksites para gestionar obras de trabajo dentro del sistema. | 6h | Dhilsen Mallqui | Done |
+| HU-17 | Registrar personal | EP-17 | Crear staff member | Implementar endpoint para registrar miembros del personal mediante `/api/v1/staff-members`. | 5h | Aldair Ramos | Done |
+| HU-18 | Asignar transporte a obra | EP-18 | Assign transport to worksite | Implementar endpoint para asignar transporte a una obra mediante `/api/v1/worksites/{worksiteId}/transports/{transportId}`. | 5h | Aldair Ramos | Done |
+
+
+
+#### 5.2.3.4. Development Evidence for Sprint Review.
+
+Esta sección documenta los commits y releases asociados a los avances más relevantes desarrollados durante el Sprint 3. El alcance se centró principalmente en la implementación de los servicios backend del sistema InfraTrack, siguiendo la estrategia GitFlow mediante ramas feature integradas posteriormente en develop y liberadas mediante versiones incrementales. Los commits provienen de los repositorios oficiales de la organización en GitHub.
+
+#### Repositorio Backend — InfraTrack-Backend
+
+| Repository                                               | Branch                               | Release / Commit | Commit Message                                                     | Commited On |
+| -------------------------------------------------------- | ------------------------------------ | ---------------- | ------------------------------------------------------------------ | ----------- |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/sign-up                      | v0.2.0           | feat: POST /api/v1/authentication/sign-up                          | 2026-06     |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/sign-in                      | v0.3.0           | feat: POST /api/v1/authentication/sign-in                          | 2026-06     |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/list-users                   | v0.4.0           | feat: GET /api/v1/users                                            | 2026-06     |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/list-roles                   | v0.5.0           | feat: GET /api/v1/roles                                            | 2026-06     |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/create-operator              | v0.6.0           | feat: POST /api/v1/operators                                       | 2026-06     |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/list-operators               | v0.7.0           | feat: GET /api/v1/operators                                        | 2026-06     |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/create-machinery             | v0.8.0           | feat: POST /api/v1/machinery                                       | 2026-06     |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/list-machinery               | v0.9.0           | feat: GET /api/v1/machinery                                        | 2026-06     |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/update-machinery             | v0.10.0          | feat: PUT /api/v1/machinery/{id}                                   | 2026-06     |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/register-iot-node            | v0.11.0          | feat: POST /api/v1/iot-nodes                                       | 2026-06     |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/create-maintenance-record    | v0.12.0          | feat: Create maintenance record                                    | 2026-06     |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/list-telemetry-data          | v0.13.0          | feat: List telemetry data                                          | 2026-06     |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/list-alerts                  | v0.14.0          | feat: List alerts                                                  | 2026-06     |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/create-alert                 | v0.15.0          | feat: Create alert                                                 | 2026-06     |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/acknowledge-alert            | v0.16.0          | feat: Acknowledge alert                                            | 2026-06     |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/worksites                    | v0.17.0          | feat: Worksites module                                             | 2026-06     |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/create-staff-members         | v0.18.0          | feat: POST /api/v1/staff-members                                   | 2026-06     |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/assign-transport-to-worksite | v0.19.0          | feat: POST /api/v1/worksites/{worksiteId}/transports/{transportId} | 2026-06     |
+
+Los releases desarrollados durante el Sprint 3 evidencian la implementación progresiva de los principales módulos backend del sistema. Se completaron funcionalidades relacionadas con autenticación y autorización, gestión de usuarios y roles, operadores, maquinaria, nodos IoT, mantenimiento, telemetría, alertas, obras de trabajo y personal.
+
+Asimismo, los endpoints REST fueron documentados mediante OpenAPI/Swagger y versionados siguiendo prácticas de integración continua basadas en GitFlow. La liberación incremental de las versiones v0.1.0 a v0.19.0 permitió validar cada funcionalidad de forma independiente y garantizar la integración de los distintos bounded contexts del sistema.
+
+
+
+#### 5.2.3.5. Execution Evidence for Sprint Review.
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+
+<img src="../assets/Swagger-1.jpeg"/>
+<img src="../assets/Swagger-2.jpeg"/>
+<img src="../assets/Swagger-3.jpeg"/>
+<img src="../assets/Swagger-4.jpeg"/>
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+ Url: https://infratrack-api.onrender.com/
+<img src="../assets/Render-1.jpeg"/>
+<img src="../assets/Render-2.jpeg"/>
+<img src="../assets/Render-3.jpeg"/>
+<img src="../assets/Render-4.jpeg"/>
+<img src="../assets/Filess-1.jpeg"/>
+<img src="../assets/Filess-2.jpeg"/>
+<img src="../assets/Filess-3.jpeg"/>
+<img src="../assets/mysql.jpeg"/>
+
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint.
+<img src="../assets/backendcommits.jpeg"/>
+<img src="../assets/frontendcommits.jpeg"/>
+<img src="../assets/landingcommits.jpeg"/>
 
 ---
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas
 
+
+Para validar el valor generado por InfraTrack y conocer la experiencia de uso de los usuarios, se diseñaron entrevistas orientadas a recopilar retroalimentación sobre las funcionalidades implementadas, la facilidad de uso de la plataforma y el impacto percibido en las operaciones de la empresa.
+
+---
+
+#### Segmento Objetivo 1: Dueños de empresas ferreteras
+
+* Después de utilizar InfraTrack, ¿qué beneficios ha observado en la gestión de sus operaciones?
+
+* ¿Qué tan útil le resulta la información mostrada en los paneles de monitoreo para la toma de decisiones?
+
+* ¿Considera que la plataforma le brinda una mejor visibilidad sobre sus activos y recursos? ¿Por qué?
+
+* ¿Qué funcionalidades utiliza con mayor frecuencia dentro del sistema?
+
+* ¿Las alertas generadas por la plataforma le ayudan a reaccionar más rápidamente ante incidencias?
+
+* ¿Qué tan fácil le resultó comprender y utilizar las funcionalidades principales de InfraTrack?
+
+* ¿Considera que la información registrada en la plataforma es suficiente para supervisar sus operaciones?
+
+* ¿Ha identificado alguna mejora en el control de maquinaria, vehículos o personal desde que comenzó a utilizar la plataforma?
+
+* ¿Qué funcionalidades adicionales le gustaría incorporar en futuras versiones del sistema?
+
+* En una escala del 1 al 5, ¿qué tan satisfecho se encuentra con InfraTrack y por qué?
+
+---
+
+#### Segmento Objetivo 2: Administradores logísticos
+
+* ¿Qué tan útil le resulta la gestión de maquinaria y operadores implementada en InfraTrack?
+
+* ¿La información de telemetría y monitoreo disponible en la plataforma le permite realizar un mejor seguimiento de las operaciones?
+
+* ¿Qué tan efectivas considera las alertas generadas por el sistema para identificar incidencias?
+
+* ¿Qué funcionalidades utiliza con mayor frecuencia durante su jornada laboral?
+
+* ¿La plataforma le ha ayudado a reducir el tiempo dedicado al seguimiento y control de activos?
+
+* ¿Qué tan intuitiva considera la interfaz de usuario de InfraTrack?
+
+* ¿Ha encontrado dificultades al registrar información o consultar datos dentro del sistema?
+
+* ¿La gestión de obras de trabajo, personal y asignación de transporte cubre sus necesidades operativas actuales?
+
+* ¿Qué mejoras considera prioritarias para aumentar el valor de la plataforma?
+
+* En una escala del 1 al 5, ¿qué tan satisfecho se encuentra con la experiencia de uso de InfraTrack?
+
+
 ### 5.3.2. Registro de Entrevistas
+
+# Entrevista 1
+
+<img src="../assets/entrevista1.png" alt="Entrevista nro 1" style="max-width: 90%; display: block; margin: 0 auto;"/>
+
+## Datos del entrevistado
+
+* **Nombre completo:** Rogelio Guerra
+* **Edad:** 53 años
+* **Distrito de residencia:** Surco - Perú
+
+## Datos del video
+
+* **Link:** https://shorturl.at/ZfgV5
+* **Duración:** 09:26
+* **Timing de inicio:** 0:00
+
+## Resumen
+
+Rogelio Guerra, empresario del rubro ferretero y alquiler de maquinaria para obras, comentó que luego de revisar el funcionamiento de InfraTrack percibió beneficios importantes para el control de sus operaciones. Señaló que la plataforma le permitiría tener una mejor visibilidad sobre maquinaria, vehículos, personal y obras, reduciendo la dependencia de llamadas, WhatsApp o reportes manuales.
+
+El entrevistado destacó que los paneles de monitoreo resultan útiles para la toma de decisiones, ya que permiten visualizar información relevante de manera centralizada. Considera valioso poder consultar el estado de los activos, revisar alertas y tener registros relacionados con mantenimientos o asignaciones operativas.
+
+Respecto a las funcionalidades más útiles, mencionó la gestión de maquinaria, el registro de personal, la asignación de transporte a obras y las alertas del sistema. Indicó que estas funciones podrían ayudar a reaccionar más rápido ante incidencias, evitar pérdidas por mal uso de recursos y mejorar la organización diaria del negocio.
+
+También señaló que la aplicación debe mantenerse simple y fácil de usar, ya que los usuarios de empresas pequeñas o medianas no siempre cuentan con alta experiencia tecnológica. En general, consideró que InfraTrack sí responde a necesidades reales de su empresa, especialmente en trazabilidad, control de activos y reducción de desorden operativo.
+
+Finalmente, indicó que estaría satisfecho con la solución si esta continúa mejorando su facilidad de uso, reportes y seguimiento en tiempo real. Como mejora futura, sugirió incorporar reportes simples de ingresos, costos de mantenimiento y uso de maquinaria.
+
+---
+
+# Entrevista 2
+
+<img src="../assets/entrevista2.png" alt="Entrevista nro 2" style="max-width: 90%; display: block; margin: 0 auto;"/>
+
+## Datos del entrevistado
+
+* **Nombre completo:** Carolina Valos
+* **Edad:** 25 años
+* **Distrito de residencia:** Surquillo - Perú
+
+## Datos del video
+
+* **Link:** https://shorturl.at/lEiyg
+* **Duración:** 04:00
+* **Timing de inicio:** 0:00
+
+## Resumen
+
+Carolina Valos, administradora logística, indicó que InfraTrack le resulta útil porque centraliza información que normalmente se encuentra dispersa entre GPS, Excel, WhatsApp y reportes manuales. Luego de observar el funcionamiento de la aplicación, consideró que la gestión de maquinaria, operadores, telemetría y alertas puede facilitar el seguimiento diario de las operaciones.
+
+Mencionó que la información de monitoreo y telemetría permite tener una visión más clara del estado de los equipos y activos. Además, señaló que las alertas automáticas son una funcionalidad importante, ya que ayudan a identificar incidencias sin depender únicamente de reportes posteriores o comunicación manual con los conductores.
+
+Carolina destacó que las funcionalidades que usaría con mayor frecuencia serían la consulta de maquinaria, revisión de alertas, monitoreo de datos operativos y generación de registros relacionados con mantenimiento. Considera que estas herramientas podrían reducir el tiempo que actualmente dedica a consolidar información en hojas de cálculo.
+
+Sobre la experiencia de uso, señaló que la interfaz debe mantenerse clara e intuitiva, especialmente para usuarios que necesitan revisar información rápidamente durante su jornada laboral. También indicó que la gestión de obras, personal y asignación de transporte cubre una necesidad importante para organizar mejor las operaciones logísticas.
+
+Como mejora futura, sugirió fortalecer los reportes automáticos, agregar filtros más detallados y mejorar la visualización de indicadores clave para facilitar la toma de decisiones.
+
+---
+
+# Entrevista 3
+
+<img src="../assets/entrevista3.png" alt="Entrevista nro 3" style="max-width: 90%; display: block; margin: 0 auto;"/>
+
+## Datos del entrevistado
+
+* **Nombre completo:** Sebastian Henriquez
+* **Edad:** 35 años
+* **Distrito de residencia:** Barranco - Perú
+
+## Datos del video
+
+* **Link:**
+* **Duración:** 6:34
+* **Timing de inicio:** 0:00
+
+## Resumen
+
+Sebastian Henriquez, relacionado con la gestión logística y seguimiento de vehículos, comentó que InfraTrack representa una mejora frente al uso tradicional de GPS básico, WhatsApp y hojas de cálculo. Señaló que la plataforma permite ordenar mejor la información operativa y reducir la necesidad de consolidar datos manualmente.
+
+El entrevistado consideró útil la gestión de maquinaria, nodos IoT, telemetría y alertas, ya que estas funcionalidades permiten supervisar el estado de los activos y detectar posibles incidencias de forma más rápida. Indicó que contar con alertas dentro del sistema ayudaría a responder mejor ante desviaciones, fallas, retrasos o mantenimientos pendientes.
+
+También resaltó que la posibilidad de registrar personal, obras de trabajo y asignar transporte a una obra aporta valor para la planificación logística. Según su opinión, estas funcionalidades permiten tener mayor control sobre qué recurso está asignado a cada operación y facilitan el seguimiento de responsabilidades.
+
+Respecto a la experiencia de uso, mencionó que la plataforma debe priorizar una navegación sencilla y una presentación clara de la información, ya que los usuarios operativos necesitan consultar datos sin perder demasiado tiempo. Considera que InfraTrack puede reducir la carga operativa diaria al centralizar información que antes se encontraba en diferentes herramientas.
+
+Como mejoras futuras, sugirió incorporar reportes automáticos, historial de rutas, control más detallado de combustible y notificaciones más personalizadas según el tipo de incidencia.
+
 
 ### 5.3.3. Evaluaciones según heurísticas
 
