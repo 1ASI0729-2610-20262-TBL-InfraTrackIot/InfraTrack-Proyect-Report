@@ -3,9 +3,7 @@
 El curso contribuye al cumplimiento del Student Outcome ABET:
 
 **ABET – EAC - Student Outcome 3**
-Criterio: La capacidad de funcionar efectivamente en un
-equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de
-colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos
+**Criterio:** La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
 
 <table style="width:100%; border-collapse:collapse; border:2px solid #fff; background:#1e1e1e; font-family:Arial, sans-serif;">
     <tr>
@@ -20,40 +18,32 @@ colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen obj
         </th>
     </tr>
     <tr>
-        <td style="background:#b00; color:#fff; border:2px solid #fff; text-align:center; vertical-align:middle; font-size:15px;" rowspan="4">
+        <td style="background:#b00; color:#fff; border:2px solid #fff; text-align:center; vertical-align:middle; font-size:15px;" rowspan="3">
             <b>Criterio 1:</b><br>
             Identifica, formula y resuelve problemas complejos de ingeniería aplicando principios de ingeniería, ciencia y matemáticas.
         </td>
         <td style="border:2px solid #fff; vertical-align:top; color:#fff; text-align:center; padding:10px;">
-            <b>Dhilsen:</b> Responsable del desarrollo del Capítulo IV (Product Design), elaborando el Style Guidelines, User Architecture, Software Architecture y el User Experience Design. Además, aportó en el desarrollo de la Landing Page y en el desarrollo de la aplicación web.
+            <b>Dhilsen:</b> Durante el Avance 2 fue responsable del desarrollo del Capítulo IV (Product Design), elaborando el Style Guidelines, User Architecture, Software Architecture y User Experience Design. En el Avance 3 participó en la implementación e integración de funcionalidades relacionadas con autenticación, gestión de usuarios, roles y obras de trabajo, además de apoyar en las actividades de validación e integración del sistema.
         </td>
         <td style="border:2px solid #fff; vertical-align:top; color:#fff; text-align:center; padding:10px;">
-            Se concluye que su aporte en el diseño del producto fue fundamental para establecer una base visual y estructural coherente, facilitando la implementación de una interfaz intuitiva y escalable.
+            Se concluye que su participación permitió consolidar la arquitectura del sistema y asegurar la correcta integración de los componentes desarrollados, contribuyendo al cumplimiento de los objetivos establecidos para el proyecto.
         </td>
     </tr>
     <tr>
         <td style="border:2px solid #fff; vertical-align:top; color:#fff; text-align:center; padding:10px;">
-            <b>Carlos:</b> Responsable del desarrollo del Capítulo III (Requirements Elicitation & Analysis), elaborando los User Stories, Social Network Analysis y el Software Requirements Specifications. Además, aportó en el desarrollo de la Landing Page y en el desarrollo de la aplicación web.
+            <b>Aldair:</b> Durante el Avance 2 Responsable del desarrollo del Capítulo III (Requirements Elicitation & Analysis), elaborando los User Stories, Social Network Analysis y el Software Requirements Specifications. Además, aportó en el desarrollo de la Landing Page y en el desarrollo de la aplicación web.  En el Avance 3 fue responsable del desarrollo parcial  participó en el desarrollo  de funcionalidades backend relacionadas con operadores, maquinaria y nodos IoT ademas de del Capítulo V correspondiente al Sprint 3, elaborando el Sprint Planning, Sprint Backlog, Development Evidence for Sprint Review, Services Documentation Evidence for Sprint Review y Software Deployment Evidence for Sprint Review. Asimismo, implementó funcionalidades backend para personal, asignación de transporte a obras, gestión de releases y evidencias de despliegue utilizando Render y Filess.io.
         </td>
         <td style="border:2px solid #fff; vertical-align:top; color:#fff; text-align:center; padding:10px;">
-            Se concluye que su participación en la creación de las historias de usuario y especificaciones técnicas permitió una clara definición de las funcionalidades del sistema, asegurando que el equipo trabaje con objetivos bien estructurados.
+            Se concluye que su aporte fue fundamental para consolidar el desarrollo técnico del proyecto durante el Avance 3, permitiendo implementar, documentar y desplegar los principales servicios backend requeridos para la operación integral de InfraTrack.
         </td>
     </tr>
     <tr>
         <td style="border:2px solid #fff; vertical-align:top; color:#fff; text-align:center; padding:10px;">
-            <b>David:</b> Responsable del desarrollo parcial del Capítulo V correspondiente al Sprint 2, participando en la planificación y organización de actividades del Sprint, así como en la elaboración de evidencias de avance. Además, contribuyó en la realización de entrevistas para el levantamiento de información y apoyó en el desarrollo parcial de la Landing Page y de la aplicación web del proyecto.
+            <b>Jefferson:</b> Durante el Avance 2 fue responsable del Capítulo II (Needfinding), elaborando User Personas, User Task Matrix, User Journey Mapping y Empathy Mapping, además de liderar el Sprint 1. En el Avance 3 participó en el desarrollo e integración de funcionalidades relacionadas con monitoreo, telemetría, mantenimiento y alertas, así como en la documentación y validación de las evidencias asociadas al Sprint 3.
         </td>
         <td style="border:2px solid #fff; vertical-align:top; color:#fff; text-align:center; padding:10px;">
-            Se concluye que su participación en el Sprint 2 y en las actividades de investigación permitió fortalecer la organización y seguimiento del proyecto, aportando al cumplimiento de los requerimientos y al avance continuo del desarrollo de la aplicación web.
+            Se concluye que su participación fortaleció las funcionalidades de monitoreo y control operativo del sistema, contribuyendo a la validación de los requisitos funcionales y al cumplimiento de los objetivos técnicos del Avance 3.
         </td>
     </tr>
-    <tr>
-        <td style="border:2px solid #fff; vertical-align:top; color:#fff; text-align:center; padding:10px;">
-            <b>Jefferson:</b> Responsable del desarrollo del Capítulo II (Needfinding), elaborando User Personas, User Task Matrix, User Journey Mapping y Empathy Mapping. Lideró el Sprint 1 en el Capítulo V, gestionando el Planning, Backlog y evidencias de ejecución. Además, contribuyó en el desarrollo de la Landing Page y la aplicación web.
-        </td>
-        <td style="border:2px solid #fff; vertical-align:top; color:#fff; text-align:center; padding:10px;">
-            Se concluye que su liderazgo en la fase de investigación y en el primer Sprint fue determinante para alinear el desarrollo con las necesidades del usuario, asegurando una base sólida para la evolución del software.
-        </td>
-    </tr>
-
 </table>
+
