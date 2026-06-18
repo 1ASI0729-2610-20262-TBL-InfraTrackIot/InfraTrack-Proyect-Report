@@ -633,6 +633,16 @@ Asimismo, los endpoints REST fueron documentados mediante OpenAPI/Swagger y vers
 <img src="../assets/Swagger-4.jpeg"/>
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+ Url: https://infratrack-api.onrender.com/
+<img src="../assets/Render-1.jpeg"/>
+<img src="../assets/Render-2.jpeg"/>
+<img src="../assets/Render-3.jpeg"/>
+<img src="../assets/Render-4.jpeg"/>
+<img src="../assets/Filess-1.jpeg"/>
+<img src="../assets/Filess-2.jpeg"/>
+<img src="../assets/Filess-3.jpeg"/>
+<img src="../assets/mysql.jpeg"/>
+
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint.
 
