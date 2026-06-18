@@ -470,6 +470,110 @@ Frontend:
 
 ### 5.3.3. Evaluaciones según heurísticas
 
+La evaluación heurística de usabilidad se realizó sobre la aplicación web InfraTrack (Angular 21 + Angular Material), desplegada en el Sprint 2, analizando las vistas de Control Panel, gestión de flota (nodos IoT, transportes, conductores), telemetría GPS, reportes y alertas, configuración de activos, obras y perfil de usuario. Se aplicaron las diez heurísticas de Nielsen, priorizando los hallazgos con mayor impacto en la experiencia del propietario (*owner*) y del administrador de operaciones (*admin*).
+
+**Alcance de la evaluación**
+
+| Componente | Tecnología | Vistas evaluadas |
+|---|---|---|
+| Frontend | Angular 21, Material, ngx-translate (EN/ES) | Control Panel, Operaciones, Flota, Telemetría, Reportes, Configuración, Obras, Cuenta |
+| Backend | Spring Boot 4, API REST `/api/v1` | Respuestas de error, validación y contratos de datos que condicionan la retroalimentación en UI |
+
+---
+
+#### Evaluación de Heurísticas de Usabilidad
+
+**1. Descubrimiento y visibilidad de módulos críticos – Severidad: 4**
+
+**Heurística violada:**
+Visibilidad del estado del sistema / Flexibilidad y eficiencia de uso
+
+**Descripción:**
+Las rutas `/telemetry` (mapa GPS en tiempo real) y `/configuration` (vinculación de nodos IoT y mantenimiento) están implementadas y protegidas por guardas de rol, pero no aparecen en el menú lateral del `ShellLayout`. El propietario solo ve Control Panel, Obras, Mapa de establecimientos, Asignar personal y Reportes & Analytics. Funcionalidades centrales del producto —seguimiento geográfico y configuración de activos— quedan ocultas salvo que el usuario conozca la URL directamente, lo que contradice la arquitectura de información definida en el Sprint 2.
+
+**Recomendación:**
+Incorporar enlaces persistentes en la barra lateral para *Telemetría* y *Configuración*, usando las claves i18n ya existentes (`nav.telemetry`, `nav.configuration`), con iconografía coherente (`gps_fixed`, `settings`). Opcionalmente, añadir accesos rápidos desde el Control Panel hacia estas vistas para reforzar la navegación contextual.
+
+---
+
+**2. Correspondencia entre diseño y expectativas del usuario – Severidad: 3**
+
+**Heurística violada:**
+Correspondencia entre el sistema y el mundo real / Visibilidad del estado del sistema
+
+**Descripción:**
+En el Control Panel del propietario, las tarjetas KPI se renderizan como botones interactivos con estado `kpi-card--selected`, lo que sugiere filtrado o drill-down. Sin embargo, la acción `selectKpi()` solo alterna una selección visual sin modificar gráficos, tablas ni mapas. En el dashboard de operaciones (`OpsDashboard`), el panel de alertas muestra tres ítems estáticos con colores inline, desconectados del `FleetStore` y de la API `/api/v1/alerts`, mientras que el Control Panel y Reportes sí consumen alertas reales. El usuario puede interpretar datos de demostración como información operativa en vivo.
+
+**Recomendación:**
+Si los KPIs no filtran contenido, presentarlos como tarjetas informativas (`<article>`) sin affordance de clic, o conectar la selección a filtros reales en gráficos y tablas. Reemplazar las alertas estáticas del dashboard de operaciones por datos del backend, con estados vacío y de carga consistentes con el resto de la aplicación.
+
+---
+
+**3. Retroalimentación, estados vacíos y manejo de errores – Severidad: 3**
+
+**Heurística violada:**
+Visibilidad del estado del sistema / Prevención de errores
+
+**Descripción:**
+El Control Panel y la vista de Configuración implementan correctamente skeletons, banners `role="alert"` y spinners. En contraste, las listas de conductores, transportes, nodos IoT y obras (`DriverList`, `TransportList`, `IotDeviceList`, `WorksiteList`) renderizan encabezados de tabla con `<tbody>` vacío cuando no hay registros, sin mensaje de estado vacío ni llamada a la acción. `WorksiteList` no muestra `loadError()` aunque el store lo expone; `DriverList` carece de UI de error. En el perfil (`ProfilePage`), el contenido depende de `@if (userData())` sin indicador de carga, pudiendo dejar la pantalla en blanco temporalmente. En el backend, los GET por ID devuelven `404` sin cuerpo JSON, lo que obliga al frontend a manejar errores de forma inconsistente.
+
+**Recomendación:**
+Estandarizar el patrón `cp-empty` / `it-banner` en todas las listas: estado de carga (spinner o skeleton), estado vacío con CTA (*Registrar maquinaria*, *Crear obra*) y banner de error reutilizable. En formularios reactivos (`AddAlertDialog`, `AddIotNodeDialog`), mostrar `mat-error` por campo. Coordinar con backend respuestas `ErrorResource` uniformes también en GET 404.
+
+---
+
+**4. Consistencia visual, lingüística y de nomenclatura – Severidad: 2**
+
+**Heurística violada:**
+Consistencia y estándares / Reconocimiento antes que recuerdo
+
+**Descripción:**
+La aplicación mezcla segmentos de ruta en español (`/obras`, `/dispositivos`, `/conductores`) con rutas en inglés (`/control-panel`, `/telemetry`, `/configuration`, `/reports-analytics`), dificultando la predicción de URLs y la documentación. Conviven dos sistemas de iconos: `material-icons-outlined` en flota y obras frente a `<mat-icon>` en configuración y reportes. El selector de idioma (EN/ES) no persiste la preferencia: al recargar la página vuelve a inglés (`defaultLanguage: 'en'`). Algunos `aria-label` permanecen hardcodeados en español o inglés independientemente del idioma activo, y `<html lang="en">` no se actualiza al cambiar a español. En reportes, la columna *Máquina* muestra el `machineryId` numérico en lugar de placa o modelo.
+
+**Recomendación:**
+Unificar convención de rutas (preferiblemente inglés técnico o español según guía de estilo del Capítulo IV). Estandarizar un solo set de iconos Material. Persistir idioma en `localStorage` y sincronizar `document.documentElement.lang`. Resolver IDs de maquinaria a etiquetas legibles (placa/modelo) en tablas y filtros, consumiendo datos reales de `/api/v1/machinery` en lugar de opciones mock en `ReportsView`.
+
+---
+
+**5. Validación de formularios y prevención de errores – Severidad: 3**
+
+**Heurística violada:**
+Prevención de errores / Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores
+
+**Descripción:**
+Los formularios de registro de obras, wizards de IoT/transporte y autenticación usan validación principalmente al enviar, con mensajes genéricos en banner (por ejemplo, reutilizando claves de `signup.errorRequired` en contextos no relacionados). Los diálogos reactivos marcan campos con `markAllAsTouched()` pero no muestran errores inline junto al campo inválido. En el backend, la validación es imperativa en servicios de comando sin `@Valid` en DTOs; los conflictos (placa duplicada, email existente) sí devuelven `details` útiles, pero los errores `NOT_FOUND` pierden contexto en el mensaje localizado. El botón de reconocimiento de alertas en Control Panel se deshabilita cuando `httpPutDeleteEnabled()` es falso, sin texto explicativo (a diferencia de la vista de Configuración que sí incluye `readOnlyHint`).
+
+**Recomendación:**
+Mostrar errores por campo con `mat-error` y mensajes semánticos por contexto (`worksite.errorNameRequired`). Añadir hints cuando acciones estén deshabilitadas por modo solo lectura o límites de plan. En backend, adoptar validación declarativa en DTOs y enriquecer respuestas 404 con `details` que identifiquen el recurso. Exponer en Reportes el flujo de creación de alertas mediante `AddAlertDialog`, actualmente implementado pero no enlazado desde la UI.
+
+---
+
+**6. Jerarquía visual y densidad informativa en paneles operativos – Severidad: 2**
+
+**Heurística violada:**
+Diseño estético y minimalista / Visibilidad del estado del sistema
+
+**Descripción:**
+El Control Panel concentra KPIs, gráficos Chart.js, mapa de obras, alertas recientes y tabla de mantenimiento en una sola vista. La jerarquía tipográfica entre eyebrow (nombre de empresa), título y secciones es adecuada gracias a `PageHeaderCard`, pero el botón de actualización usa la clave `controlPanel.load.retry` incluso en refrescos normales, transmitiendo la idea de error cuando no lo hay. En telemetría, el mapa Leaflet y el panel lateral comparten espacio sin indicador claro de carga global al obtener posiciones GPS. La marca lateral muestra subtítulo fijo *Sensor* mientras el login promociona *Digital Machine*, generando ligera disonancia de identidad visual.
+
+**Recomendación:**
+Separar etiquetas de *Actualizar* y *Reintentar* según contexto (`controlPanel.refresh` vs `controlPanel.load.retry`). Añadir indicador de carga en telemetría durante fetch de coordenadas. Unificar subtítulo de marca en sidebar, login y documentación. Considerar agrupación por pestañas o secciones colapsables en Control Panel para reducir carga cognitiva en pantallas medianas.
+
+---
+
+**Resumen de severidades**
+
+| # | Hallazgo | Severidad (1–4) | Heurística principal |
+|---|---|---|---|
+| 1 | Módulos Telemetría y Configuración no visibles en navegación | 4 | Visibilidad del sistema |
+| 2 | KPIs y alertas con affordance engañosa | 3 | Correspondencia sistema–mundo real |
+| 3 | Estados vacío/carga/error inconsistentes | 3 | Visibilidad del sistema |
+| 4 | Inconsistencia de rutas, iconos e i18n | 2 | Consistencia y estándares |
+| 5 | Validación y mensajes de error débiles | 3 | Prevención de errores |
+| 6 | Jerarquía y etiquetas en paneles densos | 2 | Diseño minimalista |
+
+*Escala de severidad: 1 = cosmético; 2 = menor; 3 = mayor; 4 = crítico para completar tareas.*
+
 ---
 
 ## 5.4. Video About-the-Product
@@ -479,5 +583,47 @@ Frontend:
 # Conclusiones
 
 ## Conclusiones y recomendaciones
+
+### Conclusiones
+
+La solución **InfraTrack — Digital Machine** ha logrado un alto nivel de alineación entre los objetivos iniciales del negocio (Lean UX) y la propuesta de diseño y arquitectura, la cual se sustenta en la validación temprana con los segmentos objetivo del sector construcción e infraestructura.
+
+Los problemas centrales identificados en la gestión de flotas de maquinaria pesada —falta de visibilidad en tiempo real sobre ubicación, combustible y horas de motor; dificultad para coordinar múltiples obras y sedes; mantenimiento reactivo en lugar de preventivo; y asignación poco trazable de operadores y recursos— han sido abordados directamente por la propuesta de valor de InfraTrack. El diseño del producto, basado en **nodos IoT** conectados a un **dashboard web** y una **API REST** con arquitectura DDD, resuelve los *pain points* identificados al ofrecer telemetría GPS, alertas de combustible y mantenimiento, panel de control con KPIs, gestión de obras y un centro de reportes unificado para propietarios (*owner*) y administradores de operaciones (*admin*).
+
+Las principales suposiciones de negocio y de funcionalidad se vieron validadas por el avance de los dos sprints, la evidencia de ejecución y la evaluación heurística documentada en la sección 5.3.3:
+
+**Validación de necesidad y valor.** La suposición de que las constructoras y empresas de infraestructura necesitan monitoreo centralizado de su flota y que el principal valor reside en la **reducción de paradas no planificadas**, el **control de combustible** y la **visibilidad multi-obra** se refleja en las historias de usuario implementadas (HU-23, HU-11, HU-26, HU-12, HU-22). El Sprint 1 confirmó interés en la propuesta mediante la landing page desplegada en Vercel ([infratrack-iot-inky.vercel.app](https://infratrack-iot-inky.vercel.app/)), con secciones de propuesta de valor, planes de suscripción, dashboard IoT demostrativo y acceso a la aplicación. El Sprint 2 materializó esa promesa en una aplicación Angular 21 con Control Panel, gestión de flota, telemetría, reportes y módulo de obras.
+
+**Arquitectura y escalabilidad.** La decisión de organizar el sistema en bounded contexts —IAM, Monitoring, Fleet y Site Management— permitió separar responsabilidades entre autenticación, telemetría/alertas, activos IoT y gestión de frentes de obra, facilitando el desarrollo paralelo del frontend y del backend Spring Boot 4. La documentación OpenAPI (`/swagger-ui.html`) y el uso de GitFlow con ramas `feature/`, `develop` y `main` sentaron bases sólidas para iteraciones posteriores.
+
+**Disposición y barreras de adopción.** Si bien la necesidad del mercado y la disposición a adoptar soluciones digitales fueron respaldadas por el diseño de planes Básico, Premium y Enterprise, la evaluación heurística reveló barreras de adopción **dentro del propio producto**: módulos críticos como Telemetría y Configuración no son descubribles desde la navegación principal; algunas vistas muestran datos estáticos o affordances engañosas (KPIs clicables sin efecto, alertas de demostración en el dashboard de operaciones). Esto implica que la suposición sobre la **confiabilidad percibida del sistema** debe reforzarse no solo con hardware IoT calibrado, sino con coherencia entre lo que la interfaz promete y lo que efectivamente entrega.
+
+**Consolidación del trabajo colaborativo.** A pesar de que las gráficas de GitHub del informe y del frontend muestran concentración de commits en algunos integrantes, la asignación de tareas por sprint, los roles de líder y colaborador (L/C) en UI/UX, desarrollo, control de calidad y documentación, y el uso de Pull Requests hacia `develop` evidencian participación activa de los cinco miembros del equipo: Jefferson Morales, Dhilsen Malqui, y Aldair Ramos.
+
+**Mejora en la organización y gestión de tareas.** La planificación por sprints con objetivos claros, backlog tabulado por historias de usuario y estimación en horas permitió dividir el trabajo en entregables manejables: Sprint 1 (landing page y primer contacto comercial) y Sprint 2 (aplicación web completa con backend). La matriz de aspectos L/C facilitó la distribución de responsabilidades según las fortalezas de cada integrante.
+
+**Avance en la calidad del producto.** Se logró construir una **landing page completa** desplegada en producción, con propuesta de valor, planes, formulario de contacto y dashboard IoT de demostración. En el Sprint 2 se desarrolló la **aplicación Digital Machine** con vistas de Control Panel, gestión de maquinaria y nodos IoT, telemetría GPS (Leaflet), reportes y analíticas, configuración de activos, obras y perfil de cuenta, soportada por API REST documentada. El soporte bilingüe (EN/ES) mediante ngx-translate amplía el alcance a operadores y gerentes en contextos locales e internacionales.
+
+**Aprendizaje sobre integración y control de versiones.** El equipo identificó dificultades en la sincronización de cambios entre múltiples repositorios (Landing Page, Frontend, Backend e Informe), lo que resalta la necesidad de reforzar buenas prácticas de integración continua, revisiones de PR y merges ordenados hacia `develop` antes de `main`, especialmente en el flujo `feature/chapter-5` → `develop` → `main` previsto para esta entrega.
+
+**Enfoque en la experiencia del usuario.** Los sprints permitieron validar la importancia de la navegabilidad por roles, el diseño responsive, los llamados a la acción en la landing page y la consistencia de retroalimentación en la aplicación (estados de carga, vacío y error). La evaluación heurística de Nielsen aplicada al frontend identificó seis áreas de mejora priorizadas, que servirán como base para optimizar usabilidad y accesibilidad en los próximos incrementos del producto.
+
+---
+
+### Recomendaciones
+
+**Validación en campo con constructoras.** Ejecutar formalmente las entrevistas de validación con los segmentos objetivo (gerentes de obra, jefes de flota y administradores de operaciones) y obtener métricas de éxito definidas en Lean UX (tiempo de respuesta ante alertas, reducción de paradas no planificadas, precisión de telemetría de combustible). Es crucial establecer una **fase piloto B2B** en al menos una constructora o empresa de infraestructura para obtener datos reales de nodos IoT en obra y demostrar la confiabilidad del hardware y del software, abordando la principal barrera de adopción identificada: la confianza en la precisión de los datos capturados en campo.
+
+**Desarrollo de bounded contexts críticos.** Concentrar el desarrollo en los contextos **Monitoring** (telemetría, alertas, reportes y analíticas) y **Fleet** (maquinaria, nodos IoT, mantenimiento y operadores), valorados por gerentes y jefes de flota para la toma de decisiones operativas. Completar las historias de usuario del Sprint 2 aún en progreso (HU-11 alertas preventivas, HU-19 umbrales, HU-12 historial de mantenimiento, HU-29 perfil de operador, HU-22 horarios de operación) convertirá el producto de un prototipo funcional a una herramienta operativa de apoyo a la decisión en obra.
+
+**Corrección de hallazgos heurísticos prioritarios.** Incorporar Telemetría y Configuración al menú lateral; conectar KPIs y alertas del dashboard a datos reales del backend; estandarizar estados vacío, carga y error en todas las listas; y unificar validación de formularios con mensajes por campo. Estas acciones, derivadas de la sección 5.3.3, tienen impacto directo en la adopción y deben priorizarse antes de ampliar el roadmap funcional.
+
+**Expansión del roadmap B2B (piloto Enterprise).** Implementar un programa piloto pagado con el plan Enterprise (zonas de obra y transportes ilimitados, umbrales IoT personalizados por obra) en al menos un cliente del sector construcción, para validar la hipótesis de reducción de costos por mantenimiento reactivo y uso indebido de maquinaria fuera de horario, y obtener *case studies* que sirvan como evidencia comercial para futuras alianzas.
+
+**Optimización de canales digitales.** Una vez contada con evidencia cuantitativa del piloto, activar la estrategia de captación B2B (alianzas con constructoras, ferias del sector, demostraciones en obra) y reforzar los CTAs de la landing page hacia registro y planes de suscripción. El contenido debe responder a las búsquedas de visibilidad de flota, control de combustible y trazabilidad multi-obra, alineado con el mensaje *"Inteligencia de flota de código abierto para maquinaria pesada"*.
+
+**Fortalecimiento técnico de la API y la integración.** Adoptar validación declarativa en DTOs del backend, unificar respuestas de error (`ErrorResource`) en todos los endpoints incluidos los GET 404, y documentar en Swagger la metadata de InfraTrack (reemplazando referencias genéricas). En el frontend, persistir preferencia de idioma y completar la integración del flujo de creación de alertas (`AddAlertDialog`) en el centro de reportes, cerrando la brecha entre capacidades implementadas y expuestas al usuario.
+
+---
 
 ## Video About-the-Team
