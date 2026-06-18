@@ -625,6 +625,18 @@ Asimismo, los endpoints REST fueron documentados mediante OpenAPI/Swagger y vers
 
 #### 5.2.3.5. Execution Evidence for Sprint Review.
 
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+
+<img src="../assets/Swagger-1.jpeg"/>
+<img src="../assets/Swagger-2.jpeg"/>
+<img src="../assets/Swagger-3.jpeg"/>
+<img src="../assets/Swagger-4.jpeg"/>
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint.
+
+
 ---
 ## 5.3. Validation Interviews
 
