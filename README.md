@@ -31,12 +31,12 @@
 			<th style="text-align:center; padding:8px;">Código de Alumno</th>
 		</tr>
 		<tr>
-			<td style="text-align:center; padding:8px;">Mallqui Vilca, Dhilsen Armil</td>
-			<td style="text-align:center; padding:8px;">U202319440</td>
-		</tr>
-		<tr>
 			<td style="text-align:center; padding:8px;">Mansilla Rivero, Carlos Marcelo</td>
 			<td style="text-align:center; padding:8px;">U20214510</td>
+		</tr>
+		<tr>
+			<td style="text-align:center; padding:8px;">Mallqui Vilca, Dhilsen Armil</td>
+			<td style="text-align:center; padding:8px;">U202319440</td>
 		</tr>
 	</table>
 </div>
@@ -52,9 +52,15 @@
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha | Autor        | Descripción de modificación |
-|---------|-------|--------------|-----------------------------|
-| 1.0 | 04/04/2026 | Mallqui Dhilsen | Creación del reporte en formato Markdown. |
+| Versión | Fecha      | Autor     | Descripción de modificación                                   |
+|---------|------------|-----------|---------------------------------------------------------------|
+| 1.0     | 04/04/2026 | Dhilsen   | Creación del reporte en formato Markdown.                      |
+| 1.1     | 10/05/2026 | Jefferson | Elaboración de User Personas y Empathy Mapping (Cap. 2).       |
+| 1.2     | 11/05/2026 | Jefferson | Definición de User Task Matrix y Journey Mapping (Cap. 2).     |
+| 1.3     | 11/05/2026 | Jefferson | Gestión y documentación del Sprint 1 (Cap. 5).                |
+| 1.4     | 11/05/2026 | Jefferson | Registro de evidencias de desarrollo y despliegue del Sprint 1.|
+| 1.5     | 11/05/2026 | Jefferson | Desarrollo de componentes en Landing Page y Aplicación Web.   |
+
 
 ---
 
