@@ -515,7 +515,31 @@ Frontend:
 
 <img src="../assets/frontend-commits.png" alt="Team Collaboration Insights Frontend">
 
-
+#### 5.2.3 Sprint 3
+#### 5.2.3.1. Sprint Planning 3.
+| Sprint # | Sprint 3 |
+|-----------|----------|
+| **Sprint Planning Background** | |
+| Date | 2026-06-17 |
+| Time | 12:00 PM |
+| Location | Universidad Peruana de Ciencias Aplicadas (UPC) – Campus San Isidro |
+| Prepared By | Aldair Ramos |
+| Attendees (to planning meeting) | Aldair Ramos / Dhilsen Mallqui / Jefferson Farfán |
+| Sprint 3  Review Summary | Durante el Sprint 2 se establecieron las bases técnicas del proyecto, incluyendo la arquitectura inicial, configuración del entorno de desarrollo, integración de herramientas colaborativas y definición de los principales módulos del sistema. Además, se identificaron los requerimientos prioritarios para la implementación del backend durante el siguiente Sprint. |
+| Sprint 3 Retrospective Summary | El equipo logró una adecuada coordinación y distribución de tareas. Como oportunidades de mejora se identificó la necesidad de realizar revisiones de código más frecuentes, documentar mejor los avances y mejorar la sincronización de cambios para reducir conflictos durante la integración. |
+| **Sprint Goal & User Stories**  |
+| Sprint 3 Goal | Implementar los principales servicios backend del sistema mediante APIs REST, incluyendo autenticación, gestión de usuarios, operadores, maquinaria, nodos IoT, alertas, mantenimiento, personal y obras de trabajo, garantizando su correcto funcionamiento y disponibilidad mediante documentación OpenAPI. |
+| Sprint 3 Velocity | 28 Story Points |
+| Sum of Story Points | 28 Story Points |
+#### 5.2.3.2. Aspects Leaders and Collaborators.
+| Team Member (Last Name, First Name) | GitHub Username | UI/UX Design (L/C) | Landing Page Development (L/C) | Quality Control (L/C) | Documentation (L/C) |
+|-------------------------------------|----------------|-------------------|-------------------------------|----------------------|--------------------|
+| Jefferson Morales | Fenfito | L | C | C | C |
+| Dhilsen Malqui | Dhilsen18 | C | L | C | C |
+| Aldair Ramos | AldairRamos13 | C | C | L | C |
+#### 5.2.3.3. Sprint Backlog 3. 
+#### 5.2.3.4. Development Evidence for Sprint Review.
+#### 5.2.3.5. Execution Evidence for Sprint Review.
 
 ---
 ## 5.3. Validation Interviews
