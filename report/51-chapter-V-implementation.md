@@ -645,7 +645,9 @@ Asimismo, los endpoints REST fueron documentados mediante OpenAPI/Swagger y vers
 
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint.
-
+<img src="../assets/backendcommits.jpeg"/>
+<img src="../assets/frontendcommits.jpeg"/>
+<img src="../assets/landingcommits.jpeg"/>
 
 ---
 ## 5.3. Validation Interviews
