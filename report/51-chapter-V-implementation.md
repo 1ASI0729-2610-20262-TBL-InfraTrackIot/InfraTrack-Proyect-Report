@@ -158,39 +158,27 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
 | Sprint Planning Background | |
 | Date | 2026-04-20 |
 | Time | 10:30 AM |
-| Location | Universidad Peruana de Ciencias Aplicadas(Campus San Isidro), Reunión física |
-| Prepared By | Jefferson Morales |
-| Attendees (to planning meeting) | Jefferson Morales / Carlos Mansilla / Dhilsen Malqui / David Calixto / Aldair Ramos |
+| Location | Universidad Peruana de Ciencias Aplicadas (Campus San Isidro), Reunión virtual |
+| Prepared By | Mallqui Vilca, Dhilsen Armil |
+| Attendees (to planning meeting) | Mallqui Vilca, Dhilsen Armil / Ramos Aguirre, Aldair Joaquin |
 | Sprint Goal & User Stories | |
-| Sprint 1 Goal | Nuestro enfoque está en desarrollar y desplegar una landing page funcional que presente eficazmente nuestro producto. Creemos que esto genera una primera interacción positiva y clara con potenciales clientes, facilitando su comprensión y conexión inicial con la propuesta de valor. Esto se confirmará cuando recibamos las primeras visitas y observemos señales básicas de interés, como clics en elementos clave, navegación dentro de la página y comentarios iniciales de usuarios o colegas. |
+| Sprint 1 Goal | Nuestro enfoque está en desarrollar y desplegar una landing page funcional que presente eficazamente nuestro producto Digital Machine. Creemos que esto genera una primera interacción positiva y clara con potenciales clientes, facilitando su comprensión y conexión inicial con la propuesta de valor. Esto se confirmará cuando recibamos las primeras visitas y observemos señales básicas de interés, como clics en elementos clave, navegación dentro de la página y comentarios iniciales de usuarios o colegas. |
 | Sprint 1 Velocity | 7 |
 | Sum of Story Points | 45 |
 #### 5.2.1.2. Aspect Leaders and Collaborators
 | Team Member (Last Name, First Name) | GitHub Username | UI/UX Design (L/C) | Landing Page Development (L/C) | Quality Control (L/C) | Documentation (L/C) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Jefferson Morales | Fenfito | L | C | C | C |
-| Carlos Mansilla | c3sv | C | C | C | L |
-| Dhilsen Malqui | Dhilsen18 | C | L | C | C |
-| David Calixto | DavidCalixto99 | C | C | C | C |
-| Aldair Ramos | AldairRamos13 | C | C | L | C |
+| Mallqui Vilca, Dhilsen Armil | Dhilsen18 | L | L | C | C |
+| Ramos Aguirre, Aldair Joaquin | AldairRamos13 | C | C | L | L |
 #### 5.2.1.3. Sprint Backlog 1
 
-**Objetivo:** Crear y poner en producción una landing page operativa que satisfaga todas las historias de usuario definidas, sirviendo como el primer punto de contacto con los clientes y como vitrina para presentar el producto.
+**Objetivo:** Crear y poner en producción una landing page operativa que satisfaga las historias de usuario del Epic EP-08, sirviendo como primer punto de contacto comercial con los segmentos objetivo.
 
-**Alcance:**
+**Board de control (Trello):** [InfraTrack — Sprint 1 Board](https://trello.com/b/PLACEHOLDER-sprint-1) *(actualizar con URL público del board)*
 
-* Implementar barra de navegación responsive
-* Crear componentes de llamada a la acción (CTA)
-* Desarrollar sección de beneficios del servicio
-* Construir tarjetas interactivas de servicios
-* Implementar funcionalidad de preguntas frecuentes (FAQ)
-* Colocar los nuevos puntos a la documentación del trabajo
+**(aquí va imagen: screenshot del board Trello — Sprint 1)**
 
-**Duración:** 20 de Abril - 01 de Mayo 2026
-
-**Capacidad de equipo:** 120 horas totales - 5 integrantes
-
-**Requisitos técnicos:** Google Docs, GitHub, HTML, CSS, JS
+**Duración:** 20 de Abril – 01 de Mayo 2026 | **Capacidad de equipo:** 80 horas — 2 integrantes
 
 <table>
   <thead>
@@ -200,7 +188,7 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
     </tr>
     <tr>
       <th colspan="2" style="text-align:left; border: 1px solid black; padding: 8px;">User Story</th>
-      <th colspan="6" style="text-align:left; border: 1px solid black; padding: 8px;">Work-Item / Task</th>
+      <th colspan="6" style="text-align:left; border: 1px solid black; padding: 8px;">Work-Item / Engineering Task</th>
     </tr>
     <tr>
       <th style="border: 1px solid black; padding: 8px;">Id</th>
@@ -210,48 +198,90 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
       <th style="border: 1px solid black; padding: 8px;">Description</th>
       <th style="border: 1px solid black; padding: 8px;">Estimation (Hours)</th>
       <th style="border: 1px solid black; padding: 8px;">Assigned To</th>
-      <th style="border: 1px solid black; padding: 8px;">Status (To-do / In-Process / To-Review / Done)</th>
+      <th style="border: 1px solid black; padding: 8px;">Status</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="border: 1px solid black; padding: 12px;">HU-35</td>
-      <td style="border: 1px solid black; padding: 12px;">Propuesta de valor</td>
-      <td style="border: 1px solid black; padding: 12px;">EP-08</td>
-      <td style="border: 1px solid black; padding: 12px;">Diseñar sección informativa del producto en la landing page.</td>
-      <td style="border: 1px solid black; padding: 12px;">Crear una sección visual e informativa dentro de la landing page que explique los beneficios, funcionalidades y propuesta de valor del sistema.</td>
-      <td style="border: 1px solid black; padding: 12px;">2</td>
-      <td style="border: 1px solid black; padding: 12px;">Calixto Iriarte, David Alejandro</td>
+      <td rowspan="2" style="border: 1px solid black; padding: 12px;">HU-35</td>
+      <td rowspan="2" style="border: 1px solid black; padding: 12px;">Propuesta de valor</td>
+      <td style="border: 1px solid black; padding: 12px;">T-S1-01</td>
+      <td style="border: 1px solid black; padding: 12px;">Diseñar wireframe de sección propuesta de valor</td>
+      <td style="border: 1px solid black; padding: 12px;">Elaborar en Figma el layout desktop y mobile de la sección que comunica beneficios y diferenciadores de Digital Machine.</td>
+      <td style="border: 1px solid black; padding: 12px;">4</td>
+      <td style="border: 1px solid black; padding: 12px;">Mallqui Vilca, Dhilsen Armil</td>
       <td style="border: 1px solid black; padding: 12px;">Done</td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 12px;">HU-36</td>
-      <td style="border: 1px solid black; padding: 12px;">Formulario contacto</td>
-      <td style="border: 1px solid black; padding: 12px;">EP-08</td>
-      <td style="border: 1px solid black; padding: 12px;">Implementar formulario de contacto</td>
-      <td style="border: 1px solid black; padding: 12px;">Desarrollar un formulario interactivo que permita a los visitantes enviar consultas, solicitudes de información o solicitudes de demostración.</td>
-      <td style="border: 1px solid black; padding: 12px;">3</td>
-      <td style="border: 1px solid black; padding: 12px;">Morales Yapuchura, Jefferson Bayron</td>
+      <td style="border: 1px solid black; padding: 12px;">T-S1-02</td>
+      <td style="border: 1px solid black; padding: 12px;">Implementar sección propuesta de valor en HTML/CSS</td>
+      <td style="border: 1px solid black; padding: 12px;">Codificar la sección responsive con tipografía, iconografía y copy alineado al Style Guide del Capítulo IV.</td>
+      <td style="border: 1px solid black; padding: 12px;">6</td>
+      <td style="border: 1px solid black; padding: 12px;">Mallqui Vilca, Dhilsen Armil</td>
       <td style="border: 1px solid black; padding: 12px;">Done</td>
     </tr>
-   <tr>
-      <td style="border: 1px solid black; padding: 12px;">HU-38</td>
-      <td style="border: 1px solid black; padding: 12px;">Acceso a la app</td>
-      <td style="border: 1px solid black; padding: 12px;">EP-08</td>
-      <td style="border: 1px solid black; padding: 12px;">Crear acceso directo a la plataforma</td>
-      <td style="border: 1px solid black; padding: 12px;">Implementar botones y accesos rápidos que permitan redirigir a los usuarios desde la landing page hacia la aplicación principal.</td>
+    <tr>
+      <td rowspan="2" style="border: 1px solid black; padding: 12px;">HU-36</td>
+      <td rowspan="2" style="border: 1px solid black; padding: 12px;">Formulario contacto</td>
+      <td style="border: 1px solid black; padding: 12px;">T-S1-03</td>
+      <td style="border: 1px solid black; padding: 12px;">Diseñar formulario de contacto responsive</td>
+      <td style="border: 1px solid black; padding: 12px;">Definir campos, validaciones visuales y estados de error/éxito del formulario en Figma.</td>
+      <td style="border: 1px solid black; padding: 12px;">4</td>
+      <td style="border: 1px solid black; padding: 12px;">Ramos Aguirre, Aldair Joaquin</td>
+      <td style="border: 1px solid black; padding: 12px;">Done</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 12px;">T-S1-04</td>
+      <td style="border: 1px solid black; padding: 12px;">Implementar lógica de validación del formulario</td>
+      <td style="border: 1px solid black; padding: 12px;">Desarrollar validación en JavaScript y retroalimentación al usuario antes del envío de la solicitud.</td>
       <td style="border: 1px solid black; padding: 12px;">5</td>
-      <td style="border: 1px solid black; padding: 12px;">Malqui Vilca, Dhilsen Armil</td>
+      <td style="border: 1px solid black; padding: 12px;">Ramos Aguirre, Aldair Joaquin</td>
       <td style="border: 1px solid black; padding: 12px;">Done</td>
     </tr>
-   <tr>
-      <td style="border: 1px solid black; padding: 12px;">HU-48</td>
-      <td style="border: 1px solid black; padding: 12px;">Dashboard de Hardware</td>
-      <td style="border: 1px solid black; padding: 12px;">EP-08</td>
-      <td style="border: 1px solid black; padding: 12px;">Diseñar panel de monitoreo técnico</td>
-      <td style="border: 1px solid black; padding: 12px;">Crear un dashboard especializado para visualizar el estado técnico, batería y telemetría de los nodos IoT conectados.</td>
-      <td style="border: 1px solid black; padding: 12px;">6h</td>
-      <td style="border: 1px solid black; padding: 12px;">Mansilla Rivero, Carlos Marcelo y Ramos Aguirre, Aldair Joaquin</td>
+    <tr>
+      <td rowspan="2" style="border: 1px solid black; padding: 12px;">HU-37</td>
+      <td rowspan="2" style="border: 1px solid black; padding: 12px;">Acceso a la app</td>
+      <td style="border: 1px solid black; padding: 12px;">T-S1-05</td>
+      <td style="border: 1px solid black; padding: 12px;">Implementar botones CTA hacia la aplicación</td>
+      <td style="border: 1px solid black; padding: 12px;">Crear botones de llamada a la acción en hero y navbar que redirijan a la Web Application.</td>
+      <td style="border: 1px solid black; padding: 12px;">5</td>
+      <td style="border: 1px solid black; padding: 12px;">Mallqui Vilca, Dhilsen Armil</td>
+      <td style="border: 1px solid black; padding: 12px;">Done</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 12px;">T-S1-06</td>
+      <td style="border: 1px solid black; padding: 12px;">Configurar rutas de redirección por segmento</td>
+      <td style="border: 1px solid black; padding: 12px;">Vincular CTAs del landing page con las vistas correspondientes en la aplicación según segmento objetivo.</td>
+      <td style="border: 1px solid black; padding: 12px;">4</td>
+      <td style="border: 1px solid black; padding: 12px;">Mallqui Vilca, Dhilsen Armil</td>
+      <td style="border: 1px solid black; padding: 12px;">Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="border: 1px solid black; padding: 12px;">HU-48</td>
+      <td rowspan="2" style="border: 1px solid black; padding: 12px;">Dashboard de Hardware</td>
+      <td style="border: 1px solid black; padding: 12px;">T-S1-07</td>
+      <td style="border: 1px solid black; padding: 12px;">Diseñar mockup del panel IoT demostrativo</td>
+      <td style="border: 1px solid black; padding: 12px;">Definir tarjetas KPI de telemetría, batería y estado de conexión para la sección demostrativa del landing.</td>
+      <td style="border: 1px solid black; padding: 12px;">4</td>
+      <td style="border: 1px solid black; padding: 12px;">Ramos Aguirre, Aldair Joaquin</td>
+      <td style="border: 1px solid black; padding: 12px;">Done</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 12px;">T-S1-08</td>
+      <td style="border: 1px solid black; padding: 12px;">Implementar dashboard IoT con datos simulados</td>
+      <td style="border: 1px solid black; padding: 12px;">Desarrollar componentes visuales de telemetría con actualización animada para demostrar capacidades del producto.</td>
+      <td style="border: 1px solid black; padding: 12px;">6</td>
+      <td style="border: 1px solid black; padding: 12px;">Ramos Aguirre, Aldair Joaquin</td>
+      <td style="border: 1px solid black; padding: 12px;">Done</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 12px;">—</td>
+      <td style="border: 1px solid black; padding: 12px;">Constraint general</td>
+      <td style="border: 1px solid black; padding: 12px;">T-S1-09</td>
+      <td style="border: 1px solid black; padding: 12px;">Configurar despliegue continuo en Vercel</td>
+      <td style="border: 1px solid black; padding: 12px;">Integrar repositorio Landing Page con Vercel y validar despliegue automático desde rama main.</td>
+      <td style="border: 1px solid black; padding: 12px;">4</td>
+      <td style="border: 1px solid black; padding: 12px;">Mallqui Vilca, Dhilsen Armil</td>
       <td style="border: 1px solid black; padding: 12px;">Done</td>
     </tr>
   </tbody>
@@ -276,42 +306,29 @@ Link del Landing Page: https://infratrack-iot-inky.vercel.app/
 | Sprint # | Sprint 2 |
 | :--- | :--- |
 | Sprint Planning Background | |
-| Date | 2025-05-02 |
+| Date | 2026-05-02 |
 | Time | 10:10 AM |
-| Location | Universidad Peruana de Ciencias Aplicadas(Campus San Isidro), Reunión física |
-| Prepared By | David Calixto |
-| Attendees (to planning meeting) | Jefferson Morales / Carlos Mansilla / Dhilsen Malqui / David Calixto / Aldair Ramos |
+| Location | Universidad Peruana de Ciencias Aplicadas (Campus San Isidro), Reunión virtual |
+| Prepared By | Ramos Aguirre, Aldair Joaquin |
+| Attendees (to planning meeting) | Mallqui Vilca, Dhilsen Armil / Ramos Aguirre, Aldair Joaquin |
 | Sprint Goal & User Stories | |
-| Sprint 2 Goal | Nuestro enfoque está en optimizar aspectos del proyecto referente a la experiencia de usuario y validar el interés real de los potenciales clientes mediante mejoras en la landing page y la incorporación de mecanismos de interacción. Creemos que esto permitirá aumentar el nivel de participación y obtener retroalimentación más precisa sobre nuestra propuesta de valor. Esto se confirmará cuando observemos un incremento en métricas como tiempo de permanencia, cantidad de clics en llamados a la acción, registros, formularios completados o comentarios positivos de usuarios.|
+| Sprint 2 Goal | Nuestro enfoque está en entregar la primera versión funcional de la Web Application Digital Machine con Control Panel, gestión de flota y telemetría, integrada con la API REST. Creemos que esto permitirá validar la propuesta de valor con usuarios reales del sector construcción. Esto se confirmará cuando los administradores puedan registrar maquinaria, visualizar alertas y consultar telemetría desde la aplicación desplegada. |
 | Sprint 2 Velocity | 7 |
 | Sum of Story Points | 38 |
 #### 5.2.2.2. Aspect Leaders and Collaborators
-| Team Member (Last Name, First Name) | GitHub Username | UI/UX Design (L/C) | Landing Page Development (L/C) | Quality Control (L/C) | Documentation (L/C) |
+| Team Member (Last Name, First Name) | GitHub Username | Frontend Development (L/C) | Backend Development (L/C) | Quality Control (L/C) | Documentation (L/C) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Jefferson Morales | Fenfito | L | C | C | C |
-| Carlos Mansilla | c3sv | C | C | C | L |
-| Dhilsen Malqui | Dhilsen18 | C | L | C | C |
-| David Calixto | DavidCalixto99 | C | C | C | C |
-| Aldair Ramos | AldairRamos13 | C | C | L | C |
+| Mallqui Vilca, Dhilsen Armil | Dhilsen18 | L | L | C | C |
+| Ramos Aguirre, Aldair Joaquin | AldairRamos13 | C | C | L | L |
 #### 5.2.2.3. Sprint Backlog 2
 
-**Objetivo:** Mejorar la interacción y validación de la landing page mediante nuevas funcionalidades y optimizaciones visuales, permitiendo recopilar retroalimentación y medir el interés de los usuarios a través de registros, clics y navegación dentro de la plataforma..
+**Objetivo:** Implementar la primera versión del Frontend Web Application con módulos de registro de maquinaria, alertas, telemetría y configuración, integrada con endpoints REST del backend.
 
-**Alcance:**
+**Board de control (Trello):** [InfraTrack — Sprint 2 Board](https://trello.com/b/PLACEHOLDER-sprint-2) *(actualizar con URL público del board)*
 
-* Implementar el módulo de registro de maquinaria con almacenamiento de información técnica, tipo de combustible y asignación de operadores.
-* Desarrollar alertas preventivas de mantenimiento basadas en horas acumuladas de uso de las unidades.
-* Implementar configuración personalizada de umbrales para alertas del sistema.
-* Desarrollar indicadores visuales para monitorear el estado de conexión de los nodos IoT.
-* Crear un historial de mantenimiento para registrar y consultar servicios realizados a cada maquinaria.
-* Implementar la asignación de operadores responsables a las unidades registradas.
-* Desarrollar la configuración de horarios operativos permitidos y generación de alertas por uso fuera de horario.
+**(aquí va imagen: screenshot del board Trello — Sprint 2)**
 
-**Duración:** 2 de Mayo - 12 de Mayo 2026
-
-**Capacidad de equipo:** 140 horas totales - 5 integrantes
-
-**Requisitos técnicos:** Google Docs, GitHub, HTML, CSS, JS
+**Duración:** 02 de Mayo – 12 de Mayo 2026 | **Capacidad de equipo:** 96 horas — 2 integrantes
 
 <table>
   <thead>
@@ -321,7 +338,7 @@ Link del Landing Page: https://infratrack-iot-inky.vercel.app/
     </tr>
     <tr>
       <th colspan="2" style="text-align:left; border: 1px solid black; padding: 8px;">User Story</th>
-      <th colspan="6" style="text-align:left; border: 1px solid black; padding: 8px;">Work-Item / Task</th>
+      <th colspan="6" style="text-align:left; border: 1px solid black; padding: 8px;">Work-Item / Engineering Task</th>
     </tr>
     <tr>
       <th style="border: 1px solid black; padding: 8px;">Id</th>
@@ -331,79 +348,117 @@ Link del Landing Page: https://infratrack-iot-inky.vercel.app/
       <th style="border: 1px solid black; padding: 8px;">Description</th>
       <th style="border: 1px solid black; padding: 8px;">Estimation (Hours)</th>
       <th style="border: 1px solid black; padding: 8px;">Assigned To</th>
-      <th style="border: 1px solid black; padding: 8px;">Status (To-do / In-Process / To-Review / Done)</th>
+      <th style="border: 1px solid black; padding: 8px;">Status</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="border: 1px solid black; padding: 12px;">HU-23</td>
-      <td style="border: 1px solid black; padding: 12px;">Registrar maquinaria</td>
-      <td style="border: 1px solid black; padding: 12px;">EP-06</td>
-      <td style="border: 1px solid black; padding: 12px;">Implementar registro de maquinaria</td>
-      <td style="border: 1px solid black; padding: 12px;">Crear un formulario completo para registrar nuevas unidades dentro del sistema, incluyendo datos técnicos, tipo de combustible, operador y estado operativo.</td>
-      <td style="border: 1px solid black; padding: 12px;">4h</td>
-      <td style="border: 1px solid black; padding: 12px;">Dhilsen Malqui, Aldair Ramos</td>
-      <td style="border: 1px solid black; padding: 12px;">To-Review</td>
-    </tr>
-   <tr>
-      <td style="border: 1px solid black; padding: 12px;">HU-11</td>
-      <td style="border: 1px solid black; padding: 12px;">Generar alertas de mantenimiento</td>
-      <td style="border: 1px solid black; padding: 12px;">EP-03</td>
-      <td style="border: 1px solid black; padding: 12px;">Implementar alertas preventivas</td>
-      <td style="border: 1px solid black; padding: 12px;">Crear un sistema de alertas preventivas basado en las horas acumuladas de uso para informar cuándo una maquinaria requiere mantenimiento.</td>
-      <td style="border: 1px solid black; padding: 12px;">5h</td>
-      <td style="border: 1px solid black; padding: 12px;">Dhilsen Malqui, Jefferson Morales</td>
-      <td style="border: 1px solid black; padding: 12px;">In-Proceess</td>
+      <td rowspan="3" style="border: 1px solid black; padding: 12px;">HU-23</td>
+      <td rowspan="3" style="border: 1px solid black; padding: 12px;">Registrar maquinaria</td>
+      <td style="border: 1px solid black; padding: 12px;">T-S2-01</td>
+      <td style="border: 1px solid black; padding: 12px;">Diseñar formulario de registro de maquinaria</td>
+      <td style="border: 1px solid black; padding: 12px;">Definir en Figma los campos técnicos, tipo de combustible y asignación de operador para el módulo de activos.</td>
+      <td style="border: 1px solid black; padding: 12px;">4</td>
+      <td style="border: 1px solid black; padding: 12px;">Mallqui Vilca, Dhilsen Armil</td>
+      <td style="border: 1px solid black; padding: 12px;">Done</td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 12px;">HU-19</td>
-      <td style="border: 1px solid black; padding: 12px;">Configurar umbrales</td>
-      <td style="border: 1px solid black; padding: 12px;">EP-05</td>
-      <td style="border: 1px solid black; padding: 12px;">Diseñar configuración de alertas</td>
-      <td style="border: 1px solid black; padding: 12px;">Implementar una sección de configuración donde los administradores puedan personalizar umbrales y límites para las alertas del sistema.</td>
-      <td style="border: 1px solid black; padding: 12px;">3h</td>
-      <td style="border: 1px solid black; padding: 12px;">David Calixto, Carlos Mansilla</td>
-      <td style="border: 1px solid black; padding: 12px;">In-Process</td>
+      <td style="border: 1px solid black; padding: 12px;">T-S2-02</td>
+      <td style="border: 1px solid black; padding: 12px;">Implementar vista de registro en Angular</td>
+      <td style="border: 1px solid black; padding: 12px;">Desarrollar componente reactivo con validaciones para captura de datos de maquinaria en Asset Management.</td>
+      <td style="border: 1px solid black; padding: 12px;">6</td>
+      <td style="border: 1px solid black; padding: 12px;">Mallqui Vilca, Dhilsen Armil</td>
+      <td style="border: 1px solid black; padding: 12px;">Done</td>
     </tr>
-   <tr>
-      <td style="border: 1px solid black; padding: 12px;">HU-26</td>
-      <td style="border: 1px solid black; padding: 12px;">Estado de conexión del Nodo</td>
-      <td style="border: 1px solid black; padding: 12px;">EP-06</td>
-      <td style="border: 1px solid black; padding: 12px;">Visualizar estado de conexión IoT</td>
-      <td style="border: 1px solid black; padding: 12px;">Implementar indicadores visuales que permitan monitorear si los nodos IoT se encuentran conectados, desconectados o presentando fallas de transmisión.</td>
-      <td style="border: 1px solid black; padding: 12px;">3h</td>
-      <td style="border: 1px solid black; padding: 12px;">Dhilsen Malqui, Carlos Mansilla</td>
+    <tr>
+      <td style="border: 1px solid black; padding: 12px;">T-S2-03</td>
+      <td style="border: 1px solid black; padding: 12px;">Integrar POST /api/v1/machinery en frontend</td>
+      <td style="border: 1px solid black; padding: 12px;">Conectar formulario con endpoint REST y manejar respuestas de éxito y error en la UI.</td>
+      <td style="border: 1px solid black; padding: 12px;">5</td>
+      <td style="border: 1px solid black; padding: 12px;">Ramos Aguirre, Aldair Joaquin</td>
+      <td style="border: 1px solid black; padding: 12px;">Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="border: 1px solid black; padding: 12px;">HU-11</td>
+      <td rowspan="2" style="border: 1px solid black; padding: 12px;">Generar alertas de mantenimiento</td>
+      <td style="border: 1px solid black; padding: 12px;">T-S2-04</td>
+      <td style="border: 1px solid black; padding: 12px;">Implementar regla de alertas por horas de uso en backend</td>
+      <td style="border: 1px solid black; padding: 12px;">Desarrollar servicio que evalúe horas acumuladas y genere alertas preventivas en el bounded context Monitoring.</td>
+      <td style="border: 1px solid black; padding: 12px;">6</td>
+      <td style="border: 1px solid black; padding: 12px;">Mallqui Vilca, Dhilsen Armil</td>
+      <td style="border: 1px solid black; padding: 12px;">Done</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 12px;">T-S2-05</td>
+      <td style="border: 1px solid black; padding: 12px;">Mostrar alertas preventivas en Control Panel</td>
+      <td style="border: 1px solid black; padding: 12px;">Consumir API de alertas y renderizar notificaciones en el dashboard del propietario con estados de severidad.</td>
+      <td style="border: 1px solid black; padding: 12px;">5</td>
+      <td style="border: 1px solid black; padding: 12px;">Ramos Aguirre, Aldair Joaquin</td>
+      <td style="border: 1px solid black; padding: 12px;">Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="border: 1px solid black; padding: 12px;">HU-26</td>
+      <td rowspan="2" style="border: 1px solid black; padding: 12px;">Estado de conexión del Nodo</td>
+      <td style="border: 1px solid black; padding: 12px;">T-S2-06</td>
+      <td style="border: 1px solid black; padding: 12px;">Implementar indicadores de estado IoT en backend</td>
+      <td style="border: 1px solid black; padding: 12px;">Exponer endpoint que reporte estado conectado/desconectado/falla de transmisión por nodo IoT.</td>
+      <td style="border: 1px solid black; padding: 12px;">5</td>
+      <td style="border: 1px solid black; padding: 12px;">Mallqui Vilca, Dhilsen Armil</td>
+      <td style="border: 1px solid black; padding: 12px;">Done</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 12px;">T-S2-07</td>
+      <td style="border: 1px solid black; padding: 12px;">Visualizar badges de conexión en lista de nodos</td>
+      <td style="border: 1px solid black; padding: 12px;">Desarrollar componentes visuales con código de colores para estado de cada nodo en la vista de flota.</td>
+      <td style="border: 1px solid black; padding: 12px;">4</td>
+      <td style="border: 1px solid black; padding: 12px;">Ramos Aguirre, Aldair Joaquin</td>
+      <td style="border: 1px solid black; padding: 12px;">Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="border: 1px solid black; padding: 12px;">HU-12</td>
+      <td rowspan="2" style="border: 1px solid black; padding: 12px;">Historial de mantenimiento</td>
+      <td style="border: 1px solid black; padding: 12px;">T-S2-08</td>
+      <td style="border: 1px solid black; padding: 12px;">Crear entidad y repositorio de mantenimiento</td>
+      <td style="border: 1px solid black; padding: 12px;">Modelar persistencia de registros de servicio por unidad en base de datos relacional.</td>
+      <td style="border: 1px solid black; padding: 12px;">6</td>
+      <td style="border: 1px solid black; padding: 12px;">Mallqui Vilca, Dhilsen Armil</td>
+      <td style="border: 1px solid black; padding: 12px;">Done</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 12px;">T-S2-09</td>
+      <td style="border: 1px solid black; padding: 12px;">Implementar vista de historial en configuración</td>
+      <td style="border: 1px solid black; padding: 12px;">Desarrollar tabla consultable con filtros por unidad y fecha en el módulo de configuración.</td>
+      <td style="border: 1px solid black; padding: 12px;">5</td>
+      <td style="border: 1px solid black; padding: 12px;">Ramos Aguirre, Aldair Joaquin</td>
       <td style="border: 1px solid black; padding: 12px;">To-Review</td>
     </tr>
-   <tr>
-      <td style="border: 1px solid black; padding: 12px;">HU-12</td>
-      <td style="border: 1px solid black; padding: 12px;">Historial de mantenimiento</td>
-      <td style="border: 1px solid black; padding: 12px;">EP-03</td>
-      <td style="border: 1px solid black; padding: 12px;">Diseñar historial de mantenimiento</td>
-      <td style="border: 1px solid black; padding: 12px;">Implementar un módulo que permita almacenar y consultar el historial completo de mantenimientos realizados a cada unidad registrada.</td>
-      <td style="border: 1px solid black; padding: 12px;">2h</td>
-      <td style="border: 1px solid black; padding: 12px;">Dhilsen Malqui</td>
+    <tr>
+      <td rowspan="2" style="border: 1px solid black; padding: 12px;">HU-22</td>
+      <td rowspan="2" style="border: 1px solid black; padding: 12px;">Configurar horario de operación</td>
+      <td style="border: 1px solid black; padding: 12px;">T-S2-10</td>
+      <td style="border: 1px solid black; padding: 12px;">Implementar configuración de horarios en backend</td>
+      <td style="border: 1px solid black; padding: 12px;">Desarrollar endpoints para definir rangos horarios permitidos y disparar alertas por uso fuera de horario.</td>
+      <td style="border: 1px solid black; padding: 12px;">6</td>
+      <td style="border: 1px solid black; padding: 12px;">Mallqui Vilca, Dhilsen Armil</td>
+      <td style="border: 1px solid black; padding: 12px;">Done</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 12px;">T-S2-11</td>
+      <td style="border: 1px solid black; padding: 12px;">Crear UI de configuración de horarios operativos</td>
+      <td style="border: 1px solid black; padding: 12px;">Desarrollar formulario en Angular para que el administrador defina horarios por maquinaria.</td>
+      <td style="border: 1px solid black; padding: 12px;">4</td>
+      <td style="border: 1px solid black; padding: 12px;">Ramos Aguirre, Aldair Joaquin</td>
       <td style="border: 1px solid black; padding: 12px;">In-Process</td>
     </tr>
-   <tr>
-      <td style="border: 1px solid black; padding: 12px;">HU-29</td>
-      <td style="border: 1px solid black; padding: 12px;">Perfil de Operador</td>
-      <td style="border: 1px solid black; padding: 12px;">EP-06</td>
-      <td style="border: 1px solid black; padding: 12px;">Diseñar asignación de operadores</td>
-      <td style="border: 1px solid black; padding: 12px;">Crear un módulo que permita asociar operadores específicos a las unidades registradas para llevar control y trazabilidad de responsabilidades.</td>
-      <td style="border: 1px solid black; padding: 12px;">4h</td>
-      <td style="border: 1px solid black; padding: 12px;">Jefferson Morales, Dhilsen Malqui</td>
-      <td style="border: 1px solid black; padding: 12px;">To-Do</td>
-    </tr>
-   <tr>
-      <td style="border: 1px solid black; padding: 12px;">HU-22</td>
-      <td style="border: 1px solid black; padding: 12px;">Configurar horario de operación</td>
-      <td style="border: 1px solid black; padding: 12px;">EP-05</td>
-      <td style="border: 1px solid black; padding: 12px;">Diseñar configuración de horarios operativos</td>
-      <td style="border: 1px solid black; padding: 12px;">Implementar una sección de configuración donde el administrador pueda definir horarios permitidos de operación para cada maquinaria y generar alertas cuando exista actividad fuera del rango establecido.</td>
-      <td style="border: 1px solid black; padding: 12px;">4h</td>
-      <td style="border: 1px solid black; padding: 12px;">Dhilsen Malqui, Aldair Ramos</td>
-      <td style="border: 1px solid black; padding: 12px;">In-Process</td>
+    <tr>
+      <td style="border: 1px solid black; padding: 12px;">—</td>
+      <td style="border: 1px solid black; padding: 12px;">Constraint general</td>
+      <td style="border: 1px solid black; padding: 12px;">T-S2-12</td>
+      <td style="border: 1px solid black; padding: 12px;">Ejecutar pruebas de integración frontend-backend</td>
+      <td style="border: 1px solid black; padding: 12px;">Validar flujos críticos de registro, alertas y telemetría con datos de muestra en entorno de desarrollo.</td>
+      <td style="border: 1px solid black; padding: 12px;">4</td>
+      <td style="border: 1px solid black; padding: 12px;">Ramos Aguirre, Aldair Joaquin</td>
+      <td style="border: 1px solid black; padding: 12px;">Done</td>
     </tr>
   </tbody>
 </table>
@@ -518,6 +573,168 @@ Frontend:
 
 
 ---
+
+### 5.2.3. Sprint 3
+
+#### 5.2.3.1. Sprint Planning 3
+| Sprint # | Sprint 3 |
+| :--- | :--- |
+| Sprint Planning Background | |
+| Date | 2026-06-15 |
+| Time | 09:00 AM |
+| Location | Universidad Peruana de Ciencias Aplicadas (Campus San Isidro), Reunión virtual |
+| Prepared By | Mallqui Vilca, Dhilsen Armil |
+| Attendees (to planning meeting) | Mallqui Vilca, Dhilsen Armil / Ramos Aguirre, Aldair Joaquin |
+| Sprint Goal & User Stories | |
+| Sprint 3 Goal | Nuestro enfoque está en desplegar la primera versión estable de Web Services en producción, completar autenticación IAM, documentar la API con OpenAPI y preparar las entrevistas de validación con usuarios del sector construcción. Esto se confirmará cuando la aplicación full-stack esté operativa en Render, los endpoints críticos estén documentados en Swagger y se registren las sesiones de validación. |
+| Sprint 3 Velocity | 8 |
+| Sum of Story Points | 42 |
+
+#### 5.2.3.2. Aspect Leaders and Collaborators
+| Team Member (Last Name, First Name) | GitHub Username | Backend Development (L/C) | Frontend Integration (L/C) | Deployment (L/C) | Validation & Docs (L/C) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Mallqui Vilca, Dhilsen Armil | Dhilsen18 | L | L | C | C |
+| Ramos Aguirre, Aldair Joaquin | AldairRamos13 | C | C | L | L |
+
+#### 5.2.3.3. Sprint Backlog 3
+
+**Objetivo:** Desplegar Web Services en producción, completar módulo IAM, documentar API REST y ejecutar entrevistas de validación del producto Digital Machine.
+
+**Board de control (Trello):** [InfraTrack — Sprint 3 Board](https://trello.com/b/PLACEHOLDER-sprint-3) *(actualizar con URL público del board)*
+
+**(aquí va imagen: screenshot del board Trello — Sprint 3)**
+
+**Duración:** 15 de Junio – 30 de Junio 2026 | **Capacidad de equipo:** 104 horas — 2 integrantes
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="1" style="text-align:left; border: 1px solid black; padding: 8px;">Sprint #</th>
+      <th colspan="7" style="text-align:left; border: 1px solid black; padding: 8px;">Sprint 3</th>
+    </tr>
+    <tr>
+      <th colspan="2" style="text-align:left; border: 1px solid black; padding: 8px;">User Story</th>
+      <th colspan="6" style="text-align:left; border: 1px solid black; padding: 8px;">Work-Item / Engineering Task</th>
+    </tr>
+    <tr>
+      <th style="border: 1px solid black; padding: 8px;">Id</th>
+      <th style="border: 1px solid black; padding: 8px;">Title</th>
+      <th style="border: 1px solid black; padding: 8px;">Id</th>
+      <th style="border: 1px solid black; padding: 8px;">Title</th>
+      <th style="border: 1px solid black; padding: 8px;">Description</th>
+      <th style="border: 1px solid black; padding: 8px;">Estimation (Hours)</th>
+      <th style="border: 1px solid black; padding: 8px;">Assigned To</th>
+      <th style="border: 1px solid black; padding: 8px;">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="2" style="border: 1px solid black; padding: 12px;">HU-31</td>
+      <td rowspan="2" style="border: 1px solid black; padding: 12px;">Login</td>
+      <td style="border: 1px solid black; padding: 12px;">T-S3-01</td>
+      <td style="border: 1px solid black; padding: 12px;">Implementar autenticación JWT en Spring Boot</td>
+      <td style="border: 1px solid black; padding: 12px;">Desarrollar endpoints de sign-in/sign-up con generación de tokens y roles en bounded context IAM.</td>
+      <td style="border: 1px solid black; padding: 12px;">6</td>
+      <td style="border: 1px solid black; padding: 12px;">Mallqui Vilca, Dhilsen Armil</td>
+      <td style="border: 1px solid black; padding: 12px;">Done</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 12px;">T-S3-02</td>
+      <td style="border: 1px solid black; padding: 12px;">Integrar login en Angular con guards de rol</td>
+      <td style="border: 1px solid black; padding: 12px;">Conectar página de autenticación con API IAM y proteger rutas según rol owner/admin.</td>
+      <td style="border: 1px solid black; padding: 12px;">5</td>
+      <td style="border: 1px solid black; padding: 12px;">Ramos Aguirre, Aldair Joaquin</td>
+      <td style="border: 1px solid black; padding: 12px;">Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="border: 1px solid black; padding: 12px;">HU-38</td>
+      <td rowspan="2" style="border: 1px solid black; padding: 12px;">Recepción de datos IoT</td>
+      <td style="border: 1px solid black; padding: 12px;">T-S3-03</td>
+      <td style="border: 1px solid black; padding: 12px;">Configurar base de datos en Filess.io</td>
+      <td style="border: 1px solid black; padding: 12px;">Crear esquema relacional, tablas de telemetría y migraciones para persistencia de datos IoT.</td>
+      <td style="border: 1px solid black; padding: 12px;">6</td>
+      <td style="border: 1px solid black; padding: 12px;">Ramos Aguirre, Aldair Joaquin</td>
+      <td style="border: 1px solid black; padding: 12px;">Done</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 12px;">T-S3-04</td>
+      <td style="border: 1px solid black; padding: 12px;">Implementar endpoint POST de telemetría</td>
+      <td style="border: 1px solid black; padding: 12px;">Desarrollar recepción y validación de tramas de sensores GPS y combustible en Monitoring context.</td>
+      <td style="border: 1px solid black; padding: 12px;">5</td>
+      <td style="border: 1px solid black; padding: 12px;">Mallqui Vilca, Dhilsen Armil</td>
+      <td style="border: 1px solid black; padding: 12px;">Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="border: 1px solid black; padding: 12px;">HU-39</td>
+      <td rowspan="2" style="border: 1px solid black; padding: 12px;">Consulta de datos API</td>
+      <td style="border: 1px solid black; padding: 12px;">T-S3-05</td>
+      <td style="border: 1px solid black; padding: 12px;">Documentar endpoints en Swagger/OpenAPI</td>
+      <td style="border: 1px solid black; padding: 12px;">Publicar especificación OpenAPI con ejemplos de request/response para endpoints del Sprint 3.</td>
+      <td style="border: 1px solid black; padding: 12px;">4</td>
+      <td style="border: 1px solid black; padding: 12px;">Ramos Aguirre, Aldair Joaquin</td>
+      <td style="border: 1px solid black; padding: 12px;">Done</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 12px;">T-S3-06</td>
+      <td style="border: 1px solid black; padding: 12px;">Capturar evidencias de documentación API</td>
+      <td style="border: 1px solid black; padding: 12px;">Registrar screenshots de Swagger UI con datos de muestra para el informe de Sprint Review.</td>
+      <td style="border: 1px solid black; padding: 12px;">4</td>
+      <td style="border: 1px solid black; padding: 12px;">Ramos Aguirre, Aldair Joaquin</td>
+      <td style="border: 1px solid black; padding: 12px;">Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="border: 1px solid black; padding: 12px;">—</td>
+      <td rowspan="2" style="border: 1px solid black; padding: 12px;">Constraint general</td>
+      <td style="border: 1px solid black; padding: 12px;">T-S3-07</td>
+      <td style="border: 1px solid black; padding: 12px;">Configurar despliegue en Render</td>
+      <td style="border: 1px solid black; padding: 12px;">Desplegar backend Spring Boot con perfil de producción y variables de entorno en Render.</td>
+      <td style="border: 1px solid black; padding: 12px;">6</td>
+      <td style="border: 1px solid black; padding: 12px;">Mallqui Vilca, Dhilsen Armil</td>
+      <td style="border: 1px solid black; padding: 12px;">Done</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 12px;">T-S3-08</td>
+      <td style="border: 1px solid black; padding: 12px;">Preparar guión de entrevistas de validación</td>
+      <td style="border: 1px solid black; padding: 12px;">Diseñar protocolo de validación con tareas de usabilidad para segmentos objetivo del sector construcción.</td>
+      <td style="border: 1px solid black; padding: 12px;">4</td>
+      <td style="border: 1px solid black; padding: 12px;">Ramos Aguirre, Aldair Joaquin</td>
+      <td style="border: 1px solid black; padding: 12px;">In-Process</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 5.2.3.4. Development Evidence for Sprint Review
+
+Los commits del Sprint 3 se documentan en la sección 5.2.2.4 (tablas Frontend y Backend), correspondientes a integración IAM, despliegue en Render, bounded contexts Fleet/Site Management y merges finales hacia `develop` y `main` (v1.0.0).
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+<img src="../assets/Render-1.jpeg" alt="Despliegue backend en Render">
+<img src="../assets/Swagger-1.jpeg" alt="Documentación Swagger OpenAPI">
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+| Endpoint | Método | Descripción | Documentación |
+|---|---|---|---|
+| `/api/v1/auth/sign-in` | POST | Autenticación de usuario con JWT | Swagger UI — *(aquí va imagen: Swagger-2.jpeg)* |
+| `/api/v1/machinery` | POST/GET | CRUD de maquinaria | Swagger UI — *(aquí va imagen: Swagger-3.jpeg)* |
+| `/api/v1/telemetry` | POST/GET | Recepción y consulta de telemetría IoT | Swagger UI — *(aquí va imagen: Swagger-4.jpeg)* |
+| `/api/v1/alerts` | GET/PATCH | Listado y reconocimiento de alertas | Swagger UI |
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+<img src="../assets/Render-2.jpeg" alt="Configuración de despliegue Render">
+<img src="../assets/Render-3.jpeg" alt="Variables de entorno producción">
+<img src="../assets/Render-4.jpeg" alt="Estado del servicio en Render">
+<img src="../assets/Filess-1.jpeg" alt="Base de datos Filess.io">
+<img src="../assets/mysql.jpeg" alt="Esquema de base de datos">
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+<img src="../assets/backendcommits.jpeg" alt="Commits backend Sprint 3">
+
+---
+
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas
@@ -654,7 +871,7 @@ Las principales suposiciones de negocio y de funcionalidad se vieron validadas p
 
 **Disposición y barreras de adopción.** Si bien la necesidad del mercado y la disposición a adoptar soluciones digitales fueron respaldadas por el diseño de planes Básico, Premium y Enterprise, la evaluación heurística reveló barreras de adopción **dentro del propio producto**: módulos críticos como Telemetría y Configuración no son descubribles desde la navegación principal; algunas vistas muestran datos estáticos o affordances engañosas (KPIs clicables sin efecto, alertas de demostración en el dashboard de operaciones). Esto implica que la suposición sobre la **confiabilidad percibida del sistema** debe reforzarse no solo con hardware IoT calibrado, sino con coherencia entre lo que la interfaz promete y lo que efectivamente entrega.
 
-**Consolidación del trabajo colaborativo.** A pesar de que las gráficas de GitHub del informe y del frontend muestran concentración de commits en algunos integrantes, la asignación de tareas por sprint, los roles de líder y colaborador (L/C) en UI/UX, desarrollo, control de calidad y documentación, y el uso de Pull Requests hacia `develop` evidencian participación activa de los cinco miembros del equipo: Jefferson Morales, Dhilsen Malqui, y Aldair Ramos.
+**Consolidación del trabajo colaborativo.** Las gráficas de GitHub del informe, frontend y backend evidencian participación activa de Mallqui Vilca, Dhilsen Armil y Ramos Aguirre, Aldair Joaquin, con asignación de tareas por sprint, roles de líder y colaborador (L/C) y uso de Pull Requests hacia `develop`.
 
 **Mejora en la organización y gestión de tareas.** La planificación por sprints con objetivos claros, backlog tabulado por historias de usuario y estimación en horas permitió dividir el trabajo en entregables manejables: Sprint 1 (landing page y primer contacto comercial) y Sprint 2 (aplicación web completa con backend). La matriz de aspectos L/C facilitó la distribución de responsabilidades según las fortalezas de cada integrante.
 
