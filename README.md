@@ -44,7 +44,7 @@
 
 </div>
 
-### Abril, 2026
+### Julio, 2026
 
 ---
 
@@ -95,6 +95,19 @@
 | 3.09    | 29/06/2026 | Ramos Aguirre, Aldair Joaquin    | Avance de Conclusiones, Bibliografía, Anexos y registro del Video About-the-Team. |
 | 3.10    | 30/06/2026 | Mallqui Vilca, Dhilsen Armil      | Actualización final de Student Outcome, Collaboration Insights y corrección de artefactos para AV2. |
 
+### 4.0 – TB2 (Sprint 4)
+
+| Versión | Fecha      | Autor(es)                        | Descripción de modificación                                                                 |
+|---------|------------|----------------------------------|---------------------------------------------------------------------------------------------|
+| 4.01    | 01/07/2026 | Mallqui Vilca, Dhilsen Armil      | Sprint Planning 4, Aspect Leaders and Collaborators y definición del Sprint Backlog 4 (Cap. V). |
+| 4.02    | 03/07/2026 | Mallqui Vilca, Dhilsen Armil      | Corrección de navegación: Telemetría y Configuración en menú lateral; persistencia de idioma EN/ES. |
+| 4.03    | 05/07/2026 | Ramos Aguirre, Aldair Joaquin    | Implementación de umbrales IoT, horarios operativos y endpoints de alertas en backend Spring Boot. |
+| 4.04    | 07/07/2026 | Mallqui Vilca, Dhilsen Armil      | Integración frontend de umbrales, horarios y flujo AddAlertDialog en centro de reportes. |
+| 4.05    | 09/07/2026 | Ramos Aguirre, Aldair Joaquin    | Ejecución de entrevistas de validación y registro en secciones 5.3.1 y 5.3.2. |
+| 4.06    | 11/07/2026 | Mallqui Vilca, Dhilsen Armil      | Publicación de videos About-the-Product y About-the-Team; actualización de anexos y bibliografía. |
+| 4.07    | 12/07/2026 | Ramos Aguirre, Aldair Joaquin    | Release final v2.0.0: despliegue en Render/Vercel y evidencias de Software Deployment Sprint 4. |
+| 4.08    | 14/07/2026 | Mallqui Vilca, Dhilsen Armil      | Conclusiones finales TB2, Student Outcome, Collaboration Insights y cierre del ciclo de vida. |
+
 
 ---
 
@@ -104,26 +117,56 @@
 |------------------------------------------------------------------------------------|
 | https://github.com/1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Proyect-Report.git |
 
-A continuación, se brindará un mayor detalle sobre las actividades realizadas en cada entrega, la participación de cada miembro de la startup y las evidencias correspondientes.
+A continuación se detalla la participación del equipo en cada entrega, con evidencias de contribución en el repositorio del informe y repositorios de producto (Landing Page, Frontend, Backend).
 
 ## Desarrollo del reporte
 
 ### AV1 (Sprint 1)
 
-Durante AV1, el equipo elaboró la estructura base del informe en Markdown...
-Dhilsen lideró los Capítulos I y IV; Aldair contribuyó en los Capítulos II, III y V...
+Durante AV1, el equipo elaboró la estructura base del informe en Markdown, el Capítulo I (Startup Profile, Lean UX), Capítulos II–IV iniciales y las evidencias del Sprint 1. Mallqui Vilca, Dhilsen Armil lideró los Capítulos I y IV; Ramos Aguirre, Aldair Joaquin contribuyó en los Capítulos II, III y V. Se aplicaron GitFlow y Conventional Commits desde la creación del repositorio.
 
-**(aquí va imagen: analítico de contribuciones del repositorio del informe – AV1)**
+Report — contribuciones:
 
-**(aquí va imagen: historial de commits del repositorio del informe – AV1)**
+<img src="assets/Team-Collaboration-Insights-during-Sprint-picture.png" alt="Analítico de contribuciones del informe — AV1">
+
+Landing Page — commits:
+
+<img src="assets/landing-commits.png" alt="Historial de commits Landing Page — AV1">
 
 ### TB1 (Sprint 2)
 
-En TB1 se actualizaron Student Outcome, Registro de Versiones...
+En TB1 se actualizaron Student Outcome, Registro de Versiones y Collaboration Insights. Se documentó el Sprint 2 con backlog descompuesto, evidencias de frontend/backend y despliegue de la primera versión de la Web Application. Aldair lideró control de calidad y evidencias de ejecución; Dhilsen mejoró wireframes y mock-ups según retroalimentación del docente.
 
-**(aquí va imagen: analítico de contribuciones – TB1)**
+Frontend — commits:
 
-**(aquí va imagen: historial de commits – TB1)**
+<img src="assets/frontend-commits.png" alt="Analítico de contribuciones frontend — TB1">
+
+Backend — commits:
+
+<img src="assets/backendcommits.jpeg" alt="Historial de commits backend — TB1">
+
+### AV2 (Sprint 3)
+
+En AV2 se incorporó el Sprint 3: Web Services en Render, IAM/JWT, documentación Swagger, base de datos Filess.io, evaluación heurística (5.3.3) y avance de Conclusiones, Bibliografía y Anexos. Dhilsen lideró despliegue y Capítulo V; Aldair documentó API y validación.
+
+<img src="assets/Render-1.jpeg" alt="Despliegue backend Render — AV2">
+
+<img src="assets/Swagger-1.jpeg" alt="Documentación Swagger — AV2">
+
+### TB2 (Sprint 4)
+
+En TB2 se completó el Sprint 4 con release final v2.0.0: corrección de hallazgos heurísticos, entrevistas de validación, videos About-the-Product y About-the-Team, Conclusiones finales y cierre del ciclo de vida del proyecto InfraTrack — Digital Machine.
+
+Report — cierre del ciclo de vida:
+
+<img src="assets/Team-Collaboration-Insights-during-Sprint-picture.png" alt="Collaboration Insights — TB2">
+
+Frontend y Backend — release final:
+
+<img src="assets/frontend-commits.png" alt="Commits frontend — TB2">
+
+<img src="assets/backendcommits.jpeg" alt="Commits backend — TB2">
+
 ---
 
 # Contenido
@@ -224,6 +267,15 @@ En TB1 se actualizaron Student Outcome, Registro de Versiones...
       - [5.2.3.6. Services Documentation Evidence for Sprint Review](report/51-chapter-V-implementation.md#5236-services-documentation-evidence-for-sprint-review)
       - [5.2.3.7. Software Deployment Evidence for Sprint Review](report/51-chapter-V-implementation.md#5237-software-deployment-evidence-for-sprint-review)
       - [5.2.3.8. Team Collaboration Insights during Sprint](report/51-chapter-V-implementation.md#5238-team-collaboration-insights-during-sprint)
+    - [5.2.4. Sprint 4](report/51-chapter-V-implementation.md#524-sprint-4)
+      - [5.2.4.1. Sprint Planning 4](report/51-chapter-V-implementation.md#5241-sprint-planning-4)
+      - [5.2.4.2. Aspect Leaders and Collaborators](report/51-chapter-V-implementation.md#5242-aspect-leaders-and-collaborators)
+      - [5.2.4.3. Sprint Backlog 4](report/51-chapter-V-implementation.md#5243-sprint-backlog-4)
+      - [5.2.4.4. Development Evidence for Sprint Review](report/51-chapter-V-implementation.md#5244-development-evidence-for-sprint-review)
+      - [5.2.4.5. Execution Evidence for Sprint Review](report/51-chapter-V-implementation.md#5245-execution-evidence-for-sprint-review)
+      - [5.2.4.6. Services Documentation Evidence for Sprint Review](report/51-chapter-V-implementation.md#5246-services-documentation-evidence-for-sprint-review)
+      - [5.2.4.7. Software Deployment Evidence for Sprint Review](report/51-chapter-V-implementation.md#5247-software-deployment-evidence-for-sprint-review)
+      - [5.2.4.8. Team Collaboration Insights during Sprint](report/51-chapter-V-implementation.md#5248-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](report/51-chapter-V-implementation.md#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas](report/51-chapter-V-implementation.md#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas](report/51-chapter-V-implementation.md#532-registro-de-entrevistas)

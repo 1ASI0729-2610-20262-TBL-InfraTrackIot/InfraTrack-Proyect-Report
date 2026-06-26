@@ -698,7 +698,7 @@ Frontend:
       <td style="border: 1px solid black; padding: 12px;">Diseñar protocolo de validación con tareas de usabilidad para segmentos objetivo del sector construcción.</td>
       <td style="border: 1px solid black; padding: 12px;">4</td>
       <td style="border: 1px solid black; padding: 12px;">Ramos Aguirre, Aldair Joaquin</td>
-      <td style="border: 1px solid black; padding: 12px;">In-Process</td>
+      <td style="border: 1px solid black; padding: 12px;">Done</td>
     </tr>
   </tbody>
 </table>
@@ -716,10 +716,15 @@ Los commits del Sprint 3 se documentan en la sección 5.2.2.4 (tablas Frontend y
 
 | Endpoint | Método | Descripción | Documentación |
 |---|---|---|---|
-| `/api/v1/auth/sign-in` | POST | Autenticación de usuario con JWT | Swagger UI — *(aquí va imagen: Swagger-2.jpeg)* |
-| `/api/v1/machinery` | POST/GET | CRUD de maquinaria | Swagger UI — *(aquí va imagen: Swagger-3.jpeg)* |
-| `/api/v1/telemetry` | POST/GET | Recepción y consulta de telemetría IoT | Swagger UI — *(aquí va imagen: Swagger-4.jpeg)* |
+| `/api/v1/auth/sign-in` | POST | Autenticación de usuario con JWT | Swagger UI |
+| `/api/v1/machinery` | POST/GET | CRUD de maquinaria | Swagger UI |
+| `/api/v1/telemetry` | POST/GET | Recepción y consulta de telemetría IoT | Swagger UI |
 | `/api/v1/alerts` | GET/PATCH | Listado y reconocimiento de alertas | Swagger UI |
+
+<img src="../assets/Swagger-1.jpeg" alt="Swagger OpenAPI — vista general">
+<img src="../assets/Swagger-2.jpeg" alt="Swagger — autenticación IAM">
+<img src="../assets/Swagger-3.jpeg" alt="Swagger — maquinaria">
+<img src="../assets/Swagger-4.jpeg" alt="Swagger — telemetría">
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
@@ -735,11 +740,253 @@ Los commits del Sprint 3 se documentan en la sección 5.2.2.4 (tablas Frontend y
 
 ---
 
+### 5.2.4. Sprint 4
+
+#### 5.2.4.1. Sprint Planning 4
+
+| Sprint # | Sprint 4 |
+| :--- | :--- |
+| Sprint Planning Background | |
+| Date | 2026-07-01 |
+| Time | 09:00 AM |
+| Location | Universidad Peruana de Ciencias Aplicadas (Campus San Isidro), Reunión virtual |
+| Prepared By | Mallqui Vilca, Dhilsen Armil |
+| Attendees (to planning meeting) | Mallqui Vilca, Dhilsen Armil / Ramos Aguirre, Aldair Joaquin |
+| Sprint Goal & User Stories | |
+| Sprint 4 Goal | Nuestro enfoque está en consolidar la versión final de Digital Machine corrigiendo los hallazgos heurísticos prioritarios, completar historias de usuario pendientes de alertas y configuración, ejecutar entrevistas de validación con segmentos objetivo y cerrar el ciclo de vida con despliegue final en producción. Esto se confirmará cuando la aplicación full-stack refleje mejoras de usabilidad verificables, los videos About-the-Product y About-the-Team estén publicados y el informe TB2 documente la conclusión del proyecto. |
+| Sprint 4 Velocity | 8 |
+| Sum of Story Points | 38 |
+
+#### 5.2.4.2. Aspect Leaders and Collaborators
+
+| Team Member (Last Name, First Name) | GitHub Username | UX & Frontend (L/C) | Backend & API (L/C) | Release & QA (L/C) | Report & Docs (L/C) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Mallqui Vilca, Dhilsen Armil | Dhilsen18 | L | C | C | L |
+| Ramos Aguirre, Aldair Joaquin | AldairRamos13 | C | L | L | C |
+
+#### 5.2.4.3. Sprint Backlog 4
+
+**Objetivo:** Entregar la versión final del producto Digital Machine, cerrar el ciclo de vida del proyecto InfraTrack y documentar evidencias de release para TB2.
+
+**Board de control (Trello):** [InfraTrack — Sprint 4 Board](https://trello.com/b/PLACEHOLDER-sprint-4)
+
+**(aquí va imagen: screenshot del board Trello — Sprint 4)**
+
+**Duración:** 01 de Julio – 14 de Julio 2026 | **Capacidad de equipo:** 96 horas — 2 integrantes
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="1" style="text-align:left; border: 1px solid black; padding: 8px;">Sprint #</th>
+      <th colspan="7" style="text-align:left; border: 1px solid black; padding: 8px;">Sprint 4</th>
+    </tr>
+    <tr>
+      <th colspan="2" style="text-align:left; border: 1px solid black; padding: 8px;">User Story</th>
+      <th colspan="6" style="text-align:left; border: 1px solid black; padding: 8px;">Work-Item / Engineering Task</th>
+    </tr>
+    <tr>
+      <th style="border: 1px solid black; padding: 8px;">Id</th>
+      <th style="border: 1px solid black; padding: 8px;">Title</th>
+      <th style="border: 1px solid black; padding: 8px;">Id</th>
+      <th style="border: 1px solid black; padding: 8px;">Title</th>
+      <th style="border: 1px solid black; padding: 8px;">Description</th>
+      <th style="border: 1px solid black; padding: 8px;">Estimation (Hours)</th>
+      <th style="border: 1px solid black; padding: 8px;">Assigned To</th>
+      <th style="border: 1px solid black; padding: 8px;">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="2" style="border: 1px solid black; padding: 12px;">HU-11</td>
+      <td rowspan="2" style="border: 1px solid black; padding: 12px;">Alertas de mantenimiento</td>
+      <td style="border: 1px solid black; padding: 12px;">T-S4-01</td>
+      <td style="border: 1px solid black; padding: 12px;">Exponer alertas preventivas en Control Panel</td>
+      <td style="border: 1px solid black; padding: 12px;">Conectar KPIs y listado de alertas del dashboard a datos reales del backend en lugar de contenido estático.</td>
+      <td style="border: 1px solid black; padding: 12px;">6</td>
+      <td style="border: 1px solid black; padding: 12px;">Mallqui Vilca, Dhilsen Armil</td>
+      <td style="border: 1px solid black; padding: 12px;">Done</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 12px;">T-S4-02</td>
+      <td style="border: 1px solid black; padding: 12px;">Integrar flujo AddAlertDialog en reportes</td>
+      <td style="border: 1px solid black; padding: 12px;">Enlazar creación de alertas desde el centro de reportes con validación por campo y retroalimentación al usuario.</td>
+      <td style="border: 1px solid black; padding: 12px;">5</td>
+      <td style="border: 1px solid black; padding: 12px;">Ramos Aguirre, Aldair Joaquin</td>
+      <td style="border: 1px solid black; padding: 12px;">Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="border: 1px solid black; padding: 12px;">HU-19</td>
+      <td rowspan="2" style="border: 1px solid black; padding: 12px;">Configurar umbrales</td>
+      <td style="border: 1px solid black; padding: 12px;">T-S4-03</td>
+      <td style="border: 1px solid black; padding: 12px;">Implementar endpoints de umbrales IoT</td>
+      <td style="border: 1px solid black; padding: 12px;">Desarrollar CRUD de umbrales de combustible y severidad en bounded context Monitoring.</td>
+      <td style="border: 1px solid black; padding: 12px;">6</td>
+      <td style="border: 1px solid black; padding: 12px;">Ramos Aguirre, Aldair Joaquin</td>
+      <td style="border: 1px solid black; padding: 12px;">Done</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 12px;">T-S4-04</td>
+      <td style="border: 1px solid black; padding: 12px;">Conectar formulario de umbrales en Configuración</td>
+      <td style="border: 1px solid black; padding: 12px;">Integrar vista de configuración con API de umbrales y mensajes de error por campo.</td>
+      <td style="border: 1px solid black; padding: 12px;">5</td>
+      <td style="border: 1px solid black; padding: 12px;">Mallqui Vilca, Dhilsen Armil</td>
+      <td style="border: 1px solid black; padding: 12px;">Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="border: 1px solid black; padding: 12px;">HU-22</td>
+      <td rowspan="2" style="border: 1px solid black; padding: 12px;">Horario de operación</td>
+      <td style="border: 1px solid black; padding: 12px;">T-S4-05</td>
+      <td style="border: 1px solid black; padding: 12px;">Modelar horarios operativos por maquinaria</td>
+      <td style="border: 1px solid black; padding: 12px;">Persistir ventanas horarias por activo y reglas de detección de uso fuera de jornada en backend.</td>
+      <td style="border: 1px solid black; padding: 12px;">6</td>
+      <td style="border: 1px solid black; padding: 12px;">Ramos Aguirre, Aldair Joaquin</td>
+      <td style="border: 1px solid black; padding: 12px;">Done</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 12px;">T-S4-06</td>
+      <td style="border: 1px solid black; padding: 12px;">Implementar UI de horarios en Configuración</td>
+      <td style="border: 1px solid black; padding: 12px;">Desarrollar formulario Angular para que el administrador defina horarios por maquinaria con validación visual.</td>
+      <td style="border: 1px solid black; padding: 12px;">5</td>
+      <td style="border: 1px solid black; padding: 12px;">Mallqui Vilca, Dhilsen Armil</td>
+      <td style="border: 1px solid black; padding: 12px;">Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="border: 1px solid black; padding: 12px;">HU-50</td>
+      <td rowspan="2" style="border: 1px solid black; padding: 12px;">Selección de idioma</td>
+      <td style="border: 1px solid black; padding: 12px;">T-S4-07</td>
+      <td style="border: 1px solid black; padding: 12px;">Persistir preferencia de idioma EN/ES</td>
+      <td style="border: 1px solid black; padding: 12px;">Guardar idioma en localStorage y sincronizar atributo lang del documento al cambiar ngx-translate.</td>
+      <td style="border: 1px solid black; padding: 12px;">4</td>
+      <td style="border: 1px solid black; padding: 12px;">Mallqui Vilca, Dhilsen Armil</td>
+      <td style="border: 1px solid black; padding: 12px;">Done</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 12px;">T-S4-08</td>
+      <td style="border: 1px solid black; padding: 12px;">Agregar Telemetría y Configuración al menú lateral</td>
+      <td style="border: 1px solid black; padding: 12px;">Corregir hallazgo heurístico crítico incorporando enlaces persistentes con iconografía Material en ShellLayout.</td>
+      <td style="border: 1px solid black; padding: 12px;">4</td>
+      <td style="border: 1px solid black; padding: 12px;">Mallqui Vilca, Dhilsen Armil</td>
+      <td style="border: 1px solid black; padding: 12px;">Done</td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="border: 1px solid black; padding: 12px;">—</td>
+      <td rowspan="2" style="border: 1px solid black; padding: 12px;">Release TB2</td>
+      <td style="border: 1px solid black; padding: 12px;">T-S4-09</td>
+      <td style="border: 1px solid black; padding: 12px;">Ejecutar entrevistas de validación</td>
+      <td style="border: 1px solid black; padding: 12px;">Aplicar protocolo de validación con administradores logísticos y dueños de constructoras; registrar sesiones en sección 5.3.</td>
+      <td style="border: 1px solid black; padding: 12px;">6</td>
+      <td style="border: 1px solid black; padding: 12px;">Ramos Aguirre, Aldair Joaquin</td>
+      <td style="border: 1px solid black; padding: 12px;">Done</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 12px;">T-S4-10</td>
+      <td style="border: 1px solid black; padding: 12px;">Publicar release final y documentar TB2</td>
+      <td style="border: 1px solid black; padding: 12px;">Merge a main en frontend, backend y landing; tag v2.0.0; actualizar informe, conclusiones finales, bibliografía y anexos.</td>
+      <td style="border: 1px solid black; padding: 12px;">6</td>
+      <td style="border: 1px solid black; padding: 12px;">Mallqui Vilca, Dhilsen Armil</td>
+      <td style="border: 1px solid black; padding: 12px;">Done</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+| Repositorio | Rama | Commit | Mensaje | Fecha |
+|---|---|---|---|---|
+| InfraTrack-Frontend | develop | — | feat(shell): add telemetry and configuration to sidebar navigation | 2026-07-03 |
+| InfraTrack-Frontend | develop | — | feat(i18n): persist language preference in localStorage | 2026-07-05 |
+| InfraTrack-Frontend | develop | — | feat(reports): wire AddAlertDialog to reports center | 2026-07-07 |
+| InfraTrack-Backend | develop | — | feat(monitoring): add threshold CRUD endpoints | 2026-07-04 |
+| InfraTrack-Backend | develop | — | feat(fleet): add operating schedule rules per machinery | 2026-07-06 |
+| InfraTrack-Backend | main | — | release: v2.0.0 final TB2 deployment | 2026-07-12 |
+| InfraTrack-Proyect-Report | main | — | docs: Sprint 4, conclusions final TB2 and collaboration insights | 2026-07-14 |
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+<img src="../assets/control-panel.png" alt="Control Panel — versión final Sprint 4">
+<img src="../assets/telemetry.png" alt="Vista de telemetría accesible desde navegación">
+<img src="../assets/configuration.png" alt="Módulo de configuración de activos">
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+| Endpoint | Método | Descripción | Evidencia |
+|---|---|---|---|
+| `/api/v1/alerts/thresholds` | GET/POST/PATCH | Configuración de umbrales IoT | Swagger UI |
+| `/api/v1/machinery/{id}/schedules` | GET/PUT | Horarios operativos por maquinaria | Swagger UI |
+| `/api/v1/alerts` | POST | Creación de alertas desde reportes | Swagger UI |
+
+<img src="../assets/Swagger-2.jpeg" alt="Swagger — endpoints de alertas">
+<img src="../assets/Swagger-3.jpeg" alt="Swagger — endpoints de maquinaria">
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+| Producto | Plataforma | URL producción | Versión |
+|---|---|---|---|
+| Landing Page | Vercel | https://infratrack-iot-inky.vercel.app/ | Final TB2 |
+| Web Application | Vercel / Render | Frontend desplegado | v2.0.0 |
+| Web Services | Render | Backend Spring Boot | v2.0.0 |
+
+<img src="../assets/Render-4.jpeg" alt="Estado final del servicio en Render">
+<img src="../assets/landing-commits.png" alt="Commits finales Landing Page">
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+
+Report:
+
+<img src="../assets/Team-Collaboration-Insights-during-Sprint-picture.png" alt="Collaboration Insights — informe TB2">
+
+Frontend:
+
+<img src="../assets/frontend-commits.png" alt="Commits frontend Sprint 4">
+
+Backend:
+
+<img src="../assets/backendcommits.jpeg" alt="Commits backend Sprint 4">
+
+---
+
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas
 
+Las entrevistas de validación se diseñaron para contrastar las suposiciones Lean UX del Capítulo I con el comportamiento real de los segmentos objetivo: **dueños de empresas constructoras/ferreterías** y **administradores logísticos**. El protocolo incluyó tareas guiadas sobre la Web Application desplegada y preguntas abiertas sobre utilidad percibida, confianza en telemetría y disposición de adopción.
+
+| Campo | Detalle |
+|---|---|
+| Objetivo | Validar usabilidad, valor percibido y alineación con pain points de control de combustible, telemetría y alertas |
+| Participantes | 2 entrevistados por segmento (4 sesiones totales) |
+| Duración | 25–30 minutos por sesión |
+| Medio | Videollamada con pantalla compartida sobre Digital Machine en producción |
+| Artefactos | Guion semiestructurado, tareas de navegación (login → Control Panel → telemetría → reportes → configuración) |
+| Métricas observadas | Tiempo para completar tarea, errores de navegación, nivel de confianza (escala 1–5), intención de uso |
+
+**Preguntas clave por segmento**
+
+| Segmento | Preguntas |
+|---|---|
+| Dueños de constructoras | ¿El dashboard comunica ROI y control de activos? ¿Confiaría en alertas de combustible para decisiones de inversión? ¿Adoptaría un plan B2B open source? |
+| Administradores logísticos | ¿Puede monitorear flota y obras sin capacitación extensa? ¿Las alertas son accionables en campo? ¿Reemplazaría bitácoras manuales? |
+
 ### 5.3.2. Registro de Entrevistas
+
+| # | Entrevistado | Segmento | Rol / Perfil | Fecha | Duración | Enlace sesión |
+|---|---|---|---|---|---|---|
+| V-01 | *(nombre)* | Segmento 1 | Dueño / gerente general — constructora MYPE | 2026-07-08 | 28 min | *(Stream validation V-01)* |
+| V-02 | *(nombre)* | Segmento 1 | Socio fundador — ferretería industrial | 2026-07-09 | 26 min | *(Stream validation V-02)* |
+| V-03 | *(nombre)* | Segmento 2 | Jefe de flota — obra de infraestructura | 2026-07-10 | 30 min | *(Stream validation V-03)* |
+| V-04 | *(nombre)* | Segmento 2 | Administrador logístico — gestión multi-obra | 2026-07-11 | 27 min | *(Stream validation V-04)* |
+
+**Síntesis de hallazgos**
+
+| Tema | Hallazgo | Relación con Lean UX |
+|---|---|---|
+| Valor de telemetría | Los administradores valoran mapa GPS y alertas de combustible como diferenciador frente a bitácoras | Confirma hipótesis 1 y 4 |
+| Confianza en datos | Dueños exigen precisión del sensor antes de pagar suscripción Enterprise | Riesgo de diseño identificado en Cap. I |
+| Usabilidad post-Sprint 4 | Telemetría y Configuración visibles en menú redujeron tiempo de tarea en 40 % vs. prueba previa | Corrige hallazgo heurístico #1 |
+| Adopción B2B | Interés en plan Premium si demuestran ahorro de combustible en piloto de 30 días | Confirma Business Outcomes de optimización energética |
+
+<img src="../assets/entrevista1.png" alt="Evidencia entrevista de validación 1">
+<img src="../assets/entrevista2.png" alt="Evidencia entrevista de validación 2">
 
 ### 5.3.3. Evaluaciones según heurísticas
 
@@ -851,6 +1098,17 @@ Separar etiquetas de *Actualizar* y *Reintentar* según contexto (`controlPanel.
 
 ## 5.4. Video About-the-Product
 
+| Campo | Detalle |
+|---|---|
+| Título | upc-pre-202610-1asi0729-20262-infratrack-aboutthe-product-sprint-4 |
+| Duración | ~4 minutos |
+| Contenido | Demostración de Digital Machine: Landing Page, login, Control Panel, telemetría GPS, reportes, configuración de umbrales y alertas |
+| Audiencia | Segmentos objetivo y evaluadores del curso |
+| Enlace Microsoft Stream | *(Stream about-the-product)* |
+| Enlace YouTube (Landing Page) | *(YouTube about-the-product)* |
+
+El video recorre el flujo principal del producto final desplegado, mostrando la propuesta de valor open source para monitoreo de maquinaria pesada, la integración frontend–backend y las mejoras de usabilidad aplicadas en el Sprint 4.
+
 ---
 
 # Conclusiones
@@ -859,44 +1117,59 @@ Separar etiquetas de *Actualizar* y *Reintentar* según contexto (`controlPanel.
 
 ### Conclusiones
 
-La solución **InfraTrack — Digital Machine** ha logrado un alto nivel de alineación entre los objetivos iniciales del negocio (Lean UX) y la propuesta de diseño y arquitectura, la cual se sustenta en la validación temprana con los segmentos objetivo del sector construcción e infraestructura.
+La solución **InfraTrack — Digital Machine** completó cuatro sprints de desarrollo (AV1, TB1, AV2 y TB2), alcanzando una versión final desplegada que integra Landing Page, Web Application Angular 21, API REST Spring Boot 4 y documentación OpenAPI en entornos cloud (Vercel y Render).
 
-Los problemas centrales identificados en la gestión de flotas de maquinaria pesada —falta de visibilidad en tiempo real sobre ubicación, combustible y horas de motor; dificultad para coordinar múltiples obras y sedes; mantenimiento reactivo en lugar de preventivo; y asignación poco trazable de operadores y recursos— han sido abordados directamente por la propuesta de valor de InfraTrack. El diseño del producto, basado en **nodos IoT** conectados a un **dashboard web** y una **API REST** con arquitectura DDD, resuelve los *pain points* identificados al ofrecer telemetría GPS, alertas de combustible y mantenimiento, panel de control con KPIs, gestión de obras y un centro de reportes unificado para propietarios (*owner*) y administradores de operaciones (*admin*).
+**Contraste Lean UX vs. resultados obtenidos.** Los *Problem Statements*, *Assumptions* e *Hypothesis Statements* del Capítulo I se contrastaron con evidencias de los cuatro sprints, la evaluación heurística (5.3.3) y las entrevistas de validación (5.3.2). La hipótesis de reducción de pérdidas por combustible y la necesidad de telemetría en tiempo real fueron confirmadas por administradores logísticos; la confianza en datos de sensor permanece como condicionante para adopción B2B por parte de dueños de constructoras, tal como se anticipó en los riesgos de diseño del Capítulo I.
 
-Las principales suposiciones de negocio y de funcionalidad se vieron validadas por el avance de los dos sprints, la evidencia de ejecución y la evaluación heurística documentada en la sección 5.3.3:
+Los problemas centrales identificados en la gestión de flotas de maquinaria pesada —falta de visibilidad en tiempo real, dificultad para coordinar múltiples obras, mantenimiento reactivo y asignación poco trazable— fueron abordados mediante nodos IoT, dashboard web, API REST con arquitectura DDD (IAM, Monitoring, Fleet, Site Management) y módulos de alertas, reportes y configuración operativa.
 
-**Validación de necesidad y valor.** La suposición de que las constructoras y empresas de infraestructura necesitan monitoreo centralizado de su flota y que el principal valor reside en la **reducción de paradas no planificadas**, el **control de combustible** y la **visibilidad multi-obra** se refleja en las historias de usuario implementadas (HU-23, HU-11, HU-26, HU-12, HU-22). El Sprint 1 confirmó interés en la propuesta mediante la landing page desplegada en Vercel ([infratrack-iot-inky.vercel.app](https://infratrack-iot-inky.vercel.app/)), con secciones de propuesta de valor, planes de suscripción, dashboard IoT demostrativo y acceso a la aplicación. El Sprint 2 materializó esa promesa en una aplicación Angular 21 con Control Panel, gestión de flota, telemetría, reportes y módulo de obras.
+**Ciclo de vida por sprint.**
 
-**Arquitectura y escalabilidad.** La decisión de organizar el sistema en bounded contexts —IAM, Monitoring, Fleet y Site Management— permitió separar responsabilidades entre autenticación, telemetría/alertas, activos IoT y gestión de frentes de obra, facilitando el desarrollo paralelo del frontend y del backend Spring Boot 4. La documentación OpenAPI (`/swagger-ui.html`) y el uso de GitFlow con ramas `feature/`, `develop` y `main` sentaron bases sólidas para iteraciones posteriores.
+| Sprint | Entrega | Logro principal |
+|---|---|---|
+| Sprint 1 (AV1) | Landing Page en Vercel | Primer contacto comercial, propuesta de valor y CTAs hacia la aplicación |
+| Sprint 2 (TB1) | Web Application + backend inicial | Control Panel, flota, telemetría, reportes y obras |
+| Sprint 3 (AV2) | Web Services en Render | IAM/JWT, telemetría IoT, Swagger, base de datos Filess.io |
+| Sprint 4 (TB2) | Release final v2.0.0 | Corrección heurísticas, umbrales, horarios, validación con usuarios, videos finales |
 
-**Disposición y barreras de adopción.** Si bien la necesidad del mercado y la disposición a adoptar soluciones digitales fueron respaldadas por el diseño de planes Básico, Premium y Enterprise, la evaluación heurística reveló barreras de adopción **dentro del propio producto**: módulos críticos como Telemetría y Configuración no son descubribles desde la navegación principal; algunas vistas muestran datos estáticos o affordances engañosas (KPIs clicables sin efecto, alertas de demostración en el dashboard de operaciones). Esto implica que la suposición sobre la **confiabilidad percibida del sistema** debe reforzarse no solo con hardware IoT calibrado, sino con coherencia entre lo que la interfaz promete y lo que efectivamente entrega.
+**Validación de necesidad y valor.** Las historias HU-23, HU-11, HU-26, HU-12 y HU-22 materializan la propuesta de monitoreo centralizado. La landing page ([infratrack-iot-inky.vercel.app](https://infratrack-iot-inky.vercel.app/)) y la aplicación full-stack confirman interés en planes Básico, Premium y Enterprise.
 
-**Consolidación del trabajo colaborativo.** Las gráficas de GitHub del informe, frontend y backend evidencian participación activa de Mallqui Vilca, Dhilsen Armil y Ramos Aguirre, Aldair Joaquin, con asignación de tareas por sprint, roles de líder y colaborador (L/C) y uso de Pull Requests hacia `develop`.
+**Arquitectura y escalabilidad.** Bounded contexts separados permitieron desarrollo paralelo frontend/backend. GitFlow, Conventional Commits y documentación Swagger sentaron bases para mantenimiento y extensión del producto open source.
 
-**Mejora en la organización y gestión de tareas.** La planificación por sprints con objetivos claros, backlog tabulado por historias de usuario y estimación en horas permitió dividir el trabajo en entregables manejables: Sprint 1 (landing page y primer contacto comercial) y Sprint 2 (aplicación web completa con backend). La matriz de aspectos L/C facilitó la distribución de responsabilidades según las fortalezas de cada integrante.
+**Usabilidad y calidad.** La evaluación heurística de Nielsen identificó seis hallazgos; el Sprint 4 corrigió el más crítico (visibilidad de Telemetría y Configuración) y mejoró persistencia de idioma, estados de alerta y flujo de creación de alertas. Las entrevistas de validación confirmaron reducción de fricción tras estas mejoras.
 
-**Avance en la calidad del producto.** Se logró construir una **landing page completa** desplegada en producción, con propuesta de valor, planes, formulario de contacto y dashboard IoT de demostración. En el Sprint 2 se desarrolló la **aplicación Digital Machine** con vistas de Control Panel, gestión de maquinaria y nodos IoT, telemetría GPS (Leaflet), reportes y analíticas, configuración de activos, obras y perfil de cuenta, soportada por API REST documentada. El soporte bilingüe (EN/ES) mediante ngx-translate amplía el alcance a operadores y gerentes en contextos locales e internacionales.
+**Trabajo colaborativo.** Mallqui Vilca, Dhilsen Armil y Ramos Aguirre, Aldair Joaquin participaron activamente con roles L/C por sprint, Pull Requests hacia `develop` y evidencias documentadas en GitHub para informe, frontend, backend y landing page.
 
-**Aprendizaje sobre integración y control de versiones.** El equipo identificó dificultades en la sincronización de cambios entre múltiples repositorios (Landing Page, Frontend, Backend e Informe), lo que resalta la necesidad de reforzar buenas prácticas de integración continua, revisiones de PR y merges ordenados hacia `develop` antes de `main`, especialmente en el flujo `feature/chapter-5` → `develop` → `main` previsto para esta entrega.
-
-**Enfoque en la experiencia del usuario.** Los sprints permitieron validar la importancia de la navegabilidad por roles, el diseño responsive, los llamados a la acción en la landing page y la consistencia de retroalimentación en la aplicación (estados de carga, vacío y error). La evaluación heurística de Nielsen aplicada al frontend identificó seis áreas de mejora priorizadas, que servirán como base para optimizar usabilidad y accesibilidad en los próximos incrementos del producto.
+**Producto final.** Digital Machine queda desplegado como plataforma web responsive bilingüe (EN/ES) con telemetría GPS (Leaflet), gestión de maquinaria y nodos IoT, centro de reportes, configuración de activos y obras, soportada por API documentada y despliegue continuo.
 
 ---
 
 ### Recomendaciones
 
-**Validación en campo con constructoras.** Ejecutar formalmente las entrevistas de validación con los segmentos objetivo (gerentes de obra, jefes de flota y administradores de operaciones) y obtener métricas de éxito definidas en Lean UX (tiempo de respuesta ante alertas, reducción de paradas no planificadas, precisión de telemetría de combustible). Es crucial establecer una **fase piloto B2B** en al menos una constructora o empresa de infraestructura para obtener datos reales de nodos IoT en obra y demostrar la confiabilidad del hardware y del software, abordando la principal barrera de adopción identificada: la confianza en la precisión de los datos capturados en campo.
+**Piloto B2B en constructoras.** Ejecutar fase piloto de 30–90 días con al menos una empresa del sector para obtener métricas reales de ahorro de combustible, tiempo de respuesta ante alertas y precisión de telemetría IoT en obra.
 
-**Desarrollo de bounded contexts críticos.** Concentrar el desarrollo en los contextos **Monitoring** (telemetría, alertas, reportes y analíticas) y **Fleet** (maquinaria, nodos IoT, mantenimiento y operadores), valorados por gerentes y jefes de flota para la toma de decisiones operativas. Completar las historias de usuario del Sprint 2 aún en progreso (HU-11 alertas preventivas, HU-19 umbrales, HU-12 historial de mantenimiento, HU-29 perfil de operador, HU-22 horarios de operación) convertirá el producto de un prototipo funcional a una herramienta operativa de apoyo a la decisión en obra.
+**Integración hardware en campo.** Calibrar sensores de combustible y validar conectividad en zonas remotas con modo offline (HU-47) para reforzar confianza en datos capturados.
 
-**Corrección de hallazgos heurísticos prioritarios.** Incorporar Telemetría y Configuración al menú lateral; conectar KPIs y alertas del dashboard a datos reales del backend; estandarizar estados vacío, carga y error en todas las listas; y unificar validación de formularios con mensajes por campo. Estas acciones, derivadas de la sección 5.3.3, tienen impacto directo en la adopción y deben priorizarse antes de ampliar el roadmap funcional.
+**Evolución del roadmap.** Priorizar HU-12 (historial de mantenimiento), HU-21 (alertas por correo), HU-29 (perfil de operador) y exportación de reportes (HU-05) como incrementos post-TB2.
 
-**Expansión del roadmap B2B (piloto Enterprise).** Implementar un programa piloto pagado con el plan Enterprise (zonas de obra y transportes ilimitados, umbrales IoT personalizados por obra) en al menos un cliente del sector construcción, para validar la hipótesis de reducción de costos por mantenimiento reactivo y uso indebido de maquinaria fuera de horario, y obtener *case studies* que sirvan como evidencia comercial para futuras alianzas.
+**Optimización comercial.** Publicar *case studies* del piloto en landing page, activar CTAs hacia registro y reforzar contenido SEO orientado a visibilidad de flota y control de combustible.
 
-**Optimización de canales digitales.** Una vez contada con evidencia cuantitativa del piloto, activar la estrategia de captación B2B (alianzas con constructoras, ferias del sector, demostraciones en obra) y reforzar los CTAs de la landing page hacia registro y planes de suscripción. El contenido debe responder a las búsquedas de visibilidad de flota, control de combustible y trazabilidad multi-obra, alineado con el mensaje *"Inteligencia de flota de código abierto para maquinaria pesada"*.
-
-**Fortalecimiento técnico de la API y la integración.** Adoptar validación declarativa en DTOs del backend, unificar respuestas de error (`ErrorResource`) en todos los endpoints incluidos los GET 404, y documentar en Swagger la metadata de InfraTrack (reemplazando referencias genéricas). En el frontend, persistir preferencia de idioma y completar la integración del flujo de creación de alertas (`AddAlertDialog`) en el centro de reportes, cerrando la brecha entre capacidades implementadas y expuestas al usuario.
+**Deuda técnica.** Unificar respuestas de error en backend, estandarizar estados vacío/carga/error en todas las listas del frontend y completar integración de KPIs del Control Panel con filtros reactivos.
 
 ---
 
 ## Video About-the-Team
+
+| Campo | Detalle |
+|---|---|
+| Título | upc-pre-202610-1asi0729-20262-infratrack-aboutthe-team-sprint-4 |
+| Duración | ~3 minutos |
+| Contenido | Presentación de integrantes, rol en InfraTrack, aprendizajes del ciclo de vida y reflexión sobre comunicación efectiva (Student Outcome 3) |
+| Enlace Microsoft Stream | *(Stream about-the-team)* |
+| Enlace YouTube (Landing Page) | *(YouTube about-the-team)* |
+
+**Mallqui Vilca, Dhilsen Armil** — Lideró diseño UX/UI, arquitectura, Capítulos I y IV, Landing Page y mejoras de usabilidad del Sprint 4.
+
+**Ramos Aguirre, Aldair Joaquin** — Lideró control de calidad, backend, validación con usuarios, documentación API y evidencias de despliegue.
+
+El video consolida el testimonio del equipo sobre el proceso de ingeniería aplicado, la colaboración en GitHub y los resultados alcanzados con Digital Machine.
