@@ -4,13 +4,13 @@
 
 ### 1.1.1. Descripción de la Startup
 
-InfraTrack es un equipo formado por estudiantes de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas (UPC), unidos por el compromiso de crear soluciones tecnológicas de código abierto que impulsen la eficiencia operativa en sectores industriales de alta demanda.
+InfraTrack es una startup formada por estudiantes de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas (UPC), unidos por el compromiso de crear soluciones tecnológicas de código abierto que impulsen la eficiencia operativa en sectores industriales de alta demanda. Su producto principal, **Digital Machine**, es una plataforma web de monitoreo inteligente orientada a la gestión de maquinaria pesada y flotas operativas.
 
 **¿Por qué nace InfraTrack?**
 - Surge como respuesta a la falta de precisión y transparencia en el control de activos críticos, con el objetivo de transformar la logística tradicional en un ecosistema conectado y basado en datos reales.
 
 **¿Qué propone la startup?**
-- Ante la incertidumbre en los costos operativos y el mantenimiento de flotas, InfraTrack desarrolla una plataforma web de monitoreo inteligente, especialmente diseñada para el sector ferretero y de construcción.
+- Ante la incertidumbre en los costos operativos y el mantenimiento de flotas, InfraTrack desarrolla Digital Machine: una plataforma web de monitoreo inteligente, especialmente diseñada para el sector ferretero y de construcción.
 - El sistema integra tecnología IoT para capturar datos precisos en tiempo real: ubicación por GPS, horas de uso y consumo de combustible mediante sensores integrados.
 - Esta solución permite:
   - Centralizar reportes y generar alertas automáticas.
@@ -56,28 +56,19 @@ A continuación, nuestra misión, visión y valores:
   <tr>
     <td style="border:2px solid #fff; text-align:center; vertical-align:top;">U202319440</td>
     <td style="border:2px solid #fff; text-align:justify; vertical-align:top;">
-      <b>Dhilsen Armil Mallqui Vilca</b><br>Estudiante de Ingeniería de Software en la UPC. Me apasiona el desarrollo de soluciones digitales de alto impacto que optimizan la eficiencia operativa mediante tecnologías emergentes. En InfraTrack, aplico mis conocimientos en ingeniería para automatizar el control de activos y el monitoreo IoT, transformando la gestión logística en el sector industrial con un enfoque en la rentabilidad y la innovación tecnológica.
+      <b>Mallqui Vilca, Dhilsen Armil</b><br>Carrera: Ingeniería de Software — UPC.<br>Estudiante con experiencia en diseño de producto, arquitectura de software y desarrollo web. Domina HTML, CSS, JavaScript y herramientas de diseño como Figma. En InfraTrack lidera el diseño UX/UI, la arquitectura de la solución y el desarrollo de la Landing Page, aportando visión técnica para transformar la gestión logística del sector industrial mediante monitoreo IoT y plataformas open source.
     </td>
     <td style="border:2px solid #fff; text-align:center; vertical-align:top;">
-      <img src="../assets/Dhilsen.jpeg" alt="Foto Dhilsen" style="width:90px; border-radius:8px;"/>
+      <img src="../assets/Dhilsen.jpeg" alt="Foto Dhilsen Armil Mallqui Vilca" style="width:90px; border-radius:8px;"/>
     </td>
   </tr>
   <tr>
-    <td style="border:2px solid #fff; text-align:center; vertical-align:top;">U202316049</td>
+    <td style="border:2px solid #fff; text-align:center; vertical-align:top;">U20201F051</td>
     <td style="border:2px solid #fff; text-align:justify; vertical-align:top;">
-      <b>Jefferson Bayron Morales Yapuchura</b><br>Estudiante de Ingeniería de Software con un enfoque proactivo en la resolución de problemas y el desarrollo de soluciones escalables. Me defino como un entusiasta del aprendizaje continuo, lo que me permite navegar con agilidad entre lenguajes y frameworks emergentes.
+      <b>Ramos Aguirre, Aldair Joaquin</b><br>Carrera: Ingeniería de Software — UPC.<br>Estudiante con conocimientos en Python, Java y C++, orientado al desarrollo backend y la validación de calidad de software. En InfraTrack lidera el control de calidad y contribuye en la implementación del dashboard de hardware IoT, el Control Panel y la documentación técnica, asegurando que las funcionalidades desarrolladas cumplan los criterios de aceptación definidos para Digital Machine.
     </td>
     <td style="border:2px solid #fff; text-align:center; vertical-align:top;">
-      <img src="../assets/Jefferson.jpeg" alt="Foto Jefferson" style="width:90px; border-radius:8px;"/>
-    </td>
-  </tr>
-  <tr>
-    <td style="border:2px solid #fff; text-align:center; vertical-align:top;">U20201B441</td>
-    <td style="border:2px solid #fff; text-align:justify; vertical-align:top;">
-      <b>Aldair Joaquin Ramos Aguirre</b><br>Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), con conocimientos en programación en Python, Java y C++. Interesado en aplicar mis conocimientos académicos en este proyecto,, contribuyendo al desarrollo de soluciones tecnológicas y fortaleciendo mis habilidades profesionales.
-    </td>
-    <td style="border:2px solid #fff; text-align:center; vertical-align:top;">
-      <img src="../assets/Aldair.jpeg" alt="Foto David" style="width:90px; border-radius:8px;"/>
+      <img src="../assets/Aldair.jpeg" alt="Foto Aldair Joaquin Ramos Aguirre" style="width:90px; border-radius:8px;"/>
     </td>
   </tr>
 </table>

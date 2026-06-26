@@ -107,8 +107,23 @@
 A continuación, se brindará un mayor detalle sobre las actividades realizadas en cada entrega, la participación de cada miembro de la startup y las evidencias correspondientes.
 
 ## Desarrollo del reporte
-#### TB1:
 
+### AV1 (Sprint 1)
+
+Durante AV1, el equipo elaboró la estructura base del informe en Markdown...
+Dhilsen lideró los Capítulos I y IV; Aldair contribuyó en los Capítulos II, III y V...
+
+**(aquí va imagen: analítico de contribuciones del repositorio del informe – AV1)**
+
+**(aquí va imagen: historial de commits del repositorio del informe – AV1)**
+
+### TB1 (Sprint 2)
+
+En TB1 se actualizaron Student Outcome, Registro de Versiones...
+
+**(aquí va imagen: analítico de contribuciones – TB1)**
+
+**(aquí va imagen: historial de commits – TB1)**
 ---
 
 # Contenido
