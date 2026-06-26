@@ -19,20 +19,20 @@ InfraTrack es una startup formada por estudiantes de Ingeniería de Software de 
 
 A continuación, nuestra misión, visión y valores:
 
-<table style="border-collapse:collapse; width:100%;">
+<table border="1" cellpadding="10" cellspacing="0" style="width:100%; border-collapse:collapse;">
   <tr>
-    <th style="background-color:#c00000; color:white; text-align:center; border:2px solid #fff;">Misión</th>
-    <th style="background-color:#c00000; color:white; text-align:center; border:2px solid #fff;">Visión</th>
-    <th style="background-color:#c00000; color:white; text-align:center; border:2px solid #fff;">Valores</th>
+    <th style="border:1px solid #000; padding:10px; text-align:center;">Misión</th>
+    <th style="border:1px solid #000; padding:10px; text-align:center;">Visión</th>
+    <th style="border:1px solid #000; padding:10px; text-align:center;">Valores</th>
   </tr>
   <tr>
-    <td style="text-align:justify; vertical-align:top; border:2px solid #fff;">
+    <td style="border:1px solid #000; padding:10px; text-align:justify; vertical-align:top;">
       Nuestra misión en <b>“InfraTrack”</b> es optimizar la gestión de maquinaria pesada y vehículos de carga mediante una plataforma de monitoreo inteligente, confiable y de código abierto que brinde transparencia y control absoluto sobre los activos críticos.
     </td>
-    <td style="text-align:justify; vertical-align:top; border:2px solid #fff;">
+    <td style="border:1px solid #000; padding:10px; text-align:justify; vertical-align:top;">
       Nuestra visión en <b>“InfraTrack”</b> es consolidarnos como la startup referente en soluciones tecnológicas para la gestión logística en el sector construcción de Latinoamérica, destacando por nuestro enfoque en IoT y solidez técnica.
     </td>
-    <td style="vertical-align:top; border:2px solid #fff;">
+    <td style="border:1px solid #000; padding:10px; vertical-align:top;">
       <ul>
         <li>Transparencia</li>
         <li>Responsabilidad</li>
@@ -47,28 +47,28 @@ A continuación, nuestra misión, visión y valores:
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-<table style="border-collapse:collapse; width:100%;">
+<table border="1" cellpadding="10" cellspacing="0" style="width:100%; border-collapse:collapse;">
   <tr>
-    <th style="background-color:#c00000; color:white; text-align:center; border:2px solid #fff;">Código</th>
-    <th style="background-color:#c00000; color:white; text-align:center; border:2px solid #fff;">Descripción</th>
-    <th style="background-color:#c00000; color:white; text-align:center; border:2px solid #fff;">Foto</th>
+    <th style="border:1px solid #000; padding:10px; text-align:center;">Código</th>
+    <th style="border:1px solid #000; padding:10px; text-align:center;">Descripción</th>
+    <th style="border:1px solid #000; padding:10px; text-align:center;">Foto</th>
   </tr>
   <tr>
-    <td style="border:2px solid #fff; text-align:center; vertical-align:top;">U202319440</td>
-    <td style="border:2px solid #fff; text-align:justify; vertical-align:top;">
+    <td style="border:1px solid #000; padding:10px; text-align:center; vertical-align:top;">U202319440</td>
+    <td style="border:1px solid #000; padding:10px; text-align:justify; vertical-align:top;">
       <b>Mallqui Vilca, Dhilsen Armil</b><br>Carrera: Ingeniería de Software — UPC.<br>Estudiante con experiencia en diseño de producto, arquitectura de software y desarrollo web. Domina HTML, CSS, JavaScript y herramientas de diseño como Figma. En InfraTrack lidera el diseño UX/UI, la arquitectura de la solución y el desarrollo de la Landing Page, aportando visión técnica para transformar la gestión logística del sector industrial mediante monitoreo IoT y plataformas open source.
     </td>
-    <td style="border:2px solid #fff; text-align:center; vertical-align:top;">
-      <img src="../assets/Dhilsen.jpeg" alt="Foto Dhilsen Armil Mallqui Vilca" style="width:90px; border-radius:8px;"/>
+    <td style="border:1px solid #000; padding:10px; text-align:center; vertical-align:top;">
+      <img src="../assets/dhilsen.jpeg" alt="Foto Dhilsen Armil Mallqui Vilca" style="width:90px;"/>
     </td>
   </tr>
   <tr>
-    <td style="border:2px solid #fff; text-align:center; vertical-align:top;">U20201F051</td>
-    <td style="border:2px solid #fff; text-align:justify; vertical-align:top;">
+    <td style="border:1px solid #000; padding:10px; text-align:center; vertical-align:top;">U20201F051</td>
+    <td style="border:1px solid #000; padding:10px; text-align:justify; vertical-align:top;">
       <b>Ramos Aguirre, Aldair Joaquin</b><br>Carrera: Ingeniería de Software — UPC.<br>Estudiante con conocimientos en Python, Java y C++, orientado al desarrollo backend y la validación de calidad de software. En InfraTrack lidera el control de calidad y contribuye en la implementación del dashboard de hardware IoT, el Control Panel y la documentación técnica, asegurando que las funcionalidades desarrolladas cumplan los criterios de aceptación definidos para Digital Machine.
     </td>
-    <td style="border:2px solid #fff; text-align:center; vertical-align:top;">
-      <img src="../assets/Aldair.jpeg" alt="Foto Aldair Joaquin Ramos Aguirre" style="width:90px; border-radius:8px;"/>
+    <td style="border:1px solid #000; padding:10px; text-align:center; vertical-align:top;">
+      <img src="../assets/Aldair.jpeg" alt="Foto Aldair Joaquin Ramos Aguirre" style="width:90px;"/>
     </td>
   </tr>
 </table>
@@ -130,6 +130,27 @@ Para la elaboración de esta descripción se utiliza la técnica de The 5 ‘W�
 - A nivel nacional, la ineficiencia logística le resta al Perú entre el 2 % y 3 % de su PBI potencial (Consejo Nacional de Competitividad, 2021).
 - La implementación de sistemas de monitoreo inteligente permite un retorno de inversión (ROI) rápido, ya que el ahorro de solo un 5 % en el consumo de combustible suele cubrir el costo de implementación tecnológica en menos de seis meses.
 
+**Enunciado del problema**
+
+Las empresas del sector construcción e infraestructura en el Perú gestionan maquinaria pesada y flotas operativas sin visibilidad confiable en tiempo real sobre ubicación, consumo de combustible y horas de motor. Esa opacidad genera pérdidas económicas, mantenimiento reactivo y decisiones logísticas basadas en reportes manuales poco trazables.
+
+**Objetivos del proyecto**
+
+- Desarrollar **Digital Machine**, plataforma web open source para monitoreo inteligente de maquinaria y flotas.
+- Implementar una **Landing Page** comercial y una **Web Application** responsive integrada con una **API REST** propia.
+- Capturar y visualizar telemetría de **GPS, combustible y horas de motor** mediante nodos IoT.
+- Entregar alertas, reportes y paneles de control orientados a propietarios y administradores de operaciones.
+- Desplegar la solución en entornos cloud con documentación técnica, control de versiones y evidencias de ciclo de vida completo.
+
+**Restricciones y alcance**
+
+- Backend con tecnologías **open source** y lógica de servidor en **Java** (Spring Boot).
+- Frontend con tecnologías open source (Angular) e integración con servicio externo de terceros.
+- Equipo de desarrollo conformado por **dos integrantes** del curso 1ASI0729.
+- Alcance funcional acotado a los bounded contexts definidos: **IAM, Monitoring, Fleet y Site Management**.
+- El hardware IoT se modela e integra en software; la validación en campo depende de despliegue piloto con clientes del sector.
+- Productos finales desplegados: Landing Page (Vercel), Web Application y Web Services (Render).
+
 <div style="text-align:center; margin: 24px 0;">
   <div style="margin-top:8px; font-weight:bold;">Gráfico 1: Estructura de costos operativos en el área de Logística</div>
   <img src="../assets/grafico_1.png" alt="Gráfico 1: Estructura de costos operativos en el área de Logística" style="width:100%; max-width:600px; display: block; margin: 0 auto;"/>
@@ -158,20 +179,20 @@ La problemática es de alcance nacional, afectando especialmente a empresas con 
 
 **Puntos de Dolor (Pain Points)**
 
-<table style="border-collapse:collapse; width:100%;">
+<table border="1" cellpadding="10" cellspacing="0" style="width:100%; border-collapse:collapse;">
   <tr>
-    <th style="background-color:#c00000; color:white; text-align:center; border:2px solid #fff;">Dueños de Empresas Ferreteras</th>
-    <th style="background-color:#c00000; color:white; text-align:center; border:2px solid #fff;">Administradores Logísticos</th>
+    <th style="border:1px solid #000; padding:10px; text-align:center;">Dueños de Empresas Ferreteras</th>
+    <th style="border:1px solid #000; padding:10px; text-align:center;">Administradores Logísticos</th>
   </tr>
   <tr>
-    <td style="vertical-align:top; border:2px solid #fff;">
+    <td style="border:1px solid #000; padding:10px; vertical-align:top;">
       <ul>
         <li><b>Pérdidas económicas invisibles:</b> Fugas de capital debido al robo de combustible ("ordeño") que no pueden ser probadas sin datos exactos.</li>
         <li><b>Baja rentabilidad de los activos:</b> Incertidumbre sobre si la maquinaria está siendo utilizada al 100% de su capacidad o si hay tiempos muertos excesivos.</li>
         <li><b>Riesgo de inversión:</b> Desgaste acelerado de maquinaria costosa por falta de una cultura de mantenimiento basada en datos.</li>
       </ul>
     </td>
-    <td style="vertical-align:top; border:2px solid #fff;">
+    <td style="border:1px solid #000; padding:10px; vertical-align:top;">
       <ul>
         <li><b>Falta de datos en tiempo real:</b> Dependencia de reportes manuales entregados por los operarios que suelen contener errores o datos manipulados.</li>
         <li><b>Dificultad en la toma de decisiones:</b> Imposibilidad de optimizar rutas o asignar tareas de forma eficiente sin conocer la ubicación exacta y el nivel de combustible actual.</li>
@@ -184,6 +205,16 @@ La problemática es de alcance nacional, afectando especialmente a empresas con 
 **Brecha Detectada (Gap)**
 
 Se identifica la ausencia de una solución digital de código abierto (Open Source) que integre hardware IoT de bajo costo con una plataforma web de alta gama. Esta brecha tecnológica margina a las medianas empresas, impidiéndoles acceder a la telemetría avanzada que actualmente solo está disponible en sistemas comerciales cerrados de alto costo.
+
+**Visión y estrategia**
+
+**Visión:** Consolidar a InfraTrack como referente en Latinoamérica en gestión logística open source para maquinaria pesada, apoyada en IoT, telemetría y analítica operativa.
+
+**Estrategia:** Entrar al mercado con una propuesta de bajo costo y código abierto, validada con constructoras y ferreterías industriales; captar usuarios mediante Landing Page y planes B2B; escalar funcionalidades por sprints hacia una aplicación full-stack con API documentada y despliegue en cloud.
+
+**Segmento inicial (Initial Segment)**
+
+El segmento inicial de enfoque son los **Administradores Logísticos y Gestores de Flota** de medianas empresas constructoras. Son el usuario principal de la Web Application, utilizan el sistema de forma diaria y concentran los pain points operativos que Digital Machine resuelve en primer lugar: alertas, telemetría, reportes y coordinación multi-obra. Los dueños de empresas constructoras y ferreterías constituyen el segmento estratégico de adopción y decisión de compra.
 
 #### 1.2.2.2. Lean UX Assumptions
 
@@ -262,45 +293,45 @@ Adicionalmente, proyectamos que la optimización de rutas, reducción del ralent
 
 *   **Hipótesis 1: Control de combustible y detección de mermas**
     *   **Creemos que lograremos** una reducción del 15 % en los costos operativos mensuales por pérdida de combustible.
-    *   **Si** los Administradores Logísticos.
+    *   **Si** los Administradores Logísticos utilizan el sistema de forma continua.
     *   **Obtienen** la capacidad de detectar extracciones no autorizadas en tiempo real.
     *   **Con** un sistema de alertas automáticas conectado a sensores de nivel en los tanques de la maquinaria.
 
 *   **Hipótesis 2: Optimización del mantenimiento preventivo**
     *   **Creemos que lograremos** un incremento del 20 % en la disponibilidad mecánica de la flota.
-    *   **Si** los Gestores de Flota.
+    *   **Si** los Gestores de Flota consultan las métricas de uso antes de programar mantenimientos.
     *   **Obtienen** la seguridad de programar mantenimientos basados en el uso real del motor sin margen de error humano.
     *   **Con** un módulo de telemetría que registra y reporta horas-motor exactas vía IoT.
 
 *   **Hipótesis 3: Reducción del Ralentí (Motor encendido sin trabajar)**
     *   **Creemos que lograremos** una disminución del 10 % en el consumo innecesario de energía y emisiones de CO2.
-    *   **Si** los Administradores Logísticos.
+    *   **Si** los Administradores Logísticos revisan los reportes de inactividad por operador.
     *   **Obtienen** visibilidad sobre los tiempos de inactividad excesiva de cada operador.
     *   **Con** un reporte analítico de "Tiempos de Ralentí" generado por la plataforma InfraTrack.
 
 *   **Hipótesis 4: Trazabilidad y Seguridad de Activos**
     *   **Creemos que lograremos** reducir a cero las desviaciones de ruta no autorizadas y el uso indebido de maquinaria.
-    *   **Si** los Dueños de Empresas Constructoras.
+    *   **Si** los Dueños de Empresas Constructoras supervisan sus activos de forma remota.
     *   **Obtienen** control geográfico total y remoto sobre sus activos críticos en zonas de obra.
     *   **Con** un dashboard de monitoreo GPS con geocercas y rastreo en vivo.
 
 *   **Hipótesis 5: Toma de decisiones basada en rentabilidad**
     *   **Creemos que lograremos** mejorar el retorno de inversión (ROI) por activo en un 12 % anual.
-    *   **Si** los Dueños de Ferreterías y Constructoras.
+    *   **Si** los Dueños de Ferreterías y Constructoras analizan reportes consolidados periódicamente.
     *   **Obtienen** reportes consolidados que contrastan el combustible facturado frente al consumo real.
     *   **Con** una plataforma centralizada de analítica logística de código abierto.
 
 *   **Hipótesis 6: Digitalización y transparencia operativa**
     *   **Creemos que lograremos** eliminar el 90 % de los errores de registro en las bitácoras de campo.
-    *   **Si** los Supervisores Logísticos.
+    *   **Si** los Supervisores Logísticos reemplazan el registro manual por datos sincronizados desde IoT.
     *   **Obtienen** acceso inmediato a datos históricos sin depender de reportes manuales en papel.
     *   **Con** registros digitales automatizados sincronizados directamente desde los nodos IoT.
 
 #### 1.2.2.4. Lean UX Canvas
 
 <div style="text-align:center; margin: 24px 0;">
-  <img src="../assets/ux-canvas.jpeg" alt="Lean UX Canvas" style="max-width: 90%; display: block; margin: 0 auto;"/>
-  <div style="margin-top:8px; font-weight:bold;"></div>
+  <img src="../assets/ux-canvas.jpeg" alt="Lean UX Canvas — InfraTrack Digital Machine" style="max-width: 90%; display: block; margin: 0 auto;"/>
+  <div style="margin-top:8px; font-weight:bold;">Figura 1: Lean UX Canvas de InfraTrack — Digital Machine</div>
 </div>
 
 ## 1.3. Segmentos objetivo
@@ -320,7 +351,7 @@ Este segmento está compuesto por inversionistas y propietarios de medianas empr
 Priorizan la reducción de costos operativos y la protección de su patrimonio contra pérdidas por robos o mermas de combustible. Buscan herramientas que ofrezcan un retorno de inversión (ROI) claro y medible.
 
 **Sustento Estadístico:**
-En el sector construcción, el combustible representa hasta el 40 % de los costos operativos totales. El mal manejo de flota y el robo de combustible ("ordeño") pueden generar una pérdida directa de entre el 10 % y 15 % del presupuesto total de un proyecto.
+En el sector construcción, el combustible representa hasta el 40 % de los costos operativos totales (Asociación Automotriz del Perú, 2023). El mal manejo de flota y el robo de combustible ("ordeño") pueden generar una pérdida directa de entre el 10 % y 15 % del presupuesto total de un proyecto (Grupo de Estudios en Economía y Negocios Sociales, 2023).
 
 ---
 
@@ -339,4 +370,4 @@ Este segmento incluye a los profesionales responsables de la operatividad diaria
 Son usuarios intensivos de herramientas de gestión y hojas de cálculo. Enfrentan la presión de cumplir cronogramas y sufren por la falta de veracidad en los reportes manuales entregados por los operarios.
 
 **Sustento Estadístico:**
-Aproximadamente el 70 % de las MYPE del sector construcción en el Perú aún dependen de bitácoras de papel para el registro de uso de sus unidades. La implementación de sistemas de monitoreo digital puede reducir los tiempos de inactividad técnica en un 15 % mediante el uso de alertas basadas en telemetría real.
+Aproximadamente el 70 % de las MYPE del sector construcción en el Perú aún dependen de bitácoras de papel para el registro de uso de sus unidades (Instituto Nacional de Estadística e Informática, 2022). La implementación de sistemas de monitoreo digital puede reducir los tiempos de inactividad técnica en un 15 % mediante el uso de alertas basadas en telemetría real.
