@@ -426,7 +426,27 @@ PESOS:
 
 ## 4.5. Web Applications Prototyping
 
+Los prototipos de la Web Application **Digital Machine** se elaboraron en Figma y se validaron mediante navegación simulada sobre la aplicación Angular desplegada. Los flujos priorizados corresponden a los *user goals* del Impact Mapping: inicio de sesión por rol (*owner* / *admin*), Control Panel, registro de maquinaria, telemetría GPS, centro de alertas y gestión de obras.
+
+| Campo | Detalle |
+|---|---|
+| Herramienta | Figma (wireframes/mock-ups) + aplicación desplegada |
+| Flujos demostrados | Login → Control Panel → Flota / Telemetría → Reportes → Configuración |
+| Video de navegación | [YouTube — About the Product](https://youtu.be/VwcGvLUSEWE) |
+| Duración aproximada | ~4 minutos |
+| Relación con IA | Consistente con Navigation Systems (4.2.5) y User Flows (4.4.3) |
+
+El video recorre los *happy paths* definidos en los wireflows del Sprint 2, evidenciando diseño responsive, cambio de idioma EN/ES y retroalimentación visual en formularios y alertas.
+
+<img src="../assets/control-panel.png" alt="Prototipo ejecutable — Control Panel">
+
 ## 4.6. Domain-Driven Software Architecture
+
+El **Domain Driven Design (DDD)** busca lograr una comprensión común del dominio que define el espacio del problema de **Digital Machine**: la gestión de maquinaria pesada, telemetría IoT y operaciones en obras del sector construcción. Este enfoque facilita la colaboración entre el equipo de desarrollo y los segmentos objetivo (dueños de ferreterías y administradores logísticos) gracias al **lenguaje ubicuo** definido en el Capítulo II.
+
+En InfraTrack, DDD no se limita a la nomenclatura de entidades; se materializa en un **monolito modular** con capas *domain*, *application*, *infrastructure* e *interfaces*, organizado en **bounded contexts** independientes que se integran mediante fachadas ACL (*Anti-Corruption Layer*). Cada contexto encapsula sus agregados, servicios de comando/consulta (CQRS) y adaptadores de persistencia JPA, alineando el software Spring Boot 4 con los eventos de dominio identificados en Event Storming (registro de maquinaria, lectura de telemetría, alertas de combustible, asignación de transporte a obra, autenticación JWT).
+
+Los cinco contextos del backend son: **Identity and Access Management (IAM)**, **Fleet Management**, **Monitoring**, **Site Management** y el núcleo **Shared** (auditoría, i18n, OpenAPI y manejo global de errores). Esta separación permite desarrollo paralelo del frontend Angular y del API REST, despliegue en Render y extensión open source sin acoplar la lógica de telemetría con la de obras o identidad.
 
 ### 4.6.1. Design-Level EventStorming
 
@@ -468,16 +488,32 @@ PESOS:
 
 ### 4.7.1. Class Diagrams
 
+En esta sección se presenta y explica el Diagrama de Clases UML correspondiente al sistema desarrollado. El propósito de este diagrama es representar de manera estructurada los elementos principales de cada producto de software y, cuando es aplicable, de cada bounded context identificado durante la fase de Event Storming.
+
+El nivel de detalle incluye no solo las clases, interfaces y enumeraciones, sino también sus atributos y métodos, especificando el alcance (public, private, protected) en cada caso. Asimismo, se definen las relaciones entre clases, indicando la multiplicidad, la dirección y la calificación de los vínculos con nombres claros y consistentes.
+
+Para garantizar la trazabilidad del diseño, se ha elaborado un diagrama independiente por bounded context (Identity and Access Management, Fleet Management, Monitoring, Site Management). Esto permite reflejar con precisión las responsabilidades de cada contexto y la forma en que interactúan sus entidades internas.
+
 <div style="margin-bottom:18px;"></div>
-<img src="../assets/diagrama-clases.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+<img src="../assets/diagrama-clases.png" alt="Diagrama de clases UML — Digital Machine" style="max-width: 90%; display: inline-block;"/>
 <div style="margin-bottom:32px;"></div>
 
 ## 4.8. Database Design
 
-El diseño de la base de datos de InfraTrack utiliza un modelo relacional gestionado en Microsoft SQL Server. Se ha priorizado la integridad referencial y la optimización de tipos de datos para manejar grandes volúmenes de telemetría provenientes de los nodos IoT.
+El diseño de la base de datos de **Digital Machine** utiliza un **modelo relacional en MySQL** (base de 
+datos `infratrack-os`, desplegada en Filess.io / Render). El esquema se genera y evoluciona mediante **JPA/
+Hibernate** (`ddl-auto=update`) a partir de las entidades de persistencia de cada bounded context. Se 
+priorizó la integridad referencial lógica en la capa de aplicación y tipos de datos adecuados para 
+telemetría IoT (coordenadas GPS, niveles de combustible, horas de motor).
 
 ### 4.8.1. Database Diagrams
 
 <div style="margin-bottom:18px;"></div>
-<img src="../assets/base-datos-diagrama.png" alt="Paleta de colores InfraTrack" style="max-width: 90%; display: inline-block;"/>
+<img src="../assets/database_1.png" alt="Diagrama entidad-relación — base de datos infratrack-os (1/4)" style="max-width: 90%; display: inline-block;"/>
+<div style="margin-bottom:18px;"></div>
+<img src="../assets/database_2.png" alt="Diagrama entidad-relación — base de datos infratrack-os (2/4)" style="max-width: 90%; display: inline-block;"/>
+<div style="margin-bottom:18px;"></div>
+<img src="../assets/database_3.png" alt="Diagrama entidad-relación — base de datos infratrack-os (3/4)" style="max-width: 90%; display: inline-block;"/>
+<div style="margin-bottom:18px;"></div>
+<img src="../assets/database_4.png" alt="Diagrama entidad-relación — base de datos infratrack-os (4/4)" style="max-width: 90%; display: inline-block;"/>
 <div style="margin-bottom:32px;"></div>
