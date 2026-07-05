@@ -519,7 +519,20 @@ Account:
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
+
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Se verificó el despliegue exitoso del sistema en la siguiente URL pública:
+
+Frontend desplegado en InfraTrack: https://infra-track-frontend-five.vercel.app/iam/sign-in
+
+Se realizaron pruebas de verificación en la versión desplegada para validar la correcta carga de componentes y funcionalidades básicas como navegación, visualización de datos y responsividad.
+
+Evidencias de despliegue:
+
+<img src="../assets/Render-1.jpeg" alt="Configurations and Support">
+
+
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 Report:
@@ -665,9 +678,114 @@ Asimismo, los endpoints REST fueron documentados mediante OpenAPI/Swagger y vers
 
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint.
+
+Colaboracion en el repositorio del backend:
+
 <img src="../assets/backendcommits.jpeg"/>
+
+Colaboracion en el repositorio del frontend:
+
 <img src="../assets/frontendcommits.jpeg"/>
+
+Colaboracion en el repositorio del landing page:
+
 <img src="../assets/landingcommits.jpeg"/>
+
+
+
+### 5.2.4. Sprint 4
+#### 5.2.4.1. Sprint Planning 4.
+| Sprint # | Sprint 4 |
+|-----------|----------|
+| **Sprint Planning Background** | |
+| Date | 2026-06-15 |
+| Time | 12:00 PM |
+| Location | Universidad Peruana de Ciencias Aplicadas (UPC) – Campus San Isidro |
+| Prepared By | Aldair Ramos |
+| Attendees (to planning meeting) | Dhilsen Mallqui / Aldair Ramos |
+| Sprint 4 Review Summary | Durante el Sprint 3 se completaron los principales servicios backend del sistema, quedando pendiente la integración del flujo de monetización y el ajuste de la experiencia de registro en el frontend, priorizados para el Sprint 4. |
+| Sprint 4 Retrospective Summary | El equipo, reducido a dos integrantes, priorizó tareas puntuales de alto impacto en la experiencia de usuario. Se identificó la necesidad de reforzar la cobertura de pruebas sobre los flujos críticos de autenticación y pago antes de escalar nuevas funcionalidades. |
+| **Sprint Goal & User Stories** |
+| Sprint 4 Goal | Implementar la pasarela de pagos para la suscripción a los planes del sistema y corregir el flujo de registro para que, al completarse exitosamente, redirija al usuario a la pantalla de inicio de sesión, mejorando la coherencia del onboarding. |
+| Sprint 4 Velocity | 8 Story Points |
+| Sum of Story Points | 8 Story Points |
+
+#### 5.2.4.2. Aspect Leaders and Collaborators.
+| Team Member (Last Name, First Name) | GitHub Username | UI/UX Design (L/C) | Frontend Development (L/C) | Quality Control (L/C) | Documentation (L/C) |
+|-------------------------------------|----------------|-------------------|-------------------------------|----------------------|--------------------|
+| Dhilsen Malqui | Dhilsen18 | C | L | C | C |
+| Aldair Ramos | AldairRamos13 | C | L | L | C |
+
+#### 5.2.4.3. Sprint Backlog 4.
+
+**Objetivo:**
+Completar el flujo de monetización del sistema mediante la integración de una pasarela de pagos para la suscripción a planes, y corregir el flujo de registro para que redirija correctamente al inicio de sesión.
+
+**Alcance:**
+
+- Integrar la pasarela de pagos en el flujo de suscripción a planes (Básico, Premium, Enterprise).
+- Corregir la redirección posterior al registro exitoso, enviando al usuario a la pantalla de inicio de sesión en lugar de dejarlo en la vista de registro.
+
+**Duración:** 15 de Junio - 21 de Junio 2026
+
+**Capacidad de equipo:** 40 horas totales - 2 integrantes
+
+**Requisitos técnicos:** GitHub, Angular 21, TypeScript, Bootstrap 5.3, API REST (InfraTrack-Backend)
+
+| Sprint # | Sprint 4 |
+|---|---|
+| **User Story** | **Work-Item / Task** |
+
+| Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status |
+|---|---|---|---|---|---:|---|---|
+| HU-30 | Suscribirme a un plan de pago | EP-20 | Implementar pasarela de pagos | Integrar la pasarela de pagos en el flujo de suscripción, permitiendo al usuario seleccionar un plan y completar el pago desde la aplicación. | 5h | Dhilsen Mallqui | Done |
+| HU-31 | Ser redirigido al login tras registrarme | EP-21 | Corregir redirección post-registro | Ajustar el flujo de registro para que, al completarse exitosamente, el usuario sea redirigido automáticamente a la pantalla de inicio de sesión. | 2h | Aldair Ramos | Done |
+
+
+#### 5.2.4.4. Development Evidence for Sprint Review.
+
+Esta sección documenta los commits asociados a los avances desarrollados durante el Sprint 4. El alcance se centró en la integración de la pasarela de pagos (simulada) y la corrección del flujo de redirección posterior al registro en la aplicación frontend de InfraTrack, siguiendo la estrategia GitFlow mediante la rama `feature/iam` integrada a develop.
+
+**Repositorio Frontend — InfraTrack-Frontend**
+
+| Repository | Branch | Release / Commit | Commit Message | Commited On |
+|---|---|---|---|---|
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Frontend | feature/iam | 137fcdc | fix(iam): redirect to login after signup instead of auto sign-in | 2026-06-30 |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Frontend | feature/iam | eba2030 | feat(iam): add simulated subscription payment gateway after plan selection | 2026-07-04 |
+
+Los commits del Sprint 4 evidencian el cierre del flujo de monetización del sistema, mediante la incorporación de una pasarela de pagos simulada posterior a la selección de plan, así como la corrección del flujo de onboarding para que el usuario sea redirigido correctamente a la pantalla de inicio de sesión tras completar su registro, en lugar de iniciar sesión automáticamente.
+
+#### 5.2.4.5. Execution Evidence for Sprint Review.
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+
+Durante este Sprint se completó la primera versión del módulo IAM y la integración inicial entre el backend y el frontend.
+
+Actividades realizadas
+Se implementó la base del sistema IAM, estableciendo la estructura de autenticación y autorización.
+Se configuró la conexión backend–frontend, permitiendo la comunicación entre ambos mediante endpoints REST documentados en Swagger.
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+Se verificó el despliegue exitoso de la plataforma en la siguiente URL pública:
+
+Backend desplegado en render: 
+
+Se realizaron pruebas para verificar el manejo correcto de datos segun operaciones CRUD.
+#### 5.2.4.8. Team Collaboration Insights during Sprint.
+
+
+Colaboracion en el repositorio del backend:
+
+<img src="../assets/backendcommits.jpeg"/>
+
+Colaboracion en el repositorio del frontend:
+
+<img src="../assets/frontendcommits.jpeg"/>
+
+Colaboracion en el repositorio del landing page:
+
+<img src="../assets/landingcommits.jpeg"/>
+
+
 
 ---
 ## 5.3. Validation Interviews
