@@ -290,12 +290,30 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
 #### 5.2.1.4. Development Evidence for Sprint Review
 Dado que el alcance del primer sprint se limitó al desarrollo inicial de la landing page, en esta etapa no se contempló la ejecución de pruebas para servicios o interacciones.
 #### 5.2.1.5. Execution Evidence for Sprint Review
-Se evidencia el avance del Primer Sprint por medio del siguiente link: https://infratrack-iot-inky.vercel.app/
-#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+Se evidencia el avance del Primer Sprint por medio del siguiente link: https://infra-track-landing-page.vercel.app/
 
+## Hero Section
+Incluye nuestro header, que contiene tanto el logo como la navegación principal para recorrer la página web.
+
+<img src="../assets/hero-section.jpeg" alt="Hero Section — Landing Page Sprint 1">
+
+## Sobre Nosotros
+Un apartado para dar a conocer quiénes somos.
+
+<img src="../assets/sobre-nosotros.jpeg" alt="Sección Sobre Nosotros — Landing Page">
+
+## Planes y Servicios
+Aquí mostramos los distintos planes y servicios que ofrecemos, detallando beneficios y opciones para nuestros usuarios.
+
+<img src="../assets/planes.jpeg" alt="Sección Planes y Servicios — Landing Page">
+
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+Dado que el alcance del primer sprint se limitó al desarrollo inicial de la landing page, en esta etapa no se contempló la ejecución de pruebas para servicios o interacciones.
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
-Link del Landing Page: https://infratrack-iot-inky.vercel.app/
+Link del Landing Page: https://infra-track-landing-page.vercel.app/
 #### 5.2.1.8. Team Collaboration Insights during Sprint
+Actividad del repositorio del landing page:
+
 <img src="../assets/Team-Collaboration-Insights-during-Sprint-picture.png" alt="Team Collaboration Insights">
 
 ---
@@ -556,7 +574,20 @@ Account:
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
+Se verificó el despliegue exitoso del sistema en la siguiente URL pública:
+
+Frontend desplegado en InfraTrack: https://infra-track-frontend-five.vercel.app/iam/sign-in
+
+Se realizaron pruebas de verificación en la versión desplegada para validar la correcta carga de componentes y funcionalidades básicas como navegación, visualización de datos y responsividad.
+
+Evidencias de despliegue:
+
+<img src="../assets/Render-1.jpeg" alt="Evidencia de despliegue — Sprint 2">
+
 #### 5.2.2.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 2 el equipo colaboró en los repositorios del informe, landing page, frontend y backend mediante ramas `feature/*`, Pull Requests hacia `develop` y commits con Conventional Commits. A continuación se presentan los analíticos de contribución y commits en GitHub.
+
 Report:
 
 <img src="../assets/Team-Collaboration-Insights-during-Sprint-picture.png" alt="Team Collaboration Insights Report">
@@ -565,10 +596,13 @@ Landing Page:
 
 <img src="../assets/landing-commits.png" alt="Landing Page commits"/>
 
-
 Frontend:
 
 <img src="../assets/frontend-commits.png" alt="Team Collaboration Insights Frontend">
+
+Backend:
+
+<img src="../assets/backendcommits.jpeg" alt="Commits backend — Sprint 2">
 
 
 
@@ -705,7 +739,32 @@ Frontend:
 
 #### 5.2.3.4. Development Evidence for Sprint Review
 
-Los commits del Sprint 3 se documentan en la sección 5.2.2.4 (tablas Frontend y Backend), correspondientes a integración IAM, despliegue en Render, bounded contexts Fleet/Site Management y merges finales hacia `develop` y `main` (v1.0.0).
+Esta sección documenta los commits y releases asociados a los avances más relevantes desarrollados durante el Sprint 3. El alcance se centró principalmente en la implementación de los servicios backend del sistema InfraTrack, siguiendo la estrategia GitFlow mediante ramas feature integradas posteriormente en `develop` y liberadas mediante versiones incrementales. Los commits del frontend y backend del Sprint 2–3 se detallan también en la sección 5.2.2.4.
+
+**Repositorio Backend — InfraTrack-Backend**
+
+| Repository | Branch | Release / Commit | Commit Message | Commited On |
+|---|---|---|---|---|
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/sign-up | v0.2.0 | feat: POST /api/v1/authentication/sign-up | 2026-06 |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/sign-in | v0.3.0 | feat: POST /api/v1/authentication/sign-in | 2026-06 |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/list-users | v0.4.0 | feat: GET /api/v1/users | 2026-06 |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/list-roles | v0.5.0 | feat: GET /api/v1/roles | 2026-06 |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/create-operator | v0.6.0 | feat: POST /api/v1/operators | 2026-06 |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/list-operators | v0.7.0 | feat: GET /api/v1/operators | 2026-06 |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/create-machinery | v0.8.0 | feat: POST /api/v1/machinery | 2026-06 |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/list-machinery | v0.9.0 | feat: GET /api/v1/machinery | 2026-06 |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/update-machinery | v0.10.0 | feat: PUT /api/v1/machinery/{id} | 2026-06 |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/register-iot-node | v0.11.0 | feat: POST /api/v1/iot-nodes | 2026-06 |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/create-maintenance-record | v0.12.0 | feat: Create maintenance record | 2026-06 |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/list-telemetry-data | v0.13.0 | feat: List telemetry data | 2026-06 |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/list-alerts | v0.14.0 | feat: List alerts | 2026-06 |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/create-alert | v0.15.0 | feat: Create alert | 2026-06 |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/acknowledge-alert | v0.16.0 | feat: Acknowledge alert | 2026-06 |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/worksites | v0.17.0 | feat: Worksites module | 2026-06 |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/create-staff-members | v0.18.0 | feat: POST /api/v1/staff-members | 2026-06 |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | feature/assign-transport-to-worksite | v0.19.0 | feat: POST /api/v1/worksites/{worksiteId}/transports/{transportId} | 2026-06 |
+
+Los releases desarrollados durante el Sprint 3 evidencian la implementación progresiva de los principales módulos backend del sistema. Se completaron funcionalidades relacionadas con autenticación y autorización, gestión de usuarios y roles, operadores, maquinaria, nodos IoT, mantenimiento, telemetría, alertas, obras de trabajo y personal. Los endpoints REST fueron documentados mediante OpenAPI/Swagger y versionados siguiendo GitFlow (v0.2.0 a v0.19.0).
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
@@ -728,15 +787,33 @@ Los commits del Sprint 3 se documentan en la sección 5.2.2.4 (tablas Frontend y
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
+API desplegada en Render: https://infratrack-api.onrender.com/
+
 <img src="../assets/Render-2.jpeg" alt="Configuración de despliegue Render">
 <img src="../assets/Render-3.jpeg" alt="Variables de entorno producción">
 <img src="../assets/Render-4.jpeg" alt="Estado del servicio en Render">
 <img src="../assets/Filess-1.jpeg" alt="Base de datos Filess.io">
+<img src="../assets/Filess-2.jpeg" alt="Base de datos Filess.io — configuración">
+<img src="../assets/Filess-3.jpeg" alt="Base de datos Filess.io — esquema">
 <img src="../assets/mysql.jpeg" alt="Esquema de base de datos">
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
+Colaboración en el repositorio del informe:
+
+<img src="../assets/Team-Collaboration-Insights-during-Sprint-picture.png" alt="Collaboration Insights — informe Sprint 3">
+
+Colaboración en el repositorio del backend:
+
 <img src="../assets/backendcommits.jpeg" alt="Commits backend Sprint 3">
+
+Colaboración en el repositorio del frontend:
+
+<img src="../assets/frontendcommits.jpeg" alt="Commits frontend Sprint 3">
+
+Colaboración en el repositorio del landing page:
+
+<img src="../assets/landingcommits.jpeg" alt="Commits landing page Sprint 3">
 
 ---
 
@@ -943,6 +1020,10 @@ Backend:
 
 <img src="../assets/backendcommits.jpeg" alt="Commits backend Sprint 4">
 
+Landing Page:
+
+<img src="../assets/landingcommits.jpeg" alt="Commits landing page Sprint 4">
+
 ---
 
 ## 5.3. Validation Interviews
@@ -967,14 +1048,126 @@ Las entrevistas de validación se diseñaron para contrastar las suposiciones Le
 | Dueños de constructoras | ¿El dashboard comunica ROI y control de activos? ¿Confiaría en alertas de combustible para decisiones de inversión? ¿Adoptaría un plan B2B open source? |
 | Administradores logísticos | ¿Puede monitorear flota y obras sin capacitación extensa? ¿Las alertas son accionables en campo? ¿Reemplazaría bitácoras manuales? |
 
+**Preguntas por segmento objetivo**
+
+#### Segmento Objetivo 1: Dueños de empresas ferreteras
+
+* Después de utilizar InfraTrack, ¿qué beneficios ha observado en la gestión de sus operaciones?
+* ¿Qué tan útil le resulta la información mostrada en los paneles de monitoreo para la toma de decisiones?
+* ¿Considera que la plataforma le brinda una mejor visibilidad sobre sus activos y recursos? ¿Por qué?
+* ¿Qué funcionalidades utiliza con mayor frecuencia dentro del sistema?
+* ¿Las alertas generadas por la plataforma le ayudan a reaccionar más rápidamente ante incidencias?
+* ¿Qué tan fácil le resultó comprender y utilizar las funcionalidades principales de InfraTrack?
+* ¿Considera que la información registrada en la plataforma es suficiente para supervisar sus operaciones?
+* ¿Ha identificado alguna mejora en el control de maquinaria, vehículos o personal desde que comenzó a utilizar la plataforma?
+* ¿Qué funcionalidades adicionales le gustaría incorporar en futuras versiones del sistema?
+* En una escala del 1 al 5, ¿qué tan satisfecho se encuentra con InfraTrack y por qué?
+
+#### Segmento Objetivo 2: Administradores logísticos
+
+* ¿Qué tan útil le resulta la gestión de maquinaria y operadores implementada en InfraTrack?
+* ¿La información de telemetría y monitoreo disponible en la plataforma le permite realizar un mejor seguimiento de las operaciones?
+* ¿Qué tan efectivas considera las alertas generadas por el sistema para identificar incidencias?
+* ¿Qué funcionalidades utiliza con mayor frecuencia durante su jornada laboral?
+* ¿La plataforma le ha ayudado a reducir el tiempo dedicado al seguimiento y control de activos?
+* ¿Qué tan intuitiva considera la interfaz de usuario de InfraTrack?
+* ¿Ha encontrado dificultades al registrar información o consultar datos dentro del sistema?
+* ¿La gestión de obras de trabajo, personal y asignación de transporte cubre sus necesidades operativas actuales?
+* ¿Qué mejoras considera prioritarias para aumentar el valor de la plataforma?
+* En una escala del 1 al 5, ¿qué tan satisfecho se encuentra con la experiencia de uso de InfraTrack?
+
 ### 5.3.2. Registro de Entrevistas
 
-| # | Entrevistado | Segmento | Rol / Perfil | Fecha | Duración | Enlace sesión |
-|---|---|---|---|---|---|---|
-| V-01 | *(nombre)* | Segmento 1 | Dueño / gerente general — constructora MYPE | 2026-07-08 | 28 min | *(Stream validation V-01)* |
-| V-02 | *(nombre)* | Segmento 1 | Socio fundador — ferretería industrial | 2026-07-09 | 26 min | *(Stream validation V-02)* |
-| V-03 | *(nombre)* | Segmento 2 | Jefe de flota — obra de infraestructura | 2026-07-10 | 30 min | *(Stream validation V-03)* |
-| V-04 | *(nombre)* | Segmento 2 | Administrador logístico — gestión multi-obra | 2026-07-11 | 27 min | *(Stream validation V-04)* |
+# Entrevista 1
+
+<img src="../assets/entrevista1.png" alt="Entrevista nro 1" style="max-width: 90%; display: block; margin: 0 auto;"/>
+
+## Datos del entrevistado
+
+* **Nombre completo:** Rogelio Guerra
+* **Edad:** 53 años
+* **Distrito de residencia:** Surco - Perú
+* **Segmento:** Dueño de empresa ferretera / alquiler de maquinaria
+
+## Datos del video
+
+* **Link:** https://shorturl.at/ZfgV5
+* **Duración:** 09:26
+* **Timing de inicio:** 0:00
+
+## Resumen
+
+Rogelio Guerra, empresario del rubro ferretero y alquiler de maquinaria para obras, comentó que luego de revisar el funcionamiento de InfraTrack percibió beneficios importantes para el control de sus operaciones. Señaló que la plataforma le permitiría tener una mejor visibilidad sobre maquinaria, vehículos, personal y obras, reduciendo la dependencia de llamadas, WhatsApp o reportes manuales.
+
+El entrevistado destacó que los paneles de monitoreo resultan útiles para la toma de decisiones, ya que permiten visualizar información relevante de manera centralizada. Considera valioso poder consultar el estado de los activos, revisar alertas y tener registros relacionados con mantenimientos o asignaciones operativas.
+
+Respecto a las funcionalidades más útiles, mencionó la gestión de maquinaria, el registro de personal, la asignación de transporte a obras y las alertas del sistema. Indicó que estas funciones podrían ayudar a reaccionar más rápido ante incidencias, evitar pérdidas por mal uso de recursos y mejorar la organización diaria del negocio.
+
+También señaló que la aplicación debe mantenerse simple y fácil de usar, ya que los usuarios de empresas pequeñas o medianas no siempre cuentan con alta experiencia tecnológica. En general, consideró que InfraTrack sí responde a necesidades reales de su empresa, especialmente en trazabilidad, control de activos y reducción de desorden operativo.
+
+Finalmente, indicó que estaría satisfecho con la solución si esta continúa mejorando su facilidad de uso, reportes y seguimiento en tiempo real. Como mejora futura, sugirió incorporar reportes simples de ingresos, costos de mantenimiento y uso de maquinaria.
+
+---
+
+# Entrevista 2
+
+<img src="../assets/entrevista2.png" alt="Entrevista nro 2" style="max-width: 90%; display: block; margin: 0 auto;"/>
+
+## Datos del entrevistado
+
+* **Nombre completo:** Carolina Valos
+* **Edad:** 25 años
+* **Distrito de residencia:** Surquillo - Perú
+* **Segmento:** Administradora logística
+
+## Datos del video
+
+* **Link:** https://shorturl.at/lEiyg
+* **Duración:** 04:00
+* **Timing de inicio:** 0:00
+
+## Resumen
+
+Carolina Valos, administradora logística, indicó que InfraTrack le resulta útil porque centraliza información que normalmente se encuentra dispersa entre GPS, Excel, WhatsApp y reportes manuales. Luego de observar el funcionamiento de la aplicación, consideró que la gestión de maquinaria, operadores, telemetría y alertas puede facilitar el seguimiento diario de las operaciones.
+
+Mencionó que la información de monitoreo y telemetría permite tener una visión más clara del estado de los equipos y activos. Además, señaló que las alertas automáticas son una funcionalidad importante, ya que ayudan a identificar incidencias sin depender únicamente de reportes posteriores o comunicación manual con los conductores.
+
+Carolina destacó que las funcionalidades que usaría con mayor frecuencia serían la consulta de maquinaria, revisión de alertas, monitoreo de datos operativos y generación de registros relacionados con mantenimiento. Considera que estas herramientas podrían reducir el tiempo que actualmente dedica a consolidar información en hojas de cálculo.
+
+Sobre la experiencia de uso, señaló que la interfaz debe mantenerse clara e intuitiva, especialmente para usuarios que necesitan revisar información rápidamente durante su jornada laboral. También indicó que la gestión de obras, personal y asignación de transporte cubre una necesidad importante para organizar mejor las operaciones logísticas.
+
+Como mejora futura, sugirió fortalecer los reportes automáticos, agregar filtros más detallados y mejorar la visualización de indicadores clave para facilitar la toma de decisiones.
+
+---
+
+# Entrevista 3
+
+<img src="../assets/entrevista3.png" alt="Entrevista nro 3" style="max-width: 90%; display: block; margin: 0 auto;"/>
+
+## Datos del entrevistado
+
+* **Nombre completo:** Sebastian Henriquez
+* **Edad:** 35 años
+* **Distrito de residencia:** Barranco - Perú
+* **Segmento:** Administrador logístico / seguimiento de vehículos
+
+## Datos del video
+
+* **Link:** *(pendiente de publicación)*
+* **Duración:** 6:34
+* **Timing de inicio:** 0:00
+
+## Resumen
+
+Sebastian Henriquez, relacionado con la gestión logística y seguimiento de vehículos, comentó que InfraTrack representa una mejora frente al uso tradicional de GPS básico, WhatsApp y hojas de cálculo. Señaló que la plataforma permite ordenar mejor la información operativa y reducir la necesidad de consolidar datos manualmente.
+
+El entrevistado consideró útil la gestión de maquinaria, nodos IoT, telemetría y alertas, ya que estas funcionalidades permiten supervisar el estado de los activos y detectar posibles incidencias de forma más rápida. Indicó que contar con alertas dentro del sistema ayudaría a responder mejor ante desviaciones, fallas, retrasos o mantenimientos pendientes.
+
+También resaltó que la posibilidad de registrar personal, obras de trabajo y asignar transporte a una obra aporta valor para la planificación logística. Según su opinión, estas funcionalidades permiten tener mayor control sobre qué recurso está asignado a cada operación y facilitan el seguimiento de responsabilidades.
+
+Respecto a la experiencia de uso, mencionó que la plataforma debe priorizar una navegación sencilla y una presentación clara de la información, ya que los usuarios operativos necesitan consultar datos sin perder demasiado tiempo. Considera que InfraTrack puede reducir la carga operativa diaria al centralizar información que antes se encontraba en diferentes herramientas.
+
+Como mejoras futuras, sugirió incorporar reportes automáticos, historial de rutas, control más detallado de combustible y notificaciones más personalizadas según el tipo de incidencia.
 
 **Síntesis de hallazgos**
 
@@ -984,9 +1177,6 @@ Las entrevistas de validación se diseñaron para contrastar las suposiciones Le
 | Confianza en datos | Dueños exigen precisión del sensor antes de pagar suscripción Enterprise | Riesgo de diseño identificado en Cap. I |
 | Usabilidad post-Sprint 4 | Telemetría y Configuración visibles en menú redujeron tiempo de tarea en 40 % vs. prueba previa | Corrige hallazgo heurístico #1 |
 | Adopción B2B | Interés en plan Premium si demuestran ahorro de combustible en piloto de 30 días | Confirma Business Outcomes de optimización energética |
-
-<img src="../assets/entrevista1.png" alt="Evidencia entrevista de validación 1">
-<img src="../assets/entrevista2.png" alt="Evidencia entrevista de validación 2">
 
 ### 5.3.3. Evaluaciones según heurísticas
 
