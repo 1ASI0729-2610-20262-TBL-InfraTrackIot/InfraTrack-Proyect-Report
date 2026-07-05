@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="722c4d12-1f5a-4bdc-8f64-db70d6656917" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/Dev/Open/InfraTrack-Proyect-Report" value="3G4IORFdjHcmxgVRmH3fxfFfGH6" />
+    </persistenceIdMap>
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="112" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "AldairRamos13"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Proyect-Report.git",
+    "accountId": "e87a5ca7-8c6f-480f-bbfe-15692d0b3fd6"
+  }
+}]]></component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0382100442411266" />
+      <entry key="MS500" value="1.6347420583945602" />
+      <entry key="S2" value="3.728509808564224" />
+      <entry key="S5" value="6.433606097737849" />
+      <entry key="S10" value="8.272924249385927" />
+      <entry key="S30" value="10.427434206530181" />
+      <entry key="S60" value="12.148244849243943" />
+      <entry key="M2" value="14.890129327539496" />
+      <entry key="M5" value="19.935044043385062" />
+      <entry key="M10" value="23.482766381147677" />
+      <entry key="M15" value="25.47630488023238" />
+      <entry key="M30" value="37.7454218904368" />
+      <entry key="H1" value="86.03868640465224" />
+      <entry key="H2" value="165.19053990900795" />
+      <entry key="H4" value="239.2721490533478" />
+      <entry key="D1" value="331.21913663548276" />
+      <entry key="W1" value="350.6424691361503" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="5.3583717063162687E-281" />
+      <entry key="MS500" value="8.826866686086041E-57" />
+      <entry key="S2" value="9.692853345763913E-15" />
+      <entry key="S5" value="2.480736614855347E-6" />
+      <entry key="S10" value="0.0015750354328888437" />
+      <entry key="S30" value="0.11634921106497953" />
+      <entry key="S60" value="0.34110000156109566" />
+      <entry key="M2" value="0.5840376713544215" />
+      <entry key="M5" value="0.8064481349151725" />
+      <entry key="M10" value="0.8984832986492627" />
+      <entry key="M15" value="0.9379144149527455" />
+      <entry key="M30" value="1.10474377006087" />
+      <entry key="H1" value="1.6947855273336154" />
+      <entry key="H2" value="2.659787363670442" />
+      <entry key="H4" value="3.5718924221333332" />
+      <entry key="D1" value="4.715070892078193" />
+      <entry key="W1" value="4.957966548514898" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9407830399157411" />
+      <entry key="MS500" value="1.5990879541107252" />
+      <entry key="S2" value="3.707449326157981" />
+      <entry key="S5" value="6.418655667101268" />
+      <entry key="S10" value="8.263441221455487" />
+      <entry key="S30" value="10.529211108196206" />
+      <entry key="S60" value="12.473292201481833" />
+      <entry key="M2" value="15.461209066407362" />
+      <entry key="M5" value="20.734353073033162" />
+      <entry key="M10" value="24.377243834816547" />
+      <entry key="M15" value="26.411422544453423" />
+      <entry key="M30" value="38.848483297504366" />
+      <entry key="H1" value="87.73208121888118" />
+      <entry key="H2" value="167.8491688327302" />
+      <entry key="H4" value="242.84324143163147" />
+      <entry key="D1" value="335.9340279060943" />
+      <entry key="W1" value="355.6004086181918" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3G4IORFdjHcmxgVRmH3fxfFfGH6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "copilot.chat.legacySessionMetadata.migrated": "true",
+    "git-widget-placeholder": "feature/chapter-5",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Dev/Open/InfraTrack-Proyect-Report/assets",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Dev\Open\InfraTrack-Proyect-Report\assets" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.26222.65" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.26222.65" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="722c4d12-1f5a-4bdc-8f64-db70d6656917" name="Changes" comment="" />
+      <created>1783224381340</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1783224381340</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

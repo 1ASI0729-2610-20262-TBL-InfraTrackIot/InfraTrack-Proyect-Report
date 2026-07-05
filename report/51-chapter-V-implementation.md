@@ -123,7 +123,7 @@ style(landing): adjust color palette to match brand guidelines
 **Landing Page — Vercel:**
  
 La landing page de InfraTrack está desplegada en Vercel con integración continua desde GitHub.
- 
+
 | Parámetro | Valor |
 |---|---|
 | **Plataforma** | Vercel |
@@ -261,11 +261,31 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
 Dado que el alcance del primer sprint se limitó al desarrollo inicial de la landing page, en esta etapa no se contempló la ejecución de pruebas para servicios o interacciones.
 #### 5.2.1.5. Execution Evidence for Sprint Review
 Se evidencia el avance del Primer Sprint por medio del siguiente link: https://infra-track-landing-page.vercel.app/
-#### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
+## Hero Section
+Incluye nuestro header, que contiene tanto el logo como la navegación 
+principal para recorrer la página web.
+
+<img src="../assets/hero-section.jpeg" alt="Configurations and Support">
+
+## Sobre Nosotros
+Un apartado para dar a conocer quiénes somos.
+
+<img src="../assets/sobre-nosotros.jpeg" alt="Configurations and Support">
+
+## Planes y Servicios
+Aquí mostramos los distintos planes y servicios que ofrecemos, detallando beneficios y opciones para nuestros usuarios.
+
+<img src="../assets/planes.jpeg" alt="Configurations and Support">
+
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+Dado que el alcance del primer sprint se limitó al desarrollo inicial de la landing page, en esta etapa no se contempló la ejecución de pruebas para servicios o interacciones.
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 Link del Landing Page: https://infra-track-landing-page.vercel.app/
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint
+Actividad del repositorio del landing page:
+
 <img src="../assets/Team-Collaboration-Insights-during-Sprint-picture.png" alt="Team Collaboration Insights">
 
 ---
