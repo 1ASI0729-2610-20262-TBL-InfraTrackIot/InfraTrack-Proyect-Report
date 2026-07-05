@@ -15,7 +15,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <th style="border:1px solid #000; padding:10px; text-align:center;">Conclusiones</th>
     </tr>
     <tr>
-        <td style="border:1px solid #000; padding:10px; vertical-align:middle; text-align:center;" rowspan="2">
+        <td style="border:1px solid #000; padding:10px; vertical-align:middle; text-align:center;" rowspan="3">
             Comunica oralmente con efectividad a diferentes rangos de audiencia.
         </td>
         <td style="border:1px solid #000; padding:10px; vertical-align:top;">
@@ -48,7 +48,22 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         </td>
     </tr>
     <tr>
-        <td style="border:1px solid #000; padding:10px; vertical-align:middle; text-align:center;" rowspan="2">
+        <td style="border:1px solid #000; padding:10px; vertical-align:top;">
+            <b>Morales Yapuchura, Jefferson Bayron</b><br><br>
+            <b>AV1:</b> Participó en la exposición oral del video de entrega, presentando ante cámara los artefactos de needfinding (User Personas y Empathy Mapping) y su aporte al entendimiento de las necesidades del sector construcción.<br><br>
+            <b>TB1:</b> Sustentó oralmente en reuniones de sprint los avances del Capítulo II y las entrevistas de diseño, facilitando la alineación del equipo respecto a requisitos y prioridades del Product Backlog.<br><br>
+            <b>AV2:</b> Participó en el testimonio ante cámara del video About-the-Team, comunicando el rol de documentación, trazabilidad de requisitos y coordinación de evidencias de colaboración en GitHub.<br><br>
+            <b>TB2:</b> Sustentó oralmente en la sesión de release review el registro de entrevistas de validación y las mejoras documentadas en Collaboration Insights del informe final.
+        </td>
+        <td style="border:1px solid #000; padding:10px; vertical-align:top;">
+            <b>AV1:</b> La exposición de artefactos de needfinding permitió comunicar oralmente las necesidades del usuario a evaluadores y al equipo de desarrollo.<br><br>
+            <b>TB1:</b> La sustentación oral de requisitos y entrevistas redujo ambigüedades entre diseño, implementación y control de calidad.<br><br>
+            <b>AV2:</b> El testimonio en About-the-Team consolidó la comunicación oral del proceso colaborativo y las responsabilidades de cada integrante.<br><br>
+            <b>TB2:</b> La sustentación del cierre del proyecto demostró capacidad de comunicar validación empírica y lecciones del ciclo de vida a audiencia académica.
+        </td>
+    </tr>
+    <tr>
+        <td style="border:1px solid #000; padding:10px; vertical-align:middle; text-align:center;" rowspan="3">
             Comunica por escrito con efectividad a diferentes rangos de audiencia.
         </td>
         <td style="border:1px solid #000; padding:10px; vertical-align:top;">
@@ -78,6 +93,21 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
             <b>TB1:</b> La documentación de control de calidad mejoró la trazabilidad del desarrollo colaborativo al comunicar por escrito los estándares del equipo y las desviaciones detectadas.<br><br>
             <b>AV2:</b> La redacción de especificaciones funcionales y criterios de aceptación en formato Gherkin demostró la capacidad de comunicar requisitos técnicos de forma estructurada y verificable.<br><br>
             <b>TB2:</b> La documentación de validación con usuarios y release final consolidó la trazabilidad escrita entre requisitos, implementación y evidencias de calidad del producto entregado.
+        </td>
+    </tr>
+    <tr>
+        <td style="border:1px solid #000; padding:10px; vertical-align:top;">
+            <b>Morales Yapuchura, Jefferson Bayron</b><br><br>
+            <b>AV1:</b> Elaboró la documentación escrita del Capítulo II (Needfinding): User Personas, User Task Matrix, Journey Maps, Empathy Mapping y Ubiquitous Language, comunicando hallazgos de investigación con usuarios de forma estructurada.<br><br>
+            <b>TB1:</b> Lideró la redacción de evidencias de colaboración del informe, Sprint Backlog descompuesto y actualización del Registro de Versiones, asegurando trazabilidad entre entregas AV1 y TB1.<br><br>
+            <b>AV2:</b> Documentó por escrito las secciones de Collaboration Insights, entrevistas de validación y coordinación de artefactos del Sprint 3 en el repositorio del informe.<br><br>
+            <b>TB2:</b> Redactó y consolidó secciones de Collaboration Insights TB2, apoyo en entrevistas de validación (5.3) y cierre documental del ciclo de vida del informe.
+        </td>
+        <td style="border:1px solid #000; padding:10px; vertical-align:top;">
+            <b>AV1:</b> La documentación del needfinding estableció un lenguaje común escrito para el equipo y redujo ambigüedades en la definición de requisitos.<br><br>
+            <b>TB1:</b> La gestión escrita de versiones y evidencias de sprint mejoró la comunicación asíncrona entre integrantes y con el docente.<br><br>
+            <b>AV2:</b> La documentación de colaboración y validación permitió comunicar por escrito el avance del proyecto a audiencias técnicas y académicas.<br><br>
+            <b>TB2:</b> El cierre documental del informe demostró comunicación escrita efectiva del proceso completo y los resultados de validación con usuarios.
         </td>
     </tr>
 </table>

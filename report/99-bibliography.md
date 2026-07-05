@@ -70,27 +70,28 @@ World Bank. (2023). *International logistics performance index (LPI)*. World Ban
 
 ## Videos de Exposiciones
 
-| Entrega | Título del video | Enlace Microsoft Stream | Archivo .mp4 |
-|---------|------------------|-------------------------|--------------|
-| AV1 | upc-pre-202610-1asi0729-20262-infratrack-expo-av1 | *(Stream AV1)* | upc-pre-202610-1asi0729-20262-infratrack-expo-av1.mp4 |
-| TB1 | upc-pre-202610-1asi0729-20262-infratrack-expo-tb1 | *(Stream TB1)* | upc-pre-202610-1asi0729-20262-infratrack-expo-tb1.mp4 |
-| AV2 | upc-pre-202610-1asi0729-20262-infratrack-expo-av2 | *(Stream AV2)* | upc-pre-202610-1asi0729-20262-infratrack-expo-av2.mp4 |
-| TB2 | upc-pre-202610-1asi0729-20262-infratrack-expo-tb2 | *(Stream TB2)* | upc-pre-202610-1asi0729-20262-infratrack-expo-tb2.mp4 |
+| Entrega | Título del video | Enlace (Google Drive / Stream) | Archivo .mp4 |
+|---------|------------------|--------------------------------|--------------|
+| AV1 | upc-pre-202610-1asi0729-20262-infratrack-expo-av1 | [Carpeta AV1 — Google Drive](https://drive.google.com/drive/folders/1os7lkFdFrILA32-9NdR02oFYeyYyDXPx?usp=sharing) | Incluido en carpeta AV1 |
+| TB1 | upc-pre-202610-1asi0729-20262-infratrack-expo-tb1 | [Carpeta TB1 — Google Drive](https://drive.google.com/drive/folders/12dHAyBvQMFQAWz4nAeCStxR1K0a6Ng5B?usp=sharing) | Incluido en carpeta TB1 |
+| AV2 | upc-pre-202610-1asi0729-20262-infratrack-expo-av2 | [Carpeta AV2 — Google Drive](https://drive.google.com/drive/folders/1V6BR7-YWPtgs2V24YvGfTct2K0qEOViS?usp=sharing) | Incluido en carpeta AV2 |
+| TB2 | upc-pre-202610-1asi0729-20262-infratrack-expo-tb2 | [Carpeta TB2 — Google Drive](https://drive.google.com/drive/folders/1te49u7ZwlyWW84f1GoUXqtJuwXwFT-H5?usp=sharing) | Incluido en carpeta TB2 |
 
 ## Videos complementarios
 
-| Tipo de video | Nomenclatura | Sección del informe | Enlace Microsoft Stream | Enlace YouTube |
-|---------------|--------------|---------------------|-------------------------|----------------|
-| Needfinding — Entrevistas | upc-pre-202610-1asi0729-20262-infratrack-needfinding-sprint-1 | Cap. II — 2.2.2 | *(Stream needfinding)* | — |
-| Navegación de prototipos | upc-pre-202610-1asi0729-20262-infratrack-product-navigation-sprint-n | Cap. IV — 4.5 | *(Stream product-navigation)* | — |
-| Validación con usuarios | upc-pre-202610-1asi0729-20262-infratrack-validation-sprint-3 | Cap. V — 5.3.2 | *(Stream validation)* | — |
-| About-the-Product | upc-pre-202610-1asi0729-20262-infratrack-aboutthe-product-sprint-3 | Cap. V — 5.4 | *(Stream about-the-product)* | *(YouTube about-the-product)* |
-| About-the-Team | upc-pre-202610-1asi0729-20262-infratrack-aboutthe-team-sprint-3 | Conclusiones | *(Stream about-the-team)* | *(YouTube about-the-team)* |
+| Tipo de video | Nomenclatura | Sección del informe | Enlace | Notas |
+|---------------|--------------|---------------------|--------|-------|
+| Needfinding — Entrevistas | upc-pre-202610-1asi0729-20262-infratrack-needfinding-sprint-1 | Cap. II — 2.2.2 | Ver registros individuales en 2.2.2 (shorturl.at) | Video editado por entrevistado |
+| Navegación de prototipos | upc-pre-202610-1asi0729-20262-infratrack-product-navigation-sprint-n | Cap. IV — 4.5 | [YouTube — About the Product](https://youtu.be/VwcGvLUSEWE) | Flujos principales de la Web Application |
+| Validación con usuarios | upc-pre-202610-1asi0729-20262-infratrack-validation-sprint-3 | Cap. V — 5.3.2 | Ver 5.3.2 (links por entrevistado) | Sesiones con segmentos objetivo |
+| About-the-Product | upc-pre-202610-1asi0729-20262-infratrack-aboutthe-product-sprint-4 | Cap. V — 5.4 | [YouTube](https://youtu.be/VwcGvLUSEWE) | Incrustado en Landing Page |
+| About-the-Team | upc-pre-202610-1asi0729-20262-infratrack-aboutthe-team-sprint-4 | Conclusiones | [YouTube](https://youtu.be/VwcGvLUSEWE) | Incrustado en Landing Page |
 
 ## Otros anexos
 
 | Anexo | Contenido | Referencia |
 |-------|-----------|------------|
-| Participant Performance Report | Informe de participación por entrega | *(Word/PDF)* |
-| Evidencias de despliegue | Capturas de Render, Vercel y base de datos | *(enlaces o imágenes)* |
-| Artefactos de diseño | Figma, UXPressia, Structurizr | *(enlaces)* |
+| Participant Performance Report | Informe de participación por entrega (AV1, TB1, AV2, TB2) | Entregado en formato Word y PDF por el Team Leader — documento aparte por entrega |
+| Evidencias de despliegue | Capturas de Render, Vercel y base de datos | Cap. V — secciones 5.1.4, 5.2.3.7, 5.2.4.7 |
+| Artefactos de diseño | Figma, UXPressia, Structurizr | Cap. IV — wireframes, mock-ups, C4 Model y diagramas de clases |
+| Repositorios de producto | Landing Page, Frontend, Backend, Report | [Organización GitHub InfraTrack](https://github.com/1ASI0729-2610-20262-TBL-InfraTrackIot) |

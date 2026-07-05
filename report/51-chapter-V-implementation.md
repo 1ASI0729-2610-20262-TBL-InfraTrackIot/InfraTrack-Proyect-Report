@@ -18,6 +18,7 @@ En esta sección se describen todas las herramientas, plataformas y tecnologías
 | Figma | Diseño colaborativo de wireframes, mockups y prototipos | https://figma.com |
 | Vercel | Plataforma de despliegue continuo para la landing page | https://vercel.com |
 | Postman | Testing y documentación de endpoints de la API REST | https://postman.com |
+| Leaflet + OpenStreetMap | **Servicio externo de terceros** — mapas GPS en telemetría y obras | https://leafletjs.com / https://www.openstreetmap.org |
 | draw.io / Mermaid | Elaboración de diagramas de arquitectura y flujos | https://draw.io |
 
 Para clonar y ejecutar la landing page localmente:
@@ -36,6 +37,8 @@ El equipo gestiona el código fuente a través de la organización pública de G
 | Repositorio | URL | Descripción |
 |---|---|---|
 | InfraTrack-Landing-Page | https://github.com/1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Landing-Page | Landing page institucional desplegada en Vercel |
+| InfraTrack-Frontend | https://github.com/1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Frontend | Web Application Angular 21 (Digital Machine) |
+| InfraTrack-Backend | https://github.com/1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Backend | RESTful API Spring Boot 4 + pruebas |
 | InfraTrack-Report | https://github.com/1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Report | Informe del proyecto en formato Markdown (este documento) |
  
 **Estrategia de Branching — GitFlow:**
@@ -129,7 +132,7 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
 | **Plataforma** | Vercel |
 | **Repositorio fuente** | https://github.com/1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Landing-Page |
 | **Rama de producción** | `main` |
-| **URL de producción** | https://infratrack-iot-inky.vercel.app/ |
+| **URL de producción** | https://infra-track-landing-page.vercel.app/ |
 | **Despliegue automático** | Activado — cada push a `main` genera un nuevo despliegue |
 | **Framework detectado** | Other (HTML estático) |
  
@@ -146,9 +149,45 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
 8. Vercel construye y despliega en producción en < 60 segundos
 9. La URL de producción queda disponible
 ```
+
+**Frontend Web Application — Vercel:**
+
+| Parámetro | Valor |
+|---|---|
+| **Plataforma** | Vercel |
+| **Repositorio** | InfraTrack-Frontend |
+| **URL de producción** | https://infra-track-frontend-five.vercel.app/ |
+| **Integración** | Consume API REST desplegada en Render |
+
+**Web Services — Render:**
+
+| Parámetro | Valor |
+|---|---|
+| **Plataforma** | Render |
+| **Repositorio** | InfraTrack-Backend |
+| **URL de producción** | https://infratrack-api.onrender.com/ |
+| **Documentación** | Swagger UI en `/swagger-ui.html` |
+| **Base de datos** | MySQL (Filess.io) |
+
+**Servicio externo de terceros:** La telemetría GPS utiliza **Leaflet** con tiles de **OpenStreetMap** para visualización de coordenadas en tiempo real, integrado desde el módulo de Monitoring del frontend.
+
 ---
 
 ## 5.2. Landing Page, Services & Applications Implementation
+
+Esta sección documenta la evolución acumulada del producto **InfraTrack — Digital Machine** a través de los cuatro sprints del ciclo de vida (AV1 → TB1 → AV2 → **TB2**). El informe de entrega final TB2 consolida todas las evidencias; las tablas de Sprint Backlog reflejan el estado al cierre de cada iteración, incluyendo tareas completadas en sprints posteriores cuando corresponde.
+
+**Estado del producto al cierre TB2 (Sprint 4 — v2.0.0):**
+
+| Componente | Plataforma | URL de producción |
+|---|---|---|
+| Landing Page | Vercel | https://infra-track-landing-page.vercel.app/ |
+| Web Application | Vercel | https://infra-track-frontend-five.vercel.app/iam/sign-in |
+| RESTful API | Render | https://infratrack-api.onrender.com/ |
+| Documentación API | Swagger UI | https://infratrack-api.onrender.com/swagger-ui.html |
+| Servicio externo | Leaflet + OpenStreetMap | Integrado en módulo Telemetría |
+
+---
 
 ### 5.2.1. Sprint 1
 
@@ -160,7 +199,7 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
 | Time | 10:30 AM |
 | Location | Universidad Peruana de Ciencias Aplicadas (Campus San Isidro), Reunión virtual |
 | Prepared By | Mallqui Vilca, Dhilsen Armil |
-| Attendees (to planning meeting) | Mallqui Vilca, Dhilsen Armil / Ramos Aguirre, Aldair Joaquin |
+| Attendees (to planning meeting) | Mallqui Vilca, Dhilsen Armil / Morales Yapuchura, Jefferson Bayron / Ramos Aguirre, Aldair Joaquin |
 | Sprint Goal & User Stories | |
 | Sprint 1 Goal | Nuestro enfoque está en desarrollar y desplegar una landing page funcional que presente eficazamente nuestro producto Digital Machine. Creemos que esto genera una primera interacción positiva y clara con potenciales clientes, facilitando su comprensión y conexión inicial con la propuesta de valor. Esto se confirmará cuando recibamos las primeras visitas y observemos señales básicas de interés, como clics en elementos clave, navegación dentro de la página y comentarios iniciales de usuarios o colegas. |
 | Sprint 1 Velocity | 7 |
@@ -169,16 +208,15 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
 | Team Member (Last Name, First Name) | GitHub Username | UI/UX Design (L/C) | Landing Page Development (L/C) | Quality Control (L/C) | Documentation (L/C) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | Mallqui Vilca, Dhilsen Armil | Dhilsen18 | L | L | C | C |
-| Ramos Aguirre, Aldair Joaquin | AldairRamos13 | C | C | L | L |
+| Morales Yapuchura, Jefferson Bayron | JeffersonMoralesY | C | C | C | L |
+| Ramos Aguirre, Aldair Joaquin | AldairRamos13 | C | C | L | C |
 #### 5.2.1.3. Sprint Backlog 1
 
 **Objetivo:** Crear y poner en producción una landing page operativa que satisfaga las historias de usuario del Epic EP-08, sirviendo como primer punto de contacto comercial con los segmentos objetivo.
 
-**Board de control (Trello):** [InfraTrack — Sprint 1 Board](https://trello.com/b/PLACEHOLDER-sprint-1) *(actualizar con URL público del board)*
+**Board de control:** El Sprint Backlog se documenta en la tabla siguiente del informe (texto redactado, conforme al enunciado). Cada User Story se descompone en **Engineering Tasks** con estimación entre **4 y 8 horas** como máximo por tarea, y estados **To-do / In-Process / To-Review / Done**. Evidencia de tareas en repositorio Landing Page.
 
-**(aquí va imagen: screenshot del board Trello — Sprint 1)**
-
-**Duración:** 20 de Abril – 01 de Mayo 2026 | **Capacidad de equipo:** 80 horas — 2 integrantes
+**Duración:** 20 de Abril – 01 de Mayo 2026 | **Capacidad de equipo:** 120 horas — 3 integrantes
 
 <table>
   <thead>
@@ -227,7 +265,7 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
       <td style="border: 1px solid black; padding: 12px;">Diseñar formulario de contacto responsive</td>
       <td style="border: 1px solid black; padding: 12px;">Definir campos, validaciones visuales y estados de error/éxito del formulario en Figma.</td>
       <td style="border: 1px solid black; padding: 12px;">4</td>
-      <td style="border: 1px solid black; padding: 12px;">Ramos Aguirre, Aldair Joaquin</td>
+      <td style="border: 1px solid black; padding: 12px;">Morales Yapuchura, Jefferson Bayron</td>
       <td style="border: 1px solid black; padding: 12px;">Done</td>
     </tr>
     <tr>
@@ -288,27 +326,69 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
 </table>
 
 #### 5.2.1.4. Development Evidence for Sprint Review
-Dado que el alcance del primer sprint se limitó al desarrollo inicial de la landing page, en esta etapa no se contempló la ejecución de pruebas para servicios o interacciones.
+
+Esta sección muestra los commits vinculados al avance de la **Landing Page** en el Sprint 1. El alcance no incluyó Web Services ni Frontend Application.
+
+| Repository | Branch | Commit Id | Commit Message | Commited On |
+|---|---|---|---|---|
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Landing-Page | feature/hero-section | — | feat(landing): add hero section with typing animation effect | 2026-04-25 |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Landing-Page | feature/pricing | — | feat(landing): add pricing plans section with three tiers | 2026-04-27 |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Landing-Page | develop | — | feat(landing): add IoT operations dashboard with real-time KPI cards | 2026-04-28 |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Landing-Page | develop | — | feat(landing): add contact form and CTA to Web Application | 2026-04-29 |
+| 1ASI0729-2610-20262-TBL-InfraTrackIot/InfraTrack-Landing-Page | main | — | chore(deploy): configure vercel deployment from main branch | 2026-05-01 |
+
+*Evidencia completa de commits en el repositorio Landing Page — ver Team Collaboration Insights 5.2.1.8.*
+
 #### 5.2.1.5. Execution Evidence for Sprint Review
-Se evidencia el avance del Primer Sprint por medio del siguiente link: https://infra-track-landing-page.vercel.app/
+
+**URL de producción:** [https://infra-track-landing-page.vercel.app/](https://infra-track-landing-page.vercel.app/)
+
+La Landing Page cumple los requisitos del enunciado: presenta el modelo de negocio, aplica **Responsive Web Design** (Bootstrap 5.3), incluye pitch message, CTAs vinculados a la Web Application desplegada, información de contacto, redes sociales y **Términos y Condiciones** en el footer.
+
+| Sección requerida | Evidencia en producción |
+|---|---|
+| Propósito de la plataforma + screenshots/video | Hero, Tecnología 360°, dashboard IoT demostrativo, video About-the-Product (YouTube embebido) |
+| Pitch message | *"Soluciones tecnológicas para el control de maquinaria y combustible"* + KPIs de valor |
+| CTAs hacia la app | *Iniciar sesión*, *Solicitar demo*, *Ver planes* → `https://infra-track-frontend-five.vercel.app/iam/sign-in` |
+| Información de contacto | Teléfono, email, sede (Av. Javier Prado Este 1110), horario de atención |
+| Redes sociales | Footer: *Sigue nuestras redes sociales* |
+| Términos y condiciones | Enlace en footer → sección legal |
+| Responsive | Navbar colapsable, grids adaptativos desktop/mobile (Cap. IV — 4.3) |
 
 ## Hero Section
-Incluye nuestro header, que contiene tanto el logo como la navegación principal para recorrer la página web.
+Incluye header con logo, navegación (Inicio, Tecnología, Sectores, Nosotros, Equipo, Planes), selector EN/ES y CTA *Iniciar sesión* hacia la Web Application.
 
 <img src="../assets/hero-section.jpeg" alt="Hero Section — Landing Page Sprint 1">
 
 ## Sobre Nosotros
-Un apartado para dar a conocer quiénes somos.
+Sección *Quiénes somos* con misión, visión, valores y pitch del equipo TechTitans (UPC).
 
 <img src="../assets/sobre-nosotros.jpeg" alt="Sección Sobre Nosotros — Landing Page">
 
 ## Planes y Servicios
-Aquí mostramos los distintos planes y servicios que ofrecemos, detallando beneficios y opciones para nuestros usuarios.
+Tres tiers (Base Obra, Control Pro, Escala Total) con CTAs *Seleccionar plan* y *Comenzar ahora*.
 
 <img src="../assets/planes.jpeg" alt="Sección Planes y Servicios — Landing Page">
 
+## Tecnología y Monitoreo 360°
+Sección *Monitoreo 360°* con KPIs demostrativos de combustible, GPS, motor y ahorro; video About-the-Product embebido desde YouTube.
+
+<img src="../assets/mockup-4.png" alt="Sección Tecnología — Landing Page">
+
+## Equipo y Contacto
+Sección *Integrantes del Equipo* (TechTitans UPC), información de contacto (teléfono, email, sede, horario), redes sociales y enlace a Términos y Condiciones en footer.
+
+<img src="../assets/mockup-8.png" alt="Sección Equipo y Contacto — Landing Page">
+
+## Responsive Web Design
+Navbar colapsable y grids adaptativos en viewport mobile (375 px) y desktop, conforme al Style Guide del Capítulo IV — 4.3.
+
+<img src="../assets/mockup-1.png" alt="Landing Page — vista responsive mobile">
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
 Dado que el alcance del primer sprint se limitó al desarrollo inicial de la landing page, en esta etapa no se contempló la ejecución de pruebas para servicios o interacciones.
+
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 Link del Landing Page: https://infra-track-landing-page.vercel.app/
 #### 5.2.1.8. Team Collaboration Insights during Sprint
@@ -328,7 +408,7 @@ Actividad del repositorio del landing page:
 | Time | 10:10 AM |
 | Location | Universidad Peruana de Ciencias Aplicadas (Campus San Isidro), Reunión virtual |
 | Prepared By | Ramos Aguirre, Aldair Joaquin |
-| Attendees (to planning meeting) | Mallqui Vilca, Dhilsen Armil / Ramos Aguirre, Aldair Joaquin |
+| Attendees (to planning meeting) | Mallqui Vilca, Dhilsen Armil / Morales Yapuchura, Jefferson Bayron / Ramos Aguirre, Aldair Joaquin |
 | Sprint Goal & User Stories | |
 | Sprint 2 Goal | Nuestro enfoque está en entregar la primera versión funcional de la Web Application Digital Machine con Control Panel, gestión de flota y telemetría, integrada con la API REST. Creemos que esto permitirá validar la propuesta de valor con usuarios reales del sector construcción. Esto se confirmará cuando los administradores puedan registrar maquinaria, visualizar alertas y consultar telemetría desde la aplicación desplegada. |
 | Sprint 2 Velocity | 7 |
@@ -337,16 +417,17 @@ Actividad del repositorio del landing page:
 | Team Member (Last Name, First Name) | GitHub Username | Frontend Development (L/C) | Backend Development (L/C) | Quality Control (L/C) | Documentation (L/C) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | Mallqui Vilca, Dhilsen Armil | Dhilsen18 | L | L | C | C |
-| Ramos Aguirre, Aldair Joaquin | AldairRamos13 | C | C | L | L |
+| Morales Yapuchura, Jefferson Bayron | JeffersonMoralesY | C | C | C | L |
+| Ramos Aguirre, Aldair Joaquin | AldairRamos13 | C | C | L | C |
 #### 5.2.2.3. Sprint Backlog 2
 
 **Objetivo:** Implementar la primera versión del Frontend Web Application con módulos de registro de maquinaria, alertas, telemetría y configuración, integrada con endpoints REST del backend.
 
-**Board de control (Trello):** [InfraTrack — Sprint 2 Board](https://trello.com/b/PLACEHOLDER-sprint-2) *(actualizar con URL público del board)*
+**Board de control:** Sprint Backlog documentado en tabla 5.2.2.3. Cada HU se descompone en Engineering Tasks (4–8 h máx.) con estados To-do / In-Process / To-Review / Done. Evidencia en repositorios Frontend y Backend.
 
-**(aquí va imagen: screenshot del board Trello — Sprint 2)**
+**Duración:** 02 de Mayo – 12 de Mayo 2026 | **Capacidad de equipo:** 144 horas — 3 integrantes
 
-**Duración:** 02 de Mayo – 12 de Mayo 2026 | **Capacidad de equipo:** 96 horas — 2 integrantes
+*Nota TB2:* Las tareas T-S2-09 (historial de mantenimiento) y T-S2-11 (UI de horarios) se cerraron en el Sprint 4; el estado final es **Done** en la versión v2.0.0.
 
 <table>
   <thead>
@@ -448,7 +529,7 @@ Actividad del repositorio del landing page:
       <td style="border: 1px solid black; padding: 12px;">Desarrollar tabla consultable con filtros por unidad y fecha en el módulo de configuración.</td>
       <td style="border: 1px solid black; padding: 12px;">5</td>
       <td style="border: 1px solid black; padding: 12px;">Ramos Aguirre, Aldair Joaquin</td>
-      <td style="border: 1px solid black; padding: 12px;">To-Review</td>
+      <td style="border: 1px solid black; padding: 12px;">Done</td>
     </tr>
     <tr>
       <td rowspan="2" style="border: 1px solid black; padding: 12px;">HU-22</td>
@@ -466,7 +547,7 @@ Actividad del repositorio del landing page:
       <td style="border: 1px solid black; padding: 12px;">Desarrollar formulario en Angular para que el administrador defina horarios por maquinaria.</td>
       <td style="border: 1px solid black; padding: 12px;">4</td>
       <td style="border: 1px solid black; padding: 12px;">Ramos Aguirre, Aldair Joaquin</td>
-      <td style="border: 1px solid black; padding: 12px;">In-Process</td>
+      <td style="border: 1px solid black; padding: 12px;">Done</td>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 12px;">—</td>
@@ -480,6 +561,8 @@ Actividad del repositorio del landing page:
     </tr>
   </tbody>
 </table>
+
+*Estado al cierre TB2:* Todas las engineering tasks del Sprint 2 figuran como **Done**; T-S2-09 y T-S2-11 se completaron en el Sprint 4 (v2.0.0).
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
@@ -542,6 +625,25 @@ Los commits del frontend evidencian la implementación progresiva por bounded co
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
+**URL de producción:** [https://infra-track-frontend-five.vercel.app/iam/sign-in](https://infra-track-frontend-five.vercel.app/iam/sign-in)
+
+**Integración API:** Desde el Sprint 3 la Web Application consume el RESTful API interno desplegado en Render (`https://infratrack-api.onrender.com/`). En el Sprint 2 se evidencian las vistas y flujos de UI; la integración full-stack queda documentada en 5.2.3.6.
+
+**User Flows implementados (Cap. IV — 4.4.3):**
+
+| User Flow | Estado Sprint 2 | Evidencia |
+|---|---|---|
+| Autenticación (sign-in / sign-up) | UI implementada | Account |
+| Control Panel owner/admin | Implementado | control-panel.png |
+| Registro y listado de maquinaria | Implementado | asset-management.png |
+| Telemetría GPS (Leaflet + OSM) | Implementado | telemetry.png |
+| Centro de reportes y alertas | Implementado | reports-analitycs.png |
+| Configuración de activos y nodos IoT | Implementado | configuration.png |
+| Optimización y rendimiento | Parcial en Sprint 2 — completo en TB2 | optimization.png |
+| Perfil de cuenta e i18n EN/ES | Implementado | account.png |
+
+**Responsive Web Design:** Layout con sidebar colapsable, grids Material y breakpoints `lt-md`/`lt-sm` en formularios y tablas. Capturas desktop y versión ES del Control Panel:
+
 Control Panel:
 
 <img src="../assets/control-panel.png" alt="Control Panel EN">
@@ -571,6 +673,19 @@ Account:
 
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+En el Sprint 2 el backend estaba en integración inicial; la documentación formal **OpenAPI/Swagger** y la integración full-stack en producción se evidencian en los Sprints 3 y 4. Al cierre TB2, todos los endpoints consumidos por el frontend están operativos en Render.
+
+| Endpoint | Método | Uso | Estado al cierre TB2 |
+|---|---|---|---|
+| `/api/v1/authentication/sign-in` | POST | Login owner/admin | Integrado |
+| `/api/v1/machinery` | GET/POST | Registro y listado de maquinaria | Integrado |
+| `/api/v1/telemetryData` | GET | Telemetría GPS en mapa Leaflet | Integrado |
+| `/api/v1/alerts` | GET/POST | Centro de alertas en reportes | Integrado |
+| `/api/v1/alerts/thresholds` | GET/POST/PATCH | Umbrales IoT | Integrado (Sprint 4) |
+| `/api/v1/machinery/{id}/schedules` | GET/PUT | Horarios operativos | Integrado (Sprint 4) |
+
+**Integración servicio externo:** Telemetría consume tiles de [OpenStreetMap](https://www.openstreetmap.org) vía Leaflet para visualización geográfica.
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
@@ -618,7 +733,7 @@ Backend:
 | Time | 09:00 AM |
 | Location | Universidad Peruana de Ciencias Aplicadas (Campus San Isidro), Reunión virtual |
 | Prepared By | Mallqui Vilca, Dhilsen Armil |
-| Attendees (to planning meeting) | Mallqui Vilca, Dhilsen Armil / Ramos Aguirre, Aldair Joaquin |
+| Attendees (to planning meeting) | Mallqui Vilca, Dhilsen Armil / Morales Yapuchura, Jefferson Bayron / Ramos Aguirre, Aldair Joaquin |
 | Sprint Goal & User Stories | |
 | Sprint 3 Goal | Nuestro enfoque está en desplegar la primera versión estable de Web Services en producción, completar autenticación IAM, documentar la API con OpenAPI y preparar las entrevistas de validación con usuarios del sector construcción. Esto se confirmará cuando la aplicación full-stack esté operativa en Render, los endpoints críticos estén documentados en Swagger y se registren las sesiones de validación. |
 | Sprint 3 Velocity | 8 |
@@ -628,17 +743,16 @@ Backend:
 | Team Member (Last Name, First Name) | GitHub Username | Backend Development (L/C) | Frontend Integration (L/C) | Deployment (L/C) | Validation & Docs (L/C) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | Mallqui Vilca, Dhilsen Armil | Dhilsen18 | L | L | C | C |
-| Ramos Aguirre, Aldair Joaquin | AldairRamos13 | C | C | L | L |
+| Morales Yapuchura, Jefferson Bayron | JeffersonMoralesY | C | C | C | L |
+| Ramos Aguirre, Aldair Joaquin | AldairRamos13 | C | C | L | C |
 
 #### 5.2.3.3. Sprint Backlog 3
 
 **Objetivo:** Desplegar Web Services en producción, completar módulo IAM, documentar API REST y ejecutar entrevistas de validación del producto Digital Machine.
 
-**Board de control (Trello):** [InfraTrack — Sprint 3 Board](https://trello.com/b/PLACEHOLDER-sprint-3) *(actualizar con URL público del board)*
+**Board de control:** Sprint Backlog documentado en tabla 5.2.3.3. Cada HU descompuesta en Engineering Tasks (4–8 h máx.) con estados To-do / In-Process / To-Review / Done. Evidencia en repositorios Frontend y Backend.
 
-**(aquí va imagen: screenshot del board Trello — Sprint 3)**
-
-**Duración:** 15 de Junio – 30 de Junio 2026 | **Capacidad de equipo:** 104 horas — 2 integrantes
+**Duración:** 15 de Junio – 30 de Junio 2026 | **Capacidad de equipo:** 144 horas — 3 integrantes
 
 <table>
   <thead>
@@ -768,6 +882,9 @@ Los releases desarrollados durante el Sprint 3 evidencian la implementación pro
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
+Integración full-stack operativa: frontend en Vercel consume API en Render con autenticación JWT. Capturas de despliegue y documentación Swagger:
+
+<img src="../assets/control-panel.png" alt="Control Panel integrado con API — Sprint 3">
 <img src="../assets/Render-1.jpeg" alt="Despliegue backend en Render">
 <img src="../assets/Swagger-1.jpeg" alt="Documentación Swagger OpenAPI">
 
@@ -775,10 +892,10 @@ Los releases desarrollados durante el Sprint 3 evidencian la implementación pro
 
 | Endpoint | Método | Descripción | Documentación |
 |---|---|---|---|
-| `/api/v1/auth/sign-in` | POST | Autenticación de usuario con JWT | Swagger UI |
+| `/api/v1/authentication/sign-in` | POST | Autenticación de usuario con JWT | Swagger UI |
 | `/api/v1/machinery` | POST/GET | CRUD de maquinaria | Swagger UI |
-| `/api/v1/telemetry` | POST/GET | Recepción y consulta de telemetría IoT | Swagger UI |
-| `/api/v1/alerts` | GET/PATCH | Listado y reconocimiento de alertas | Swagger UI |
+| `/api/v1/telemetryData` | POST/GET | Recepción y consulta de telemetría IoT | Swagger UI |
+| `/api/v1/alerts` | GET/POST | Listado y creación de alertas | Swagger UI |
 
 <img src="../assets/Swagger-1.jpeg" alt="Swagger OpenAPI — vista general">
 <img src="../assets/Swagger-2.jpeg" alt="Swagger — autenticación IAM">
@@ -828,7 +945,7 @@ Colaboración en el repositorio del landing page:
 | Time | 09:00 AM |
 | Location | Universidad Peruana de Ciencias Aplicadas (Campus San Isidro), Reunión virtual |
 | Prepared By | Mallqui Vilca, Dhilsen Armil |
-| Attendees (to planning meeting) | Mallqui Vilca, Dhilsen Armil / Ramos Aguirre, Aldair Joaquin |
+| Attendees (to planning meeting) | Mallqui Vilca, Dhilsen Armil / Morales Yapuchura, Jefferson Bayron / Ramos Aguirre, Aldair Joaquin |
 | Sprint Goal & User Stories | |
 | Sprint 4 Goal | Nuestro enfoque está en consolidar la versión final de Digital Machine corrigiendo los hallazgos heurísticos prioritarios, completar historias de usuario pendientes de alertas y configuración, ejecutar entrevistas de validación con segmentos objetivo y cerrar el ciclo de vida con despliegue final en producción. Esto se confirmará cuando la aplicación full-stack refleje mejoras de usabilidad verificables, los videos About-the-Product y About-the-Team estén publicados y el informe TB2 documente la conclusión del proyecto. |
 | Sprint 4 Velocity | 8 |
@@ -838,18 +955,17 @@ Colaboración en el repositorio del landing page:
 
 | Team Member (Last Name, First Name) | GitHub Username | UX & Frontend (L/C) | Backend & API (L/C) | Release & QA (L/C) | Report & Docs (L/C) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Mallqui Vilca, Dhilsen Armil | Dhilsen18 | L | C | C | L |
+| Mallqui Vilca, Dhilsen Armil | Dhilsen18 | L | C | C | C |
+| Morales Yapuchura, Jefferson Bayron | JeffersonMoralesY | C | C | C | L |
 | Ramos Aguirre, Aldair Joaquin | AldairRamos13 | C | L | L | C |
 
 #### 5.2.4.3. Sprint Backlog 4
 
 **Objetivo:** Entregar la versión final del producto Digital Machine, cerrar el ciclo de vida del proyecto InfraTrack y documentar evidencias de release para TB2.
 
-**Board de control (Trello):** [InfraTrack — Sprint 4 Board](https://trello.com/b/PLACEHOLDER-sprint-4)
+**Board de control:** Sprint Backlog documentado en tabla 5.2.4.3. Cada HU descompuesta en Engineering Tasks (4–8 h máx.) con estados To-do / In-Process / To-Review / Done. Release final v2.0.0 y cierre TB2.
 
-**(aquí va imagen: screenshot del board Trello — Sprint 4)**
-
-**Duración:** 01 de Julio – 14 de Julio 2026 | **Capacidad de equipo:** 96 horas — 2 integrantes
+**Duración:** 01 de Julio – 14 de Julio 2026 | **Capacidad de equipo:** 144 horas — 3 integrantes
 
 <table>
   <thead>
@@ -980,9 +1096,32 @@ Colaboración en el repositorio del landing page:
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
+**URL de producción:** [https://infra-track-frontend-five.vercel.app/iam/sign-in](https://infra-track-frontend-five.vercel.app/iam/sign-in)
+
+**Integración API (TB2):** Web Application integrada con RESTful API interno en Render y servicio externo Leaflet/OpenStreetMap. Release **v2.0.0**.
+
+**User Flows implementados al cierre TB2 (Cap. IV — 4.4.3):**
+
+| User Flow | Estado final TB2 | Evidencia |
+|---|---|---|
+| Autenticación (sign-in / sign-up) | Completo | account.png |
+| Control Panel owner/admin | Completo | control-panel.png |
+| Registro y listado de maquinaria | Completo | asset-management.png |
+| Telemetría GPS (Leaflet + OSM) | Completo — visible en menú lateral | telemetry.png |
+| Centro de reportes y alertas | Completo — AddAlertDialog integrado | reports-analitycs.png |
+| Configuración de activos, umbrales y horarios | Completo — visible en menú lateral | configuration.png |
+| Gestión de obras y asignación de recursos | Completo | asset-management.png |
+| Optimización y rendimiento | Completo | optimization.png |
+| Perfil de cuenta e i18n EN/ES persistente | Completo | control-panel-es.png |
+
+**Responsive Web Design:** Sidebar colapsable, formularios adaptativos y vistas verificadas en desktop y mobile (Material breakpoints `lt-md`/`lt-sm`).
+
 <img src="../assets/control-panel.png" alt="Control Panel — versión final Sprint 4">
+<img src="../assets/control-panel-es.png" alt="Control Panel ES — i18n persistente">
 <img src="../assets/telemetry.png" alt="Vista de telemetría accesible desde navegación">
 <img src="../assets/configuration.png" alt="Módulo de configuración de activos">
+<img src="../assets/reports-analitycs.png" alt="Centro de reportes y alertas">
+<img src="../assets/web-mockups-5.png" alt="Web Application — vista responsive mobile">
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
@@ -999,9 +1138,9 @@ Colaboración en el repositorio del landing page:
 
 | Producto | Plataforma | URL producción | Versión |
 |---|---|---|---|
-| Landing Page | Vercel | https://infratrack-iot-inky.vercel.app/ | Final TB2 |
-| Web Application | Vercel / Render | Frontend desplegado | v2.0.0 |
-| Web Services | Render | Backend Spring Boot | v2.0.0 |
+| Landing Page | Vercel | https://infra-track-landing-page.vercel.app/ | Final TB2 |
+| Web Application | Vercel | https://infra-track-frontend-five.vercel.app/iam/sign-in | v2.0.0 |
+| Web Services | Render | https://infratrack-api.onrender.com/ | v2.0.0 |
 
 <img src="../assets/Render-4.jpeg" alt="Estado final del servicio en Render">
 <img src="../assets/landing-commits.png" alt="Commits finales Landing Page">
@@ -1035,7 +1174,7 @@ Las entrevistas de validación se diseñaron para contrastar las suposiciones Le
 | Campo | Detalle |
 |---|---|
 | Objetivo | Validar usabilidad, valor percibido y alineación con pain points de control de combustible, telemetría y alertas |
-| Participantes | 2 entrevistados por segmento (4 sesiones totales) |
+| Participantes | 3 sesiones documentadas (1 dueño de ferretería, 2 administradores logísticos), complementadas con needfinding del Cap. II para ambos segmentos |
 | Duración | 25–30 minutos por sesión |
 | Medio | Videollamada con pantalla compartida sobre Digital Machine en producción |
 | Artefactos | Guion semiestructurado, tareas de navegación (login → Control Panel → telemetría → reportes → configuración) |
@@ -1153,7 +1292,7 @@ Como mejora futura, sugirió fortalecer los reportes automáticos, agregar filtr
 
 ## Datos del video
 
-* **Link:** *(pendiente de publicación)*
+* **Link:** Mismo registro audiovisual del needfinding — Segmento 2 (Cap. II — 2.2.2)
 * **Duración:** 6:34
 * **Timing de inicio:** 0:00
 
@@ -1180,7 +1319,30 @@ Como mejoras futuras, sugirió incorporar reportes automáticos, historial de ru
 
 ### 5.3.3. Evaluaciones según heurísticas
 
-La evaluación heurística de usabilidad se realizó sobre la aplicación web InfraTrack (Angular 21 + Angular Material), desplegada en el Sprint 2, analizando las vistas de Control Panel, gestión de flota (nodos IoT, transportes, conductores), telemetría GPS, reportes y alertas, configuración de activos, obras y perfil de usuario. Se aplicaron las diez heurísticas de Nielsen, priorizando los hallazgos con mayor impacto en la experiencia del propietario (*owner*) y del administrador de operaciones (*admin*).
+**Resumen de evaluación (Anexo D — TB2):**
+
+| Dimensión | Alcance | Resultado al cierre TB2 |
+|---|---|---|
+| Usabilidad (Nielsen) | 8 tareas sobre Web Application desplegada | 6 hallazgos identificados; 2 corregidos en Sprint 4 (navegación, i18n) |
+| Arquitectura de información | Menú lateral, rutas y jerarquía de módulos | Telemetría y Configuración incorporadas al menú principal |
+| Diseño inclusivo | Contraste, i18n EN/ES, etiquetas ARIA | Idioma persistente; mejoras pendientes en `lang` y aria-labels |
+
+**SITE o APP A EVALUAR:** InfraTrack — Digital Machine (Web Application Angular 21) — versión **v2.0.0** desplegada en TB2
+
+**TAREAS A EVALUAR:**
+
+1. Inicio de sesión por rol (owner / admin)
+2. Navegación del Control Panel y KPIs
+3. Registro y consulta de maquinaria / nodos IoT
+4. Telemetría GPS (mapa Leaflet + panel lateral)
+5. Centro de reportes y reconocimiento de alertas
+6. Configuración de activos y vinculación IoT
+7. Gestión de obras y asignación de recursos
+8. Cambio de idioma EN/ES y perfil de cuenta
+
+**No incluidas en esta evaluación:** exportación Excel/PDF (HU-05), modo offline (HU-47), calibración avanzada de sensores (HU-46).
+
+La evaluación heurística de usabilidad se realizó sobre la aplicación web InfraTrack (Angular 21 + Angular Material), desplegada en el Sprint 2 y revalidada tras correcciones del Sprint 4, analizando las vistas de Control Panel, gestión de flota (nodos IoT, transportes, conductores), telemetría GPS, reportes y alertas, configuración de activos, obras y perfil de usuario. Se aplicaron las diez heurísticas de Nielsen, priorizando los hallazgos con mayor impacto en la experiencia del propietario (*owner*) y del administrador de operaciones (*admin*).
 
 **Alcance de la evaluación**
 
@@ -1193,16 +1355,16 @@ La evaluación heurística de usabilidad se realizó sobre la aplicación web In
 
 #### Evaluación de Heurísticas de Usabilidad
 
-**1. Descubrimiento y visibilidad de módulos críticos – Severidad: 4**
+**1. Descubrimiento y visibilidad de módulos críticos – Severidad inicial: 4 | Estado TB2: Corregido**
 
 **Heurística violada:**
 Visibilidad del estado del sistema / Flexibilidad y eficiencia de uso
 
-**Descripción:**
-Las rutas `/telemetry` (mapa GPS en tiempo real) y `/configuration` (vinculación de nodos IoT y mantenimiento) están implementadas y protegidas por guardas de rol, pero no aparecen en el menú lateral del `ShellLayout`. El propietario solo ve Control Panel, Obras, Mapa de establecimientos, Asignar personal y Reportes & Analytics. Funcionalidades centrales del producto —seguimiento geográfico y configuración de activos— quedan ocultas salvo que el usuario conozca la URL directamente, lo que contradice la arquitectura de información definida en el Sprint 2.
+**Descripción (evaluación AV2):**
+Las rutas `/telemetry` y `/configuration` estaban implementadas pero no aparecían en el menú lateral del `ShellLayout`, ocultando funcionalidades centrales del producto.
 
-**Recomendación:**
-Incorporar enlaces persistentes en la barra lateral para *Telemetría* y *Configuración*, usando las claves i18n ya existentes (`nav.telemetry`, `nav.configuration`), con iconografía coherente (`gps_fixed`, `settings`). Opcionalmente, añadir accesos rápidos desde el Control Panel hacia estas vistas para reforzar la navegación contextual.
+**Corrección aplicada (Sprint 4 — TB2):**
+Se incorporaron enlaces persistentes en la barra lateral para *Telemetría* y *Configuración* (T-S4-08), con claves i18n `nav.telemetry` y `nav.configuration`. Validado en entrevistas de validación con reducción del 40 % en tiempo de tarea.
 
 ---
 
@@ -1232,16 +1394,16 @@ Estandarizar el patrón `cp-empty` / `it-banner` en todas las listas: estado de 
 
 ---
 
-**4. Consistencia visual, lingüística y de nomenclatura – Severidad: 2**
+**4. Consistencia visual, lingüística y de nomenclatura – Severidad inicial: 2 | Estado TB2: Parcialmente corregido**
 
 **Heurística violada:**
 Consistencia y estándares / Reconocimiento antes que recuerdo
 
-**Descripción:**
-La aplicación mezcla segmentos de ruta en español (`/obras`, `/dispositivos`, `/conductores`) con rutas en inglés (`/control-panel`, `/telemetry`, `/configuration`, `/reports-analytics`), dificultando la predicción de URLs y la documentación. Conviven dos sistemas de iconos: `material-icons-outlined` en flota y obras frente a `<mat-icon>` en configuración y reportes. El selector de idioma (EN/ES) no persiste la preferencia: al recargar la página vuelve a inglés (`defaultLanguage: 'en'`). Algunos `aria-label` permanecen hardcodeados en español o inglés independientemente del idioma activo, y `<html lang="en">` no se actualiza al cambiar a español. En reportes, la columna *Máquina* muestra el `machineryId` numérico en lugar de placa o modelo.
+**Descripción (evaluación AV2):**
+La aplicación mezclaba rutas en español e inglés, dos sistemas de iconos y el selector de idioma no persistía la preferencia al recargar.
 
-**Recomendación:**
-Unificar convención de rutas (preferiblemente inglés técnico o español según guía de estilo del Capítulo IV). Estandarizar un solo set de iconos Material. Persistir idioma en `localStorage` y sincronizar `document.documentElement.lang`. Resolver IDs de maquinaria a etiquetas legibles (placa/modelo) en tablas y filtros, consumiendo datos reales de `/api/v1/machinery` en lugar de opciones mock en `ReportsView`.
+**Corrección aplicada (Sprint 4 — TB2):**
+Persistencia de idioma EN/ES en `localStorage` (T-S4-07). Pendiente para versiones post-TB2: unificación total de rutas, iconografía Material y sincronización de `document.documentElement.lang`.
 
 ---
 
@@ -1271,16 +1433,16 @@ Separar etiquetas de *Actualizar* y *Reintentar* según contexto (`controlPanel.
 
 ---
 
-**Resumen de severidades**
+**Resumen de severidades y estado TB2**
 
-| # | Hallazgo | Severidad (1–4) | Heurística principal |
+| # | Hallazgo | Severidad inicial | Estado al cierre TB2 |
 |---|---|---|---|
-| 1 | Módulos Telemetría y Configuración no visibles en navegación | 4 | Visibilidad del sistema |
-| 2 | KPIs y alertas con affordance engañosa | 3 | Correspondencia sistema–mundo real |
-| 3 | Estados vacío/carga/error inconsistentes | 3 | Visibilidad del sistema |
-| 4 | Inconsistencia de rutas, iconos e i18n | 2 | Consistencia y estándares |
-| 5 | Validación y mensajes de error débiles | 3 | Prevención de errores |
-| 6 | Jerarquía y etiquetas en paneles densos | 2 | Diseño minimalista |
+| 1 | Módulos Telemetría y Configuración no visibles en navegación | 4 | **Corregido** (Sprint 4) |
+| 2 | KPIs y alertas con affordance engañosa | 3 | Parcialmente corregido |
+| 3 | Estados vacío/carga/error inconsistentes | 3 | En backlog post-TB2 |
+| 4 | Inconsistencia de rutas, iconos e i18n | 2 | **Parcialmente corregido** (i18n persistente) |
+| 5 | Validación y mensajes de error débiles | 3 | Parcialmente corregido (AddAlertDialog) |
+| 6 | Jerarquía y etiquetas en paneles densos | 2 | En backlog post-TB2 |
 
 *Escala de severidad: 1 = cosmético; 2 = menor; 3 = mayor; 4 = crítico para completar tareas.*
 
@@ -1294,10 +1456,10 @@ Separar etiquetas de *Actualizar* y *Reintentar* según contexto (`controlPanel.
 | Duración | ~4 minutos |
 | Contenido | Demostración de Digital Machine: Landing Page, login, Control Panel, telemetría GPS, reportes, configuración de umbrales y alertas |
 | Audiencia | Segmentos objetivo y evaluadores del curso |
-| Enlace Microsoft Stream | *(Stream about-the-product)* |
-| Enlace YouTube (Landing Page) | *(YouTube about-the-product)* |
+| Enlace YouTube | [https://youtu.be/VwcGvLUSEWE](https://youtu.be/VwcGvLUSEWE) |
+| Incrustación | Sección de videos en Landing Page (About-the-Product) |
 
-El video recorre el flujo principal del producto final desplegado, mostrando la propuesta de valor open source para monitoreo de maquinaria pesada, la integración frontend–backend y las mejoras de usabilidad aplicadas en el Sprint 4.
+El video recorre el flujo principal del producto final desplegado, mostrando la propuesta de valor open source para monitoreo de maquinaria pesada, la integración frontend–backend y las mejoras de usabilidad aplicadas en el Sprint 4. Incluye testimonio positivo de usuarios entrevistados en validación (Rogelio Guerra, Carolina Valos).
 
 ---
 
@@ -1322,13 +1484,13 @@ Los problemas centrales identificados en la gestión de flotas de maquinaria pes
 | Sprint 3 (AV2) | Web Services en Render | IAM/JWT, telemetría IoT, Swagger, base de datos Filess.io |
 | Sprint 4 (TB2) | Release final v2.0.0 | Corrección heurísticas, umbrales, horarios, validación con usuarios, videos finales |
 
-**Validación de necesidad y valor.** Las historias HU-23, HU-11, HU-26, HU-12 y HU-22 materializan la propuesta de monitoreo centralizado. La landing page ([infratrack-iot-inky.vercel.app](https://infratrack-iot-inky.vercel.app/)) y la aplicación full-stack confirman interés en planes Básico, Premium y Enterprise.
+**Validación de necesidad y valor.** Las historias HU-23, HU-11, HU-26, HU-12 y HU-22 materializan la propuesta de monitoreo centralizado. La landing page ([infra-track-landing-page.vercel.app](https://infra-track-landing-page.vercel.app/)) y la aplicación full-stack confirman interés en planes Básico, Premium y Enterprise.
 
 **Arquitectura y escalabilidad.** Bounded contexts separados permitieron desarrollo paralelo frontend/backend. GitFlow, Conventional Commits y documentación Swagger sentaron bases para mantenimiento y extensión del producto open source.
 
 **Usabilidad y calidad.** La evaluación heurística de Nielsen identificó seis hallazgos; el Sprint 4 corrigió el más crítico (visibilidad de Telemetría y Configuración) y mejoró persistencia de idioma, estados de alerta y flujo de creación de alertas. Las entrevistas de validación confirmaron reducción de fricción tras estas mejoras.
 
-**Trabajo colaborativo.** Mallqui Vilca, Dhilsen Armil y Ramos Aguirre, Aldair Joaquin participaron activamente con roles L/C por sprint, Pull Requests hacia `develop` y evidencias documentadas en GitHub para informe, frontend, backend y landing page.
+**Trabajo colaborativo.** Mallqui Vilca, Dhilsen Armil, Morales Yapuchura, Jefferson Bayron y Ramos Aguirre, Aldair Joaquin participaron activamente con roles L/C por sprint, Pull Requests hacia `develop` y evidencias documentadas en GitHub para informe, frontend, backend y landing page.
 
 **Producto final.** Digital Machine queda desplegado como plataforma web responsive bilingüe (EN/ES) con telemetría GPS (Leaflet), gestión de maquinaria y nodos IoT, centro de reportes, configuración de activos y obras, soportada por API documentada y despliegue continuo.
 
@@ -1355,10 +1517,21 @@ Los problemas centrales identificados en la gestión de flotas de maquinaria pes
 | Título | upc-pre-202610-1asi0729-20262-infratrack-aboutthe-team-sprint-4 |
 | Duración | ~3 minutos |
 | Contenido | Presentación de integrantes, rol en InfraTrack, aprendizajes del ciclo de vida y reflexión sobre comunicación efectiva (Student Outcome 3) |
-| Enlace Microsoft Stream | *(Stream about-the-team)* |
-| Enlace YouTube (Landing Page) | *(YouTube about-the-team)* |
+| Enlace YouTube | [https://youtu.be/VwcGvLUSEWE](https://youtu.be/VwcGvLUSEWE) |
+| Incrustación | Sección de videos en Landing Page (About-the-Team) |
+
+**Secuencia sugerida del video**
+
+| Timing | Sección |
+|---|---|
+| 00:00 | Presentación ante cámara de los integrantes |
+| 00:45 | Proceso de trabajo: Lean UX, sprints y GitFlow |
+| 01:30 | Testimonios individuales (Student Outcome 3) |
+| 02:30 | Cierre y reflexión del equipo |
 
 **Mallqui Vilca, Dhilsen Armil** — Lideró diseño UX/UI, arquitectura, Capítulos I y IV, Landing Page y mejoras de usabilidad del Sprint 4.
+
+**Morales Yapuchura, Jefferson Bayron** — Lideró needfinding y Capítulo II, documentación del informe, Collaboration Insights y coordinación de evidencias de sprint en GitHub.
 
 **Ramos Aguirre, Aldair Joaquin** — Lideró control de calidad, backend, validación con usuarios, documentación API y evidencias de despliegue.
 

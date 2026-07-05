@@ -198,6 +198,9 @@ Para obtener información correspondiente con respecto a las necesidades que req
 - ¿Qué tan fácil o difícil le resulta adoptar nuevas tecnologías en su trabajo diario?
 
 ### 2.2.2. Registro de entrevistas
+
+Las entrevistas de needfinding se registraron en video y se consolidaron por segmento objetivo. Cada registro incluye datos demográficos del entrevistado, enlace al fragmento de video, timing de inicio y resumen cualitativo que alimentó los User Personas, Empathy Maps y el Product Backlog del Capítulo III.
+
 # Entrevista 1
 
 <img src="../assets/entrevista1.png" alt="Entrevista nro 1" style="max-width: 90%; display: block; margin: 0 auto;"/>
@@ -257,7 +260,7 @@ En términos de comportamiento, muestra una alta apertura hacia nuevas tecnolog�
 - **Distrito de residencia:** Barranco - Perú  
 
 ## Datos del video
-- **Link:**  
+- **Link:** Registro audiovisual del Segmento 2 — ver entrevistas 2.2.2 y Anexos (Needfinding)  
 - **Duración:** 6:34  
 - **Timing de inicio:** 0:00  
 
@@ -312,6 +315,8 @@ La entrevista muestra la necesidad de una plataforma centralizada que permita mo
 
 
 ## 2.3. Needfinding
+
+En esta sección, InfraTrack busca identificar y comprender de manera profunda las necesidades, motivaciones y frustraciones de los distintos actores del sector construcción e infraestructura —dueños de ferreterías/constructoras y administradores logísticos—. A través de entrevistas y el análisis de la competencia, se recopiló información cualitativa que permitió detectar oportunidades de mejora y diseñar soluciones que respondan de manera efectiva a los desafíos reales de la gestión de maquinaria pesada, el control de combustible y la telemetría IoT en obra.
 
 ### 2.3.1. User Personas
 

@@ -426,6 +426,20 @@ PESOS:
 
 ## 4.5. Web Applications Prototyping
 
+Los prototipos de la Web Application **Digital Machine** se elaboraron en Figma y se validaron mediante navegación simulada sobre la aplicación Angular desplegada. Los flujos priorizados corresponden a los *user goals* del Impact Mapping: inicio de sesión por rol (*owner* / *admin*), Control Panel, registro de maquinaria, telemetría GPS, centro de alertas y gestión de obras.
+
+| Campo | Detalle |
+|---|---|
+| Herramienta | Figma (wireframes/mock-ups) + aplicación desplegada |
+| Flujos demostrados | Login → Control Panel → Flota / Telemetría → Reportes → Configuración |
+| Video de navegación | [YouTube — About the Product](https://youtu.be/VwcGvLUSEWE) |
+| Duración aproximada | ~4 minutos |
+| Relación con IA | Consistente con Navigation Systems (4.2.5) y User Flows (4.4.3) |
+
+El video recorre los *happy paths* definidos en los wireflows del Sprint 2, evidenciando diseño responsive, cambio de idioma EN/ES y retroalimentación visual en formularios y alertas.
+
+<img src="../assets/control-panel.png" alt="Prototipo ejecutable — Control Panel">
+
 ## 4.6. Domain-Driven Software Architecture
 
 El **Domain Driven Design (DDD)** busca lograr una comprensión común del dominio que define el espacio del problema de **Digital Machine**: la gestión de maquinaria pesada, telemetría IoT y operaciones en obras del sector construcción. Este enfoque facilita la colaboración entre el equipo de desarrollo y los segmentos objetivo (dueños de ferreterías y administradores logísticos) gracias al **lenguaje ubicuo** definido en el Capítulo II.

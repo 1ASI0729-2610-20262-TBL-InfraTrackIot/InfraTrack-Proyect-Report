@@ -63,6 +63,15 @@ A continuación, nuestra misión, visión y valores:
     </td>
   </tr>
   <tr>
+    <td style="border:1px solid #000; padding:10px; text-align:center; vertical-align:top;">U202316049</td>
+    <td style="border:1px solid #000; padding:10px; text-align:justify; vertical-align:top;">
+      <b>Morales Yapuchura, Jefferson Bayron</b><br>Carrera: Ingeniería de Software — UPC.<br>Estudiante con fortalezas en elicitación de requisitos, análisis de needfinding y documentación técnica. Domina técnicas de investigación con usuarios, elaboración de User Personas, Empathy Mapping y gestión de artefactos del informe. En InfraTrack lidera la documentación del Capítulo II, el registro de entrevistas y la coordinación de evidencias de colaboración en los sprints, asegurando trazabilidad entre requisitos identificados y la implementación de Digital Machine.
+    </td>
+    <td style="border:1px solid #000; padding:10px; text-align:center; vertical-align:top;">
+      <img src="../assets/Jefferson.jpeg" alt="Foto Jefferson Bayron Morales Yapuchura" style="width:90px;"/>
+    </td>
+  </tr>
+  <tr>
     <td style="border:1px solid #000; padding:10px; text-align:center; vertical-align:top;">U20201F051</td>
     <td style="border:1px solid #000; padding:10px; text-align:justify; vertical-align:top;">
       <b>Ramos Aguirre, Aldair Joaquin</b><br>Carrera: Ingeniería de Software — UPC.<br>Estudiante con conocimientos en Python, Java y C++, orientado al desarrollo backend y la validación de calidad de software. En InfraTrack lidera el control de calidad y contribuye en la implementación del dashboard de hardware IoT, el Control Panel y la documentación técnica, asegurando que las funcionalidades desarrolladas cumplan los criterios de aceptación definidos para Digital Machine.
@@ -146,7 +155,7 @@ Las empresas del sector construcción e infraestructura en el Perú gestionan ma
 
 - Backend con tecnologías **open source** y lógica de servidor en **Java** (Spring Boot).
 - Frontend con tecnologías open source (Angular) e integración con servicio externo de terceros.
-- Equipo de desarrollo conformado por **dos integrantes** del curso 1ASI0729.
+- Equipo de desarrollo conformado por **tres integrantes** del curso 1ASI0729.
 - Alcance funcional acotado a los bounded contexts definidos: **IAM, Monitoring, Fleet y Site Management**.
 - El hardware IoT se modela e integra en software; la validación en campo depende de despliegue piloto con clientes del sector.
 - Productos finales desplegados: Landing Page (Vercel), Web Application y Web Services (Render).

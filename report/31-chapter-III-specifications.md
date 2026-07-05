@@ -83,13 +83,7 @@
 
 ## 3.3. Product Backlog
 
-### 3.3. Product Backlog.
-
-Se utilizó la escala Fibonacci para la estimación de los Story Points. En total se tuvieron 203 Story Points.
-
-### 3.3. Product Backlog.
-
-Se utilizó la escala Fibonacci para la estimación de los Story Points. En total se tuvieron 203 Story Points.
+Se utilizó la escala Fibonacci para la estimación de los Story Points. En total se registraron **203 Story Points**. El orden del backlog prioriza valor de negocio (landing page y monitoreo operativo antes que autenticación aislada), conforme al enunciado del curso. El backlog completo se documenta en la siguiente tabla del informe; las historias de usuario del Sprint activo se descomponen además en las tablas de Sprint Backlog del Capítulo V.
 
 | #Orden | Epic / Story ID | Título | Descripción | Story Points (1/2/3/5/8) |
 | :---: | :---: | :--- | :--- | :---: |

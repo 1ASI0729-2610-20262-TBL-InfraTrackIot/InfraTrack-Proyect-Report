@@ -1,54 +1,54 @@
-<div align="center">
-<img src="assets/upc_logo.png" alt="UPC Logo" width="300"/>
+<div align="center" style="page-break-after: always;">
 
-# UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
+<table align="center" style="border: none; border-collapse: collapse;">
+	<tr>
+		<td align="center" style="border: none; padding: 30px 0 20px 0;">
+			<img src="assets/upc_logo.png" alt="UPC Logo" width="110"/>
+		</td>
+	</tr>
+	<tr><td align="center" style="border: none; padding: 4px 0;">Universidad Peruana de Ciencias Aplicadas</td></tr>
+	<tr><td align="center" style="border: none; padding: 4px 0 30px 0;">Carrera de Ingeniería de Software</td></tr>
+	<tr><td align="center" style="border: none; padding: 4px 0;"><strong>1ASI0729</strong></td></tr>
+	<tr><td align="center" style="border: none; padding: 4px 0 30px 0;"><strong>Desarrollo de Aplicaciones Open Source</strong></td></tr>
+	<tr><td align="center" style="border: none; padding: 4px 0;">NRC</td></tr>
+	<tr><td align="center" style="border: none; padding: 4px 0 30px 0;"><strong>20262</strong></td></tr>
+	<tr><td align="center" style="border: none; padding: 4px 0 30px 0;"><strong>Informe del Trabajo Final</strong></td></tr>
+	<tr><td align="center" style="border: none; padding: 4px 0;">Docente</td></tr>
+	<tr><td align="center" style="border: none; padding: 4px 0 30px 0;"><strong>Velásquez Núñez, Ángel Augusto</strong></td></tr>
+	<tr><td align="center" style="border: none; padding: 4px 0;">Equipo</td></tr>
+	<tr><td align="center" style="border: none; padding: 4px 0 30px 0;"><strong>InfraTrack</strong></td></tr>
+	<tr><td align="center" style="border: none; padding: 4px 0;">Proyecto</td></tr>
+	<tr><td align="center" style="border: none; padding: 4px 0 30px 0;"><strong>Digital Machine</strong></td></tr>
+	<tr><td align="center" style="border: none; padding: 4px 0 10px 0;">Integrantes</td></tr>
+	<tr>
+		<td align="center" style="border: none; padding: 0 0 40px 0;">
+			<table style="border-collapse: collapse;">
+				<tr>
+					<th style="border: 1px solid #000; padding: 6px 18px; text-align: center;">Código</th>
+					<th style="border: 1px solid #000; padding: 6px 18px; text-align: center;">Apellidos y Nombres</th>
+				</tr>
+				<tr>
+					<td style="border: 1px solid #000; padding: 6px 18px; text-align: center;">U202319440</td>
+					<td style="border: 1px solid #000; padding: 6px 18px; text-align: center;">Mallqui Vilca, Dhilsen Armil</td>
+				</tr>
+				<tr>
+					<td style="border: 1px solid #000; padding: 6px 18px; text-align: center;">U202316049</td>
+					<td style="border: 1px solid #000; padding: 6px 18px; text-align: center;">Morales Yapuchura, Jefferson Bayron</td>
+				</tr>
+				<tr>
+					<td style="border: 1px solid #000; padding: 6px 18px; text-align: center;">U20201F051</td>
+					<td style="border: 1px solid #000; padding: 6px 18px; text-align: center;">Ramos Aguirre, Aldair Joaquin</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr><td align="center" style="border: none; padding: 50px 0 8px 0;"><strong>Período 202610</strong></td></tr>
+	<tr><td align="center" style="border: none; padding: 8px 0 60px 0;"><strong>Junio 2026</strong></td></tr>
+</table>
 
-### Carrera: Ingeniería de Software
-
-### Periodo: 2026-10
-
-### Nombre del curso: Desarrollo de Aplicaciones Open Source (1ASI0729)
-
-### NRC: 20262
-
-### Nombre del profesor: Angel Augusto Velasquez Nuñez
-
-## Informe de Trabajo Final
-
-## Nombre del startup: InfraTrack
-
-## Nombre del producto: Digital Machine
-
-
-### Relación de integrantes:
-
-<div style="text-align: center;">
-
-<div style="display: flex; justify-content: center; width: 100%;">
-	<table style="margin:auto; text-align:center; border-collapse:collapse;">
-		<tr>
-			<th style="text-align:center; padding:8px;">Apellidos y Nombres</th>
-			<th style="text-align:center; padding:8px;">Código de Alumno</th>
-		</tr>
-		<tr>
-			<td style="text-align:center; padding:8px;">Mallqui Vilca, Dhilsen Armil</td>
-			<td style="text-align:center; padding:8px;">U202319440</td>
-		</tr>
-		<tr>
-			<td style="text-align:center; padding:8px;">Ramos Aguirre, Aldair Joaquin</td>
-			<td style="text-align:center; padding:8px;">U20201F051</td>
-		</tr>
-	</table>
 </div>
-
-
-</div>
-
-### Julio, 2026
 
 ---
-
-</div>
 
 # Registro de Versiones del Informe
 
@@ -59,7 +59,7 @@
 | 1.01    | 04/04/2026 | Mallqui Vilca, Dhilsen Armil      | Creación del reporte en formato Markdown y estructura base del repositorio en GitHub.        |
 | 1.02    | 08/04/2026 | Mallqui Vilca, Dhilsen Armil      | Definición del Startup Profile, Solution Profile y planteamiento de la problemática (Cap. I).|
 | 1.03    | 11/04/2026 | Ramos Aguirre, Aldair Joaquin    | Elaboración del análisis competitivo, estrategias frente a competidores y diseño de entrevistas (Cap. II). |
-| 1.04    | 15/04/2026 | Mallqui Vilca, Dhilsen Armil      | Elaboración del Needfinding: User Personas, User Task Matrix, Journey Maps, Empathy Mapping y Ubiquitous Language (Cap. II). |
+| 1.04    | 15/04/2026 | Morales Yapuchura, Jefferson Bayron | Elaboración del Needfinding: User Personas, User Task Matrix, Journey Maps, Empathy Mapping y Ubiquitous Language (Cap. II). |
 | 1.05    | 18/04/2026 | Ramos Aguirre, Aldair Joaquin    | Definición de User Stories con criterios de aceptación, Impact Mapping y Product Backlog (Cap. III). |
 | 1.06    | 22/04/2026 | Mallqui Vilca, Dhilsen Armil      | Diseño de Style Guidelines, Information Architecture, wireframes y mock-ups de la Landing Page en Figma (Cap. IV). |
 | 1.07    | 25/04/2026 | Mallqui Vilca, Dhilsen Armil      | Elaboración de diagramas de arquitectura de software C4 Model, Event Storming y Database Design (Cap. IV). |
@@ -78,7 +78,7 @@
 | 2.05    | 10/05/2026 | Ramos Aguirre, Aldair Joaquin    | Liderazgo en control de calidad: criterios de validación, evidencias de ejecución y corrección de artefactos de entregas previas. |
 | 2.06    | 11/05/2026 | Mallqui Vilca, Dhilsen Armil      | Mejora de wireframes, mock-ups y prototipos de la Web Application según retroalimentación del docente (Cap. IV). |
 | 2.07    | 12/05/2026 | Ramos Aguirre, Aldair Joaquin    | Registro de Development Evidence, Execution Evidence y Team Collaboration Insights del Sprint 2. |
-| 2.08    | 12/05/2026 | Mallqui Vilca, Dhilsen Armil      | Actualización de la sección Student Outcome y Project Report Collaboration Insights para TB1. |
+| 2.08    | 12/05/2026 | Morales Yapuchura, Jefferson Bayron | Actualización de la sección Student Outcome y Project Report Collaboration Insights para TB1. |
 
 ### 3.0 – AV2 (Sprint 3)
 
@@ -93,7 +93,7 @@
 | 3.07    | 27/06/2026 | Ramos Aguirre, Aldair Joaquin    | Documentación de API con Swagger/OpenAPI y evidencias de Services Documentation del Sprint 3. |
 | 3.08    | 28/06/2026 | Mallqui Vilca, Dhilsen Armil      | Redacción del Capítulo V: Validation Interviews, evaluaciones heurísticas y Video About-the-Product. |
 | 3.09    | 29/06/2026 | Ramos Aguirre, Aldair Joaquin    | Avance de Conclusiones, Bibliografía, Anexos y registro del Video About-the-Team. |
-| 3.10    | 30/06/2026 | Mallqui Vilca, Dhilsen Armil      | Actualización final de Student Outcome, Collaboration Insights y corrección de artefactos para AV2. |
+| 3.10    | 30/06/2026 | Morales Yapuchura, Jefferson Bayron | Actualización final de Student Outcome, Collaboration Insights y corrección de artefactos para AV2. |
 
 ### 4.0 – TB2 (Sprint 4)
 
@@ -107,7 +107,7 @@
 | 4.06    | 11/07/2026 | Mallqui Vilca, Dhilsen Armil      | Publicación de videos About-the-Product y About-the-Team; actualización de anexos y bibliografía. |
 | 4.07    | 12/07/2026 | Ramos Aguirre, Aldair Joaquin    | Release final v2.0.0: despliegue en Render/Vercel y evidencias de Software Deployment Sprint 4. |
 | 4.08    | 14/07/2026 | Mallqui Vilca, Dhilsen Armil      | Conclusiones finales TB2, Student Outcome, Collaboration Insights y cierre del ciclo de vida. |
-
+| 4.09    | 05/07/2026 | Morales Yapuchura, Jefferson Bayron | Alineación final TB2: URLs de producción unificadas, sprint backlogs cerrados, evidencias landing/frontend responsive y correcciones heurísticas documentadas. |
 
 ---
 
@@ -123,7 +123,7 @@ A continuación se detalla la participación del equipo en cada entrega, con evi
 
 ### AV1 (Sprint 1)
 
-Durante AV1, el equipo elaboró la estructura base del informe en Markdown, el Capítulo I (Startup Profile, Lean UX), Capítulos II–IV iniciales y las evidencias del Sprint 1. Mallqui Vilca, Dhilsen Armil lideró los Capítulos I y IV; Ramos Aguirre, Aldair Joaquin contribuyó en los Capítulos II, III y V. Se aplicaron GitFlow y Conventional Commits desde la creación del repositorio.
+Durante AV1, el equipo elaboró la estructura base del informe en Markdown, el Capítulo I (Startup Profile, Lean UX), Capítulos II–IV iniciales y las evidencias del Sprint 1. Mallqui Vilca, Dhilsen Armil lideró los Capítulos I y IV; Morales Yapuchura, Jefferson Bayron lideró el Capítulo II (Needfinding); Ramos Aguirre, Aldair Joaquin contribuyó en los Capítulos III y V. Se aplicaron GitFlow y Conventional Commits desde la creación del repositorio.
 
 Report — contribuciones:
 
@@ -135,7 +135,7 @@ Landing Page — commits:
 
 ### TB1 (Sprint 2)
 
-En TB1 se actualizaron Student Outcome, Registro de Versiones y Collaboration Insights. Se documentó el Sprint 2 con backlog descompuesto, evidencias de frontend/backend y despliegue de la primera versión de la Web Application. Aldair lideró control de calidad y evidencias de ejecución; Dhilsen mejoró wireframes y mock-ups según retroalimentación del docente.
+En TB1 se actualizaron Student Outcome, Registro de Versiones y Collaboration Insights. Se documentó el Sprint 2 con backlog descompuesto, evidencias de frontend/backend y despliegue de la primera versión de la Web Application. Aldair lideró control de calidad y evidencias de ejecución; Dhilsen mejoró wireframes y mock-ups según retroalimentación del docente; Jefferson consolidó Collaboration Insights y trazabilidad del informe.
 
 Frontend — commits:
 
@@ -147,7 +147,7 @@ Backend — commits:
 
 ### AV2 (Sprint 3)
 
-En AV2 se incorporó el Sprint 3: Web Services en Render, IAM/JWT, documentación Swagger, base de datos Filess.io, evaluación heurística (5.3.3) y avance de Conclusiones, Bibliografía y Anexos. Dhilsen lideró despliegue y Capítulo V; Aldair documentó API y validación.
+En AV2 se incorporó el Sprint 3: Web Services en Render, IAM/JWT, documentación Swagger, base de datos Filess.io, evaluación heurística (5.3.3) y avance de Conclusiones, Bibliografía y Anexos. Dhilsen lideró despliegue y Capítulo V; Aldair documentó API y validación; Jefferson actualizó Collaboration Insights y artefactos del informe.
 
 <img src="assets/Render-1.jpeg" alt="Despliegue backend Render — AV2">
 
@@ -155,7 +155,7 @@ En AV2 se incorporó el Sprint 3: Web Services en Render, IAM/JWT, documentació
 
 ### TB2 (Sprint 4)
 
-En TB2 se completó el Sprint 4 con release final v2.0.0: corrección de hallazgos heurísticos, entrevistas de validación, videos About-the-Product y About-the-Team, Conclusiones finales y cierre del ciclo de vida del proyecto InfraTrack — Digital Machine.
+En TB2 se completó el Sprint 4 con release final v2.0.0: corrección de hallazgos heurísticos, entrevistas de validación, videos About-the-Product y About-the-Team, Conclusiones finales y cierre del ciclo de vida del proyecto InfraTrack — Digital Machine. Los tres integrantes participaron en el video About-the-Team y en el cierre documental del informe.
 
 Report — cierre del ciclo de vida:
 
