@@ -126,7 +126,7 @@ style(landing): adjust color palette to match brand guidelines
 **Landing Page — Vercel:**
  
 La landing page de InfraTrack está desplegada en Vercel con integración continua desde GitHub.
- 
+
 | Parámetro | Valor |
 |---|---|
 | **Plataforma** | Vercel |
@@ -221,7 +221,7 @@ Esta sección documenta la evolución acumulada del producto **InfraTrack — Di
 <table>
   <thead>
     <tr>
-      <th colspan="1" style="text-align:left; border: 1px solid black; padding: 8px;">Sprint #</th>
+      <th colspan="1" style="text-align:left; border: 1px solid black; padding: 8px;">Sprint 1</th>
       <th colspan="7" style="text-align:left; border: 1px solid black; padding: 8px;">Sprint 1</th>
     </tr>
     <tr>
@@ -432,7 +432,7 @@ Actividad del repositorio del landing page:
 <table>
   <thead>
     <tr>
-      <th colspan="1" style="text-align:left; border: 1px solid black; padding: 8px;">Sprint #</th>
+      <th colspan="1" style="text-align:left; border: 1px solid black; padding: 8px;">Sprint 2</th>
       <th colspan="7" style="text-align:left; border: 1px solid black; padding: 8px;">Sprint 2</th>
     </tr>
     <tr>
@@ -1192,28 +1192,49 @@ Las entrevistas de validación se diseñaron para contrastar las suposiciones Le
 #### Segmento Objetivo 1: Dueños de empresas ferreteras
 
 * Después de utilizar InfraTrack, ¿qué beneficios ha observado en la gestión de sus operaciones?
+
 * ¿Qué tan útil le resulta la información mostrada en los paneles de monitoreo para la toma de decisiones?
+
 * ¿Considera que la plataforma le brinda una mejor visibilidad sobre sus activos y recursos? ¿Por qué?
+
 * ¿Qué funcionalidades utiliza con mayor frecuencia dentro del sistema?
+
 * ¿Las alertas generadas por la plataforma le ayudan a reaccionar más rápidamente ante incidencias?
+
 * ¿Qué tan fácil le resultó comprender y utilizar las funcionalidades principales de InfraTrack?
+
 * ¿Considera que la información registrada en la plataforma es suficiente para supervisar sus operaciones?
+
 * ¿Ha identificado alguna mejora en el control de maquinaria, vehículos o personal desde que comenzó a utilizar la plataforma?
+
 * ¿Qué funcionalidades adicionales le gustaría incorporar en futuras versiones del sistema?
+
 * En una escala del 1 al 5, ¿qué tan satisfecho se encuentra con InfraTrack y por qué?
+
+---
 
 #### Segmento Objetivo 2: Administradores logísticos
 
 * ¿Qué tan útil le resulta la gestión de maquinaria y operadores implementada en InfraTrack?
+
 * ¿La información de telemetría y monitoreo disponible en la plataforma le permite realizar un mejor seguimiento de las operaciones?
+
 * ¿Qué tan efectivas considera las alertas generadas por el sistema para identificar incidencias?
+
 * ¿Qué funcionalidades utiliza con mayor frecuencia durante su jornada laboral?
+
 * ¿La plataforma le ha ayudado a reducir el tiempo dedicado al seguimiento y control de activos?
+
 * ¿Qué tan intuitiva considera la interfaz de usuario de InfraTrack?
+
 * ¿Ha encontrado dificultades al registrar información o consultar datos dentro del sistema?
+
 * ¿La gestión de obras de trabajo, personal y asignación de transporte cubre sus necesidades operativas actuales?
+
 * ¿Qué mejoras considera prioritarias para aumentar el valor de la plataforma?
+
 * En una escala del 1 al 5, ¿qué tan satisfecho se encuentra con la experiencia de uso de InfraTrack?
+
 
 ### 5.3.2. Registro de Entrevistas
 
