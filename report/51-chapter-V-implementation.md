@@ -153,18 +153,18 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
 ### 5.2.1. Sprint 1
 
 #### 5.2.1.1. Sprint Planning 1
-| Sprint # | Sprint 1 |
-| :--- | :--- |
-| Sprint Planning Background | |
-| Date | 2026-04-20 |
-| Time | 10:30 AM |
-| Location | Universidad Peruana de Ciencias Aplicadas(Campus San Isidro), Reunión física |
-| Prepared By | Jefferson Morales |
+| Sprint 1                        | Sprint 1 |
+|:--------------------------------| :--- |
+| Sprint Planning Background      | |
+| Date                            | 2026-04-20 |
+| Time                            | 10:30 AM |
+| Location                        | Universidad Peruana de Ciencias Aplicadas(Campus San Isidro), Reunión física |
+| Prepared By                     | Jefferson Morales |
 | Attendees (to planning meeting) | Jefferson Morales / Carlos Mansilla / Dhilsen Malqui / David Calixto / Aldair Ramos |
-| Sprint Goal & User Stories | |
-| Sprint 1 Goal | Nuestro enfoque está en desarrollar y desplegar una landing page funcional que presente eficazmente nuestro producto. Creemos que esto genera una primera interacción positiva y clara con potenciales clientes, facilitando su comprensión y conexión inicial con la propuesta de valor. Esto se confirmará cuando recibamos las primeras visitas y observemos señales básicas de interés, como clics en elementos clave, navegación dentro de la página y comentarios iniciales de usuarios o colegas. |
-| Sprint 1 Velocity | 7 |
-| Sum of Story Points | 45 |
+| Sprint Goal & User Stories      | |
+| Sprint 1 Goal                   | Nuestro enfoque está en desarrollar y desplegar una landing page funcional que presente eficazmente nuestro producto. Creemos que esto genera una primera interacción positiva y clara con potenciales clientes, facilitando su comprensión y conexión inicial con la propuesta de valor. Esto se confirmará cuando recibamos las primeras visitas y observemos señales básicas de interés, como clics en elementos clave, navegación dentro de la página y comentarios iniciales de usuarios o colegas. |
+| Sprint 1 Velocity               | 7 |
+| Sum of Story Points             | 45 |
 #### 5.2.1.2. Aspect Leaders and Collaborators
 | Team Member (Last Name, First Name) | GitHub Username | UI/UX Design (L/C) | Landing Page Development (L/C) | Quality Control (L/C) | Documentation (L/C) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -195,7 +195,7 @@ La landing page de InfraTrack está desplegada en Vercel con integración contin
 <table>
   <thead>
     <tr>
-      <th colspan="1" style="text-align:left; border: 1px solid black; padding: 8px;">Sprint #</th>
+      <th colspan="1" style="text-align:left; border: 1px solid black; padding: 8px;">Sprint 1</th>
       <th colspan="7" style="text-align:left; border: 1px solid black; padding: 8px;">Sprint 1</th>
     </tr>
     <tr>
@@ -293,18 +293,18 @@ Actividad del repositorio del landing page:
 ### 5.2.2. Sprint 2
 
 #### 5.2.2.1. Sprint Planning 2
-| Sprint # | Sprint 2 |
-| :--- | :--- |
-| Sprint Planning Background | |
-| Date | 2025-05-02 |
-| Time | 10:10 AM |
-| Location | Universidad Peruana de Ciencias Aplicadas(Campus San Isidro), Reunión física |
-| Prepared By | David Calixto |
+| Sprint 2                        | Sprint 2 |
+|:--------------------------------| :--- |
+| Sprint Planning Background      | |
+| Date                            | 2025-05-02 |
+| Time                            | 10:10 AM |
+| Location                        | Universidad Peruana de Ciencias Aplicadas(Campus San Isidro), Reunión física |
+| Prepared By                     | David Calixto |
 | Attendees (to planning meeting) | Jefferson Morales / Carlos Mansilla / Dhilsen Malqui / David Calixto / Aldair Ramos |
-| Sprint Goal & User Stories | |
-| Sprint 2 Goal | Nuestro enfoque está en optimizar aspectos del proyecto referente a la experiencia de usuario y validar el interés real de los potenciales clientes mediante mejoras en la landing page y la incorporación de mecanismos de interacción. Creemos que esto permitirá aumentar el nivel de participación y obtener retroalimentación más precisa sobre nuestra propuesta de valor. Esto se confirmará cuando observemos un incremento en métricas como tiempo de permanencia, cantidad de clics en llamados a la acción, registros, formularios completados o comentarios positivos de usuarios.|
-| Sprint 2 Velocity | 7 |
-| Sum of Story Points | 38 |
+| Sprint Goal & User Stories      | |
+| Sprint 2 Goal                   | Nuestro enfoque está en optimizar aspectos del proyecto referente a la experiencia de usuario y validar el interés real de los potenciales clientes mediante mejoras en la landing page y la incorporación de mecanismos de interacción. Creemos que esto permitirá aumentar el nivel de participación y obtener retroalimentación más precisa sobre nuestra propuesta de valor. Esto se confirmará cuando observemos un incremento en métricas como tiempo de permanencia, cantidad de clics en llamados a la acción, registros, formularios completados o comentarios positivos de usuarios.|
+| Sprint 2 Velocity               | 7 |
+| Sum of Story Points             | 38 |
 #### 5.2.2.2. Aspect Leaders and Collaborators
 | Team Member (Last Name, First Name) | GitHub Username | UI/UX Design (L/C) | Landing Page Development (L/C) | Quality Control (L/C) | Documentation (L/C) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -336,7 +336,7 @@ Actividad del repositorio del landing page:
 <table>
   <thead>
     <tr>
-      <th colspan="1" style="text-align:left; border: 1px solid black; padding: 8px;">Sprint #</th>
+      <th colspan="1" style="text-align:left; border: 1px solid black; padding: 8px;">Sprint 2</th>
       <th colspan="7" style="text-align:left; border: 1px solid black; padding: 8px;">Sprint 2</th>
     </tr>
     <tr>
@@ -519,6 +519,10 @@ Account:
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
+<img src="../assets/Swagger-1.jpeg"/>
+<img src="../assets/Swagger-2.jpeg"/>
+<img src="../assets/Swagger-3.jpeg"/>
+<img src="../assets/Swagger-4.jpeg"/>
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
@@ -550,20 +554,20 @@ Frontend:
 
 #### 5.2.3 Sprint 3
 #### 5.2.3.1. Sprint Planning 3.
-| Sprint # | Sprint 3 |
-|-----------|----------|
-| **Sprint Planning Background** | |
-| Date | 2026-06-17 |
-| Time | 12:00 PM |
-| Location | Universidad Peruana de Ciencias Aplicadas (UPC) – Campus San Isidro |
-| Prepared By | Aldair Ramos |
+| Sprint 3                        | Sprint 3 |
+|---------------------------------|----------|
+| **Sprint Planning Background**  | |
+| Date                            | 2026-06-17 |
+| Time                            | 12:00 PM |
+| Location                        | Universidad Peruana de Ciencias Aplicadas (UPC) – Campus San Isidro |
+| Prepared By                     | Aldair Ramos |
 | Attendees (to planning meeting) | Aldair Ramos / Dhilsen Mallqui / Jefferson Farfán |
-| Sprint 3  Review Summary | Durante el Sprint 2 se establecieron las bases técnicas del proyecto, incluyendo la arquitectura inicial, configuración del entorno de desarrollo, integración de herramientas colaborativas y definición de los principales módulos del sistema. Además, se identificaron los requerimientos prioritarios para la implementación del backend durante el siguiente Sprint. |
-| Sprint 3 Retrospective Summary | El equipo logró una adecuada coordinación y distribución de tareas. Como oportunidades de mejora se identificó la necesidad de realizar revisiones de código más frecuentes, documentar mejor los avances y mejorar la sincronización de cambios para reducir conflictos durante la integración. |
+| Sprint 3  Review Summary        | Durante el Sprint 2 se establecieron las bases técnicas del proyecto, incluyendo la arquitectura inicial, configuración del entorno de desarrollo, integración de herramientas colaborativas y definición de los principales módulos del sistema. Además, se identificaron los requerimientos prioritarios para la implementación del backend durante el siguiente Sprint. |
+| Sprint 3 Retrospective Summary  | El equipo logró una adecuada coordinación y distribución de tareas. Como oportunidades de mejora se identificó la necesidad de realizar revisiones de código más frecuentes, documentar mejor los avances y mejorar la sincronización de cambios para reducir conflictos durante la integración. |
 | **Sprint Goal & User Stories**  |
-| Sprint 3 Goal | Implementar los principales servicios backend del sistema mediante APIs REST, incluyendo autenticación, gestión de usuarios, operadores, maquinaria, nodos IoT, alertas, mantenimiento, personal y obras de trabajo, garantizando su correcto funcionamiento y disponibilidad mediante documentación OpenAPI. |
-| Sprint 3 Velocity | 28 Story Points |
-| Sum of Story Points | 28 Story Points |
+| Sprint 3 Goal                   | Implementar los principales servicios backend del sistema mediante APIs REST, incluyendo autenticación, gestión de usuarios, operadores, maquinaria, nodos IoT, alertas, mantenimiento, personal y obras de trabajo, garantizando su correcto funcionamiento y disponibilidad mediante documentación OpenAPI. |
+| Sprint 3 Velocity               | 28 Story Points |
+| Sum of Story Points             | 28 Story Points |
 #### 5.2.3.2. Aspects Leaders and Collaborators.
 | Team Member (Last Name, First Name) | GitHub Username | UI/UX Design (L/C) | Landing Page Development (L/C) | Quality Control (L/C) | Documentation (L/C) |
 |-------------------------------------|----------------|-------------------|-------------------------------|----------------------|--------------------|
@@ -596,8 +600,8 @@ Implementar los principales servicios backend del sistema mediante APIs REST, pe
 
 **Requisitos técnicos:** GitHub, Spring Boot, Java, MySQL, JPA, OpenAPI/Swagger, JWT
 
-| Sprint # | Sprint 3 |
-|---|---|
+| Sprint 3       | Sprint 3 |
+|----------------|---|
 | **User Story** | **Work-Item / Task** |
 
 | Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status |
@@ -695,20 +699,20 @@ Colaboracion en el repositorio del landing page:
 
 ### 5.2.4. Sprint 4
 #### 5.2.4.1. Sprint Planning 4.
-| Sprint # | Sprint 4 |
-|-----------|----------|
-| **Sprint Planning Background** | |
-| Date | 2026-06-15 |
-| Time | 12:00 PM |
-| Location | Universidad Peruana de Ciencias Aplicadas (UPC) – Campus San Isidro |
-| Prepared By | Aldair Ramos |
+| Sprint 4                        | Sprint 4 |
+|---------------------------------|----------|
+| **Sprint Planning Background**  | |
+| Date                            | 2026-06-15 |
+| Time                            | 12:00 PM |
+| Location                        | Universidad Peruana de Ciencias Aplicadas (UPC) – Campus San Isidro |
+| Prepared By                     | Aldair Ramos |
 | Attendees (to planning meeting) | Dhilsen Mallqui / Aldair Ramos |
-| Sprint 4 Review Summary | Durante el Sprint 3 se completaron los principales servicios backend del sistema, quedando pendiente la integración del flujo de monetización y el ajuste de la experiencia de registro en el frontend, priorizados para el Sprint 4. |
-| Sprint 4 Retrospective Summary | El equipo, reducido a dos integrantes, priorizó tareas puntuales de alto impacto en la experiencia de usuario. Se identificó la necesidad de reforzar la cobertura de pruebas sobre los flujos críticos de autenticación y pago antes de escalar nuevas funcionalidades. |
-| **Sprint Goal & User Stories** |
-| Sprint 4 Goal | Implementar la pasarela de pagos para la suscripción a los planes del sistema y corregir el flujo de registro para que, al completarse exitosamente, redirija al usuario a la pantalla de inicio de sesión, mejorando la coherencia del onboarding. |
-| Sprint 4 Velocity | 8 Story Points |
-| Sum of Story Points | 8 Story Points |
+| Sprint 4 Review Summary         | Durante el Sprint 3 se completaron los principales servicios backend del sistema, quedando pendiente la integración del flujo de monetización y el ajuste de la experiencia de registro en el frontend, priorizados para el Sprint 4. |
+| Sprint 4 Retrospective Summary  | El equipo, reducido a dos integrantes, priorizó tareas puntuales de alto impacto en la experiencia de usuario. Se identificó la necesidad de reforzar la cobertura de pruebas sobre los flujos críticos de autenticación y pago antes de escalar nuevas funcionalidades. |
+| **Sprint Goal & User Stories**  |
+| Sprint 4 Goal                   | Implementar la pasarela de pagos para la suscripción a los planes del sistema y corregir el flujo de registro para que, al completarse exitosamente, redirija al usuario a la pantalla de inicio de sesión, mejorando la coherencia del onboarding. |
+| Sprint 4 Velocity               | 8 Story Points |
+| Sum of Story Points             | 8 Story Points |
 
 #### 5.2.4.2. Aspect Leaders and Collaborators.
 | Team Member (Last Name, First Name) | GitHub Username | UI/UX Design (L/C) | Frontend Development (L/C) | Quality Control (L/C) | Documentation (L/C) |
@@ -732,8 +736,8 @@ Completar el flujo de monetización del sistema mediante la integración de una 
 
 **Requisitos técnicos:** GitHub, Angular 21, TypeScript, Bootstrap 5.3, API REST (InfraTrack-Backend)
 
-| Sprint # | Sprint 4 |
-|---|---|
+| Sprint 4       | Sprint 4 |
+|----------------|---|
 | **User Story** | **Work-Item / Task** |
 
 | Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status |
